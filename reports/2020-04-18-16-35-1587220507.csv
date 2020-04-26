@@ -1,0 +1,561 @@
+,value,type,type_line,datetime
+0,0.0,,Alteration Shard,2020-04-18 16:35:09.064422
+1,2.774398,Currency,Armourer's Scrap,2020-04-18 16:35:09.064422
+2,1.73679,Currency,Intrinsic Catalyst,2020-04-18 16:35:09.064422
+3,10.21994169072165,Currency,Blacksmith's Whetstone,2020-04-18 16:35:09.064422
+4,2.0,Essence,Shrieking Essence of Dread,2020-04-18 16:35:09.064422
+5,1.0,Essence,Weeping Essence of Sorrow,2020-04-18 16:35:09.064422
+6,15.20655868852459,Currency,Awakened Sextant,2020-04-18 16:35:09.064422
+7,2.0000400000000003,Currency,Glassblower's Bauble,2020-04-18 16:35:09.064422
+8,1.33332,Currency,Orb of Binding,2020-04-18 16:35:09.064422
+9,21.564636202702708,Currency,Orb of Regret,2020-04-18 16:35:09.064422
+10,2.33338,Currency,Abrasive Catalyst,2020-04-18 16:35:09.064422
+11,18.722572000000003,Currency,Jeweller's Orb,2020-04-18 16:35:09.064422
+12,18.517037000000002,Currency,Orb of Augmentation,2020-04-18 16:35:09.064422
+13,8.079563191489362,Currency,Perandus Coin,2020-04-18 16:35:09.064422
+14,0.6721156701030928,Currency,Engineer's Orb,2020-04-18 16:35:09.064422
+15,0.0,,Chaos Shard,2020-04-18 16:35:09.064422
+16,5.966682505882354,Currency,Silver Coin,2020-04-18 16:35:09.064422
+17,1.33332,Currency,Turbulent Catalyst,2020-04-18 16:35:09.064422
+18,4.68,Essence,Remnant of Corruption,2020-04-18 16:35:09.064422
+19,1.0,Oil,Azure Oil,2020-04-18 16:35:09.064422
+20,0.0,,Ancient Shard,2020-04-18 16:35:09.064422
+21,20.240000000000002,Currency,Orb of Chance,2020-04-18 16:35:09.064422
+22,0.0,,Transmutation Shard,2020-04-18 16:35:09.064422
+23,31.777746000000008,Currency,Orb of Fusing,2020-04-18 16:35:09.064422
+24,3.57917,Currency,Regal Orb,2020-04-18 16:35:09.064422
+25,0.0,,Regal Shard,2020-04-18 16:35:09.064422
+26,0.0,,Orb of Transmutation,2020-04-18 16:35:09.064422
+27,0.0,,Binding Shard,2020-04-18 16:35:09.064422
+28,1.75,Currency,Orb of Horizons,2020-04-18 16:35:09.064422
+29,2.0,DeliriumOrb,Decadent Delirium Orb,2020-04-18 16:35:09.064422
+30,73.13908602564103,Currency,Orb of Alteration,2020-04-18 16:35:09.064422
+31,3.1667300000000003,Currency,Simple Sextant,2020-04-18 16:35:09.064422
+32,0.9167400000000001,Currency,Blessed Orb,2020-04-18 16:35:09.064422
+33,0.0,,Portal Scroll,2020-04-18 16:35:09.064422
+34,3.0,Currency,Tempering Catalyst,2020-04-18 16:35:09.064422
+35,0.0,,Scroll of Wisdom,2020-04-18 16:35:09.064422
+36,2.0000400000000003,Currency,Splinter of Tul,2020-04-18 16:35:09.064422
+37,0.0,,Exalted Orb,2020-04-18 16:35:09.064422
+38,3.0,Essence,Screaming Essence of Anger,2020-04-18 16:35:09.064422
+39,0.0,,Medium Cluster Jewel,2020-04-18 16:35:09.064422
+40,8.25117,Currency,Orb of Alchemy,2020-04-18 16:35:09.064422
+41,1.0,Essence,Wailing Essence of Spite,2020-04-18 16:35:09.064422
+42,8.066586000000001,Currency,Chromatic Orb,2020-04-18 16:35:09.064422
+43,1.93467,Currency,Vaal Orb,2020-04-18 16:35:09.064422
+44,7.3333699999999995,Currency,Prime Sextant,2020-04-18 16:35:09.064422
+45,5.1631368421052635,Currency,Gemcutter's Prism,2020-04-18 16:35:09.064422
+46,166.75370311111115,Fragment,Simulacrum Splinter,2020-04-18 16:35:09.064422
+47,0.0,,Chaos Orb,2020-04-18 16:35:09.064422
+48,0.0,,Horizon Shard,2020-04-18 16:35:09.064422
+49,2.0,DeliriumOrb,Armoursmith's Delirium Orb,2020-04-18 16:35:09.064422
+50,6.212808105263158,Currency,Cartographer's Chisel,2020-04-18 16:35:09.064422
+51,0.0,,Alchemy Shard,2020-04-18 16:35:09.064422
+52,42.233798750000005,Currency,Orb of Scouring,2020-04-18 16:35:09.064422
+53,1.0,DivinationCard,The Hermit,2020-04-18 16:35:09.064422
+54,6.0,DivinationCard,Imperial Legacy,2020-04-18 16:35:09.064422
+55,2.0,DivinationCard,Prosperity,2020-04-18 16:35:09.064422
+56,12.0,DivinationCard,The Catalyst,2020-04-18 16:35:09.064422
+57,1.0,DivinationCard,The Blazing Fire,2020-04-18 16:35:09.064422
+58,21.0,DivinationCard,Arrogance of the Vaal,2020-04-18 16:35:09.064422
+59,4.0,DivinationCard,The Flora's Gift,2020-04-18 16:35:09.064422
+60,1.0,DivinationCard,Thirst for Knowledge,2020-04-18 16:35:09.064422
+61,9.0,DivinationCard,The Gemcutter,2020-04-18 16:35:09.064422
+62,18.0,DivinationCard,Her Mask,2020-04-18 16:35:09.064422
+63,1.0,DivinationCard,The Jeweller's Boon,2020-04-18 16:35:09.064422
+64,1.0,DivinationCard,Scholar of the Seas,2020-04-18 16:35:09.064422
+65,6.0,DivinationCard,The Tinkerer's Table,2020-04-18 16:35:09.064422
+66,9.0,DivinationCard,The Dapper Prodigy,2020-04-18 16:35:09.064422
+67,2.0,DivinationCard,The Lover,2020-04-18 16:35:09.064422
+68,1.0,DivinationCard,Hunter's Resolve,2020-04-18 16:35:09.064422
+69,4.0,DivinationCard,The Endurance,2020-04-18 16:35:09.064422
+70,6.0,DivinationCard,The King's Blade,2020-04-18 16:35:09.064422
+71,1.0,DivinationCard,The Gentleman,2020-04-18 16:35:09.064422
+72,2.0,DivinationCard,The Warden,2020-04-18 16:35:09.064422
+73,2.0,DivinationCard,Emperor of Purity,2020-04-18 16:35:09.064422
+74,1.0,DivinationCard,Boundless Realms,2020-04-18 16:35:09.064422
+75,3.0,DivinationCard,Lantador's Lost Love,2020-04-18 16:35:09.064422
+76,2.0,DivinationCard,Mitts,2020-04-18 16:35:09.064422
+77,3.0,DivinationCard,Divine Justice,2020-04-18 16:35:09.064422
+78,1.0,DivinationCard,Grave Knowledge,2020-04-18 16:35:09.064422
+79,1.0,DivinationCard,Deathly Designs,2020-04-18 16:35:09.064422
+80,2.0,DivinationCard,The Dreamer,2020-04-18 16:35:09.064422
+81,24.200000000000003,DivinationCard,Rain of Chaos,2020-04-18 16:35:09.064422
+82,5.0,DivinationCard,The Polymath,2020-04-18 16:35:09.064422
+83,1.0,DivinationCard,Gift of the Gemling Queen,2020-04-18 16:35:09.064422
+84,39.0,DivinationCard,The Queen,2020-04-18 16:35:09.064422
+85,1.0,DivinationCard,Harmony of Souls,2020-04-18 16:35:09.064422
+86,3.96,DivinationCard,The Survivalist,2020-04-18 16:35:09.064422
+87,1.0,DivinationCard,The Aesthete,2020-04-18 16:35:09.064422
+88,1.0,DivinationCard,The Doppelganger,2020-04-18 16:35:09.064422
+89,2.0,DivinationCard,The Seeker,2020-04-18 16:35:09.064422
+90,5.0,DivinationCard,The Puzzle,2020-04-18 16:35:09.064422
+91,1.0,DivinationCard,Last Hope,2020-04-18 16:35:09.064422
+92,1.0,DivinationCard,Gemcutter's Promise,2020-04-18 16:35:09.064422
+93,1.0,DivinationCard,The Garish Power,2020-04-18 16:35:09.064422
+94,1.0,DivinationCard,The Lion,2020-04-18 16:35:09.064422
+95,1.0,DivinationCard,The Union,2020-04-18 16:35:09.064422
+96,2.0,DivinationCard,Hubris,2020-04-18 16:35:09.064422
+97,2.0,DivinationCard,The Battle Born,2020-04-18 16:35:09.064422
+98,2.0,DivinationCard,The Rite of Elements,2020-04-18 16:35:09.064422
+99,4.0,DivinationCard,The Encroaching Darkness,2020-04-18 16:35:09.064422
+100,1.0,DivinationCard,The Price of Protection,2020-04-18 16:35:09.064422
+101,24.43,DivinationCard,Three Faces in the Dark,2020-04-18 16:35:09.064422
+102,2.0,DivinationCard,The Chains that Bind,2020-04-18 16:35:09.064422
+103,2.0,DivinationCard,The Wolf's Shadow,2020-04-18 16:35:09.064422
+104,1.0,DivinationCard,The Obscured,2020-04-18 16:35:09.064422
+105,17.0,DivinationCard,Emperor's Luck,2020-04-18 16:35:09.064422
+106,1.0,DivinationCard,The Pact,2020-04-18 16:35:09.064422
+107,2.0,DivinationCard,The Metalsmith's Gift,2020-04-18 16:35:09.064422
+108,1.0,DivinationCard,A Mother's Parting Gift,2020-04-18 16:35:09.064422
+109,3.0,DivinationCard,Destined to Crumble,2020-04-18 16:35:09.064422
+110,6.44,DivinationCard,The Wrath,2020-04-18 16:35:09.064422
+111,1.0,DivinationCard,Vinia's Token,2020-04-18 16:35:09.064422
+112,1.0,DivinationCard,Sambodhi's Vow,2020-04-18 16:35:09.064422
+113,1.0,DivinationCard,The Scarred Meadow,2020-04-18 16:35:09.064422
+114,1.0,DivinationCard,Turn the Other Cheek,2020-04-18 16:35:09.064422
+115,1.0,DivinationCard,The Stormcaller,2020-04-18 16:35:09.064422
+116,1.0,DivinationCard,Thunderous Skies,2020-04-18 16:35:09.064422
+117,2.0,DivinationCard,The Beast,2020-04-18 16:35:09.064422
+118,1.0,DivinationCard,The Journey,2020-04-18 16:35:09.064422
+119,17.91,DivinationCard,Loyalty,2020-04-18 16:35:09.064422
+120,4.0,DivinationCard,The Professor,2020-04-18 16:35:09.064422
+121,1.0,DivinationCard,Volatile Power,2020-04-18 16:35:09.064422
+122,1.0,DivinationCard,The Master Artisan,2020-04-18 16:35:09.064422
+123,1.0,DivinationCard,The Inventor,2020-04-18 16:35:09.064422
+124,6.0,DivinationCard,The Opulent,2020-04-18 16:35:09.064422
+125,5.0,DivinationCard,The Carrion Crow,2020-04-18 16:35:09.064422
+126,2.0,DivinationCard,Dark Temptation,2020-04-18 16:35:09.064422
+127,6.0,DivinationCard,Lucky Connections,2020-04-18 16:35:09.064422
+128,1.0,DivinationCard,The Sword King's Salute,2020-04-18 16:35:09.064422
+129,1.0,DivinationCard,The Incantation,2020-04-18 16:35:09.064422
+130,1.0,DivinationCard,The Sigil,2020-04-18 16:35:09.064422
+131,1.0,DivinationCard,Akil's Prophecy,2020-04-18 16:35:09.064422
+132,1.0,DivinationCard,The Messenger,2020-04-18 16:35:09.064422
+133,2.0,DivinationCard,The Lunaris Priestess,2020-04-18 16:35:09.064422
+134,2.0,DivinationCard,Doedre's Madness,2020-04-18 16:35:09.064422
+135,28.32,DivinationCard,Three Voices,2020-04-18 16:35:09.064422
+136,1.0,DivinationCard,The Twilight Moon,2020-04-18 16:35:09.064422
+137,2.0,DivinationCard,Boon of Justice,2020-04-18 16:35:09.064422
+138,6.0,DivinationCard,The Scholar,2020-04-18 16:35:09.064422
+139,1.0,DivinationCard,The Fox,2020-04-18 16:35:09.064422
+140,10.379999999999999,DivinationCard,The Wretched,2020-04-18 16:35:09.064422
+141,5.0,DivinationCard,Buried Treasure,2020-04-18 16:35:09.064422
+142,16.0,DivinationCard,The Gambler,2020-04-18 16:35:09.064422
+143,2.0,DivinationCard,The Realm,2020-04-18 16:35:09.064422
+144,1.0,DivinationCard,Jack in the Box,2020-04-18 16:35:09.064422
+145,3.0,DivinationCard,The Void,2020-04-18 16:35:09.064422
+146,2.0,DivinationCard,Struck by Lightning,2020-04-18 16:35:09.064422
+147,1.44999,Fragment,Sacrifice at Midnight,2020-04-18 16:35:09.064422
+148,18.749233800000003,Fragment,Timeless Karui Splinter,2020-04-18 16:35:09.064422
+149,3.0,Scarab,Polished Perandus Scarab,2020-04-18 16:35:09.064422
+150,1.8713239024390245,Fragment,Sacrifice at Noon,2020-04-18 16:35:09.064422
+151,8.66671,Currency,Splinter of Chayula,2020-04-18 16:35:09.064422
+152,3.6459088695652175,Currency,Splinter of Esh,2020-04-18 16:35:09.064422
+153,13.5,Fragment,Timeless Maraketh Splinter,2020-04-18 16:35:09.064422
+154,2.5,Scarab,Rusted Reliquary Scarab,2020-04-18 16:35:09.064422
+155,2.28568,Currency,Splinter of Uul-Netol,2020-04-18 16:35:09.064422
+156,4.33329,Fragment,Sacrifice at Dawn,2020-04-18 16:35:09.064422
+157,2.2486963414634147,Currency,Splinter of Xoph,2020-04-18 16:35:09.064422
+158,3.1428100000000003,Fragment,Sacrifice at Dusk,2020-04-18 16:35:09.064422
+159,2.0,Scarab,Rusted Metamorph Scarab,2020-04-18 16:35:09.064422
+160,2.0,Scarab,Polished Metamorph Scarab,2020-04-18 16:35:09.064422
+161,0.0,Scarab,Polished Torment Scarab,2020-04-18 16:35:09.064422
+162,2.0,Scarab,Polished Harbinger Scarab,2020-04-18 16:35:09.064422
+163,19.066476000000005,Fragment,Timeless Eternal Empire Splinter,2020-04-18 16:35:09.064422
+164,1.0,Scarab,Rusted Harbinger Scarab,2020-04-18 16:35:09.064422
+165,3.69,Scarab,Rusted Elder Scarab,2020-04-18 16:35:09.064422
+166,1.5,Scarab,Rusted Torment Scarab,2020-04-18 16:35:09.064422
+167,2.0,Scarab,Rusted Shaper Scarab,2020-04-18 16:35:09.064422
+168,3.0,Scarab,Rusted Ambush Scarab,2020-04-18 16:35:09.064422
+169,10.450209000000001,Currency,Splinter of Tul,2020-04-18 16:35:09.064422
+170,3.6364,Fragment,Offering to the Goddess,2020-04-18 16:35:09.064422
+171,50.0,Fragment,Fragment of the Hydra,2020-04-18 16:35:09.064422
+172,13.5,Fragment,Timeless Templar Splinter,2020-04-18 16:35:09.064422
+173,1.0,Scarab,Rusted Breach Scarab,2020-04-18 16:35:09.064422
+174,7.08,Scarab,Rusted Divination Scarab,2020-04-18 16:35:09.064422
+175,2.0,Scarab,Rusted Cartography Scarab,2020-04-18 16:35:09.064422
+176,2.0,Fragment,Divine Vessel,2020-04-18 16:35:09.064422
+177,17.776805555555555,Fragment,Timeless Vaal Splinter,2020-04-18 16:35:09.064422
+178,3.0,Scarab,Rusted Perandus Scarab,2020-04-18 16:35:09.064422
+179,2.0,Essence,Weeping Essence of Anger,2020-04-18 16:35:09.064422
+180,3.0,Essence,Weeping Essence of Sorrow,2020-04-18 16:35:09.064422
+181,3.0,Essence,Shrieking Essence of Zeal,2020-04-18 16:35:09.064422
+182,5.0,Essence,Wailing Essence of Fear,2020-04-18 16:35:09.064422
+183,3.0,Essence,Screaming Essence of Torment,2020-04-18 16:35:09.064422
+184,2.0,Essence,Screaming Essence of Scorn,2020-04-18 16:35:09.064422
+185,3.18,Essence,Screaming Essence of Wrath,2020-04-18 16:35:09.064422
+186,3.0,Essence,Weeping Essence of Woe,2020-04-18 16:35:09.064422
+187,3.0,Essence,Screaming Essence of Anguish,2020-04-18 16:35:09.064422
+188,1.0,Essence,Screaming Essence of Doubt,2020-04-18 16:35:09.064422
+189,0.0,UniqueArmour,Great Crown,2020-04-18 16:35:09.064422
+190,2.0,Essence,Wailing Essence of Hatred,2020-04-18 16:35:09.064422
+191,2.0,Essence,Weeping Essence of Torment,2020-04-18 16:35:09.064422
+192,4.0,Essence,Wailing Essence of Woe,2020-04-18 16:35:09.064422
+193,4.0,Essence,Wailing Essence of Zeal,2020-04-18 16:35:09.064422
+194,4.0,Essence,Wailing Essence of Torment,2020-04-18 16:35:09.064422
+195,4.0,Essence,Wailing Essence of Suffering,2020-04-18 16:35:09.064422
+196,1.0,Essence,Wailing Essence of Spite,2020-04-18 16:35:09.064422
+197,1.0,Essence,Whispering Essence of Greed,2020-04-18 16:35:09.064422
+198,2.0,Essence,Screaming Essence of Suffering,2020-04-18 16:35:09.064422
+199,1.0,Essence,Screaming Essence of Loathing,2020-04-18 16:35:09.064422
+200,6.0,Essence,Wailing Essence of Wrath,2020-04-18 16:35:09.064422
+201,2.0,Essence,Wailing Essence of Loathing,2020-04-18 16:35:09.064422
+202,1.0,Essence,Muttering Essence of Contempt,2020-04-18 16:35:09.064422
+203,3.0,Essence,Weeping Essence of Hatred,2020-04-18 16:35:09.064422
+204,4.0,Essence,Screaming Essence of Spite,2020-04-18 16:35:09.064422
+205,5.04,Essence,Screaming Essence of Rage,2020-04-18 16:35:09.064422
+206,2.0,Essence,Weeping Essence of Rage,2020-04-18 16:35:09.064422
+207,1.0,Essence,Wailing Essence of Sorrow,2020-04-18 16:35:09.064422
+208,4.0,Essence,Screaming Essence of Contempt,2020-04-18 16:35:09.064422
+209,3.0,Essence,Weeping Essence of Contempt,2020-04-18 16:35:09.064422
+210,4.0,Essence,Screaming Essence of Woe,2020-04-18 16:35:09.064422
+211,2.0,Essence,Wailing Essence of Doubt,2020-04-18 16:35:09.064422
+212,3.0,Essence,Screaming Essence of Sorrow,2020-04-18 16:35:09.064422
+213,2.0,Essence,Whispering Essence of Contempt,2020-04-18 16:35:09.064422
+214,3.0,Essence,Screaming Essence of Fear,2020-04-18 16:35:09.064422
+215,2.0,DeliriumOrb,Portentous Delirium Orb,2020-04-18 16:35:09.064422
+216,2.0,Essence,Muttering Essence of Anger,2020-04-18 16:35:09.064422
+217,3.0,Essence,Wailing Essence of Anguish,2020-04-18 16:35:09.064422
+218,5.0,Essence,Wailing Essence of Contempt,2020-04-18 16:35:09.064422
+219,2.0,Essence,Weeping Essence of Doubt,2020-04-18 16:35:09.064422
+220,2.0,Essence,Wailing Essence of Rage,2020-04-18 16:35:09.064422
+221,3.0,Essence,Screaming Essence of Zeal,2020-04-18 16:35:09.064422
+222,6.0,Essence,Screaming Essence of Anger,2020-04-18 16:35:09.064422
+223,1.0,Essence,Whispering Essence of Woe,2020-04-18 16:35:09.064422
+224,2.34,Essence,Remnant of Corruption,2020-04-18 16:35:09.064422
+225,5.0,Essence,Muttering Essence of Torment,2020-04-18 16:35:09.064422
+226,2.0,Essence,Weeping Essence of Wrath,2020-04-18 16:35:09.064422
+227,3.0,Essence,Weeping Essence of Fear,2020-04-18 16:35:09.064422
+228,5.0,Essence,Wailing Essence of Anger,2020-04-18 16:35:09.064422
+229,1.0,Essence,Shrieking Essence of Anger,2020-04-18 16:35:09.064422
+230,3.0,Essence,Muttering Essence of Sorrow,2020-04-18 16:35:09.064422
+231,1.0,Essence,Screaming Essence of Hatred,2020-04-18 16:35:09.064422
+232,2.5,Oil,Amber Oil,2020-04-18 16:35:09.064422
+233,1.0,Essence,Muttering Essence of Fear,2020-04-18 16:35:09.064422
+234,3.0,Essence,Screaming Essence of Greed,2020-04-18 16:35:09.064422
+235,3.0,Essence,Wailing Essence of Greed,2020-04-18 16:35:09.064422
+236,1.0,Essence,Weeping Essence of Greed,2020-04-18 16:35:09.064422
+237,2.0,Essence,Muttering Essence of Greed,2020-04-18 16:35:09.064422
+238,1.0,UniqueJewel,Cobalt Jewel,2020-04-18 16:35:09.064422
+239,0.0,Fragment,Offering to the Goddess,2020-04-18 16:35:09.064422
+240,0.0,,Imbued Wand,2020-04-18 16:35:09.064422
+241,0.0,,Medium Cluster Jewel,2020-04-18 16:35:09.064422
+242,0.0,,Opal Wand,2020-04-18 16:35:09.064422
+243,0.0,,Superior Terror Claw,2020-04-18 16:35:09.064422
+244,0.0,,Lacewood Spirit Shield,2020-04-18 16:35:09.064422
+245,0.0,,Abyssal Sceptre,2020-04-18 16:35:09.064422
+246,0.0,,Spiked Gloves,2020-04-18 16:35:09.064422
+247,0.0,,Imbued Wand,2020-04-18 16:35:09.064422
+248,0.0,,Omen Wand,2020-04-18 16:35:09.064422
+249,0.0,,Vaal Rapier,2020-04-18 16:35:09.064422
+250,0.0,,Imbued Wand,2020-04-18 16:35:09.064422
+251,0.0,,Spiraled Foil,2020-04-18 16:35:09.064422
+252,0.0,,Gemstone Sword,2020-04-18 16:35:09.064422
+253,0.0,,Imbued Wand,2020-04-18 16:35:09.064422
+254,0.0,,Superior Fancy Foil,2020-04-18 16:35:09.064422
+255,0.0,,Varnished Coat,2020-04-18 16:35:09.064422
+256,0.0,,Titanium Spirit Shield,2020-04-18 16:35:09.064422
+257,0.0,,Imbued Wand,2020-04-18 16:35:09.064422
+258,0.0,,Sorcerer Boots,2020-04-18 16:35:09.064422
+259,0.0,,Goliath Greaves,2020-04-18 16:35:09.064422
+260,0.0,,Carnal Boots,2020-04-18 16:35:09.064422
+261,0.0,,Conjurer Boots,2020-04-18 16:35:09.064422
+262,0.0,,Steel Greaves,2020-04-18 16:35:09.064422
+263,0.0,,Magistrate Crown,2020-04-18 16:35:09.064422
+264,0.0,,Sorcerer Boots,2020-04-18 16:35:09.064422
+265,0.0,,Lacquered Helmet,2020-04-18 16:35:09.064422
+266,0.0,,Murder Boots,2020-04-18 16:35:09.064422
+267,0.0,,Fluted Bascinet,2020-04-18 16:35:09.064422
+268,0.0,,Titan Gauntlets,2020-04-18 16:35:09.064422
+269,0.0,,Goliath Greaves,2020-04-18 16:35:09.064422
+270,0.0,,Superior Conjurer Boots,2020-04-18 16:35:09.064422
+271,0.0,,Eternal Burgonet,2020-04-18 16:35:09.064422
+272,0.0,,Hydrascale Boots,2020-04-18 16:35:09.064422
+273,0.0,,Hydrascale Boots,2020-04-18 16:35:09.064422
+274,0.0,,Murder Boots,2020-04-18 16:35:09.064422
+275,0.0,,Superior Solaris Circlet,2020-04-18 16:35:09.064422
+276,0.0,,Steel Circlet,2020-04-18 16:35:09.064422
+277,0.0,,Assassin's Boots,2020-04-18 16:35:09.064422
+278,0.0,,Stealth Boots,2020-04-18 16:35:09.064422
+279,0.0,,Slink Boots,2020-04-18 16:35:09.064422
+280,0.0,,Slink Boots,2020-04-18 16:35:09.064422
+281,0.0,,Carnal Boots,2020-04-18 16:35:09.064422
+282,0.0,,Murder Boots,2020-04-18 16:35:09.064422
+283,0.0,,Eternal Burgonet,2020-04-18 16:35:09.064422
+284,0.0,,Hubris Circlet,2020-04-18 16:35:09.064422
+285,0.0,,Eternal Burgonet,2020-04-18 16:35:09.064422
+286,1.0,UniqueArmour,Exquisite Leather,2020-04-18 16:35:09.064422
+287,2.0,DeliriumOrb,Abyssal Delirium Orb,2020-04-18 16:35:09.064422
+288,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+289,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+290,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+291,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+292,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+293,0.0,,Jade Amulet,2020-04-18 16:35:09.064422
+294,0.0,,Reave,2020-04-18 16:35:09.064422
+295,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+296,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+297,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+298,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+299,0.0,,Cloth Belt,2020-04-18 16:35:09.064422
+300,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+301,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+302,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+303,0.0,,Crimson Jewel,2020-04-18 16:35:09.064422
+304,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+305,0.0,,Paua Amulet,2020-04-18 16:35:09.064422
+306,0.0,,Amber Amulet,2020-04-18 16:35:09.064422
+307,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+308,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+309,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+310,0.0,,Amber Amulet,2020-04-18 16:35:09.064422
+311,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+312,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+313,0.0,,Ruby Ring,2020-04-18 16:35:09.064422
+314,0.0,,Jade Amulet,2020-04-18 16:35:09.064422
+315,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+316,0.0,,Iron Ring,2020-04-18 16:35:09.064422
+317,0.0,,Moonstone Ring,2020-04-18 16:35:09.064422
+318,0.0,,Opal Ring,2020-04-18 16:35:09.064422
+319,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+320,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+321,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+322,0.0,,Chain Belt,2020-04-18 16:35:09.064422
+323,0.0,,Unset Ring,2020-04-18 16:35:09.064422
+324,0.0,,Studded Belt,2020-04-18 16:35:09.064422
+325,0.0,,Studded Belt,2020-04-18 16:35:09.064422
+326,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+327,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+328,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+329,0.0,,Jade Amulet,2020-04-18 16:35:09.064422
+330,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+331,0.0,,Agate Amulet,2020-04-18 16:35:09.064422
+332,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+333,0.0,,Moonstone Ring,2020-04-18 16:35:09.064422
+334,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+335,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+336,1.0,UniqueJewel,Crimson Jewel,2020-04-18 16:35:09.064422
+337,0.0,,Turquoise Amulet,2020-04-18 16:35:09.064422
+338,50.0,UniqueWeapon,Jewelled Foil,2020-04-18 16:35:09.064422
+339,0.0,,Opal Ring,2020-04-18 16:35:09.064422
+340,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+341,0.0,,Heavy Belt,2020-04-18 16:35:09.064422
+342,0.0,,Blasphemy Support,2020-04-18 16:35:09.064422
+343,0.0,,Moonstone Ring,2020-04-18 16:35:09.064422
+344,0.0,,Cobalt Jewel,2020-04-18 16:35:09.064422
+345,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+346,0.0,,Ruby Ring,2020-04-18 16:35:09.064422
+347,0.0,,Ruby Ring,2020-04-18 16:35:09.064422
+348,0.0,,Gold Ring,2020-04-18 16:35:09.064422
+349,1.0,Oil,Sepia Oil,2020-04-18 16:35:09.064422
+350,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+351,0.0,Fragment,Sacrifice at Dawn,2020-04-18 16:35:09.064422
+352,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+353,0.0,,Citrine Amulet,2020-04-18 16:35:09.064422
+354,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+355,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+356,2.0,UniqueJewel,Viridian Jewel,2020-04-18 16:35:09.064422
+357,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+358,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+359,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+360,0.0,,Lapis Amulet,2020-04-18 16:35:09.064422
+361,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+362,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+363,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+364,0.0,,Topaz Ring,2020-04-18 16:35:09.064422
+365,0.0,,Lapis Amulet,2020-04-18 16:35:09.064422
+366,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+367,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+368,0.0,,Searching Eye Jewel,2020-04-18 16:35:09.064422
+369,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+370,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+371,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+372,0.0,,Leather Belt,2020-04-18 16:35:09.064422
+373,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+374,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+375,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+376,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+377,3.0,UniqueJewel,Small Cluster Jewel,2020-04-18 16:35:09.064422
+378,0.0,,Sapphire Ring,2020-04-18 16:35:09.064422
+379,0.0,,Turquoise Amulet,2020-04-18 16:35:09.064422
+380,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+381,0.0,,Lapis Amulet,2020-04-18 16:35:09.064422
+382,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+383,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+384,0.0,,Citrine Amulet,2020-04-18 16:35:09.064422
+385,0.0,,Jade Amulet,2020-04-18 16:35:09.064422
+386,0.0,,Citrine Amulet,2020-04-18 16:35:09.064422
+387,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+388,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+389,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+390,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+391,0.0,,Vermillion Ring,2020-04-18 16:35:09.064422
+392,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+393,0.0,,Heavy Belt,2020-04-18 16:35:09.064422
+394,0.0,,Diamond Ring,2020-04-18 16:35:09.064422
+395,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+396,1.0,UniqueJewel,Crimson Jewel,2020-04-18 16:35:09.064422
+397,0.0,,Ruby Ring,2020-04-18 16:35:09.064422
+398,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+399,0.0,,Rustic Sash,2020-04-18 16:35:09.064422
+400,0.0,,Coral Ring,2020-04-18 16:35:09.064422
+401,0.0,,Amethyst Ring,2020-04-18 16:35:09.064422
+402,2.0,UniqueArmour,Prophet Crown,2020-04-18 16:35:09.064422
+403,0.0,,Ivory Watchstone,2020-04-18 16:35:09.064422
+404,3.0,Oil,Crimson Oil,2020-04-18 16:35:09.064422
+405,1.99998,Currency,Turbulent Catalyst,2020-04-18 16:35:09.064422
+406,3.5,Fossil,Pristine Fossil,2020-04-18 16:35:09.064422
+407,3.0,UniqueJewel,Cobalt Jewel,2020-04-18 16:35:09.064422
+408,3.04,Fossil,Scorched Fossil,2020-04-18 16:35:09.064422
+409,8.0,Oil,Opalescent Oil,2020-04-18 16:35:09.064422
+410,1.0,Incubator,Fossilised Incubator,2020-04-18 16:35:09.064422
+411,1.0,Incubator,Fragmented Incubator,2020-04-18 16:35:09.064422
+412,1.0,Incubator,Celestial Jeweller's Incubator,2020-04-18 16:35:09.064422
+413,1.0,Incubator,Infused Incubator,2020-04-18 16:35:09.064422
+414,1.0,UniqueJewel,Viridian Jewel,2020-04-18 16:35:09.064422
+415,0.0,,Coral Amulet,2020-04-18 16:35:09.064422
+416,2.0,DeliriumOrb,Decadent Delirium Orb,2020-04-18 16:35:09.064422
+417,2.0,Incubator,Cartographer's Incubator,2020-04-18 16:35:09.064422
+418,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+419,4.0,Incubator,Enchanted Incubator,2020-04-18 16:35:09.064422
+420,3.0,Incubator,Ornate Incubator,2020-04-18 16:35:09.064422
+421,0.0,,Superior Topaz Flask,2020-04-18 16:35:09.064422
+422,1.5,Oil,Teal Oil,2020-04-18 16:35:09.064422
+423,1.0,Prophecy,Risen Blood,2020-04-18 16:35:09.064422
+424,0.0,,Blackguard Tempest's Heart,2020-04-18 16:35:09.064422
+425,5.0,Oil,Sepia Oil,2020-04-18 16:35:09.064422
+426,1.0,Incubator,Mysterious Incubator,2020-04-18 16:35:09.064422
+427,5.0,Oil,Clear Oil,2020-04-18 16:35:09.064422
+428,0.0,,Ancient Shard,2020-04-18 16:35:09.064422
+429,1.0,Incubator,Singular Incubator,2020-04-18 16:35:09.064422
+430,0.0,,Moonstone Ring,2020-04-18 16:35:09.064422
+431,2.0,Incubator,Skittering Incubator,2020-04-18 16:35:09.064422
+432,2.0,Incubator,Cartographer's Incubator,2020-04-18 16:35:09.064422
+433,3.0,Oil,Sepia Oil,2020-04-18 16:35:09.064422
+434,1.0,Oil,Violet Oil,2020-04-18 16:35:09.064422
+435,0.0,,Medium Cluster Jewel of Potential,2020-04-18 16:35:09.064422
+436,2.0,Fossil,Prismatic Fossil,2020-04-18 16:35:09.064422
+437,1.0,Incubator,Fossilised Incubator,2020-04-18 16:35:09.064422
+438,2.0,Oil,Black Oil,2020-04-18 16:35:09.064422
+439,1.0,Resonator,Primitive Alchemical Resonator,2020-04-18 16:35:09.064422
+440,0.0,,Empower Support,2020-04-18 16:35:09.064422
+441,0.0,Incubator,Abyssal Incubator,2020-04-18 16:35:09.064422
+442,2.0,Incubator,Foreboding Incubator,2020-04-18 16:35:09.064422
+443,9.0,Fossil,Jagged Fossil,2020-04-18 16:35:09.064422
+444,4.0,Incubator,Enchanted Incubator,2020-04-18 16:35:09.064422
+445,1.0,Incubator,Primal Incubator,2020-04-18 16:35:09.064422
+446,4.0,Incubator,Enchanted Incubator,2020-04-18 16:35:09.064422
+447,3.5,Oil,Clear Oil,2020-04-18 16:35:09.064422
+448,2.0,Oil,Verdant Oil,2020-04-18 16:35:09.064422
+449,3.6,DeliriumOrb,Jeweller's Delirium Orb,2020-04-18 16:35:09.064422
+450,1.0,UniqueWeapon,Shadow Sceptre,2020-04-18 16:35:09.064422
+451,1.0,Incubator,Decadent Incubator,2020-04-18 16:35:09.064422
+452,0.0,Incubator,Abyssal Incubator,2020-04-18 16:35:09.064422
+453,1.0,UniqueJewel,Cobalt Jewel,2020-04-18 16:35:09.064422
+454,1.23,Fossil,Metallic Fossil,2020-04-18 16:35:09.064422
+455,1.0,Incubator,Primal Incubator,2020-04-18 16:35:09.064422
+456,0.0,,Essence Drain,2020-04-18 16:35:09.064422
+457,0.0,,Large Cluster Jewel,2020-04-18 16:35:09.064422
+458,2.0,Incubator,Cartographer's Incubator,2020-04-18 16:35:09.064422
+459,0.0,UniqueAccessory,Agate Amulet,2020-04-18 16:35:09.064422
+460,5.0,Oil,Verdant Oil,2020-04-18 16:35:09.064422
+461,0.5,Currency,Imbued Catalyst,2020-04-18 16:35:09.064422
+462,0.0,,Fingerless Silk Gloves,2020-04-18 16:35:09.064422
+463,0.0,,Large Cluster Jewel,2020-04-18 16:35:09.064422
+464,5.0,Incubator,Diviner's Incubator,2020-04-18 16:35:09.064422
+465,3.0,Fossil,Serrated Fossil,2020-04-18 16:35:09.064422
+466,0.0,,Vaal Earthquake,2020-04-18 16:35:09.064422
+467,5.0,Oil,Clear Oil,2020-04-18 16:35:09.064422
+468,2.0,Oil,Amber Oil,2020-04-18 16:35:09.064422
+469,3.36,Fossil,Frigid Fossil,2020-04-18 16:35:09.064422
+470,3.0,DeliriumOrb,Singular Delirium Orb,2020-04-18 16:35:09.064422
+471,3.0,Incubator,Ornate Incubator,2020-04-18 16:35:09.064422
+472,1.0,Incubator,Obscured Incubator,2020-04-18 16:35:09.064422
+473,4.0,Incubator,Enchanted Incubator,2020-04-18 16:35:09.064422
+474,0.0,Incubator,Abyssal Incubator,2020-04-18 16:35:09.064422
+475,1.42101,Currency,Intrinsic Catalyst,2020-04-18 16:35:09.064422
+476,2.5,Fossil,Aberrant Fossil,2020-04-18 16:35:09.064422
+477,1.0,Incubator,Fragmented Incubator,2020-04-18 16:35:09.064422
+478,0.0,,Gladiator Helmet,2020-04-18 16:35:09.064422
+479,0.0,,Hubris Circlet,2020-04-18 16:35:09.064422
+480,0.0,,Cerulean Ring,2020-04-18 16:35:09.064422
+481,0.0,,Occultist's Vestment,2020-04-18 16:35:09.064422
+482,0.0,,Small Cluster Jewel,2020-04-18 16:35:09.064422
+483,2.0,UniqueArmour,Leather Cap,2020-04-18 16:35:09.064422
+484,1.0,UniqueJewel,Crimson Jewel,2020-04-18 16:35:09.064422
+485,0.0,,Shagreen Gloves,2020-04-18 16:35:09.064422
+486,0.0,,Vermillion Ring,2020-04-18 16:35:09.064422
+487,0.0,,Studded Belt,2020-04-18 16:35:09.064422
+488,0.0,,Increased Duration Support,2020-04-18 16:35:09.064422
+489,0.0,,Superior Necromancer Circlet,2020-04-18 16:35:09.064422
+490,0.0,,Soldier Gloves,2020-04-18 16:35:09.064422
+491,1.0,UniqueJewel,Viridian Jewel,2020-04-18 16:35:09.064422
+492,0.0,,Soldier Gloves,2020-04-18 16:35:09.064422
+493,0.0,,Mind Cage,2020-04-18 16:35:09.064422
+494,0.0,,Large Cluster Jewel,2020-04-18 16:35:09.064422
+495,0.0,,Murderous Eye Jewel,2020-04-18 16:35:09.064422
+496,0.0,,Purity of Elements,2020-04-18 16:35:09.064422
+497,1.0,Incubator,Singular Incubator,2020-04-18 16:35:09.064422
+498,3.0,Incubator,Ornate Incubator,2020-04-18 16:35:09.064422
+499,1.0,Incubator,Fossilised Incubator,2020-04-18 16:35:09.064422
+500,0.0,,Two-Toned Boots,2020-04-18 16:35:09.064422
+501,0.0,,Clarity,2020-04-18 16:35:09.064422
+502,0.0,,Large Cluster Jewel,2020-04-18 16:35:09.064422
+503,1.0,Scarab,Rusted Cartography Scarab,2020-04-18 16:35:09.064422
+504,0.0,Scarab,Rusted Reliquary Scarab,2020-04-18 16:35:09.064422
+505,0.0,,Stygian Vise,2020-04-18 16:35:09.064422
+506,1.0,UniqueJewel,Viridian Jewel,2020-04-18 16:35:09.064422
+507,0.0,UniqueWeapon,Crude Bow,2020-04-18 16:35:09.064422
+508,3.0,Essence,Screaming Essence of Anger,2020-04-18 16:35:09.064422
+509,0.0,,Samite Slippers,2020-04-18 16:35:09.064422
+510,9.0,Scarab,Polished Divination Scarab,2020-04-18 16:35:09.064422
+511,6.0,Scarab,Polished Legion Scarab,2020-04-18 16:35:09.064422
+512,0.0,,Eelskin Boots,2020-04-18 16:35:09.064422
+513,0.0,,Shagreen Gloves,2020-04-18 16:35:09.064422
+514,0.0,,Solaris Circlet,2020-04-18 16:35:09.064422
+515,1.0,UniqueWeapon,Tornado Wand,2020-04-18 16:35:09.064422
+516,0.0,,Paua Amulet,2020-04-18 16:35:09.064422
+517,0.0,,Two-Stone Ring,2020-04-18 16:35:09.064422
+518,24.0,UniqueWeapon,Prophecy Wand,2020-04-18 16:35:09.064422
+519,0.0,UniqueWeapon,Shadow Sceptre,2020-04-18 16:35:09.064422
+520,0.0,UniqueAccessory,Gold Amulet,2020-04-18 16:35:09.064422
+521,0.0,UniqueArmour,Fire Arrow Quiver,2020-04-18 16:35:09.064422
+522,0.0,,Avatar of Undoing's Liver,2020-04-18 16:35:09.064422
+523,0.0,,"Puruna, the Challenger's Eye",2020-04-18 16:35:09.064422
+524,0.0,,"Portentia, the Foul's Heart",2020-04-18 16:35:09.064422
+525,0.0,,Cobalt Jewel,2020-04-18 16:35:09.064422
+526,0.0,,Crimson Jewel,2020-04-18 16:35:09.064422
+527,1.0,UniqueAccessory,Turquoise Amulet,2020-04-18 16:35:09.064422
+528,0.0,,Ghastly Eye Jewel,2020-04-18 16:35:09.064422
+529,0.0,,Viridian Jewel,2020-04-18 16:35:09.064422
+530,2.0,UniqueArmour,Aventail Helmet,2020-04-18 16:35:09.064422
+531,0.0,,Onyx Amulet,2020-04-18 16:35:09.064422
+532,0.0,UniqueWeapon,Ornate Sword,2020-04-18 16:35:09.064422
+533,1.0,UniqueAccessory,Diamond Ring,2020-04-18 16:35:09.064422
+534,0.0,,Crimson Jewel,2020-04-18 16:35:09.064422
+535,0.0,UniqueArmour,Strapped Leather,2020-04-18 16:35:09.064422
+536,0.0,,Dragonscale Gauntlets,2020-04-18 16:35:09.064422
+537,5.0,UniqueArmour,Synthesised Ezomyte Spiked Shield,2020-04-18 16:35:09.064422
+538,1.0,UniqueAccessory,Unset Ring,2020-04-18 16:35:09.064422
+539,0.0,,Hubris Circlet,2020-04-18 16:35:09.064422
+540,1.0,UniqueFlask,Quartz Flask,2020-04-18 16:35:09.064422
+541,1.0,UniqueJewel,Crimson Jewel,2020-04-18 16:35:09.064422
+542,1.0,Prophecy,The Dreamer's Dream,2020-04-18 16:35:09.064422
+543,0.0,UniqueAccessory,Paua Amulet,2020-04-18 16:35:09.064422
+544,2.0,Prophecy,Plague of Frogs,2020-04-18 16:35:09.064422
+545,1.0,Prophecy,The Unbreathing Queen V,2020-04-18 16:35:09.064422
+546,0.0,UniqueArmour,Scholar Boots,2020-04-18 16:35:09.064422
+547,1.0,UniqueArmour,Mind Cage,2020-04-18 16:35:09.064422
+548,1.0,UniqueAccessory,Chain Belt,2020-04-18 16:35:09.064422
+549,1.0,UniqueFlask,Stibnite Flask,2020-04-18 16:35:09.064422
+550,1.0,UniqueJewel,Cobalt Jewel,2020-04-18 16:35:09.064422
+551,1.0,UniqueWeapon,Infernal Sword,2020-04-18 16:35:09.064422
+552,0.0,UniqueArmour,Tarnished Spirit Shield,2020-04-18 16:35:09.064422
+553,1.0,UniqueArmour,Polished Spiked Shield,2020-04-18 16:35:09.064422
+554,1.0,UniqueJewel,Viridian Jewel,2020-04-18 16:35:09.064422
+555,1.0,UniqueWeapon,Imperial Skean,2020-04-18 16:35:09.064422
+556,1.0,UniqueWeapon,Crystal Wand,2020-04-18 16:35:09.064422
+557,1.0,UniqueArmour,Ancient Greaves,2020-04-18 16:35:09.064422
+558,1.0,UniqueJewel,Cobalt Jewel,2020-04-18 16:35:09.064422
+559,1.0,UniqueWeapon,Imperial Skean,2020-04-18 16:35:09.064422

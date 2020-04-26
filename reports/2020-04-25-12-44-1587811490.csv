@@ -1,0 +1,771 @@
+,chaos_value,type,type_line,price,shoplink_template,stack_size,datetime
+0,20.762252727272728,Currency,Armourer's Scrap,0.13309136363636365,"[linkItem location=""Stash1"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",156,2020-04-25 12:45:11.149875
+1,0.8986363636363637,Currency,Imbued Catalyst,0.09984848484848485,"[linkItem location=""Stash1"" league=""Delirium"" x=""43"" y=""0""] ~b/o {final_price} {fx_id}",9,2020-04-25 12:45:11.149875
+2,6.809571428571429,Currency,Blacksmith's Whetstone,0.11349285714285715,"[linkItem location=""Stash1"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",60,2020-04-25 12:45:11.149875
+3,11.62725030927835,Currency,Gemcutter's Prism,0.6459583505154639,"[linkItem location=""Stash1"" league=""Delirium"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",18,2020-04-25 12:45:11.149875
+4,2.7671233333333336,Currency,Orb of Binding,0.1317677777777778,"[linkItem location=""Stash1"" league=""Delirium"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",21,2020-04-25 12:45:11.149875
+5,30.0,DeliriumOrb,Fine Delirium Orb,15.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+6,15.0,Hard Currency,Divine Orb,15.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""20"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+7,18.0,Currency,Exalted Shard,9.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""51"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+8,0.0,,Alchemy Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""26"" y=""0""] ~b/o {final_price} {fx_id}",19,2020-04-25 12:45:11.149875
+9,0.0,,Scroll Fragment,,"[linkItem location=""Stash1"" league=""Delirium"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+10,1.0,Currency,Harbinger's Orb,1.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""57"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+11,3.927364329896907,Currency,Abrasive Catalyst,0.1454579381443299,"[linkItem location=""Stash1"" league=""Delirium"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",27,2020-04-25 12:45:11.149875
+12,8.771849999999999,Currency,Jeweller's Orb,0.04545,"[linkItem location=""Stash1"" league=""Delirium"" x=""19"" y=""0""] ~b/o {final_price} {fx_id}",193,2020-04-25 12:45:11.149875
+13,2.4910429787234043,Currency,Glassblower's Bauble,0.20758691489361702,"[linkItem location=""Stash1"" league=""Delirium"" x=""15"" y=""0""] ~b/o {final_price} {fx_id}",12,2020-04-25 12:45:11.149875
+14,1.395840625,Currency,Engineer's Orb,0.1395840625,"[linkItem location=""Stash1"" league=""Delirium"" x=""60"" y=""0""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+15,15.71405,Currency,Orb of Regret,0.28571,"[linkItem location=""Stash1"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",55,2020-04-25 12:45:11.149875
+16,6.363226774193548,Currency,Regal Orb,0.21942161290322582,"[linkItem location=""Stash1"" league=""Delirium"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",29,2020-04-25 12:45:11.149875
+17,5.39429,Currency,Silver Coin,0.06061,"[linkItem location=""Stash1"" league=""Delirium"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",89,2020-04-25 12:45:11.149875
+18,6.308231325301205,Currency,Turbulent Catalyst,0.31541156626506023,"[linkItem location=""Stash1"" league=""Delirium"" x=""41"" y=""0""] ~b/o {final_price} {fx_id}",20,2020-04-25 12:45:11.149875
+19,5.215110909090909,Currency,Perandus Coin,0.007998636363636364,"[linkItem location=""Stash1"" league=""Delirium"" x=""39"" y=""0""] ~b/o {final_price} {fx_id}",652,2020-04-25 12:45:11.149875
+20,1.02,Oil,Amber Oil,0.51,"[linkItem location=""Stash1"" league=""Delirium"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+21,0.0,,Harbinger's Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""64"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+22,67.93783783783783,Hard Currency,Stacked Deck,2.516216216216216,"[linkItem location=""Stash1"" league=""Delirium"" x=""45"" y=""0""] ~b/o {final_price} {fx_id}",27,2020-04-25 12:45:11.149875
+23,6.93,Essence,Remnant of Corruption,0.99,"[linkItem location=""Stash1"" league=""Delirium"" x=""33"" y=""0""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+24,0.0,,Alteration Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""25"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+25,16.6665,Currency,Orb of Chance,0.11111,"[linkItem location=""Stash1"" league=""Delirium"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",150,2020-04-25 12:45:11.149875
+26,39.60979387755101,Currency,Orb of Fusing,0.12534744897959182,"[linkItem location=""Stash1"" league=""Delirium"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",316,2020-04-25 12:45:11.149875
+27,0.0,,Regal Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""52"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+28,24.45470238095238,Currency,Orb of Transmutation,0.13077380952380951,"[linkItem location=""Stash1"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",187,2020-04-25 12:45:11.149875
+29,0.0,,Binding Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""63"" y=""0""] ~b/o {final_price} {fx_id}",17,2020-04-25 12:45:11.149875
+30,52.90708265822784,Hard Currency,Orb of Alteration,0.2107851898734177,"[linkItem location=""Stash1"" league=""Delirium"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",251,2020-04-25 12:45:11.149875
+31,2.5,Oil,Sepia Oil,0.5,"[linkItem location=""Stash1"" league=""Delirium"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+32,5.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash1"" league=""Delirium"" x=""48"" y=""0""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+33,1.0,Essence,Screaming Essence of Torment,1.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""32"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+34,4.5455000000000005,Currency,Simple Sextant,0.18182,"[linkItem location=""Stash1"" league=""Delirium"" x=""36"" y=""0""] ~b/o {final_price} {fx_id}",25,2020-04-25 12:45:11.149875
+35,0.5442379746835443,Currency,Blessed Orb,0.030235443037974683,"[linkItem location=""Stash1"" league=""Delirium"" x=""21"" y=""0""] ~b/o {final_price} {fx_id}",18,2020-04-25 12:45:11.149875
+36,0.0,,Horizon Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""56"" y=""0""] ~b/o {final_price} {fx_id}",16,2020-04-25 12:45:11.149875
+37,36.542880224719106,Currency,Portal Scroll,0.09274842696629214,"[linkItem location=""Stash1"" league=""Delirium"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",394,2020-04-25 12:45:11.149875
+38,356.99987931034485,Fragment,Simulacrum Splinter,0.43272712643678163,"[linkItem location=""Stash1"" league=""Delirium"" x=""30"" y=""0""] ~b/o {final_price} {fx_id}",825,2020-04-25 12:45:11.149875
+39,7.0,Currency,Ancient Orb,7.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+40,3.0,Currency,Tempering Catalyst,1.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+41,0.0,,Ancient Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""62"" y=""0""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+42,4.689566842105263,Currency,Scroll of Wisdom,0.03398236842105263,"[linkItem location=""Stash1"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",138,2020-04-25 12:45:11.149875
+43,0.0,,Chaos Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""49"" y=""0""] ~b/o {final_price} {fx_id}",17,2020-04-25 12:45:11.149875
+44,2.35719,Currency,Orb of Horizons,0.21429,"[linkItem location=""Stash1"" league=""Delirium"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",11,2020-04-25 12:45:11.149875
+45,26.526149999999998,Currency,Orb of Scouring,0.42105,"[linkItem location=""Stash1"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",63,2020-04-25 12:45:11.149875
+46,5.5998600000000005,Hard Currency,Orb of Alchemy,0.13333,"[linkItem location=""Stash1"" league=""Delirium"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",42,2020-04-25 12:45:11.149875
+47,3.1691000000000003,Currency,Intrinsic Catalyst,0.14405,"[linkItem location=""Stash1"" league=""Delirium"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",22,2020-04-25 12:45:11.149875
+48,19.838406551724137,Currency,Orb of Augmentation,0.2045196551724138,"[linkItem location=""Stash1"" league=""Delirium"" x=""13"" y=""0""] ~b/o {final_price} {fx_id}",97,2020-04-25 12:45:11.149875
+49,0.0,,Transmutation Shard,,"[linkItem location=""Stash1"" league=""Delirium"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",15,2020-04-25 12:45:11.149875
+50,525.1318681318681,Hard Currency,Exalted Orb,175.04395604395606,"[linkItem location=""Stash1"" league=""Delirium"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+51,33.3332,Hard Currency,Vaal Orb,0.83333,"[linkItem location=""Stash1"" league=""Delirium"" x=""27"" y=""0""] ~b/o {final_price} {fx_id}",40,2020-04-25 12:45:11.149875
+52,0.6621479569892473,Currency,Splinter of Esh,0.08276849462365592,"[linkItem location=""Stash1"" league=""Delirium"" x=""47"" y=""0""] ~b/o {final_price} {fx_id}",8,2020-04-25 12:45:11.149875
+53,19.18385,Currency,Prime Sextant,0.767354,"[linkItem location=""Stash1"" league=""Delirium"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",25,2020-04-25 12:45:11.149875
+54,260.0,Hard Currency,Warlord's Exalted Orb,260.0,"[linkItem location=""Stash1"" league=""Delirium"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+55,1.0,Hard Currency,Chaos Orb,,"[linkItem location=""Stash1"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1080,2020-04-25 12:45:11.149875
+56,30.840626086956522,Currency,Awakened Sextant,1.9275391304347826,"[linkItem location=""Stash1"" league=""Delirium"" x=""38"" y=""0""] ~b/o {final_price} {fx_id}",16,2020-04-25 12:45:11.149875
+57,15.51318695652174,Currency,Chromatic Orb,0.11080847826086956,"[linkItem location=""Stash1"" league=""Delirium"" x=""17"" y=""0""] ~b/o {final_price} {fx_id}",140,2020-04-25 12:45:11.149875
+58,1.7630126315789474,Currency,Cartographer's Chisel,0.22037657894736842,"[linkItem location=""Stash1"" league=""Delirium"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",8,2020-04-25 12:45:11.149875
+59,1.0,DivinationCard,The Hermit,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+60,6.0,DivinationCard,Imperial Legacy,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""252"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+61,2.0,DivinationCard,Prosperity,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""115"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+62,2.0,DivinationCard,The Wilted Rose,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""224"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+63,1.0,DivinationCard,The Blazing Fire,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""188"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+64,4.0,DivinationCard,The Flora's Gift,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+65,1.0,DivinationCard,Thirst for Knowledge,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+66,3.0,DivinationCard,Coveted Possession,3.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+67,25.0,DivinationCard,The Gemcutter,5.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+68,18.0,DivinationCard,Her Mask,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""125"" y=""0""] ~b/o {final_price} {fx_id}",18,2020-04-25 12:45:11.149875
+69,2.0,DivinationCard,The Scholar,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+70,1.0,DivinationCard,The Jeweller's Boon,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""203"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+71,6.0,DivinationCard,The Dapper Prodigy,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""117"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+72,72.0,DivinationCard,Nook's Crown,72.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+73,2.0,DivinationCard,The Lover,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""26"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+74,39.0,DivinationCard,The Hoarder,13.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+75,5.0,DivinationCard,The Endurance,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""155"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+76,6.0,DivinationCard,The King's Blade,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""62"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+77,1.0,DivinationCard,The Gentleman,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""64"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+78,2.0,DivinationCard,The Warden,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""21"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+79,1.0,DivinationCard,Boundless Realms,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""135"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+80,3.0,DivinationCard,Lantador's Lost Love,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+81,2.0,DivinationCard,Mitts,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""169"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+82,3.0,DivinationCard,Divine Justice,3.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""35"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+83,1.0,DivinationCard,Grave Knowledge,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""75"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+84,1.0,DivinationCard,Deathly Designs,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""32"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+85,1.0,DivinationCard,The Dreamer,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""196"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+86,21.28,DivinationCard,Rain of Chaos,3.04,"[linkItem location=""Stash3"" league=""Delirium"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+87,4.0,DivinationCard,The Chosen,4.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""33"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+88,1.0,DivinationCard,Gift of the Gemling Queen,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+89,1.0,DivinationCard,Harmony of Souls,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""214"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+90,1.0,DivinationCard,The Aesthete,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""91"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+91,2.0,DivinationCard,The Doppelganger,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""72"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+92,1.0,DivinationCard,The Seeker,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""236"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+93,1.0,DivinationCard,The Cacophony,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""230"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+94,9.0,DivinationCard,The Puzzle,3.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""200"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+95,2.0,DivinationCard,Last Hope,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""99"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+96,1.0,DivinationCard,Gemcutter's Promise,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+97,1.0,DivinationCard,The Garish Power,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""174"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+98,1.0,DivinationCard,The Lion,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""120"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+99,2.0,DivinationCard,The Union,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""49"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+100,2.0,DivinationCard,Hubris,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""100"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+101,2.0,DivinationCard,The Battle Born,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+102,2.0,DivinationCard,The Rite of Elements,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""219"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+103,2.0,DivinationCard,The Price of Protection,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""227"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+104,2.0,DivinationCard,The Chains that Bind,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+105,2.0,DivinationCard,The Wolf's Shadow,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""128"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+106,1.0,DivinationCard,The Obscured,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""192"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+107,165.0,DivinationCard,Emperor's Luck,5.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""30"" y=""0""] ~b/o {final_price} {fx_id}",33,2020-04-25 12:45:11.149875
+108,1.0,DivinationCard,The Pact,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""41"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+109,2.0,DivinationCard,The Metalsmith's Gift,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+110,1.0,DivinationCard,A Mother's Parting Gift,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""110"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+111,3.0,DivinationCard,Destined to Crumble,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""138"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+112,9.8,DivinationCard,The Wrath,2.45,"[linkItem location=""Stash3"" league=""Delirium"" x=""61"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+113,7.800000000000001,DivinationCard,Vinia's Token,2.6,"[linkItem location=""Stash3"" league=""Delirium"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+114,1.0,DivinationCard,Sambodhi's Vow,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""249"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+115,1.0,DivinationCard,The Scarred Meadow,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+116,1.0,DivinationCard,Turn the Other Cheek,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""112"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+117,4.0,DivinationCard,The Encroaching Darkness,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""60"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+118,1.0,DivinationCard,The Stormcaller,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""149"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+119,1.0,DivinationCard,Thunderous Skies,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""132"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+120,2.0,DivinationCard,The Beast,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""222"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+121,1.0,DivinationCard,The Journey,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""240"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+122,5.0,DivinationCard,Loyalty,5.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""79"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+123,1.0,DivinationCard,Volatile Power,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""98"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+124,2.0,DivinationCard,The Master Artisan,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""234"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+125,2.0,DivinationCard,The Inventor,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+126,14.0,DivinationCard,The Opulent,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""181"" y=""0""] ~b/o {final_price} {fx_id}",14,2020-04-25 12:45:11.149875
+127,5.0,DivinationCard,The Carrion Crow,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+128,2.0,DivinationCard,Dark Temptation,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""247"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+129,24.839999999999996,DivinationCard,Lucky Connections,4.14,"[linkItem location=""Stash3"" league=""Delirium"" x=""32"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+130,1.0,DivinationCard,The Sword King's Salute,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""209"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+131,1.0,DivinationCard,The Incantation,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""36"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+132,1.0,DivinationCard,The Sigil,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""116"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+133,1.0,DivinationCard,The Messenger,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""237"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+134,1.98,DivinationCard,The Lunaris Priestess,0.99,"[linkItem location=""Stash3"" league=""Delirium"" x=""146"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+135,4.0,DivinationCard,Doedre's Madness,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+136,69.02,DivinationCard,Three Voices,4.06,"[linkItem location=""Stash3"" league=""Delirium"" x=""220"" y=""0""] ~b/o {final_price} {fx_id}",17,2020-04-25 12:45:11.149875
+137,1.0,DivinationCard,The Twilight Moon,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""229"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+138,8.0,DivinationCard,Boon of Justice,4.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""239"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+139,1.0,DivinationCard,The Fox,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""71"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+140,28.82,DivinationCard,The Gambler,1.31,"[linkItem location=""Stash3"" league=""Delirium"" x=""25"" y=""0""] ~b/o {final_price} {fx_id}",22,2020-04-25 12:45:11.149875
+141,2.0,DivinationCard,The Realm,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""186"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+142,1.0,DivinationCard,Jack in the Box,1.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""48"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+143,5.0,DivinationCard,The Wretched,5.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""170"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+144,3.0,DivinationCard,The Void,3.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""142"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+145,4.0,DivinationCard,Struck by Lightning,2.0,"[linkItem location=""Stash3"" league=""Delirium"" x=""182"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+146,8.66671,Currency,Splinter of Chayula,0.66667,"[linkItem location=""Stash4"" league=""Delirium"" x=""26"" y=""0""] ~b/o {final_price} {fx_id}",13,2020-04-25 12:45:11.149875
+147,3.5,Fragment,Sacrifice at Midnight,0.5,"[linkItem location=""Stash4"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+148,1.0,Scarab,Polished Elder Scarab,1.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+149,22.25,Fragment,Timeless Karui Splinter,0.25,"[linkItem location=""Stash4"" league=""Delirium"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",89,2020-04-25 12:45:11.149875
+150,3.0,Scarab,Polished Perandus Scarab,3.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""62"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+151,30.0,Fragment,Fragment of the Minotaur,30.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""13"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+152,1.4874975,Fragment,Sacrifice at Noon,0.4958325,"[linkItem location=""Stash4"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+153,19.5,Fragment,Timeless Maraketh Splinter,1.5,"[linkItem location=""Stash4"" league=""Delirium"" x=""70"" y=""0""] ~b/o {final_price} {fx_id}",13,2020-04-25 12:45:11.149875
+154,1.40001,Fragment,Offering to the Goddess,0.46667,"[linkItem location=""Stash4"" league=""Delirium"" x=""27"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+155,6.869785053763441,Currency,Splinter of Esh,0.08276849462365592,"[linkItem location=""Stash4"" league=""Delirium"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",83,2020-04-25 12:45:11.149875
+156,4.2,Scarab,Rusted Reliquary Scarab,0.6,"[linkItem location=""Stash4"" league=""Delirium"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+157,4.85707,Currency,Splinter of Uul-Netol,0.28571,"[linkItem location=""Stash4"" league=""Delirium"" x=""25"" y=""0""] ~b/o {final_price} {fx_id}",17,2020-04-25 12:45:11.149875
+158,6.833114565217392,Fragment,Sacrifice at Dawn,0.3596376086956522,"[linkItem location=""Stash4"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",19,2020-04-25 12:45:11.149875
+159,8.36372,Currency,Splinter of Xoph,0.09091,"[linkItem location=""Stash4"" league=""Delirium"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",92,2020-04-25 12:45:11.149875
+160,45.0,Fragment,Fragment of Eradication,45.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""78"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+161,1.0,Fragment,Tul's Breachstone,1.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+162,7.33326,Fragment,Sacrifice at Dusk,0.33333,"[linkItem location=""Stash4"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",22,2020-04-25 12:45:11.149875
+163,4.0,Scarab,Rusted Metamorph Scarab,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""85"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+164,2.0,Scarab,Polished Metamorph Scarab,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""86"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+165,0.0,Scarab,Polished Torment Scarab,0.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""53"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+166,5.52,Scarab,Polished Harbinger Scarab,2.76,"[linkItem location=""Stash4"" league=""Delirium"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+167,2.0,Scarab,Rusted Sulphite Scarab,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+168,27.99972,Fragment,Timeless Eternal Empire Splinter,0.33333,"[linkItem location=""Stash4"" league=""Delirium"" x=""71"" y=""0""] ~b/o {final_price} {fx_id}",84,2020-04-25 12:45:11.149875
+169,4.0,Scarab,Rusted Harbinger Scarab,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+170,12.450000000000001,Scarab,Rusted Elder Scarab,4.15,"[linkItem location=""Stash4"" league=""Delirium"" x=""43"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+171,3.76,Scarab,Rusted Torment Scarab,0.94,"[linkItem location=""Stash4"" league=""Delirium"" x=""52"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+172,8.45463,Currency,Splinter of Tul,0.09091,"[linkItem location=""Stash4"" league=""Delirium"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",93,2020-04-25 12:45:11.149875
+173,4.0,Fragment,Divine Vessel,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+174,3.96,Scarab,Rusted Shaper Scarab,0.99,"[linkItem location=""Stash4"" league=""Delirium"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+175,4.86,Scarab,Rusted Ambush Scarab,1.62,"[linkItem location=""Stash4"" league=""Delirium"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+176,2.0,Fragment,Mortal Rage,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+177,6.0,Scarab,Polished Legion Scarab,6.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""75"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+178,15.999959999999998,Fragment,Timeless Templar Splinter,1.33333,"[linkItem location=""Stash4"" league=""Delirium"" x=""72"" y=""0""] ~b/o {final_price} {fx_id}",12,2020-04-25 12:45:11.149875
+179,6.0,Scarab,Rusted Breach Scarab,3.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""28"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+180,34.0,Fragment,Fragment of Purification,34.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""80"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+181,3.0,Scarab,Rusted Cartography Scarab,1.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+182,32.0,Fragment,Fragment of Constriction,32.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""79"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+183,25.509535483870966,Fragment,Timeless Vaal Splinter,0.4555274193548387,"[linkItem location=""Stash4"" league=""Delirium"" x=""73"" y=""0""] ~b/o {final_price} {fx_id}",56,2020-04-25 12:45:11.149875
+184,8.0,Scarab,Rusted Perandus Scarab,2.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""61"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+185,5.0,Scarab,Polished Breach Scarab,5.0,"[linkItem location=""Stash4"" league=""Delirium"" x=""29"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+186,2.0,Essence,Weeping Essence of Anger,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+187,4.0,Essence,Weeping Essence of Sorrow,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""29"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+188,2.0,Essence,Shrieking Essence of Dread,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""92"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+189,11.0,Essence,Wailing Essence of Fear,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""48"" y=""0""] ~b/o {final_price} {fx_id}",11,2020-04-25 12:45:11.149875
+190,11.28,Essence,Screaming Essence of Torment,1.88,"[linkItem location=""Stash5"" league=""Delirium"" x=""43"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+191,4.0,Essence,Screaming Essence of Scorn,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""94"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+192,1.0,Essence,Screaming Essence of Dread,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""91"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+193,8.0,Essence,Screaming Essence of Wrath,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""64"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+194,4.0,Essence,Weeping Essence of Woe,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+195,3.0,Essence,Screaming Essence of Anguish,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""73"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+196,4.0,Essence,Screaming Essence of Doubt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+197,8.0,Essence,Wailing Essence of Hatred,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+198,2.0,Essence,Weeping Essence of Torment,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""41"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+199,8.0,Essence,Wailing Essence of Woe,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",8,2020-04-25 12:45:11.149875
+200,4.0,Essence,Wailing Essence of Zeal,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""84"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+201,6.0,Essence,Wailing Essence of Torment,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+202,6.0,Essence,Wailing Essence of Suffering,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""53"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+203,2.68,Essence,Wailing Essence of Spite,1.34,"[linkItem location=""Stash5"" league=""Delirium"" x=""80"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+204,1.0,Essence,Whispering Essence of Greed,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+205,2.0,Essence,Shrieking Essence of Contempt,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""26"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+206,2.0,Essence,Shrieking Essence of Woe,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+207,2.04,Essence,Screaming Essence of Suffering,1.02,"[linkItem location=""Stash5"" league=""Delirium"" x=""54"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+208,2.0,Essence,Screaming Essence of Loathing,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""77"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+209,6.96,Essence,Wailing Essence of Wrath,1.74,"[linkItem location=""Stash5"" league=""Delirium"" x=""63"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+210,3.0,Essence,Wailing Essence of Loathing,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""76"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+211,1.0,Essence,Muttering Essence of Contempt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+212,4.0,Essence,Weeping Essence of Hatred,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+213,6.0,Essence,Screaming Essence of Spite,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""81"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+214,9.549999999999999,Essence,Screaming Essence of Rage,1.91,"[linkItem location=""Stash5"" league=""Delirium"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+215,4.0,Essence,Weeping Essence of Rage,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""57"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+216,12.0,Essence,Essence of Horror,6.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""102"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+217,1.0,Essence,Wailing Essence of Sorrow,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""30"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+218,2.0,Essence,Screaming Essence of Misery,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""88"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+219,6.0,Essence,Screaming Essence of Contempt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""25"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+220,4.0,Essence,Weeping Essence of Contempt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+221,5.0,Essence,Screaming Essence of Woe,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+222,3.0,Essence,Wailing Essence of Doubt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""68"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+223,2.0,Essence,Whispering Essence of Contempt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""21"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+224,8.55,Essence,Screaming Essence of Fear,1.71,"[linkItem location=""Stash5"" league=""Delirium"" x=""49"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+225,0.0,Oil,Verdant Oil,0.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""106"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+226,6.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash5"" league=""Delirium"" x=""105"" y=""0""] ~b/o {final_price} {fx_id}",12,2020-04-25 12:45:11.149875
+227,1.5,Oil,Sepia Oil,0.5,"[linkItem location=""Stash5"" league=""Delirium"" x=""107"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+228,2.0,Essence,Muttering Essence of Anger,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+229,6.64,Essence,Wailing Essence of Anguish,1.66,"[linkItem location=""Stash5"" league=""Delirium"" x=""72"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+230,10.02,Essence,Wailing Essence of Contempt,1.67,"[linkItem location=""Stash5"" league=""Delirium"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+231,5.0,Essence,Weeping Essence of Doubt,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""67"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+232,2.0,Essence,Wailing Essence of Rage,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+233,3.0,Essence,Screaming Essence of Zeal,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""85"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+234,3.0,Essence,Screaming Essence of Anger,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+235,2.0,Essence,Screaming Essence of Greed,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+236,1.0,Essence,Whispering Essence of Woe,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+237,2.9699999999999998,Essence,Remnant of Corruption,0.99,"[linkItem location=""Stash5"" league=""Delirium"" x=""104"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+238,5.0,Essence,Muttering Essence of Torment,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+239,2.0,Essence,Weeping Essence of Wrath,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""62"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+240,5.0,Essence,Weeping Essence of Fear,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""47"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+241,7.0,Essence,Wailing Essence of Anger,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""36"" y=""0""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+242,3.0,Essence,Muttering Essence of Sorrow,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""28"" y=""0""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+243,2.8,Essence,Screaming Essence of Hatred,1.4,"[linkItem location=""Stash5"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+244,1.0,Essence,Shrieking Essence of Suffering,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+245,1.0,Essence,Muttering Essence of Fear,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+246,2.0,Essence,Screaming Essence of Envy,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""97"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+247,0.0,,Amber Amulet,,"[linkItem location=""Stash5"" league=""Delirium"" x=""108"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+248,2.0,Essence,Shrieking Essence of Wrath,2.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""65"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+249,5.0,Essence,Wailing Essence of Greed,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""17"" y=""0""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+250,2.0,Essence,Weeping Essence of Greed,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+251,2.0,Essence,Muttering Essence of Greed,1.0,"[linkItem location=""Stash5"" league=""Delirium"" x=""15"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+252,0.0,,Sorcerer Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+253,0.0,,Goliath Greaves,,"[linkItem location=""Stash6"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+254,0.0,,Carnal Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+255,0.0,,Conjurer Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+256,0.0,,Steel Greaves,,"[linkItem location=""Stash6"" league=""Delirium"" x=""4"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+257,29.0,DeliriumOrb,Diviner's Delirium Orb,29.0,"[linkItem location=""Stash6"" league=""Delirium"" x=""4"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+258,0.0,,Magistrate Crown,,"[linkItem location=""Stash6"" league=""Delirium"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+259,0.0,,Sorcerer Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""6"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+260,0.0,,Lacquered Helmet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+261,0.0,,Murder Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+262,0.0,,Fluted Bascinet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+263,0.0,,Titan Gauntlets,,"[linkItem location=""Stash6"" league=""Delirium"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+264,0.0,,Goliath Greaves,,"[linkItem location=""Stash6"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+265,0.0,,Superior Conjurer Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+266,0.0,,Eternal Burgonet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""10"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+267,0.0,,Hydrascale Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+268,0.0,,Hydrascale Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+269,0.0,,Murder Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+270,0.0,,Superior Solaris Circlet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+271,0.0,,Steel Circlet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+272,0.0,,Assassin's Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+273,0.0,,Stealth Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+274,0.0,,Slink Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+275,0.0,,Slink Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+276,0.0,,Carnal Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+277,0.0,,Murder Boots,,"[linkItem location=""Stash6"" league=""Delirium"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+278,0.0,,Eternal Burgonet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""10"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+279,0.0,,Hubris Circlet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""8"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+280,0.0,,Eternal Burgonet,,"[linkItem location=""Stash6"" league=""Delirium"" x=""10"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+281,2.0,UniqueJewel,Cobalt Jewel,2.0,"[linkItem location=""Stash7"" league=""Delirium"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+282,0.0,Fragment,Offering to the Goddess,0.0,"[linkItem location=""Stash7"" league=""Delirium"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+283,0.0,,Imbued Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+284,0.0,,Opal Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+285,0.0,,Superior Terror Claw,,"[linkItem location=""Stash7"" league=""Delirium"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+286,0.0,,Lacewood Spirit Shield,,"[linkItem location=""Stash7"" league=""Delirium"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+287,0.0,,Abyssal Sceptre,,"[linkItem location=""Stash7"" league=""Delirium"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+288,0.0,,Spiked Gloves,,"[linkItem location=""Stash7"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+289,0.0,,Imbued Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+290,0.0,,Omen Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+291,0.0,,Vaal Rapier,,"[linkItem location=""Stash7"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+292,0.0,,Imbued Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+293,0.0,,Spiraled Foil,,"[linkItem location=""Stash7"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+294,0.0,,Gemstone Sword,,"[linkItem location=""Stash7"" league=""Delirium"" x=""1"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+295,0.0,,Imbued Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+296,0.0,,Superior Fancy Foil,,"[linkItem location=""Stash7"" league=""Delirium"" x=""7"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+297,0.0,UniqueWeapon,Woodsplitter,0.0,"[linkItem location=""Stash7"" league=""Delirium"" x=""10"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+298,0.0,,Varnished Coat,,"[linkItem location=""Stash7"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+299,0.0,,Titanium Spirit Shield,,"[linkItem location=""Stash7"" league=""Delirium"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+300,0.0,,Imbued Wand,,"[linkItem location=""Stash7"" league=""Delirium"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+301,0.0,,Lapis Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+302,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+303,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+304,0.0,,Jade Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+305,0.0,,Assassin Bow,,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+306,0.0,,Gold Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+307,0.0,,Reave,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+308,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+309,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+310,0.0,,Cloth Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+311,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+312,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+313,0.0,UniqueWeapon,Gnarled Branch,0.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""9"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+314,0.0,,Lapis Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+315,0.0,,Crimson Jewel,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+316,0.0,,Paua Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""7"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+317,0.0,,Amber Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""11"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+318,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+319,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+320,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+321,0.0,,Amber Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+322,0.0,,Jade Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+323,0.0,,Iron Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+324,0.0,,Moonstone Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+325,0.0,,Opal Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+326,0.0,,Sapphire Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+327,0.0,,Chain Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+328,0.0,,Turquoise Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+329,0.0,,Onyx Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+330,0.0,,Unset Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""7"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+331,0.0,,Studded Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+332,0.0,,Studded Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+333,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+334,0.0,,Jade Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+335,0.0,,Agate Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""9"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+336,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+337,0.0,,Moonstone Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+338,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+339,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+340,0.0,,Turquoise Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+341,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+342,0.0,,Heavy Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+343,0.0,UniqueWeapon,Rusted Sword,0.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""7"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+344,0.0,,Blasphemy Support,,"[linkItem location=""Stash8"" league=""Delirium"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+345,0.0,,Moonstone Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+346,0.0,,Cobalt Jewel,,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+347,0.0,,Gold Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+348,1.0,Oil,Sepia Oil,0.5,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+349,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+350,0.0,Fragment,Sacrifice at Dawn,0.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+351,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+352,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+353,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+354,1.0,UniqueJewel,Viridian Jewel,1.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+355,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+356,0.0,,Topaz Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+357,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+358,0.0,,Lapis Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+359,0.0,,Topaz Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+360,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+361,0.0,,Lapis Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+362,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+363,0.0,,Searching Eye Jewel,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+364,0.0,,Two-Stone Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""3"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+365,0.0,,Leather Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+366,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+367,0.0,,Vermillion Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+368,3.0,UniqueJewel,Small Cluster Jewel,3.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+369,0.0,,Sapphire Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+370,0.0,,Agate Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+371,0.0,,Turquoise Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+372,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+373,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+374,0.0,,Lapis Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+375,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash8"" league=""Delirium"" x=""7"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+376,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+377,0.0,,Amber Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+378,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""4"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+379,0.0,,Spiked Gloves,,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+380,0.0,,Jade Amulet,,"[linkItem location=""Stash8"" league=""Delirium"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+381,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+382,0.0,,Vermillion Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+383,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+384,0.0,,Heavy Belt,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+385,0.0,,Diamond Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+386,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+387,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+388,3.0,DeliriumOrb,Jeweller's Delirium Orb,3.0,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+389,0.0,,Rustic Sash,,"[linkItem location=""Stash8"" league=""Delirium"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+390,0.0,,Coral Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+391,0.0,,Amethyst Ring,,"[linkItem location=""Stash8"" league=""Delirium"" x=""3"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+392,0.0,,Small Cluster Jewel,,"[linkItem location=""Stash8"" league=""Delirium"" x=""10"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+393,5.0,Incubator,Fossilised Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+394,5.0,Incubator,Obscured Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+395,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+396,2.75,Oil,Teal Oil,0.55,"[linkItem location=""Stash9"" league=""Delirium"" x=""3"" y=""11""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+397,6.0,Fossil,Corroded Fossil,6.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+398,1.0,Fossil,Jagged Fossil,0.5,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""7""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+399,1.53,Oil,Amber Oil,0.51,"[linkItem location=""Stash9"" league=""Delirium"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+400,0.0,UniqueAccessory,Coral Amulet,0.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+401,1.0,Prophecy,The Warmongers IV,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+402,0.0,Map,Vaal Pyramid Map,0.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+403,0.0,,Topaz Ring,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+404,0.0,,"Nassar, Lion of the Seas's Lung",,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+405,3.0,Incubator,Decadent Incubator,3.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+406,1.0,UniqueJewel,Cobalt Jewel,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+407,5.0,Incubator,Fossilised Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""6"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+408,1.5,Fossil,Frigid Fossil,0.5,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""8""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+409,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+410,4.0,DeliriumOrb,Portentous Delirium Orb,4.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+411,0.0,,Hubris Circlet,,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+412,0.0,,Ruby Ring,,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+413,5.0,DeliriumOrb,Singular Delirium Orb,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+414,0.0,Fossil,Metallic Fossil,0.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+415,3.0,Oil,Sepia Oil,0.5,"[linkItem location=""Stash9"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+416,5.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+417,3.4499999999999997,Oil,Verdant Oil,0.69,"[linkItem location=""Stash9"" league=""Delirium"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+418,3.0,Incubator,Ornate Incubator,3.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+419,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+420,1.0,Incubator,Primal Incubator,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+421,5.0,Incubator,Celestial Armoursmith's Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+422,1.0,UniqueArmour,Prophet Crown,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+423,0.0,,Cerulean Ring,,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+424,3.0,DeliriumOrb,Imperial Delirium Orb,3.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+425,1.0,UniqueJewel,Viridian Jewel,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+426,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+427,3.0,DeliriumOrb,Abyssal Delirium Orb,3.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+428,1.5,Fossil,Pristine Fossil,0.5,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+429,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+430,0.0,,Swift Affliction Support,,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+431,1.0,Map,Strand Map,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+432,0.0,,Small Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+433,1.0,Currency,Tempering Catalyst,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+434,0.0,,Sapphire Ring,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+435,0.0,,Superior Blighted Promenade Map,,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+436,8.0,Currency,Prismatic Catalyst,2.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+437,1.0,Fossil,Dense Fossil,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+438,5.0,Incubator,Celestial Armoursmith's Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+439,0.0,,Medium Cluster Jewel,,"[linkItem location=""Stash9"" league=""Delirium"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+440,5.0,Incubator,Cartographer's Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+441,0.0,,"Nassar, Lion of the Seas's Eye",,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+442,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+443,4.0,Oil,Azure Oil,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+444,0.0,Oil,Clear Oil,0.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+445,0.0,,Despair,,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+446,0.0,,Simple Robe,,"[linkItem location=""Stash9"" league=""Delirium"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+447,1.24,Fossil,Scorched Fossil,0.31,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+448,2.0,Oil,Violet Oil,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+449,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+450,5.0,Incubator,Singular Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+451,0.0,,Shagreen Gloves,,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+452,14.0,Oil,Opalescent Oil,7.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",2,2020-04-25 12:45:11.149875
+453,1.0,Prophecy,The Cursed Choir,1.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""4"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+454,0.13592947368421052,Currency,Scroll of Wisdom,0.03398236842105263,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+455,0.0,UniqueAccessory,Jade Amulet,0.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""10"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+456,0.0,,Vermillion Ring,,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+457,6.0,Fossil,Shuddering Fossil,6.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+458,5.0,Incubator,Obscured Incubator,5.0,"[linkItem location=""Stash9"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+459,0.0,,Studded Belt,,"[linkItem location=""Stash9"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+460,0.0,,Ezomyte Staff,,"[linkItem location=""Stash10"" league=""Delirium"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+461,0.0,,Empower Support,,"[linkItem location=""Stash10"" league=""Delirium"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+462,3.0,UniqueArmour,Prophet Crown,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+463,0.0,,Ivory Watchstone,,"[linkItem location=""Stash10"" league=""Delirium"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+464,4.14,Oil,Verdant Oil,0.69,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""5""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+465,0.0,UniqueAccessory,Coral Ring,0.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+466,3.5,Oil,Sepia Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""7"" y=""11""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+467,1.8924693975903613,Currency,Turbulent Catalyst,0.31541156626506023,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""10""] ~b/o {final_price} {fx_id}",6,2020-04-25 12:45:11.149875
+468,3.5,Fossil,Pristine Fossil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""7"" y=""10""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+469,3.41,Fossil,Scorched Fossil,0.31,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",11,2020-04-25 12:45:11.149875
+470,1.0,UniqueJewel,Cobalt Jewel,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+471,5.0,Incubator,Fossilised Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+472,5.0,Incubator,Fragmented Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+473,4.0,Incubator,Celestial Jeweller's Incubator,4.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+474,5.0,Incubator,Infused Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+475,0.0,,Onyx Amulet,,"[linkItem location=""Stash10"" league=""Delirium"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+476,0.0,,Coral Amulet,,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+477,5.0,Incubator,Cartographer's Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+478,0.0,UniqueArmour,Great Crown,0.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+479,0.0,,Heavy Belt,,"[linkItem location=""Stash10"" league=""Delirium"" x=""7"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+480,0.0,,Two-Stone Ring,,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+481,0.31815,Currency,Jeweller's Orb,0.04545,"[linkItem location=""Stash10"" league=""Delirium"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+482,5.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""2""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+483,1.0,Incubator,Enchanted Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+484,3.0,Incubator,Ornate Incubator,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+485,0.0,,Superior Topaz Flask,,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+486,0.0,,Stygian Vise,,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+487,2.75,Oil,Teal Oil,0.55,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+488,0.0,,Medium Cluster Jewel of the Whelpling,,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+489,0.0,Prophecy,Risen Blood,0.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+490,0.0,,Blackguard Tempest's Heart,,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+491,5.0,Oil,Sepia Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+492,1.0,Incubator,Mysterious Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+493,5.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+494,5.0,Incubator,Singular Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+495,0.0,,Moonstone Ring,,"[linkItem location=""Stash10"" league=""Delirium"" x=""9"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+496,3.0,Incubator,Skittering Incubator,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+497,0.0,,Vaal Spark,,"[linkItem location=""Stash10"" league=""Delirium"" x=""7"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+498,5.0,Incubator,Cartographer's Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+499,5.0,Incubator,Singular Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+500,3.0,Incubator,Ornate Incubator,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+501,5.0,Incubator,Fossilised Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+502,5.0,Oil,Sepia Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+503,0.0,,Paua Ring,,"[linkItem location=""Stash10"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+504,0.0,,Medium Cluster Jewel of Potential,,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+505,5.0,Incubator,Fossilised Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+506,0.0,Currency,Orb of Binding,0.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+507,0.0,,Empower Support,,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+508,0.0,,Oriath's Vengeance's Brain,,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+509,1.0,Incubator,Abyssal Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+510,2.0,Incubator,Foreboding Incubator,2.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+511,2.0,Fossil,Jagged Fossil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",4,2020-04-25 12:45:11.149875
+512,1.0,Incubator,Enchanted Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+513,1.0,Incubator,Primal Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+514,1.0,Incubator,Enchanted Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+515,5.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""8""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+516,6.8999999999999995,Oil,Verdant Oil,0.69,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+517,1.0,UniqueWeapon,Shadow Sceptre,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""9"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+518,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+519,3.0,DeliriumOrb,Armoursmith's Delirium Orb,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""10"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+520,0.0,,Sallazzang's Liver,,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+521,1.0,Map,Crystal Ore Map,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+522,2.0,UniqueArmour,Leather Cap,2.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""9"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+523,2.0,Prophecy,Deadly Twins,2.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""9"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+524,1.0,Oil,Azure Oil,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+525,2.0,DeliriumOrb,Blacksmith's Delirium Orb,2.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+526,3.0,Incubator,Decadent Incubator,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+527,5.1,Oil,Amber Oil,0.51,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""11""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+528,1.0,Incubator,Abyssal Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+529,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+530,1.0,UniqueJewel,Cobalt Jewel,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+531,0.0,,Pirate Treasure's Brain,,"[linkItem location=""Stash10"" league=""Delirium"" x=""6"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+532,1.26,Fossil,Metallic Fossil,0.42,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+533,1.0,Incubator,Primal Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+534,0.0,,Essence Drain,,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+535,0.0,,Large Cluster Jewel,,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+536,5.0,Incubator,Cartographer's Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+537,0.0,,Pagan Bishop of Agony's Brain,,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+538,1.0,Currency,Blessing of Xoph,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+539,0.0,UniqueAccessory,Agate Amulet,0.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+540,6.8999999999999995,Oil,Verdant Oil,0.69,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+541,0.49924242424242427,Currency,Imbued Catalyst,0.09984848484848485,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",5,2020-04-25 12:45:11.149875
+542,0.0,,Fingerless Silk Gloves,,"[linkItem location=""Stash10"" league=""Delirium"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+543,0.0,,Large Cluster Jewel,,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+544,5.0,Incubator,Fossilised Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+545,1.0,Incubator,Enchanted Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+546,0.0,,Gold Ring,,"[linkItem location=""Stash10"" league=""Delirium"" x=""10"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+547,0.0,,Vaal Earthquake,,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+548,0.0,,Lapis Amulet,,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+549,0.0,,Unset Ring,,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+550,5.1,Oil,Amber Oil,0.51,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",10,2020-04-25 12:45:11.149875
+551,0.0,,Artillery Ballista,,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+552,6.0,Fossil,Lucent Fossil,6.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+553,0.0,,Aulen Greychain's Brain,,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+554,4.5,Fossil,Frigid Fossil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",9,2020-04-25 12:45:11.149875
+555,5.0,DeliriumOrb,Singular Delirium Orb,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+556,9.0,Incubator,Celestial Blacksmith's Incubator,9.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+557,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""3"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+558,2.0,Incubator,Foreboding Incubator,2.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+559,2.0,Prophecy,The Undead Storm,2.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+560,3.0,Incubator,Ornate Incubator,3.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+561,5.0,Incubator,Fragmented Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+562,5.0,Incubator,Singular Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+563,5.0,Incubator,Obscured Incubator,5.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+564,1.0,Incubator,Enchanted Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+565,1.0,UniqueArmour,Mind Cage,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+566,1.0,Incubator,Abyssal Incubator,1.0,"[linkItem location=""Stash10"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+567,1.5,Oil,Clear Oil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""11"" y=""7""] ~b/o {final_price} {fx_id}",3,2020-04-25 12:45:11.149875
+568,1.29645,Currency,Intrinsic Catalyst,0.14405,"[linkItem location=""Stash10"" league=""Delirium"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",9,2020-04-25 12:45:11.149875
+569,3.5,Fossil,Aberrant Fossil,0.5,"[linkItem location=""Stash10"" league=""Delirium"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",7,2020-04-25 12:45:11.149875
+570,0.0,,Increased Duration Support,,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+571,0.0,,Superior Necromancer Circlet,,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+572,0.0,,Soldier Gloves,,"[linkItem location=""Stash11"" league=""Delirium"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+573,1.0,UniqueJewel,Viridian Jewel,1.0,"[linkItem location=""Stash11"" league=""Delirium"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+574,0.0,,Soldier Gloves,,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+575,0.0,,Mind Cage,,"[linkItem location=""Stash11"" league=""Delirium"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+576,0.0,,Lapis Amulet,,"[linkItem location=""Stash11"" league=""Delirium"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+577,0.0,,Large Cluster Jewel,,"[linkItem location=""Stash11"" league=""Delirium"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+578,0.0,,Murderous Eye Jewel,,"[linkItem location=""Stash11"" league=""Delirium"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+579,0.0,,Purity of Elements,,"[linkItem location=""Stash11"" league=""Delirium"" x=""10"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+580,1.0,UniqueWeapon,Carved Wand,1.0,"[linkItem location=""Stash11"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+581,0.0,,Two-Toned Boots,,"[linkItem location=""Stash11"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+582,0.0,,Clarity,,"[linkItem location=""Stash11"" league=""Delirium"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+583,0.0,,Large Cluster Jewel,,"[linkItem location=""Stash11"" league=""Delirium"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+584,0.0,,Stygian Vise,,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+585,0.0,,Two-Toned Boots,,"[linkItem location=""Stash11"" league=""Delirium"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+586,1.0,UniqueJewel,Viridian Jewel,1.0,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+587,0.0,UniqueWeapon,Crude Bow,0.0,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+588,1.0,Essence,Screaming Essence of Anger,1.0,"[linkItem location=""Stash11"" league=""Delirium"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+589,0.0,,Vaal Righteous Fire,,"[linkItem location=""Stash11"" league=""Delirium"" x=""10"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+590,0.0,,Fingerless Silk Gloves,,"[linkItem location=""Stash11"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+591,0.0,,Samite Slippers,,"[linkItem location=""Stash11"" league=""Delirium"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+592,0.0,,Eelskin Boots,,"[linkItem location=""Stash11"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+593,1.0,UniqueWeapon,Eternal Sword,1.0,"[linkItem location=""Stash11"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+594,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+595,0.0,UniqueWeapon,Royal Staff,0.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+596,0.0,UniqueArmour,Great Crown,0.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+597,1.0,UniqueWeapon,Infernal Sword,1.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""7"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+598,1.0,UniqueArmour,Mind Cage,1.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+599,0.0,UniqueArmour,Velvet Gloves,0.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+600,1.0,UniqueWeapon,Sage Wand,1.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+601,0.0,,Shagreen Gloves,,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+602,0.0,,Solaris Circlet,,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+603,2.0,UniqueWeapon,Vaal Sceptre,2.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""3"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+604,1.0,UniqueArmour,Ebony Tower Shield,1.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+605,0.0,,Paua Amulet,,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+606,0.0,,Two-Stone Ring,,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+607,15.0,UniqueArmour,Sinner Tricorne,15.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+608,0.0,UniqueArmour,Iron Circlet,0.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+609,0.0,UniqueAccessory,Coral Amulet,0.0,"[linkItem location=""Stash12"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+610,1.0,Map,Crystal Ore Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+611,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+612,1.0,Map,Mesa Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+613,0.0,,Amethyst Ring,,"[linkItem location=""Stash13"" league=""Delirium"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+614,0.0,Map,Alleyways Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+615,1.0,Map,Fields Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+616,1.0,Map,Courtyard Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+617,1.0,Map,Underground Sea Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+618,0.0,,Hydrascale Gauntlets,,"[linkItem location=""Stash13"" league=""Delirium"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+619,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+620,1.0,Map,Dunes Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""10"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+621,0.0,Map,Leyline Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+622,0.0,,Superior Villa Map,,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+623,1.0,Map,Academy Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+624,0.0,Map,Bone Crypt Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+625,0.0,,Topaz Ring,,"[linkItem location=""Stash13"" league=""Delirium"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+626,1.0,Map,Cemetery Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+627,1.0,Map,Atoll Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+628,1.0,Map,Pit Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+629,0.0,,Ghastly Eye Jewel,,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+630,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+631,0.0,Map,Cursed Crypt Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+632,1.0,Map,Conservatory Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+633,1.0,Map,Cage Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+634,0.0,Map,Mausoleum Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+635,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+636,1.0,Map,Peninsula Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+637,1.0,Map,Basilica Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+638,0.0,Map,Wharf Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+639,0.0,Map,Wharf Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+640,0.0,Map,Bone Crypt Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+641,0.0,Map,Wharf Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+642,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+643,1.0,Map,Cage Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+644,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+645,1.0,Map,Castle Ruins Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+646,1.0,Map,Geode Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+647,1.0,Map,Crystal Ore Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+648,1.0,Map,Colonnade Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+649,0.0,Map,Fungal Hollow Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+650,0.0,Map,Bone Crypt Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+651,1.0,Map,Phantasmagoria Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+652,0.0,UniqueWeapon,Shadow Sceptre,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+653,1.0,Map,Academy Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+654,1.0,Map,Shore Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+655,0.0,Map,Museum Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+656,1.0,Map,Reef Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+657,1.0,Map,Atoll Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+658,1.0,Map,Ashen Wood Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+659,1.0,Map,Barrows Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+660,0.0,Map,Museum Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+661,1.0,Map,Shore Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+662,1.0,Map,Beach Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+663,0.0,Map,Bone Crypt Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+664,0.0,Map,Haunted Mansion Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+665,1.0,Map,Canyon Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+666,1.0,Map,Graveyard Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+667,1.0,Map,Strand Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+668,1.0,Map,Shore Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+669,0.0,,Cobalt Jewel,,"[linkItem location=""Stash13"" league=""Delirium"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+670,0.0,UniqueArmour,Fire Arrow Quiver,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+671,0.0,,The Grey Plague's Brain,,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+672,1.0,Map,Lookout Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+673,0.0,,Unstoppable Alleyways Map,,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+674,1.0,Map,Atoll Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+675,1.0,Map,Underground Sea Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+676,0.0,,Two-Stone Ring,,"[linkItem location=""Stash13"" league=""Delirium"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+677,0.0,,Avatar of Undoing's Liver,,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+678,1.0,Map,Courtyard Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+679,0.0,,"Puruna, the Challenger's Eye",,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+680,1.0,Map,Phantasmagoria Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+681,1.0,Map,Courtyard Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+682,1.0,Map,Mesa Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+683,0.0,,Superior Bog Map,,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+684,0.0,,"Portentia, the Foul's Heart",,"[linkItem location=""Stash13"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+685,1.0,Map,Fields Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+686,0.0,,Superior Relic Chambers Map,,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+687,1.0,Map,Caldera Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+688,1.0,Map,Dunes Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+689,1.0,Map,Graveyard Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+690,0.0,Map,Vaal Pyramid Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+691,1.0,Map,Conservatory Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""5"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+692,0.0,Map,Mausoleum Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+693,0.0,,Resistant Barrows Map of Smothering,,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+694,0.0,,Ruby Ring,,"[linkItem location=""Stash13"" league=""Delirium"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+695,1.0,Map,Bog Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+696,0.0,Map,Haunted Mansion Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+697,1.0,Map,Sulphur Vents Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+698,1.0,Map,Strand Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+699,1.0,Map,Fields Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""7"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+700,1.0,Map,Conservatory Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+701,1.0,Map,Phantasmagoria Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+702,1.0,Map,Castle Ruins Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+703,1.0,Map,Peninsula Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+704,0.0,Map,Chateau Map,0.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+705,1.0,Map,Pit Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+706,1.0,Map,Crystal Ore Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+707,0.0,,Steelpoint the Avenger's Heart,,"[linkItem location=""Stash13"" league=""Delirium"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+708,1.0,Map,Courtyard Map,1.0,"[linkItem location=""Stash13"" league=""Delirium"" x=""4"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+709,1.0,UniqueFlask,Quartz Flask,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+710,1.0,UniqueJewel,Crimson Jewel,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+711,0.0,,Colossus Mallet,,"[linkItem location=""Stash14"" league=""Delirium"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+712,1.0,Prophecy,The Dreamer's Dream,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+713,1.0,UniqueAccessory,Paua Amulet,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""7"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+714,1.0,Prophecy,Plague of Frogs,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+715,0.0,UniqueArmour,Scholar Boots,0.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""6"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+716,1.0,UniqueArmour,Mind Cage,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+717,1.0,UniqueAccessory,Chain Belt,1.0,"[linkItem location=""Stash14"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+718,0.0,,Cobalt Jewel,,"[linkItem location=""Stash15"" league=""Delirium"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+719,0.0,,Crimson Jewel,,"[linkItem location=""Stash15"" league=""Delirium"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+720,1.0,UniqueAccessory,Turquoise Amulet,1.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+721,0.0,,Mind Cage,,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+722,0.0,,Sapphire Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+723,0.0,,Ghastly Eye Jewel,,"[linkItem location=""Stash15"" league=""Delirium"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+724,0.0,,Blue Pearl Amulet,,"[linkItem location=""Stash15"" league=""Delirium"" x=""11"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+725,0.0,,Coral Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+726,0.0,,Two-Stone Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+727,0.0,,Fossilised Spirit Shield,,"[linkItem location=""Stash15"" league=""Delirium"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+728,0.0,,Sorcerer Gloves,,"[linkItem location=""Stash15"" league=""Delirium"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+729,0.0,,Dragonbone Rapier,,"[linkItem location=""Stash15"" league=""Delirium"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+730,0.0,UniqueArmour,Velvet Slippers,0.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+731,0.0,,Steel Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+732,0.0,,Bone Helmet,,"[linkItem location=""Stash15"" league=""Delirium"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+733,0.0,,Two-Stone Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""11"" y=""10""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+734,0.0,,Gripped Gloves,,"[linkItem location=""Stash15"" league=""Delirium"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+735,0.0,,Viridian Jewel,,"[linkItem location=""Stash15"" league=""Delirium"" x=""9"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+736,0.0,,Carnal Mitts,,"[linkItem location=""Stash15"" league=""Delirium"" x=""6"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+737,0.0,,Crypt Armour,,"[linkItem location=""Stash15"" league=""Delirium"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+738,0.0,,Conjurer Boots,,"[linkItem location=""Stash15"" league=""Delirium"" x=""9"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+739,0.0,,Onyx Amulet,,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+740,0.0,,Sapphire Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+741,0.0,UniqueWeapon,Ornate Sword,0.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+742,0.0,,Conjurer Boots,,"[linkItem location=""Stash15"" league=""Delirium"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+743,0.0,,Slink Gloves,,"[linkItem location=""Stash15"" league=""Delirium"" x=""6"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+744,0.0,,Slink Boots,,"[linkItem location=""Stash15"" league=""Delirium"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+745,0.0,,Spinefuse Talisman,,"[linkItem location=""Stash15"" league=""Delirium"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+746,0.0,,Sapphire Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+747,0.0,,Arcanist Slippers,,"[linkItem location=""Stash15"" league=""Delirium"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+748,0.0,UniqueWeapon,Spiraled Wand,0.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""8"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+749,1.0,UniqueAccessory,Diamond Ring,1.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+750,0.0,,Crimson Jewel,,"[linkItem location=""Stash15"" league=""Delirium"" x=""7"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+751,0.0,UniqueArmour,Strapped Leather,0.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+752,0.0,,Two-Stone Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+753,0.0,,Two-Stone Ring,,"[linkItem location=""Stash15"" league=""Delirium"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+754,10.0,UniqueArmour,Synthesised Ezomyte Spiked Shield,10.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+755,0.0,,Maraketh Bow,,"[linkItem location=""Stash15"" league=""Delirium"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+756,1.0,UniqueAccessory,Unset Ring,1.0,"[linkItem location=""Stash15"" league=""Delirium"" x=""7"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+757,0.0,,Hubris Circlet,,"[linkItem location=""Stash15"" league=""Delirium"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+758,0.0,,Shackled Boots,,"[linkItem location=""Stash15"" league=""Delirium"" x=""9"" y=""9""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+759,2.0,UniqueFlask,Stibnite Flask,2.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+760,1.0,UniqueJewel,Cobalt Jewel,1.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+761,0.0,UniqueArmour,Tarnished Spirit Shield,0.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+762,0.0,,Nightmare Bascinet,,"[linkItem location=""Stash16"" league=""Delirium"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+763,1.0,UniqueArmour,Polished Spiked Shield,1.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+764,1.0,UniqueJewel,Viridian Jewel,1.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+765,1.0,UniqueWeapon,Imperial Skean,1.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+766,1.0,UniqueWeapon,Crystal Wand,1.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""8"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+767,0.0,,Dragonscale Gauntlets,,"[linkItem location=""Stash16"" league=""Delirium"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+768,5.0,UniqueJewel,Cobalt Jewel,5.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
+769,1.0,UniqueWeapon,Imperial Skean,1.0,"[linkItem location=""Stash16"" league=""Delirium"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2020-04-25 12:45:11.149875
