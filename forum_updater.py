@@ -4,6 +4,8 @@ import urllib
 import bs4 as bs4
 import requests
 
+from constants import ssid
+
 headers = {
     'authority': 'www.pathofexile.com',
     'pragma': 'no-cache',
@@ -20,7 +22,7 @@ headers = {
     'sec-fetch-user': '?1',
     'referer': 'https://www.pathofexile.com/forum/edit-thread/2822110?history=1',
     'accept-language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,pl;q=0.5,sl;q=0.4',
-    'cookie': '__cfduid=d4f8fd4272c7e2285694e6e615ab64cb71586376370; _ga=GA1.2.2084030156.1586505898; _gid=GA1.2.397570792.1586645386; stored_data=1; cf_clearance=f42d23711f26466c576dc10108f2223d0945ef0d-1586771863-0-150; POESESSID=8720d642a4621f9055fd918942e07959',
+    'cookie': f'__cfduid=d4f8fd4272c694e6e615ab64cb71586376370; _ga=GA1.2.208406.1586505898; _gid=GA1.2.39757.1586645386; stored_data=1; cf_clearance=f42d23711f26466c576dc10108f2223f0d-1586771863-0-150; POESESSID={ssid}',
 }
 
 

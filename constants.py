@@ -1,4 +1,4 @@
-ssid = "87055fd918942e07959"
+ssid = "8720d918942e07959"
 hard_currency = [
     "Orb of Alteration",
     "Orb of Alchemy",
