@@ -7,19 +7,31 @@ hard_currency = [
     "Warlord's Exalted Orb",
     "Divine Orb",
     "Exalted Orb",
+    "Exalted Shard",
+    "Orb of Fusing",
+    "Jeweller's Orb",
+    "Awakened Sextant",
+    "Prime Sextant",
+    "Gemcutter's Prism",
+    "Regal Orb",
     "Mirror Shard",
     "Stacked Deck",
     "Mirror of Kalandra",
+    "Cartographer's Chisel",
+    "Orb of Unmaking",
+    "Awakener's Orb",
+    "Crescent Splinter"
+
 ]
 price_in = [
-    "Orb of Alteration",
-    "Orb of Alchemy",
+    # "Orb of Alteration",
+    # "Orb of Alchemy",
     "Chaos Orb",
-    "Vaal Orb",
-    "Divine Orb",
-    "Exalted Orb",
-    "Mirror Shard",
-    "Mirror of Kalandra",
+    # "Vaal Orb",
+    # "Divine Orb",
+    # "Exalted Orb",
+    # "Mirror Shard",
+    # "Mirror of Kalandra",
 ]
 
 currency_shards={

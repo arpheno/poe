@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from fractions import Fraction
 from typing import List
 
@@ -20,11 +20,13 @@ class Item:
     x: int
     y: int
     league: str
+    stashtab:str
     stackSize: int = 1
     price: int = None
     type: str = None
     name: str=''
     sockets: tuple=()
+    properties: dict=field(default_factory=dict)
     @property
     def _fractional_price(self):
         return Fraction(self.price).limit_denominator(self.stackSize)
@@ -52,3 +54,11 @@ class Item:
     @property
     def stack_size(self):
         return self.stackSize
+    @property
+    def map_tier(self):
+        try:
+            [map_properties]=[prop for prop in self.properties if prop['name']=='Map Tier']
+            map_tier = int(map_properties['values'][0][0])
+            return map_tier
+        except:
+            return None

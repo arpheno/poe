@@ -8,6 +8,7 @@ import requests
 
 def retrieve_currency_rates():
     currs = ["Fragment", "Currency"]
+    # currs = [ "Currency"]
     rates = [ask_ninja("https://poe.ninja/api/data/currencyoverview", curr,) for curr in currs]
     items = [
         "Scarab",
@@ -25,39 +26,41 @@ def retrieve_currency_rates():
         "Essence",
         "DeliriumOrb",
         "DivinationCard",
-        "Map"
+        "Map",
+        "SkillGem"
     ]
     rates += [ask_ninja("https://poe.ninja/api/data/itemoverview", curr,) for curr in items]
     return ChainMap(*[rate for rate in rates])
 
 
-def ask_ninja(url, type, league="Delirium"):
+def ask_ninja(url, type, league="Ultimatum"):
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)
     print(url,type,response.status_code)
     data = response.json()
     try:
-        return {c["currencyTypeName"]: (c["receive"]["value"],type) for c in data["lines"]}
+        return {(c["currencyTypeName"],None): (c["receive"]["value"],type) for c in data["lines"]}
     except KeyError:
-        return {c["name"]: (c["chaosValue"], type) for c in data["lines"]}
+        return {(c["name"],c.get('mapTier') if not 'ssence' in type else None): (c["chaosValue"], type) for c in data["lines"]}
 
 
-def _currencyreport(url, type, league="Delirium"):
+def _currencyreport(url, type, league="Ultimatum"):
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)
     print(url, type, response.status_code)
     data = response.json()
-    first = [pd.Series(c["receive"]) for c in data["lines"]]
-    secnod = [pd.Series(c["pay"]) for c in data["lines"]]
-    result = pd.concat(first+secnod, axis=1).T
+    lines = [line for line in data['lines'] if 'pay' in line if 'receive']
+    first = [pd.Series(c["receive"]) for c in lines]
+    second = [pd.Series(c["pay"]) for c in lines]
+    result = pd.concat(first+second, axis=1).T
     currency_details= pd.DataFrame(data['currencyDetails']).set_index('id')['name']
     result['pay_currency']=result['pay_currency_id'].map(currency_details)
     result['get_currency']=result['get_currency_id'].map(currency_details)
-    pprint({ d['name']:d['tradeId'] for d in data['currencyDetails']})
     return result
 
 def currencyreport():
     currs = ["Fragment", "Currency"]
+    # currs = ["Currency"]
     rates = pd.concat([_currencyreport("https://poe.ninja/api/data/currencyoverview", curr,) for curr in currs])
     return rates.dropna()
 def refine_report(cr):
