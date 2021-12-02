@@ -1,4 +1,21 @@
-ssid = "8720d918942e07959"
+CHROMATIC = "Chromatic Orb"
+ALCHEMY = "Orb of Alchemy"
+ALTERATION = "Orb of Alteration"
+DIVINE = "Divine Orb"
+REGRET = "Orb of Regret"
+PRISM = "Gemcutter's Prism"
+ORB_OF_SCOURING = 'Orb of Scouring'
+CHAOS = 'Chaos Orb'
+VAAL_ORB = 'Vaal Orb'
+EXALTED_ORB = 'Exalted Orb'
+CHISEL = "Cartographer's Chisel"
+ORB_OF_FUSING = "Orb of Fusing"
+try:
+    from .secrets import ssid as real_ssid
+    ssid=real_ssid
+except ImportError:
+    print("Please set ssid in secrets.py")
+    ssid = ''
 hard_currency = [
     ALTERATION,
     ALCHEMY,
