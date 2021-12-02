@@ -16,17 +16,21 @@ def kwargs_dataclass(cls):
 @kwargs_dataclass
 class Item:
     inventoryId: int
-    typeLine: str
     x: int
     y: int
     league: str
     stashtab:str
+    type: str
     stackSize: int = 1
     price: int = None
-    type: str = None
+    typeLine:str=''
     name: str=''
     sockets: tuple=()
+    baseType: str=''
     properties: dict=field(default_factory=dict)
+    influences: dict=field(default_factory=dict)
+    corrupted:bool= False
+    ilvl:int = 0
     @property
     def _fractional_price(self):
         return Fraction(self.price).limit_denominator(self.stackSize)
@@ -54,11 +58,28 @@ class Item:
     @property
     def stack_size(self):
         return self.stackSize
+    def extract_property(self,identifier)->dict:
+        [prop]=[prop for prop in self.properties if prop['name']==identifier]
+        return prop
+class Map(Item):
     @property
     def map_tier(self):
+        map_tier = self.extract_property('Map Tier')['values'][0][0]
+        return int(map_tier)
+class SkillGem(Item):
+    @property
+    def level(self):
+        level = self.extract_property('Level')['values'][0][0].strip('%+()Max')
+        return int(level)
+    @property
+    def quality(self):
         try:
-            [map_properties]=[prop for prop in self.properties if prop['name']=='Map Tier']
-            map_tier = int(map_properties['values'][0][0])
-            return map_tier
+            level = self.extract_property('Quality')['values'][0][0].strip('%+()Max')
+            return int(level)
         except:
-            return None
+            return 0
+class Base(Item):
+    @property
+    def influence(self):
+        influence = sorted(key for key,value in self.influences.items() if value)
+        return influence

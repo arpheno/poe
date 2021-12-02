@@ -9,11 +9,14 @@ from typing import Sequence
 import aiohttp
 import websockets
 
+from constants import ssid
 
 headers = {
     'Origin': 'https://www.pathofexile.com',
-    'Cookie':'POESESSID=c820a16fbdfbfc95461d2b65e1714063'
+    'Cookie':f'POESESSID={ssid}',
+    'User-Agent':'Mozilla/5.011 Macintosh'
 }
+
 extra_headers = list(headers.items())
 pprint(extra_headers)
 async def fetch(session, url):
@@ -21,15 +24,15 @@ async def fetch(session, url):
         return await response.text()
 async def track_search(hash:str):
     print(f"tracking {hash}")
-    uri = f"wss://www.pathofexile.com/api/trade/live/Metamorph/{hash}"
+    uri = f"wss://www.pathofexile.com/api/trade/live/scourge/{hash}"
     async with aiohttp.ClientSession(headers=headers) as session:
         websocket_opts=dict(
             uri=uri,
             ssl=True,
             extra_headers=extra_headers,
-            close_timeout=100,
-            ping_interval=100000,
-            ping_timeout=1000000
+            close_timeout=10,
+            ping_interval=10000,
+            ping_timeout=10000
         )
         async with websockets.connect( **websocket_opts ) as websocket:
             while True:
@@ -49,6 +52,6 @@ async def track_all(*hashes):
     searches=[]
     for hash in hashes:
         searches.append(asyncio.create_task(track_search(hash)) )
-        await sleep(1)
+        await sleep(5)
     for search in searches:
         await search

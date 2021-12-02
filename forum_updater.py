@@ -26,7 +26,7 @@ headers = {
 }
 
 
-def update_forum(content,thread='2822110'):
+def update_forum(content,thread='3194663'):
     title='delerious bcuz corona'
 
     # headers["Cookie"]= f"POESESSID={ssid}"

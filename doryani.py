@@ -4,25 +4,28 @@ import webbrowser
 import requests
 
 from tracker import track_all
-
-
-def find_doryiani(seed: int):
+from constants import ssid
+import time
+def find_doryiani(seed: int,name_of='doryani'):
+    cookies = {
+        'cf_clearance': '7d322aa725fafce9ef1ebc8a26759033b127dd7f-1618777267-0-150',
+        '_ga': 'GA1.2.1675387988.1618777334',
+        'stored_data': '1',
+        'POESESSID': '1477e79edd84ca2980fc97f5617b7234',
+        '_gid': 'GA1.2.1879284383.1636797311',
+    }
     headers = {
-        "authority": "www.pathofexile.com",
-        "pragma": "no-cache",
-        "cache-control": "no-cache",
-        "accept": "*/*",
-        "origin": "https://www.pathofexile.com",
-        "x-requested-with": "XMLHttpRequest",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
-        "dnt": "1",
-        "content-type": "application/json",
-        "sec-fetch-site": "same-origin",
-        "sec-fetch-mode": "cors",
-        "referer": "https://www.pathofexile.com/trade/search/Metamorph",
-        "accept-encoding": "gzip, deflate",
-        "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,pl;q=0.5,sl;q=0.4",
-        "cookie": "__cfduid=dd651caa097eb331c57261f6efc584cad1573913545; _ga=GA1.2.1737961421.1574104651; stored_data=1; POESESSID=f60d15f538a00373a2557e0532191bc1; _gid=GA1.2.788587831.1579890301",
+        'Pragma': 'no-cache',
+        'Origin': 'https://www.pathofexile.com',
+        'Accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,pl;q=0.5,sl;q=0.4',
+        'Sec-WebSocket-Key': 'e5K704b5btGaJGoJ0Do+XA==',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+        'Upgrade': 'websocket',
+        'Sec-WebSocket-Extensions': 'permessage-deflate; client_max_window_bits',
+        'Cache-Control': 'no-cache',
+        'Connection': 'Upgrade',
+        'Sec-WebSocket-Version': '13',
+        'Cookie': '; '.join(f'{key}={value}' for key, value in cookies.items())
     }
     data = {
         "query": {
@@ -32,7 +35,7 @@ def find_doryiani(seed: int):
                     "type": "and",
                     "filters": [
                         {
-                            "id": "explicit.pseudo_timeless_jewel_doryani",
+                            "id": f"explicit.pseudo_timeless_jewel_{name_of}",
                             "value": {"min": seed, "max": seed},
                             "disabled": False,
                         }
@@ -42,74 +45,57 @@ def find_doryiani(seed: int):
         },
         "sort": {"price": "asc"},
     }
-    response = requests.post("https://www.pathofexile.com/api/trade/search/Metamorph", headers=headers, json=data)
+
+    response = requests.post("https://www.pathofexile.com/api/trade/search/Scourge", headers=headers, json=data)
     # if response.json()['result']:
-    hash = response.json()['id']
-    return hash
+    if response.status_code == 429:
+        print('too fast (')
+    time.sleep(5)
+    result = response.json()
+    result_hash = result['id']
+    if result['result']:
+        print(f'https://www.pathofexile.com/trade/search/Scourge/{result_hash}')
+    return result_hash
+seeds=dict(
+    balbala=[6870],
+doryani=[
+6150,
+    7590,
+    2854,
+    6401,
+    4319,
+    2228,
+    7112,
+    3414,
+    5531,
+    5337,
 
-seeds=[
-7473,
-4881,
-4886,
-3442,
-6697,
-6847,
-5071,
-4410,
-4432,
-7000,
-6932,
-7800,
-6260,
-658,
-3828,
-4481,
-6872,
-6650,
-    288,
-    1167,
-    6650,
-    6018,
-    4913,
-    5831,
-    4481,
-    5454,
-    1737,
-    1910,
-    3828,
-    6260,
-    6650,
-    5296,
-    2671,
-    3624,
-    453,
-    2435,
-    1850,
-    1448,
-    4665,
-    5494,
-    6753,
-    6998,
-    1389,
-    408,
-    4556,
-    137,
-    1423,
-    1492,
-    4296,
-    6543,
-    2569,
-    4718,
-    2501,
-
-]+[751,5977,4410,6677,4959,]
-zerphi=[
-    6697,
-
-]
+],
 xibaqua=[
-    362,4794,5806,5637,5806,4913,5799,1525
-]
-hashes =[find_doryiani(seed) for seed in seeds]
+    3773,
+    243,
+    7925,
+    1569,
+    6494,
+
+
+],
+ahuana = [
+    4497,
+    1419,
+    485,
+    5379,
+    1539,
+    4407,
+    1110,
+    3985,
+    3334,
+
+
+])
+hashes=[]
+for name_of,seeds in seeds.items():
+    hashes +=[find_doryiani(seed,name_of) for seed in seeds[:6]]
+    print(hashes)
 print(hashes)
 asyncio.get_event_loop().run_until_complete(track_all(*hashes))
