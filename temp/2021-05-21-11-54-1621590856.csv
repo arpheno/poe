@@ -1,0 +1,915 @@
+,chaos_value,type,type_line,price,shoplink_template,stack_size,datetime
+0,73.2265125,Fragment,Simulacrum Splinter,0.5953375,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",123,2021-05-21 11:54:19.243340
+1,15.0,Currency,Annulment Shard,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""53"" y=""0""] ~b/o {final_price} {fx_id}",15,2021-05-21 11:54:19.243340
+2,102.0,Hard Currency,Divine Orb,17.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""20"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+3,3.6364,Hard Currency,Jeweller's Orb,0.09091,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""19"" y=""0""] ~b/o {final_price} {fx_id}",40,2021-05-21 11:54:19.243340
+4,25.32975625,Currency,Silver Coin,0.110129375,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",230,2021-05-21 11:54:19.243340
+5,2.0295585714285713,Hard Currency,Stacked Deck,2.0295585714285713,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""47"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+6,22.77,Hard Currency,Gemcutter's Prism,0.99,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",23,2021-05-21 11:54:19.243340
+7,4.100820000000001,Currency,Scroll of Wisdom,0.01667,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",246,2021-05-21 11:54:19.243340
+8,222.0,Hard Currency,Awakener's Orb,222.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""61"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+9,45.0,Hard Currency,Exalted Shard,7.5,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""51"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+10,5.2020218181818185,Currency,Harbinger's Orb,2.6010109090909093,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""57"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+11,1.389,Currency,Armourer's Scrap,0.05556,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",25,2021-05-21 11:54:19.243340
+12,51.97523368421053,Hard Currency,Orb of Unmaking,12.993808421052632,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""70"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+13,29.789473684210527,Currency,Ancient Orb,14.894736842105264,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+14,10.0,Prophecy,A Master Seeks Help,10.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+15,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""33"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+16,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""41"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+17,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+18,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""32"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+19,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""43"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+20,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""45"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+21,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+22,7.0,Prophecy,Twice Enchanted,7.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+23,145.209456,Hard Currency,Orb of Fusing,0.384152,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",378,2021-05-21 11:54:19.243340
+24,73.52768421052632,Currency,Orb of Horizons,0.4325157894736842,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",170,2021-05-21 11:54:19.243340
+25,100.85832285714285,Hard Currency,Vaal Orb,0.29928285714285713,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""27"" y=""0""] ~b/o {final_price} {fx_id}",337,2021-05-21 11:54:19.243340
+26,198.99048,Hard Currency,Cartographer's Chisel,0.33276,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",598,2021-05-21 11:54:19.243340
+27,26.604480000000002,Currency,Orb of Binding,0.166278,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",160,2021-05-21 11:54:19.243340
+28,15.321295000000001,Currency,Blessed Orb,0.1629925,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""21"" y=""0""] ~b/o {final_price} {fx_id}",94,2021-05-21 11:54:19.243340
+29,46.0,Currency,Simple Sextant,0.5,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""36"" y=""0""] ~b/o {final_price} {fx_id}",92,2021-05-21 11:54:19.243340
+30,1.6461000000000001,Currency,Engineer's Orb,0.10974,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""60"" y=""0""] ~b/o {final_price} {fx_id}",15,2021-05-21 11:54:19.243340
+31,14.752825,Currency,Orb of Transmutation,0.049840625,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",296,2021-05-21 11:54:19.243340
+32,32.40333368421053,Hard Currency,Orb of Alteration,0.3447163157894737,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",94,2021-05-21 11:54:19.243340
+33,400.0,Hard Currency,Awakened Sextant,5.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""38"" y=""0""] ~b/o {final_price} {fx_id}",80,2021-05-21 11:54:19.243340
+34,17.66649,Hard Currency,Regal Orb,0.33333,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",53,2021-05-21 11:54:19.243340
+35,138.25130142857142,Hard Currency,Prime Sextant,1.9472014285714285,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",71,2021-05-21 11:54:19.243340
+36,45.645337647058824,Currency,Chromatic Orb,0.16658882352941176,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""17"" y=""0""] ~b/o {final_price} {fx_id}",274,2021-05-21 11:54:19.243340
+37,5.65,Currency,Portal Scroll,0.05,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",113,2021-05-21 11:54:19.243340
+38,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+39,2.7772553846153847,Currency,Blacksmith's Whetstone,0.049593846153846155,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",56,2021-05-21 11:54:19.243340
+40,28.188003333333334,Currency,Orb of Chance,0.09063666666666667,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",311,2021-05-21 11:54:19.243340
+41,7.814958947368421,Currency,Orb of Annulment,2.6049863157894735,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""54"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+42,127.49997176470588,Currency,Orb of Regret,0.2701270588235294,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",472,2021-05-21 11:54:19.243340
+43,300.12840000000006,Currency,Orb of Scouring,0.5247,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",572,2021-05-21 11:54:19.243340
+44,12.562439999999999,Currency,Orb of Augmentation,0.142755,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""13"" y=""0""] ~b/o {final_price} {fx_id}",88,2021-05-21 11:54:19.243340
+45,9.238228421052632,Hard Currency,Orb of Alchemy,0.14900368421052632,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",62,2021-05-21 11:54:19.243340
+46,14.2855,Currency,Glassblower's Bauble,0.28571,"[linkItem location=""Stash1"" league=""Ultimatum"" x=""15"" y=""0""] ~b/o {final_price} {fx_id}",50,2021-05-21 11:54:19.243340
+47,2.0,Essence,Deafening Essence of Fear,2.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""51"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+48,2.0,Essence,Deafening Essence of Torment,2.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""45"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+49,10.0,Essence,Shrieking Essence of Doubt,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""70"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+50,1.0,Essence,Wailing Essence of Wrath,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""63"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+51,1.0,Essence,Wailing Essence of Contempt,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+52,1.0,Essence,Wailing Essence of Suffering,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""53"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+53,18.0,Essence,Deafening Essence of Contempt,9.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""27"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+54,8.0,Essence,Screaming Essence of Doubt,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+55,1.0,Essence,Weeping Essence of Contempt,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+56,2.0,Essence,Wailing Essence of Greed,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""17"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+57,2.0,Essence,Wailing Essence of Zeal,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""84"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+58,3.0,Essence,Shrieking Essence of Rage,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""60"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+59,60.0,Essence,Screaming Essence of Woe,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",60,2021-05-21 11:54:19.243340
+60,2.0,Essence,Weeping Essence of Wrath,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""62"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+61,1.0,Essence,Weeping Essence of Anger,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+62,28.0,Essence,Screaming Essence of Dread,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""91"" y=""0""] ~b/o {final_price} {fx_id}",28,2021-05-21 11:54:19.243340
+63,1.0,Essence,Wailing Essence of Anger,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""36"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+64,1.0,Essence,Muttering Essence of Contempt,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+65,10.0,Essence,Screaming Essence of Wrath,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""64"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+66,2.0,Essence,Weeping Essence of Rage,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""57"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+67,1.0,Essence,Muttering Essence of Torment,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+68,1.0,Essence,Weeping Essence of Greed,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+69,39.0,Essence,Screaming Essence of Anguish,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""73"" y=""0""] ~b/o {final_price} {fx_id}",39,2021-05-21 11:54:19.243340
+70,13.0,Essence,Screaming Essence of Suffering,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""54"" y=""0""] ~b/o {final_price} {fx_id}",13,2021-05-21 11:54:19.243340
+71,18.0,Essence,Deafening Essence of Greed,6.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""20"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+72,6.0,Essence,Shrieking Essence of Loathing,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""78"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+73,15.0,Essence,Screaming Essence of Rage,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",15,2021-05-21 11:54:19.243340
+74,15.0,Essence,Shrieking Essence of Fear,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""50"" y=""0""] ~b/o {final_price} {fx_id}",15,2021-05-21 11:54:19.243340
+75,28.0,Essence,Shrieking Essence of Torment,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",28,2021-05-21 11:54:19.243340
+76,20.0,Essence,Shrieking Essence of Suffering,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",20,2021-05-21 11:54:19.243340
+77,2.0,Essence,Muttering Essence of Sorrow,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""28"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+78,1.0,Essence,Weeping Essence of Doubt,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""67"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+79,41.0,Essence,Screaming Essence of Misery,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""88"" y=""0""] ~b/o {final_price} {fx_id}",41,2021-05-21 11:54:19.243340
+80,1.0,Essence,Wailing Essence of Sorrow,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""30"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+81,1.0,Essence,Muttering Essence of Fear,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+82,31.0,Essence,Screaming Essence of Spite,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""81"" y=""0""] ~b/o {final_price} {fx_id}",31,2021-05-21 11:54:19.243340
+83,1.0,Essence,Weeping Essence of Hatred,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+84,2.0,Essence,Weeping Essence of Torment,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""41"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+85,1.0,Essence,Wailing Essence of Hatred,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+86,2.0,Essence,Weeping Essence of Suffering,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""52"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+87,1.0,Essence,Wailing Essence of Torment,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+88,2.0,Essence,Weeping Essence of Sorrow,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""29"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+89,2.0,Essence,Wailing Essence of Loathing,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""76"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+90,31.0,Essence,Screaming Essence of Hatred,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",31,2021-05-21 11:54:19.243340
+91,16.0,Essence,Screaming Essence of Envy,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""97"" y=""0""] ~b/o {final_price} {fx_id}",16,2021-05-21 11:54:19.243340
+92,4.0,Essence,Shrieking Essence of Misery,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""89"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+93,35.0,Essence,Screaming Essence of Anger,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",35,2021-05-21 11:54:19.243340
+94,10.0,Essence,Shrieking Essence of Woe,2.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+95,29.0,Essence,Screaming Essence of Fear,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""49"" y=""0""] ~b/o {final_price} {fx_id}",29,2021-05-21 11:54:19.243340
+96,29.0,Essence,Screaming Essence of Loathing,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""77"" y=""0""] ~b/o {final_price} {fx_id}",29,2021-05-21 11:54:19.243340
+97,13.0,Essence,Screaming Essence of Sorrow,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",13,2021-05-21 11:54:19.243340
+98,7.0,Essence,Deafening Essence of Scorn,7.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""96"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+99,2.0,Essence,Weeping Essence of Woe,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+100,31.0,Essence,Screaming Essence of Zeal,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""85"" y=""0""] ~b/o {final_price} {fx_id}",31,2021-05-21 11:54:19.243340
+101,2.0,Essence,Wailing Essence of Rage,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+102,10.0,Essence,Screaming Essence of Torment,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""43"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+103,10.0,Essence,Shrieking Essence of Anguish,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""74"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+104,2.0,Essence,Shrieking Essence of Envy,2.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""98"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+105,36.0,Essence,Deafening Essence of Sorrow,6.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""33"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+106,15.0,Essence,Deafening Essence of Misery,5.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""90"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+107,4.0,Essence,Screaming Essence of Greed,1.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+108,20.0,Essence,Deafening Essence of Envy,5.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""99"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+109,12.0,Essence,Deafening Essence of Wrath,6.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""66"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+110,2.0,Essence,Deafening Essence of Hatred,2.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+111,50.0,Essence,Deafening Essence of Zeal,5.0,"[linkItem location=""Stash4"" league=""Ultimatum"" x=""87"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+112,4.0,Scarab,Polished Metamorph Scarab,4.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""86"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+113,24.0,Scarab,Gilded Sulphite Scarab,6.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""48"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+114,23.66667,Fragment,Fragment of the Hydra,11.833335,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""15"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+115,26.437859999999997,Fragment,Splinter of Chayula,1.46877,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""26"" y=""0""] ~b/o {final_price} {fx_id}",18,2021-05-21 11:54:19.243340
+116,0.7051411764705883,Fragment,Splinter of Xoph,0.17628529411764707,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+117,31.390753125,Fragment,Splinter of Uul-Netol,0.765628125,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""25"" y=""0""] ~b/o {final_price} {fx_id}",41,2021-05-21 11:54:19.243340
+118,40.0,Fragment,Fragment of Purification,20.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""80"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+119,9.0,Scarab,Gilded Bestiary Scarab,9.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""39"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+120,5.0,Scarab,Gilded Abyss Scarab,5.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""128"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+121,6.0,Scarab,Rusted Metamorph Scarab,3.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""85"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+122,40.0,Fragment,Timeless Vaal Emblem,20.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""68"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+123,13.418570769230769,Fragment,Timeless Eternal Empire Splinter,0.26310923076923076,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""71"" y=""0""] ~b/o {final_price} {fx_id}",51,2021-05-21 11:54:19.243340
+124,0.50121,Fragment,Sacrifice at Noon,0.50121,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+125,88.0,Fragment,Fragment of Shape,88.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""83"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+126,0.99999,Fragment,Timeless Vaal Splinter,0.33333,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""73"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+127,3.0,Scarab,Polished Elder Scarab,3.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+128,13.05,Fragment,Mortal Hope,6.525,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+129,4.0,Fragment,Tribute to the Goddess,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""125"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+130,10.481121,Fragment,Splinter of Esh,0.166367,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",63,2021-05-21 11:54:19.243340
+131,4.0,Scarab,Gilded Shaper Scarab,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+132,90.0,Hard Currency,Crescent Splinter,10.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""89"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+133,32.57142857142857,Fragment,Fragment of the Minotaur,10.857142857142858,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""13"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+134,40.0,Fragment,Fragment of Constriction,20.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""79"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+135,60.0,Fragment,Fragment of Eradication,20.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""78"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+136,40.0,Scarab,Polished Blight Scarab,8.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""106"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+137,14.97,Scarab,Gilded Perandus Scarab,4.99,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""63"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+138,4.0,Scarab,Polished Divination Scarab,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""50"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+139,40.0,Fragment,Fragment of Enslavement,20.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""77"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+140,47.166666666666664,Fragment,Timeless Karui Emblem,15.722222222222221,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""64"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+141,52.642857142857146,Fragment,Timeless Templar Emblem,52.642857142857146,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""67"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+142,3.0,Scarab,Rusted Cartography Scarab,3.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+143,12.0,Fragment,Tul's Breachstone,12.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+144,29.8,Scarab,Rusted Breach Scarab,1.49,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""28"" y=""0""] ~b/o {final_price} {fx_id}",20,2021-05-21 11:54:19.243340
+145,6.30085125,Fragment,Sacrifice at Dusk,0.33162375,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",19,2021-05-21 11:54:19.243340
+146,1.1575061538461537,Fragment,Sacrifice at Midnight,0.5787530769230769,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+147,2.9999700000000002,Fragment,Sacrifice at Dawn,0.33333,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+148,3.659737142857143,Fragment,Divine Vessel,0.9149342857142857,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+149,8.0,Scarab,Rusted Harbinger Scarab,8.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+150,5.5,Scarab,Rusted Reliquary Scarab,0.5,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",11,2021-05-21 11:54:19.243340
+151,11.0,Scarab,Rusted Abyss Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""126"" y=""0""] ~b/o {final_price} {fx_id}",11,2021-05-21 11:54:19.243340
+152,195.0,Scarab,Winged Divination Scarab,65.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""116"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+153,160.0,Scarab,Winged Reliquary Scarab,40.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""111"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+154,4.0,Scarab,Rusted Perandus Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""61"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+155,3.0,Scarab,Polished Torment Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""53"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+156,3.1249199999999995,Fragment,Timeless Karui Splinter,0.26041,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",12,2021-05-21 11:54:19.243340
+157,16.647058823529413,Fragment,Timeless Eternal Emblem,16.647058823529413,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""66"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+158,30.0,Scarab,Polished Sulphite Scarab,3.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""47"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+159,120.0,Scarab,Gilded Breach Scarab,15.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""30"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+160,2.0,Scarab,Polished Reliquary Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+161,3.0,Scarab,Rusted Shaper Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+162,1.0,Scarab,Polished Abyss Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""127"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+163,3.0,Scarab,Rusted Ambush Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+164,2.0,Scarab,Rusted Torment Scarab,0.5,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""52"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+165,4.0,Scarab,Rusted Divination Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""49"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+166,54.0,Scarab,Polished Breach Scarab,6.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""29"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+167,31.16,Scarab,Rusted Legion Scarab,7.79,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""74"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+168,3.0,Scarab,Polished Shaper Scarab,1.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""41"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+169,33.0,Scarab,Polished Legion Scarab,11.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""75"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+170,4.0,Scarab,Gilded Elder Scarab,4.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""45"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+171,47.04,Scarab,Rusted Blight Scarab,7.84,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""105"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+172,12.0,Scarab,Rusted Sulphite Scarab,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+173,12.0,Fragment,Esh's Breachstone,12.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""19"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+174,35.6500035,Fragment,Xoph's Breachstone,11.8833345,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""17"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+175,17.5,Fragment,Fragment of Terror,17.5,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""81"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+176,21.91227894736842,Fragment,Fragment of the Phoenix,10.95613947368421,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+177,40.6999935,Fragment,Fragment of the Chimera,13.5666645,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+178,10.66688,Fragment,Splinter of Tul,0.16667,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",64,2021-05-21 11:54:19.243340
+179,8.0,Scarab,Polished Ambush Scarab,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""56"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+180,4.0,Scarab,Rusted Bestiary Scarab,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+181,4.0,Scarab,Gilded Torment Scarab,2.0,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""54"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+182,29.333479999999998,Fragment,Timeless Templar Splinter,0.66667,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""72"" y=""0""] ~b/o {final_price} {fx_id}",44,2021-05-21 11:54:19.243340
+183,9.27946923076923,Fragment,Offering to the Goddess,1.3256384615384615,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""27"" y=""0""] ~b/o {final_price} {fx_id}",7,2021-05-21 11:54:19.243340
+184,18.097755263157893,Fragment,Timeless Maraketh Splinter,0.6240605263157895,"[linkItem location=""Stash5"" league=""Ultimatum"" x=""70"" y=""0""] ~b/o {final_price} {fx_id}",29,2021-05-21 11:54:19.243340
+185,2.0,DivinationCard,Gemcutter's Promise,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""42"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+186,327.71,DivinationCard,Succor of the Sinless,327.71,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""29"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+187,3.0,DivinationCard,Call to the First Ones,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""178"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+188,4.0,DivinationCard,The Last One Standing,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""58"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+189,6.0,DivinationCard,The Dreamer,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""196"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+190,6.0,DivinationCard,Lucky Connections,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""32"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+191,3.0,DivinationCard,Vanity,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""251"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+192,1.0,DivinationCard,The Dragon,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""121"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+193,2.0,DivinationCard,The Bones,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""37"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+194,4.0,DivinationCard,The Scavenger,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""163"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+195,3.0,DivinationCard,The Gemcutter,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""24"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+196,8.0,DivinationCard,The Enlightened,8.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""92"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+197,1.0,DivinationCard,Grave Knowledge,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""75"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+198,2.0,DivinationCard,Mitts,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""169"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+199,4.0,DivinationCard,The Chains that Bind,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""44"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+200,1.0,DivinationCard,Three Voices,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""220"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+201,2.0,DivinationCard,The Formless Sea,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""161"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+202,1.0,DivinationCard,The Wolverine,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""168"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+203,3.0,DivinationCard,The Landing,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""242"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+204,5.0,DivinationCard,The Wolf,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""157"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+205,16.0,DivinationCard,The Academic,16.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""66"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+206,5.0,DivinationCard,The Craving,5.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""39"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+207,6.0,DivinationCard,The Surveyor,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""95"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+208,196.0,DivinationCard,The Saint's Treasure,28.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""177"" y=""0""] ~b/o {final_price} {fx_id}",7,2021-05-21 11:54:19.243340
+209,1.0,DivinationCard,The Battle Born,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+210,1.0,DivinationCard,Vinia's Token,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+211,6.0,DivinationCard,Hunter's Resolve,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""83"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+212,4.0,DivinationCard,The Twilight Moon,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""229"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+213,1.0,DivinationCard,The Long Watch,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""85"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+214,8.0,DivinationCard,The Aesthete,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""91"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+215,2.0,DivinationCard,The Stormcaller,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""149"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+216,5.36,DivinationCard,The Professor,2.68,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""221"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+217,1.0,DivinationCard,The Adventuring Spirit,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""94"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+218,2.0,DivinationCard,The Sigil,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""116"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+219,2.0,DivinationCard,The Throne,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""136"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+220,2.0,DivinationCard,The Body,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""111"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+221,2.0,DivinationCard,The Wilted Rose,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""224"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+222,1.0,DivinationCard,The Card Sharp,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""98"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+223,2.0,DivinationCard,Cartographer's Delight,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""151"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+224,1.0,DivinationCard,The Wretched,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""170"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+225,6.0,DivinationCard,Boon of the First Ones,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""228"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+226,14.0,DivinationCard,Cursed Words,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""71"" y=""1""] ~b/o {final_price} {fx_id}",14,2021-05-21 11:54:19.243340
+227,3.0,DivinationCard,The Realm,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""186"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+228,1.0,DivinationCard,The Standoff,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""172"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+229,2.0,DivinationCard,The Gentleman,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""64"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+230,2.0,DivinationCard,The Queen,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""50"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+231,4.0,DivinationCard,The Drunken Aristocrat,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""19"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+232,4.0,DivinationCard,The Coming Storm,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""166"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+233,8.0,DivinationCard,Sambodhi's Vow,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""249"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+234,4.0,DivinationCard,Humility,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""51"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+235,5.0,DivinationCard,The Warden,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""21"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+236,10.0,DivinationCard,The Lover,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""26"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+237,5.0,DivinationCard,The Tinkerer's Table,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""44"" y=""1""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+238,8.0,DivinationCard,The Opulent,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""181"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+239,6.0,DivinationCard,The Tower,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""86"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+240,2.0,DivinationCard,The Witch,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""201"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+241,8.0,DivinationCard,The Wolf's Legacy,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""27"" y=""1""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+242,11.0,DivinationCard,The Inventor,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""46"" y=""0""] ~b/o {final_price} {fx_id}",11,2021-05-21 11:54:19.243340
+243,9.0,DivinationCard,Lantador's Lost Love,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+244,4.0,DivinationCard,The Web,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""144"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+245,3.0,DivinationCard,Three Faces in the Dark,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+246,13.0,DivinationCard,The Carrion Crow,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",13,2021-05-21 11:54:19.243340
+247,10.0,DivinationCard,Prosperity,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""115"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+248,6.0,DivinationCard,Struck by Lightning,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""182"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+249,23.0,DivinationCard,Emperor's Luck,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""30"" y=""0""] ~b/o {final_price} {fx_id}",23,2021-05-21 11:54:19.243340
+250,16.0,DivinationCard,The Gambler,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""25"" y=""0""] ~b/o {final_price} {fx_id}",16,2021-05-21 11:54:19.243340
+251,8.0,DivinationCard,Boon of Justice,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""239"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+252,2.0,DivinationCard,The Master Artisan,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""234"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+253,24.0,DivinationCard,The Flora's Gift,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""55"" y=""0""] ~b/o {final_price} {fx_id}",24,2021-05-21 11:54:19.243340
+254,23.0,DivinationCard,Doedre's Madness,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""59"" y=""0""] ~b/o {final_price} {fx_id}",23,2021-05-21 11:54:19.243340
+255,4.0,DivinationCard,The Journalist,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""72"" y=""1""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+256,13.0,DivinationCard,Rain of Chaos,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""34"" y=""0""] ~b/o {final_price} {fx_id}",13,2021-05-21 11:54:19.243340
+257,3.0,DivinationCard,Alone in the Darkness,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""248"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+258,3.0,DivinationCard,Death,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""74"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+259,9.0,DivinationCard,Destined to Crumble,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""138"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+260,9.0,DivinationCard,Draped in Dreams,9.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""83"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+261,2.0,DivinationCard,Lingering Remnants,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""175"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+262,3.0,DivinationCard,The Rabid Rhoa,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""118"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+263,4.0,DivinationCard,The Lion,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""120"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+264,9.0,DivinationCard,The Lunaris Priestess,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""146"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+265,2.0,DivinationCard,The Beast,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""222"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+266,33.0,DivinationCard,The Sephirot,11.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""130"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+267,12.0,DivinationCard,Emperor of Purity,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""147"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+268,4.0,DivinationCard,Hubris,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""100"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+269,10.0,DivinationCard,The Metalsmith's Gift,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+270,2.0,DivinationCard,Audacity,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""81"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+271,85.34,DivinationCard,Abandoned Wealth,85.34,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""39"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+272,6.0,DivinationCard,Turn the Other Cheek,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""112"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+273,10.0,DivinationCard,The Watcher,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+274,1.03,DivinationCard,The Demoness,1.03,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""105"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+275,2.0,DivinationCard,The One With All,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""57"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+276,10.44,DivinationCard,The King's Blade,1.16,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""62"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+277,12.0,DivinationCard,The Encroaching Darkness,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""60"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+278,5.0,DivinationCard,The Wrath,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""61"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+279,8.0,DivinationCard,The Incantation,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""36"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+280,2.0,DivinationCard,The Surgeon,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""97"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+281,3.0,DivinationCard,The Fox,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""71"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+282,8.0,DivinationCard,The Sword King's Salute,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""209"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+283,6.0,DivinationCard,The Lord of Celebration,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""250"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+284,96.0,DivinationCard,The Hoarder,12.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""18"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+285,10.0,DivinationCard,A Mother's Parting Gift,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""110"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+286,7.0,DivinationCard,Thunderous Skies,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""132"" y=""0""] ~b/o {final_price} {fx_id}",7,2021-05-21 11:54:19.243340
+287,3.0,DivinationCard,The Summoner,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""15"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+288,3.0,DivinationCard,Bowyer's Dream,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""96"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+289,2.0,DivinationCard,The Side Quest,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""12"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+290,2.0,DivinationCard,The Warlord,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""104"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+291,1.0,DivinationCard,Rain Tempter,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""141"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+292,1.0,DivinationCard,The Feast,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""33"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+293,2.0,DivinationCard,The Mountain,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""243"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+294,18.0,DivinationCard,The Porcupine,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""165"" y=""0""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+295,6.0,DivinationCard,Akil's Prophecy,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""23"" y=""1""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+296,3.0,DivinationCard,Earth Drinker,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""127"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+297,5.0,DivinationCard,Boundless Realms,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""135"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+298,1.0,DivinationCard,Light and Truth,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""153"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+299,5.0,DivinationCard,The Endurance,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""155"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+300,4.04,DivinationCard,Coveted Possession,1.01,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""37"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+301,3.0,DivinationCard,The Scarred Meadow,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""22"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+302,5.0,DivinationCard,The Twins,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""87"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+303,5.0,DivinationCard,The Union,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""49"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+304,6.0,DivinationCard,Her Mask,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""125"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+305,2.0,DivinationCard,Baited Expectations,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""28"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+306,3.0,DivinationCard,The Wolf's Shadow,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""128"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+307,3.98,DivinationCard,The Traitor,1.99,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""106"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+308,4.0,DivinationCard,The Calling,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""159"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+309,2.0,DivinationCard,Lysah's Respite,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""150"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+310,3.0300000000000002,DivinationCard,Atziri's Arsenal,1.01,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""183"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+311,2.0,DivinationCard,The Journey,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""240"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+312,4.76,DivinationCard,The Wind,1.19,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""40"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+313,4.59,DivinationCard,Friendship,1.53,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""38"" y=""1""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+314,4.0,DivinationCard,The Price of Protection,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""227"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+315,3.0,DivinationCard,The Inoculated,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""78"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+316,4.0,DivinationCard,Might is Right,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""180"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+317,2.52,DivinationCard,The Bear Woman,1.26,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""86"" y=""1""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+318,8.0,DivinationCard,The Valley of Steel Boxes,4.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""179"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+319,3.0,DivinationCard,The Lich,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""89"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+320,5.0,DivinationCard,Loyalty,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""79"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+321,6.0,DivinationCard,The Pack Leader,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""47"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+322,3.66,DivinationCard,The Arena Champion,1.83,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""129"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+323,13.0,DivinationCard,The Eye of the Dragon,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""187"" y=""0""] ~b/o {final_price} {fx_id}",13,2021-05-21 11:54:19.243340
+324,6.0,DivinationCard,Jack in the Box,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""48"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+325,4.0,DivinationCard,Assassin's Favour,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""82"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+326,6.0,DivinationCard,Volatile Power,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""98"" y=""0""] ~b/o {final_price} {fx_id}",6,2021-05-21 11:54:19.243340
+327,4.0,DivinationCard,The Hermit,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+328,3.0,DivinationCard,The Garish Power,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""174"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+329,2.0,DivinationCard,The Cursed King,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""148"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+330,2.0,DivinationCard,The Oath,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""162"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+331,3.0,DivinationCard,The Jeweller's Boon,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""203"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+332,2.0,DivinationCard,Rats,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""122"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+333,4.0,DivinationCard,The Deceiver,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""198"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+334,8.0,DivinationCard,The Dark Mage,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+335,4.0,DivinationCard,Buried Treasure,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+336,80.0,DivinationCard,The Patient,40.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""84"" y=""1""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+337,5.0,DivinationCard,The Doppelganger,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""72"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+338,5.0,DivinationCard,The Gladiator,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+339,9.0,DivinationCard,The Breach,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""195"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+340,3.0,DivinationCard,No Traces,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""185"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+341,2.0,DivinationCard,The Easy Stroll,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""45"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+342,6.0,DivinationCard,The King's Heart,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""38"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+343,9.0,DivinationCard,The Hook,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""101"" y=""1""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+344,2.0,DivinationCard,Glimmer of Hope,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""113"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+345,14.0,DivinationCard,Time-Lost Relic,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",7,2021-05-21 11:54:19.243340
+346,4.0,DivinationCard,The Hunger,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""17"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+347,6.0,DivinationCard,The Obscured,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""192"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+348,3.0,DivinationCard,Heterochromia,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""140"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+349,1.0,DivinationCard,Shard of Fate,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""139"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+350,30.0,DivinationCard,The Strategist,30.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""42"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+351,1.0,DivinationCard,The Conduit,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""85"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+352,5.0,DivinationCard,Blessing of God,5.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""199"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+353,2.0,DivinationCard,Hope,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+354,4.79,DivinationCard,Dying Light,4.79,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""77"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+355,1.0,DivinationCard,The Siren,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""56"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+356,2.0,DivinationCard,The Dreamland,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""213"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+357,5.0,DivinationCard,The Visionary,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""131"" y=""0""] ~b/o {final_price} {fx_id}",5,2021-05-21 11:54:19.243340
+358,3.0,DivinationCard,The Undisputed,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""218"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+359,1.0,DivinationCard,"Brush, Paint and Palette",1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""92"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+360,6.0,DivinationCard,The Primordial,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""254"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+361,1.0,DivinationCard,The Harvester,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""145"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+362,9.0,DivinationCard,Triskaidekaphobia,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""63"" y=""1""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+363,2.0,DivinationCard,The Explorer,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""52"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+364,4.0,DivinationCard,Dark Dreams,4.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+365,5.61,DivinationCard,The Penitent,1.87,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""156"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+366,1.0,DivinationCard,The Army of Blood,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""210"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+367,1.85,DivinationCard,Sambodhi's Wisdom,1.85,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""89"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+368,2.0,DivinationCard,Gift of the Gemling Queen,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""69"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+369,4.0,DivinationCard,Peaceful Moments,4.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""57"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+370,1.0,DivinationCard,The Archmage's Right Hand,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+371,5.0,DivinationCard,Squandered Prosperity,5.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""41"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+372,7.0,DivinationCard,The Progeny of Lunaris,7.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""46"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+373,2.0,DivinationCard,Harmony of Souls,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""214"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+374,1.0,DivinationCard,Blind Venture,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""101"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+375,4.0200000000000005,DivinationCard,The Cataclysm,1.34,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""16"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+376,4.0,DivinationCard,Demigod's Wager,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+377,3.0,DivinationCard,Merciless Armament,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""102"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+378,2.0,DivinationCard,Thirst for Knowledge,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+379,2.0,DivinationCard,The Tyrant,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""143"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+380,5.0,DivinationCard,The Mayor,5.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""217"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+381,4.0,DivinationCard,The Puzzle,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""200"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+382,6.0,DivinationCard,Reckless Ambition,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""81"" y=""1""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+383,8.0,DivinationCard,The Rite of Elements,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""219"" y=""0""] ~b/o {final_price} {fx_id}",4,2021-05-21 11:54:19.243340
+384,18.0,DivinationCard,Prejudice,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""96"" y=""1""] ~b/o {final_price} {fx_id}",9,2021-05-21 11:54:19.243340
+385,2.0,DivinationCard,The Endless Darkness,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""225"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+386,10.0,DivinationCard,Imperial Legacy,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""252"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+387,16.0,DivinationCard,The Innocent,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""223"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+388,2.0,DivinationCard,The Unexpected Prize,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""70"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+389,7.0,DivinationCard,Echoes of Love,7.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+390,1.89,DivinationCard,The Poet,1.89,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+391,2.0,DivinationCard,The Messenger,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""237"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+392,2.0,DivinationCard,Mawr Blaidd,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""164"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+393,3.0,DivinationCard,Acclimatisation,3.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""74"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+394,1.69,DivinationCard,The Jester,1.69,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""76"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+395,4.949999999999999,DivinationCard,The Cache,1.65,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""65"" y=""1""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+396,2.0,DivinationCard,Dying Anguish,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""133"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+397,2.0,DivinationCard,The Trial,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""63"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+398,2.0,DivinationCard,The Road to Power,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""28"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+399,1.3,DivinationCard,The Betrayal,1.3,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""54"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+400,4.32,DivinationCard,The Fletcher,1.44,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""94"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+401,5.0,DivinationCard,The Undaunted,5.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""207"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+402,4.0,DivinationCard,The Golden Era,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""245"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+403,1.0,DivinationCard,A Dab of Ink,1.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""232"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+404,3.12,DivinationCard,The Fool,1.56,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+405,2.0,DivinationCard,The Deal,2.0,"[linkItem location=""Stash6"" league=""Ultimatum"" x=""26"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+406,82.0,Resonator,Prime Chaotic Resonator,41.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""35"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+407,12.0,Fossil,Metallic Fossil,1.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",12,2021-05-21 11:54:19.243340
+408,22.0,Fossil,Sanctified Fossil,11.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""23"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+409,32.0,Fossil,Pristine Fossil,2.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",16,2021-05-21 11:54:19.243340
+410,50.96,Fossil,Jagged Fossil,1.82,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",28,2021-05-21 11:54:19.243340
+411,8.0,Fossil,Aberrant Fossil,1.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+412,6.0,Resonator,Powerful Alchemical Resonator,2.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""27"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+413,95.0,Fossil,Scorched Fossil,2.5,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",38,2021-05-21 11:54:19.243340
+414,30.0,Fossil,Dense Fossil,2.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",15,2021-05-21 11:54:19.243340
+415,8.0,Fossil,Shuddering Fossil,4.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+416,142.0,Fossil,Corroded Fossil,5.68,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",25,2021-05-21 11:54:19.243340
+417,5.0,Resonator,Primitive Chaotic Resonator,0.5,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""31"" y=""0""] ~b/o {final_price} {fx_id}",10,2021-05-21 11:54:19.243340
+418,12.0,Fossil,Prismatic Fossil,6.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+419,8.0,Fossil,Lucent Fossil,4.0,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+420,90.75,Fossil,Perfect Fossil,6.05,"[linkItem location=""Stash7"" league=""Ultimatum"" x=""14"" y=""0""] ~b/o {final_price} {fx_id}",15,2021-05-21 11:54:19.243340
+421,1.0,Currency,Accelerating Catalyst,1.0,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""60"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+422,16.0,Currency,Prismatic Catalyst,8.0,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",2,2021-05-21 11:54:19.243340
+423,13.0,Currency,Fertile Catalyst,13.0,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+424,1.0,Currency,Turbulent Catalyst,1.0,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+425,84.00041999999999,Currency,Intrinsic Catalyst,0.66667,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",126,2021-05-21 11:54:19.243340
+426,36.331594736842106,Currency,Imbued Catalyst,0.4274305263157895,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",85,2021-05-21 11:54:19.243340
+427,24.0,Currency,Abrasive Catalyst,0.5,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",48,2021-05-21 11:54:19.243340
+428,40.25589578947368,Currency,Noxious Catalyst,0.4282542105263158,"[linkItem location=""Stash8"" league=""Ultimatum"" x=""61"" y=""0""] ~b/o {final_price} {fx_id}",94,2021-05-21 11:54:19.243340
+429,4.5,Oil,Violet Oil,1.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",3,2021-05-21 11:54:19.243340
+430,46.0,Oil,Golden Oil,46.0,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""12"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+431,7.0,Oil,Indigo Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",14,2021-05-21 11:54:19.243340
+432,76.5,Oil,Sepia Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",153,2021-05-21 11:54:19.243340
+433,16.0,Oil,Black Oil,2.0,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+434,18.0,Oil,Silver Oil,18.0,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+435,40.5,Oil,Verdant Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",81,2021-05-21 11:54:19.243340
+436,89.0,Oil,Clear Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",178,2021-05-21 11:54:19.243340
+437,43.0,Oil,Amber Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",86,2021-05-21 11:54:19.243340
+438,25.0,Oil,Teal Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",50,2021-05-21 11:54:19.243340
+439,12.0,Oil,Azure Oil,0.5,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",24,2021-05-21 11:54:19.243340
+440,24.0,Oil,Crimson Oil,3.0,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+441,45.36,Oil,Opalescent Oil,6.48,"[linkItem location=""Stash9"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",7,2021-05-21 11:54:19.243340
+442,18.0,SkillGem,Enlighten Support,18.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+443,1.0,SkillGem,Petrified Blood,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+444,27.75,SkillGem,Purity of Ice,27.75,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+445,1.0,SkillGem,Sweep,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""7"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+446,13.4,Currency,Blessing of Tul,13.4,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+447,5.0,UniqueArmour,Prophet Crown,5.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""7"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+448,1.0,Prophecy,Blinding Light,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""7"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+449,2.0,SkillGem,Portal,2.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+450,16.23646857142857,Hard Currency,Stacked Deck,2.0295585714285713,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+451,16.0,UniqueWeapon,Royal Bow,16.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""9"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+452,3.0,SkillGem,Empower Support,3.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+453,1.0,SkillGem,Ancestral Protector,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+454,1.0,SkillGem,Multiple Totems Support,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+455,10.0,SkillGem,Crackling Lance,10.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""11"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+456,20.241474999999998,Fragment,Simulacrum Splinter,0.5953375,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",34,2021-05-21 11:54:19.243340
+457,1.0,UniqueWeapon,Fiend Dagger,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""5"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+458,18.0,SkillGem,Enlighten Support,18.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+459,208.54,UniqueAccessory,Jade Amulet,208.54,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+460,17.0,SkillGem,Burning Arrow,17.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+461,60.0,SkillGem,High-Impact Mine Support,60.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+462,3.0,SkillGem,Bloodthirst Support,3.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+463,2.0,SkillGem,Enhance Support,2.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+464,18.0,SkillGem,Enlighten Support,18.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+465,3.0,SkillGem,Dread Banner,3.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+466,15.0,SkillGem,Blade Flurry,15.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+467,3.0,SkillGem,Berserk,3.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+468,2.0,SkillGem,Flame Wall,2.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+469,1.0,UniqueJewel,Viridian Jewel,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+470,0.92,SkillGem,Grace,0.92,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""4"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+471,18.0,SkillGem,Enlighten Support,18.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+472,14.77,UniqueMap,Bone Crypt Map,14.77,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""11"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+473,2.0,UniqueJewel,Crimson Jewel,2.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+474,1.0,UniqueJewel,Cobalt Jewel,1.0,"[linkItem location=""Stash10"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+475,107.16075,Fragment,Simulacrum Splinter,0.5953375,"[linkItem location=""Stash11"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",180,2021-05-21 11:54:19.243340
+476,80.0,Hard Currency,Crescent Splinter,10.0,"[linkItem location=""Stash11"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",8,2021-05-21 11:54:19.243340
+477,5.86,Map,Colosseum Map,5.86,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+478,5.86,Map,Colosseum Map,5.86,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+479,7.0,Map,Lighthouse Map,7.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+480,6.0,Map,Siege Map,6.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+481,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+482,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+483,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+484,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+485,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+486,5.86,Map,Colosseum Map,5.86,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+487,5.73,Map,Pit Map,5.73,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+488,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+489,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+490,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+491,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+492,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+493,5.73,Map,Pit Map,5.73,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+494,5.86,Map,Colosseum Map,5.86,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+495,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+496,5.0,Map,Shrine Map,5.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+497,6.0,Map,Crimson Temple Map,6.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+498,6.0,Map,Siege Map,6.0,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+499,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash12"" league=""Ultimatum"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+500,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+501,2.0,Incubator,Celestial Blacksmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+502,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+503,2.0,Incubator,Celestial Armoursmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+504,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+505,2.0,Incubator,Celestial Armoursmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+506,2.0,Incubator,Blighted Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+507,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+508,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+509,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+510,3.0,Incubator,Morphing Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+511,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+512,3.0,Incubator,Morphing Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+513,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+514,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+515,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+516,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+517,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+518,2.81,Incubator,Fragmented Incubator,2.81,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+519,2.81,Incubator,Fragmented Incubator,2.81,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+520,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+521,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+522,2.81,Incubator,Fragmented Incubator,2.81,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+523,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+524,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+525,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+526,2.0,Incubator,Celestial Blacksmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+527,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+528,2.0,Incubator,Celestial Armoursmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+529,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+530,3.0,Incubator,Ornate Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+531,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+532,2.0,Incubator,Celestial Blacksmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+533,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+534,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+535,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+536,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+537,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+538,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+539,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+540,2.81,Incubator,Fragmented Incubator,2.81,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+541,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+542,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+543,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+544,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+545,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+546,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+547,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+548,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+549,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+550,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+551,2.0,Incubator,Celestial Armoursmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+552,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+553,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+554,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+555,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+556,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+557,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+558,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+559,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+560,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+561,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+562,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+563,3.0,Incubator,Morphing Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+564,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+565,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+566,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+567,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+568,1.0,Incubator,Mysterious Incubator,1.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+569,3.0,Incubator,Morphing Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+570,3.0,Incubator,Morphing Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+571,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+572,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+573,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+574,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+575,2.0,Incubator,Blighted Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+576,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+577,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+578,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+579,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+580,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+581,2.0,Incubator,Blighted Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+582,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+583,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+584,3.68,Incubator,Celestial Jeweller's Incubator,3.68,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""11"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+585,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+586,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+587,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+588,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+589,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+590,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+591,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+592,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+593,2.0,Incubator,Celestial Armoursmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+594,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+595,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+596,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+597,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+598,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+599,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+600,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+601,2.15,Incubator,Obscured Incubator,2.15,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+602,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+603,3.0,Incubator,Morphing Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+604,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+605,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+606,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+607,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+608,4.41,Incubator,Foreboding Incubator,4.41,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""4"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+609,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+610,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""5"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+611,2.0,Incubator,Cartographer's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+612,3.0,Incubator,Enchanted Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+613,2.0,Incubator,Celestial Armoursmith's Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+614,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+615,2.26,Incubator,Singular Incubator,2.26,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""7"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+616,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+617,3.31,Incubator,Skittering Incubator,3.31,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""9"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+618,3.0,Incubator,Otherworldly Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+619,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash13"" league=""Ultimatum"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+620,60.0,SkillGem,Bloodthirst Support,60.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""5"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+621,10.0,SkillGem,Determination,10.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+622,1.0,UniqueArmour,Murder Mitts,1.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+623,1.0,SkillGem,Unearth,1.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+624,4.0,UniqueWeapon,Demon Dagger,4.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+625,4.0,SkillGem,Vortex,4.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+626,3.0,SkillGem,Melee Physical Damage Support,3.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+627,0.88,SkillGem,Smoke Mine,0.88,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+628,1.0,SkillGem,Charged Traps Support,1.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+629,3.0,SkillGem,Empower Support,3.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+630,1.0,SkillGem,Molten Shell,1.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+631,0.67,SkillGem,Tornado Shot,0.67,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+632,1.0,Prophecy,The Fortune Teller's Collection,1.0,"[linkItem location=""Stash14"" league=""Ultimatum"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+633,5.0,SkillGem,Discipline,5.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+634,3.0,SkillGem,Empower Support,3.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+635,1.0,Incubator,Primal Incubator,1.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+636,4.94,SkillGem,Empower Support,4.94,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+637,5.0,Map,Strand Map,5.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+638,5.0,Map,Strand Map,5.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+639,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+640,6.76,Map,Dry Sea Map,6.76,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+641,5.0,Map,Relic Chambers Map,5.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+642,7.0,Map,Lookout Map,7.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+643,7.46,Map,Foundry Map,7.46,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""1"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+644,6.0,Map,Crimson Temple Map,6.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+645,9.95,Map,Canyon Map,9.95,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+646,6.0,Map,Laboratory Map,6.0,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+647,6.76,Map,Lighthouse Map,6.76,"[linkItem location=""Stash16"" league=""Ultimatum"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+648,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+649,2.08,Map,Malformation Map,2.08,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+650,3.0,Map,Crater Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+651,2.0,Map,Shrine Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+652,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+653,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+654,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+655,7.0,Map,Vault Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+656,7.89,Map,Atoll Map,7.89,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+657,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+658,2.0,Map,Courtyard Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+659,3.0,Map,Crimson Temple Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+660,2.0,Map,Bone Crypt Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+661,3.0,Map,Crimson Temple Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+662,5.0,Map,Relic Chambers Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+663,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+664,7.0,Map,Conservatory Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+665,5.0,Map,Strand Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+666,4.0,Map,Vaal Pyramid Map,4.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+667,6.0,Map,Laboratory Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+668,3.0,Map,Plaza Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+669,8.38,Map,Estuary Map,8.38,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+670,7.0,Map,Lookout Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+671,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+672,5.0,Map,Sulphur Vents Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+673,7.0,Map,Dunes Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+674,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+675,5.0,Map,Museum Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+676,4.0,Map,Vaal Pyramid Map,4.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+677,5.0,Map,Dungeon Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+678,3.0,Map,Toxic Sewer Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+679,2.57,Map,Park Map,2.57,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+680,5.0,Map,Bone Crypt Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+681,7.0,Map,Courthouse Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+682,2.57,Map,Park Map,2.57,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+683,4.0,Map,Vaal Pyramid Map,4.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+684,8.38,Map,Estuary Map,8.38,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+685,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+686,5.93,Map,Burial Chambers Map,5.93,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+687,7.0,Map,Port Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+688,7.0,Map,Cemetery Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+689,8.0,Map,Beach Map,8.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+690,5.0,Map,Strand Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+691,6.0,Map,Mud Geyser Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+692,3.0,Map,Plaza Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+693,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+694,5.0,Map,Bone Crypt Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+695,6.0,Map,Ramparts Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+696,5.0,Map,Dungeon Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+697,5.93,Map,Toxic Sewer Map,5.93,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+698,7.0,Map,Lighthouse Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+699,5.0,Map,Bone Crypt Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+700,7.0,Map,Silo Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+701,5.13,Map,Arsenal Map,5.13,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+702,5.0,Map,Bone Crypt Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+703,5.93,Map,Toxic Sewer Map,5.93,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+704,5.0,Map,Temple Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+705,5.0,Map,Museum Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+706,6.95,Map,Cells Map,6.95,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+707,5.93,Map,Toxic Sewer Map,5.93,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+708,5.0,Map,Chateau Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+709,7.0,Map,Port Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+710,6.0,Map,Coves Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+711,2.59,Map,Siege Map,2.59,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+712,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+713,2.0,Map,Shrine Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+714,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+715,8.38,Map,Estuary Map,8.38,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+716,6.0,Map,Basilica Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+717,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+718,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+719,6.0,Map,Belfry Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+720,6.95,Map,Cells Map,6.95,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+721,5.05,Map,Forking River Map,5.05,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+722,7.0,Map,Carcass Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+723,6.0,Map,Tropical Island Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+724,6.0,Map,Crimson Temple Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+725,6.0,Map,Mud Geyser Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+726,2.0,Map,Armoury Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+727,6.87,Map,Desert Map,6.87,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+728,5.02,Map,Overgrown Shrine Map,5.02,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+729,6.0,Map,Overgrown Ruin Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+730,2.0,Map,Academy Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+731,6.0,Map,Laboratory Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+732,8.0,Map,Promenade Map,8.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+733,2.0,Map,Overgrown Shrine Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+734,7.0,Map,Barrows Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+735,5.0,Map,Crater Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+736,2.0,Map,Crimson Township Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+737,5.0,Map,Relic Chambers Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+738,2.0,Map,Sulphur Vents Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+739,7.0,Map,Barrows Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+740,3.0,Map,Flooded Mine Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+741,5.0,Map,Arena Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+742,6.0,Map,Laboratory Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+743,5.0,Map,Relic Chambers Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+744,6.76,Map,Lighthouse Map,6.76,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+745,2.0,Map,Geode Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+746,7.0,Map,Marshes Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+747,2.0,Map,Bone Crypt Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+748,6.0,Map,Crimson Temple Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+749,7.0,Map,Barrows Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+750,7.0,Map,Barrows Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+751,5.0,Map,Strand Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+752,7.0,Map,Barrows Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+753,2.0,Map,Armoury Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+754,2.0,Map,Armoury Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+755,7.0,Map,Vault Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+756,6.0,Map,Laboratory Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+757,6.0,Map,Belfry Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+758,2.0,Map,Armoury Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+759,5.0,Map,Relic Chambers Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+760,2.0,Map,Sulphur Vents Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+761,6.0,Map,Crimson Temple Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+762,7.0,Map,Lighthouse Map,7.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+763,3.25,Map,Canyon Map,3.25,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""8"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+764,2.0,Map,Bone Crypt Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+765,6.0,Map,Belfry Map,6.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+766,2.0,Map,Armoury Map,2.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""7"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+767,5.0,Map,Shore Map,5.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""6"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+768,3.0,Map,Ashen Wood Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""10"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+769,3.0,Map,Ramparts Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""9"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+770,3.0,Map,Ghetto Map,3.0,"[linkItem location=""Stash17"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+771,1.0,Prophecy,Mysterious Invaders,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+772,1.0,Prophecy,The Lost Maps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+773,0.93,Prophecy,The Mysterious Gift,0.93,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+774,1.0,Prophecy,A Regal Death,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+775,1.0,Prophecy,Risen Blood,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+776,1.0,Prophecy,Gilded Within,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+777,1.0,Prophecy,The Sharpened Blade,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+778,1.0,Prophecy,The Sharpened Blade,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+779,1.0,Prophecy,"Soil, Worms and Blood",1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+780,1.0,Prophecy,Golden Touch,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+781,0.93,Prophecy,The Mysterious Gift,0.93,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+782,0.97,Prophecy,A Valuable Combination,0.97,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+783,0.67,Prophecy,The Brothers of Necromancy,0.67,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+784,0.71,Prophecy,The Feral Lord I,0.71,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+785,1.0,Prophecy,Kalandra's Craft,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+786,1.0,Prophecy,Waiting in Ambush,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+787,1.35,Prophecy,Plague of Frogs,1.35,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+788,1.0,Prophecy,The Fortune Teller's Collection,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+789,1.0,Prophecy,The Sharpened Blade,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+790,0.71,Prophecy,The Feral Lord I,0.71,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+791,0.99,Prophecy,Smothering Tendrils,0.99,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+792,1.0,Prophecy,Risen Blood,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+793,1.0,Prophecy,Unbearable Whispers I,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+794,1.0,Prophecy,The Lost Maps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+795,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+796,1.0,Prophecy,The Wealthy Exile,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+797,1.0,Prophecy,Beyond Sight I,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+798,0.99,Prophecy,Smothering Tendrils,0.99,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+799,1.0,Prophecy,Waiting in Ambush,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+800,1.0,DivinationCard,Rebirth,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+801,0.94,Prophecy,The Cursed Choir,0.94,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+802,1.0,Prophecy,The God of Misfortune,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+803,1.0,Prophecy,Possessed Foe,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+804,2.0,Prophecy,The Silverwood,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+805,1.0,Prophecy,The Beautiful Guide,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+806,1.0,Prophecy,Gilded Within,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+807,7.0,Prophecy,Twice Enchanted,7.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+808,1.0,Prophecy,Waiting in Ambush,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+809,1.0,Prophecy,Day of Sacrifice I,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+810,1.0,Prophecy,The Sharpened Blade,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+811,2.0,Prophecy,The Silverwood,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+812,0.71,Prophecy,The Feral Lord I,0.71,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+813,1.0,Prophecy,The Alchemist,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+814,1.0,Prophecy,The Sharpened Blade,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+815,1.0,Prophecy,The Dreamer's Dream,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+816,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+817,0.93,Prophecy,The Mysterious Gift,0.93,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+818,1.0,Prophecy,The Invader,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+819,1.0,Prophecy,A Regal Death,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+820,1.0,Prophecy,Fire from the Sky,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+821,0.89,Prophecy,Ending the Torment,0.89,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+822,1.0,Prophecy,Lasting Impressions,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""9"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+823,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+824,1.0,DivinationCard,Rebirth,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+825,1.0,Prophecy,The Scout,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+826,7.0,Prophecy,Twice Enchanted,7.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+827,0.71,Prophecy,The Feral Lord I,0.71,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+828,1.0,Prophecy,Lightning Falls,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+829,1.0,Prophecy,The Sharpened Blade,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+830,1.0,Prophecy,Gilded Within,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+831,1.0,Prophecy,Unbearable Whispers I,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+832,0.96,Prophecy,Forceful Exorcism,0.96,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+833,0.74,Prophecy,The Plaguemaw I,0.74,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+834,1.0,Prophecy,The God of Misfortune,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+835,2.0,Prophecy,Erasmus' Gift,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+836,1.0,Prophecy,A Regal Death,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+837,2.0,Prophecy,The Dream Trial,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+838,7.0,Prophecy,The Jeweller's Touch,7.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+839,1.0,Prophecy,The Trembling Earth,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+840,0.92,Prophecy,Hunter's Lesson,0.92,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+841,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+842,2.0,Prophecy,Erasmus' Gift,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""6"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+843,1.0,Prophecy,Golden Touch,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+844,1.0,Prophecy,The Alchemist,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+845,1.0,Prophecy,Gilded Within,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+846,10.0,Prophecy,A Master Seeks Help,10.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+847,1.0,Prophecy,An Unseen Peril,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+848,2.0,Prophecy,The Dream Trial,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""10"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+849,1.0,Prophecy,The Malevolent Witch,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+850,1.0,Prophecy,The Hungering Swarm,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""11"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+851,1.0,Prophecy,Unbearable Whispers I,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+852,1.0,Prophecy,A Regal Death,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+853,2.0,Prophecy,The Dream Trial,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""7"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+854,1.0,Prophecy,"Soil, Worms and Blood",1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""8"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+855,1.0,SkillGem,Earthshatter,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+856,2.0,SkillGem,Scorching Ray,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+857,1.0,UniqueAccessory,Agate Amulet,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+858,1.0,UniqueAccessory,Heavy Belt,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+859,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+860,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+861,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+862,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+863,1.0,Prophecy,Crushing Squall,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+864,1.0,Prophecy,Hidden Reinforcements,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+865,1.0,Prophecy,An Unseen Peril,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+866,1.0,Prophecy,An Unseen Peril,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+867,1.0,Prophecy,An Unseen Peril,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+868,1.0,Prophecy,An Unseen Peril,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+869,0.37,Prophecy,Hidden Vaal Pathways,0.37,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+870,1.0,Prophecy,The Beautiful Guide,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+871,2.0,Prophecy,The Dream Trial,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+872,2.0,SkillGem,Vigilant Strike,2.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+873,1.0,SkillGem,Clarity,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+874,1.0,SkillGem,Herald of Thunder,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+875,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+876,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+877,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""7""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+878,1.0,Prophecy,Crushing Squall,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+879,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+880,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+881,1.0,Prophecy,Crushing Squall,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+882,1.0,Prophecy,Crushing Squall,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+883,1.0,Prophecy,Crushing Squall,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""8""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+884,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+885,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+886,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+887,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+888,1.0,Prophecy,Plague of Rats,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""2"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+889,3.0,SkillGem,Raise Zombie,3.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+890,1.0,SkillGem,Galvanic Arrow,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+891,1.0,Prophecy,Mysterious Invaders,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""4"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+892,1.0,Prophecy,Mouth of Horrors,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+893,1.0,Prophecy,Overflowing Riches,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+894,1.0,Prophecy,The Four Feral Exiles,1.0,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+895,1.35,Prophecy,Plague of Frogs,1.35,"[linkItem location=""Stash18"" league=""Ultimatum"" x=""1"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+896,7.0,SkillGem,Cast when Damage Taken Support,7.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""2"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+897,4.99,SkillGem,Righteous Fire,4.99,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""0"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+898,2.0,SkillGem,Whirling Blades,2.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""5"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+899,1.0,SkillGem,Dark Pact,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""5"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+900,2.0,Incubator,Blighted Incubator,2.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""0"" y=""11""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+901,1.0,SkillGem,Phase Run,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""1"" y=""2""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+902,3.0,Incubator,Fossilised Incubator,3.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""1"" y=""10""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+903,2.81,Incubator,Fragmented Incubator,2.81,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""1"" y=""3""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+904,1.0,Prophecy,The Unbreathing Queen I,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""0"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+905,1.0,Prophecy,A Regal Death,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""0"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+906,1.0,Prophecy,Bountiful Traps,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""5"" y=""4""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+907,3.21,SkillGem,Feeding Frenzy Support,3.21,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""9"" y=""5""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+908,1.0,UniqueFlask,Quartz Flask,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""5"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+909,3.0,UniqueAccessory,Onyx Amulet,3.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""8"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+910,2.0,Incubator,Abyssal Incubator,2.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""3"" y=""1""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+911,1.0,Incubator,Mysterious Incubator,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""1"" y=""9""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+912,2.0,Incubator,Blighted Incubator,2.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""1"" y=""6""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
+913,1.0,Incubator,Mysterious Incubator,1.0,"[linkItem location=""Stash20"" league=""Ultimatum"" x=""5"" y=""0""] ~b/o {final_price} {fx_id}",1,2021-05-21 11:54:19.243340
