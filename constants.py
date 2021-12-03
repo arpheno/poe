@@ -11,10 +11,13 @@ EXALTED_ORB = 'Exalted Orb'
 CHISEL = "Cartographer's Chisel"
 ORB_OF_FUSING = "Orb of Fusing"
 try:
-    from .secrets import ssid as real_ssid
-    ssid=real_ssid
-except ImportError:
+    from secrets import ssid as real_ssid
+    ssid = real_ssid
+except ImportError as e:
+    print(e)
     print("Please set ssid in secrets.py")
+    with open('secrets.py','w') as f:
+        f.write('ssid=')
     ssid = ''
 hard_currency = [
     ALTERATION,
