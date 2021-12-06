@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from item import Base
+from item.base import Base
 from matchers.base_matcher import match_base
 
 l = [

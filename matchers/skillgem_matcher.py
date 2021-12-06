@@ -1,6 +1,6 @@
 from typing import List
 
-from item import SkillGem
+from item.skill_gem import SkillGem
 
 
 def match_skillgem(candidates:List[dict],item:SkillGem):

@@ -2,7 +2,10 @@ from pprint import pprint
 
 import requests
 
-from item import Item, Map, SkillGem, Base
+from item import Item
+from item.map import Map
+from item.skill_gem import SkillGem
+from item.base import Base
 from type_determiner import determine_type
 
 cls = {"map": Map, "skillgem": SkillGem, "base": Base}

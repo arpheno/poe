@@ -1,6 +1,6 @@
 from typing import List
 
-from item import Map
+from item.map import Map
 
 
 def match_map(candidates:List[dict],item:Map):

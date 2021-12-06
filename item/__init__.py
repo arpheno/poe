@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from fractions import Fraction
-from typing import List
 
 
 def kwargs_dataclass(cls):
@@ -61,25 +60,3 @@ class Item:
     def extract_property(self,identifier)->dict:
         [prop]=[prop for prop in self.properties if prop['name']==identifier]
         return prop
-class Map(Item):
-    @property
-    def map_tier(self):
-        map_tier = self.extract_property('Map Tier')['values'][0][0]
-        return int(map_tier)
-class SkillGem(Item):
-    @property
-    def level(self):
-        level = self.extract_property('Level')['values'][0][0].strip('%+()Max')
-        return int(level)
-    @property
-    def quality(self):
-        try:
-            level = self.extract_property('Quality')['values'][0][0].strip('%+()Max')
-            return int(level)
-        except:
-            return 0
-class Base(Item):
-    @property
-    def influence(self):
-        influence = sorted(key for key,value in self.influences.items() if value)
-        return influence
