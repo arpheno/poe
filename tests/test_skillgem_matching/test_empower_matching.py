@@ -1,7 +1,6 @@
 from unittest.mock import Mock
 
-from item.skill_gem import SkillGem
-from matchers.skillgem_matcher import match_skillgem
+from poe.matchers import match_skillgem
 
 candidates = [
         {

@@ -1,7 +1,5 @@
-from unittest.mock import Mock
-
-from item.base import Base
-from matchers.base_matcher import match_base
+from poe.item import Base
+from poe.matchers.base_matcher import match_base
 
 l = [
     {"name": "Amber Amulet", "baseType": "Amber Amulet", "variant": "Warlord/Hunter", "levelRequired": 83},
