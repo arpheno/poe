@@ -2,7 +2,8 @@ import time
 
 import requests
 
-from poe.timeless import query_timeless_jewel, headers
+from poe.headers import headers
+from poe.timeless.query import query_timeless_jewel
 
 
 def find_doryiani(seed: int, name_of="timeless"):

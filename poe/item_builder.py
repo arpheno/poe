@@ -6,7 +6,7 @@ from poe.matchers.base_matcher import match_base
 from poe.matchers.map_matcher import match_map
 from poe.matchers.skillgem_matcher import match_skillgem
 from poe.ninja import retrieve_prices
-from poe.stash_tabs import get_all_tabs
+from poe.stash_tabs.all_tabs_getter import get_all_tabs
 
 excluded=[]
 def is_excluded(item):
