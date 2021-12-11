@@ -1,5 +1,4 @@
 from itertools import groupby
-from pprint import pprint
 import pandas as pd
 from poe.ninja import retrieve_prices
 def profit(df,key):
@@ -15,7 +14,6 @@ def profit_analysis(df,key):
 
 
 def scarab_orb_of_horizon():
-    global values, analysis
     prices = retrieve_prices(['Scarab'])
     groups = groupby(sorted(prices.items()), key=lambda x: x[0].split()[0])
     values = {key: {x[0].split()[1]: x[1][0]['chaosValue'] for x in values} for key, values in groups}
@@ -26,7 +24,8 @@ def scarab_orb_of_horizon():
     analysis = pd.concat([profit_analysis(df, key) for key in df.keys()]).reset_index()
     analysis.columns = ['tier', 'profitability', 'profit', 'kind']
     analysis = analysis.set_index(['tier', 'kind'])
-
+    return analysis
 
 if __name__ == '__main__':
-    scarab_orb_of_horizon()
+    analysis=scarab_orb_of_horizon().sort_values(by='profit', ascending=False)
+    print(analysis)
