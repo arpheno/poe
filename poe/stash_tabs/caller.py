@@ -1,6 +1,6 @@
 import requests
 
-from poe.headers import headers
+from poe.trade.headers import headers
 
 
 def _call(tab_index):

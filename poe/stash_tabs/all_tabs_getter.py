@@ -1,5 +1,5 @@
 from poe.item.item_factory import item_factory
-from poe.stash_tabs import _call
+from poe.stash_tabs.caller import _call
 from poe.type_determiner import determine_type
 
 

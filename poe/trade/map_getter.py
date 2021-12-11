@@ -2,7 +2,7 @@ from pprint import pprint
 
 import requests
 
-from poe import headers
+from poe.trade import headers
 
 data = {
     "query": {
