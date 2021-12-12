@@ -1,7 +1,10 @@
+import logging
+
 import pandas as pd
 
 from poe.ninja import retrieve_prices
-from poe.trade.query_resolver import resolve_exchange
+from poe.splinters.splinter_profiter import splinter_profitability
+
 
 
 def splinter_query(splinter: str):
@@ -16,37 +19,30 @@ def splinter_query(splinter: str):
     return splinter_template
 
 
-def timeless_profitability():
+def timeless_splinters(
+        set_size=100
+):
     prices = retrieve_prices(["Fragment"])
-    splinters = pd.Series(
+    splinter_price = pd.Series(
         {
-            key.replace("Timeless", "").replace("Splinter", "").strip(): value[0]["chaosValue"]
+            key.split()[1]: value[0]["chaosValue"]
             for key, value in prices.items()
             if "Splinter" in key
             if "Timeless" in key
         }
     )
-    emblems = pd.Series(
+    completed_set_price = pd.Series(
         {
-            key.replace("Timeless", "").replace("Emblem", "").strip(): value[0]["chaosValue"]
+            key.split()[1]: value[0]["chaosValue"]
             for key, value in prices.items()
             if "Emblem" in key
             if not "relenting" in key
         }
     )
-
-    profitable_splinters: pd.Series = (emblems / 100 - splinters).where(lambda x: x > 0).dropna()
-    print(profitable_splinters)
-    print(profitable_splinters)
-    for key in profitable_splinters.keys():
-        #TODO: Adjust trade query for profit/trade
-        print(f'Buy {key} between {splinters[key]} and {splinters[key]+profitable_splinters[key]}')
-        hash = resolve_exchange(splinter_query(key))
-    profitable_splinters = profitable_splinters.rename(
-        {x: f"Timeless {x} Splinter" for x in profitable_splinters.keys()}
-    )
-    return profitable_splinters
+    df = splinter_profitability(completed_set_price, set_size, splinter_price,splinter_query=splinter_query)
+    print(df)
+    return df
 
 
 if __name__ == "__main__":
-    timeless_profitability()
+    timeless_splinters()

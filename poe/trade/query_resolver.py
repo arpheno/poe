@@ -28,4 +28,4 @@ def resolve_exchange(query, league="Scourge"):
     result_hash = result["id"]
     if result["result"]:
         print(f"{url.replace('/api','')}/{result_hash}")
-    return result_hash
+    return (result_hash, result["result"])

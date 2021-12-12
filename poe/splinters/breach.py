@@ -30,12 +30,12 @@ def breach_splinters():
     for key in profitable_splinters.keys():
         # TODO: Adjust trade query for profit/trade
         print(f"Buy {key} between {splinters[key]} and {splinters[key]+profitable_splinters[key]}")
-        hash = resolve_exchange(splinter_query(key))
+        hash, _ = resolve_exchange(splinter_query(key))
     profitable_splinters = profitable_splinters.rename({x: f"Splinter of {x}" for x in profitable_splinters.keys()})
     return profitable_splinters
 
 
-def _breach_stones():
+def breach_stones():
     prices = retrieve_prices(["Fragment", "Currency"])
     breach_stones = pd.DataFrame(
         [
@@ -67,11 +67,6 @@ def _breach_stones():
     breach_stones = breach_stones[[1, "profit", "value", "cost", "blessing"]].reset_index().sort_values([1, 0])
     breach_stones[1] = breach_stones[1].map({value: key for key, value in charge_map.items()})
     breach_stones.style.background_gradient(axis=1)
-    return breach_stones[breach_stones["profit"] > 0]
-
-
-def breach_stones():
-    breach_stones = _breach_stones()[[0, 1, "profit"]].set_index([1, 0]).sort_index()
     return breach_stones[breach_stones["profit"] > 0]
 
 
