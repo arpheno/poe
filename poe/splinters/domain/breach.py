@@ -13,7 +13,7 @@ def splinter_query(splinter: str):
         "exchange": {
             "status": {"option": "online"},
             "have": ["chaos"],
-            "want": [f"splinter-{splinter.lower()}"],
+            "want": [f"splinter-{splinter.lower().split('-')[0]}"],
             "minimum": 30,
         }
     }

@@ -36,3 +36,6 @@ def breach_stones():
     breach_stones[1] = breach_stones[1].map({value: key for key, value in charge_map.items()})
     breach_stones.style.background_gradient(axis=1)
     return breach_stones[breach_stones["profit"] > 0]
+
+if __name__ == '__main__':
+    print(breach_stones())
