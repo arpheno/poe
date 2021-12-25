@@ -13,17 +13,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 """
-
-from .model import Model
-from .modules.feature_extraction import VGG_FeatureExtractor
-
-
-def feature_extraction_factory(feature_extraction_type:str,input_channel:int,output_channel:int):
-    cls={
-        'VGG':VGG_FeatureExtractor,
-    }
-    return cls[feature_extraction_type](input_channel,output_channel)
-
-
-
-
