@@ -6,7 +6,7 @@ from easyocr.utils import CTCLabelConverter
 
 from poe.bulk.model.model_builder import model_builder
 from poe.bulk.model.modules.converters import AttnLabelConverter
-
+model=None
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 def predict(model,converter, image_tensors, opt):
     """ validation or evaluation """
@@ -14,7 +14,6 @@ def predict(model,converter, image_tensors, opt):
     image = image_tensors.to(device)
     length_for_pred = torch.IntTensor([opt.batch_max_length] * batch_size).to(device)
     text_for_pred = torch.LongTensor(batch_size, opt.batch_max_length + 1).fill_(0).to(device)
-    model.eval()
     preds = model(image, text_for_pred)
 
 
@@ -52,11 +51,14 @@ def predict_wrapper(gray,model_params={}):
 
     converter = AttnLabelConverter(model_params.character)
     model_params.num_class = len(converter.character)
-    model = model_builder(model_params)
+    global model
+    if not model:
+        model = model_builder(model_params)
 
     my_img_tensor = torch.from_numpy(gray)
     img_tensor = my_img_tensor[None, None, :].float().div(255).sub(0.5).div(0.5)
-    result = predict(model,converter, image_tensors=img_tensor, opt=model_params)
+    with torch.no_grad():
+        result = predict(model,converter, image_tensors=img_tensor, opt=model_params)
     return result
 
 if __name__ == '__main__':
