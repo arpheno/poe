@@ -18,9 +18,19 @@ def main():
         if not key.lower().replace("'", "").replace(" ", "_") in [name for name,func in rules_list]
     }
     for key, value in valuable.items():
-        print(f'{key} : {value[0].get("stackSize",1)} {value[0]["explicitModifiers"]}')
+        mods=value[0]["explicitModifiers"][0]['text']
+        stacksize = value[0].get("stackSize", 1)
+        print(f'\n\n{key} : {value[0].get("chaosValue")} {stacksize} {mods}')
+        if 'uniqueitem' in mods:
+            item = mods[mods.find('{') + 1:]
+            item = item[:item.find('}')]
+            print(f'"{key}":((1/{stacksize}),"{item}"),')
     pass
 
 
 if __name__ == "__main__":
     main()
+
+a={
+
+}

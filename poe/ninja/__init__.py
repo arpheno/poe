@@ -23,6 +23,7 @@ NINJA_ITEM_TYPES = (
     "Map",
     "SkillGem",
     "BaseType",
+    'Vial',
 )
 def retrieve_prices(currencies=NINJA_ITEM_TYPES):
 

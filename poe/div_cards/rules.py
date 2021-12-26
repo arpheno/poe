@@ -249,6 +249,21 @@ def the_puzzle(prices):
     return value * 5
 
 
+def the_eldritch_decay(prices):
+    outcomes = [
+        "Fragment of Eradication",
+        "Fragment of Purification",
+        "Fragment of Enslavement",
+        "Fragment of Constriction",
+    ]
+    stack_size = xxxcalc_stack_size(prices)
+    relevant = [item for price in prices.values() for item in price if item["name"] in outcomes]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    print(statistics.stdev(values) / stack_size)
+    return value
+
+
 def emperors_luck(prices):
     stack_size = xxxcalc_stack_size(prices)
     outcomes = {
@@ -311,6 +326,16 @@ def the_cacophony(prices):
     return value * 3
 
 
+def harmony_of_souls(prices):
+
+    stack_size = xxxcalc_stack_size(prices)
+    relevant_essences = [item for price in prices.values() for item in price if "Shrieking Essence" in item["name"]]
+    values = [essence["chaosValue"] for essence in relevant_essences]
+    value = statistics.mean(values) / stack_size
+    print(statistics.stdev(values) / stack_size)
+    return value * 9
+
+
 def the_tinkerers_table(prices):
 
     stack_size = xxxcalc_stack_size(prices)
@@ -333,6 +358,33 @@ def sambodhis_vow(prices):
 def the_primordial(prices):
     stack_size = xxxcalc_stack_size(prices)
     relevant = [item for price in prices.values() for item in price if item["name"].startswith("Primordial ")]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    print(statistics.stdev(values) / stack_size)
+    return value
+
+
+def the_rabbits_foot(prices):
+    stack_size = xxxcalc_stack_size(prices)
+    relevant = [item for price in prices.values() for item in price if item["type"] == "Vial"]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    print(statistics.stdev(values) / stack_size)
+    return value * 3
+
+
+def dementophobia(prices):
+    stack_size = xxxcalc_stack_size(prices)
+    relevant = [item for price in prices.values() for item in price if item["type"] == "DeliriumOrb"]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    print(statistics.stdev(values) / stack_size)
+    return value * 10
+
+
+def disdain(prices):
+    stack_size = xxxcalc_stack_size(prices)
+    relevant = [item for price in prices.values() for item in price if item["type"] == "DeliriumOrb"]
     values = [item["chaosValue"] for item in relevant]
     value = statistics.mean(values) / stack_size
     print(statistics.stdev(values) / stack_size)
@@ -363,6 +415,23 @@ def the_obscured(prices):
         if item["name"].endswith("Breachstone")
         if not any(q in item["name"] for q in ["nriched", "harged", "ure", "lawless"])
     ]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    print(statistics.stdev(values) / stack_size)
+    return value / 2
+
+
+def the_eye_of_terror(prices):
+    stack_size = xxxcalc_stack_size(prices)
+    relevant = [item for key, price in prices.items() for item in price if key == "Chayula's Pure Breachstone"]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    return value
+
+
+def the_long_con(prices):
+    stack_size = xxxcalc_stack_size(prices)
+    relevant = [item for price in prices.values() for item in price if item["name"].endswith("'s Exalted Orb")]
     values = [item["chaosValue"] for item in relevant]
     value = statistics.mean(values) / stack_size
     print(statistics.stdev(values) / stack_size)
