@@ -5,46 +5,33 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 def remove_padding(img, padding=25):
     img = img[padding : img.shape[0] - padding, padding : img.shape[1] - padding]
     return img
 
 
 def remove_almost_black_pixels(img):
-    img[img == (43, 38, 37)] *= 0
-    img[img == (32, 29, 28)] *= 0
-    img[img == (3, 1, 1)] *= 0
-    img[img == (4, 2, 0)] *= 0
-    img[img == (44, 0, 1)] *= 0
-    img[img == (41, 0, 1)] *= 0
-    img[img == (42, 0, 0)] *= 0
-    img[img == (40, 1, 1)] *= 0
-    img[img == (40, 0, 36)] *= 0
-    img[img == (40, 0, 37)] *= 0
-    img[img == (40, 0, 38)] *= 0
-    img[img == (41, 0, 36)] *= 0
-    img[img == (41, 0, 37)] *= 0
-    img[img == (41, 0, 38)] *= 0
-    img[img == (39, 0, 36)] *= 0
-    img[img == (39, 0, 37)] *= 0
-    img[img == (39, 0, 38)] *= 0
-    for g in range(40):
-        img[img == (0, g, 0)] *= 0
-    img[img.sum(axis=2) < 8] *= 0
+    # mask=(img == (43, 38, 37))| (img == (32, 29, 28))
+    # img[mask]=0
+    # print(img.shape)
+    # mask = cv2.inRange(img,(0,0,0),(10,41,13))
+    # cv2.imwrite('mask.png',mask)
+    # img[mask]=0
+
+    # for g in range(25,40):
+    #     mask|=img == (0, g, 0)
+    # img[mask]=0
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    img[gray < 30] = 0
-    print(img[gray < 30].sum())
-    return img
+    gray[gray < 50] = 0
+    return gray
 
 
-def define_x_cuts(img):
-    dilatation_size = 1
+def define_x_cuts(gray):
+    dilatation_size = 2
     element = cv2.getStructuringElement(
         cv2.MORPH_RECT, (2 * dilatation_size + 1, 2 * dilatation_size + 1), (dilatation_size, dilatation_size)
     )
-    img = cv2.dilate(img, element)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray = cv2.dilate(gray, element)
 
     col_mean_values = gray.mean(axis=0)
     col_mean_values = np.array([v if v > 0 else 0 for v in col_mean_values])
@@ -57,9 +44,7 @@ def define_x_cuts(img):
     return x_cuts
 
 
-def define_y_cuts(img):
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    gray[gray < 5] = 0
+def define_y_cuts(gray):
     row_mean_values = gray.mean(axis=1)
     y_cuts = [
         int(np.mean(list(y[0][0] for y in v)))
@@ -72,18 +57,21 @@ def define_y_cuts(img):
 
 
 def draw_lines(img, y_cuts, x_cuts):
-    img = img[...]
+    img = np.copy(img)
     result_lines = []
-    for y in y_cuts:
-        result_lines.append(((0, y), (img.shape[1], y), (0, 0, 255), 1))
-    for x in x_cuts:
-        result_lines.append(((x, 0), (x, img.shape[0]), (0, 0, 255), 1))
+    for i,y in enumerate(y_cuts):
+        result_lines.append(((0, y), (img.shape[1], y), 255, 1))
+        cv2.putText(img,str(i),(100,y-5),cv2.FONT_HERSHEY_SIMPLEX,fontScale=1,color=255)
+    for i,x in enumerate(x_cuts):
+        result_lines.append(((x, 0), (x, img.shape[0]), 255, 1))
+        cv2.putText(img,str(i+1),(x,75),cv2.FONT_HERSHEY_SIMPLEX,fontScale=1,color=255)
 
     for line in result_lines:
         cv2.line(img, *line)
     plt.figure(figsize=(20, 20))
 
     _ = plt.imshow(img)
+    cv2.imwrite("debuglines.png", img)
 
 
 def remove_whitespace():
@@ -102,6 +90,9 @@ def cut_image(img):
     img = remove_padding(img, 25)
     img = remove_almost_black_pixels(img)
     cv2.imwrite("debug.png", img)
+    debug=np.copy(img)
+    debug[debug>0]=255
+    cv2.imwrite("debugbw.png", debug)
     y_cuts = define_y_cuts(img)
     img = img[y_cuts[4] :, :]
     y_cuts = [y - y_cuts[4] for y in y_cuts][5:]
@@ -110,9 +101,9 @@ def cut_image(img):
 
 
 def normalize_frag(img,target=(32,80)):
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img =img
     # gray = 255*(gray < 128).astype(np.uint8) # To invert the text to white
-    coords = cv2.findNonZero(gray)  # Find all non-zero points (text)
+    coords = cv2.findNonZero(img)  # Find all non-zero points (text)
     x, y, w, h = cv2.boundingRect(coords)  # Find minimum spanning bounding box
     rect = img[y : y + h, x : x + w]
     top= int((target[0]-rect.shape[0])/2)
@@ -121,7 +112,7 @@ def normalize_frag(img,target=(32,80)):
     right= target[1] - rect.shape[1] - left
     final = cv2.copyMakeBorder(rect, top, bottom, left, right, cv2.BORDER_CONSTANT)
     assert final.shape[:2]==target,final.shape
-    return 255-cv2.cvtColor(final, cv2.COLOR_BGR2GRAY)
+    return 255-final
 
 
 def cut_image_to_frags(img):
@@ -129,3 +120,10 @@ def cut_image_to_frags(img):
     draw_lines(img, y_cuts, x_cuts)
     frags = cut_into_frags(img, y_cuts, x_cuts)
     return frags
+if __name__ == '__main__':
+    path = 'data/tabs/unknown (30).png'
+
+    img = cv2.imread(path)
+    print(img)
+    frags=cut_image_to_frags(img)
+    pass

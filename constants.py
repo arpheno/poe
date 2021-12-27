@@ -57,7 +57,7 @@ price_in = [
 currency_shards = {
     "House of Mirrors": ((1 / 9), "Mirror of Kalandra"),
     "Seven Years Bad Luck": (1 / 13, "Mirror Shard"),
-    "Unrequited Love": (19 / 16, "Mirror Shard"),
+    "Unrequited Love": (19 / (20*16), "Mirror of Kalandra"),
     "The Sephirot": (11 / 10, "Divine Orb"),
     "The Saint's Treasure": (2 / 10, EXALTED_ORB),
     "The Inventor": (10 / 6, VAAL_ORB),
@@ -87,7 +87,7 @@ currency_shards = {
     "Vinia's Token": (10 / 5, REGRET),
     "The Mad King": (1 / 7, "The King's Path"),
     "Dark Temptation": (1 / 5, "Obliteration"),
-    "The Chains that Bind": (1 / 11),
+    "The Chains that Bind": (1 / 11,DIVINE),
     "Vanity": (1 / 9, DIVINE),
     "Humility": (1 / 9, DIVINE),
     "The Wrath": (10 / 8, CHAOS),
@@ -99,7 +99,6 @@ currency_shards = {
     "The Valley of Steel Boxes": (1 / 9, "Monstrous Treasure"),
     "The Porcupine": (1 / 6, DIVINE),
     "The Betrayal": (1 / 9, "Maligaro's Virtuosity"),
-    "The Swordking's Salute": (1 / 7, "Daresso's Salute"),
     "The Dark Mage": (1 / 6, DIVINE),
     "The Warlord": (1 / 6, DIVINE),
     "Bowyer's Dream": (1 / 6, DIVINE),
@@ -131,7 +130,7 @@ currency_shards = {
     "The Harvester": ((1 / 11), "The Harvest"),
     "Reckless Ambition": ((1 / 6), "Omeyocan"),
     "The Darkest Dream": ((1 / 6), "Severed in Sleep"),
-    "The Professor": ((1 / 4), "The Putrid Cloister"),
+    # "The Professor": ((1 / 4), "The Putrid Cloister"),
     "The Wolven King's Bite": ((1 / 8), "Rigwald's Quills"),
     "The Wind": ((1 / 7), "Windripper"),
     "The Pact": ((1 / 9), "Pledge of Hands"),
@@ -157,8 +156,7 @@ currency_shards = {
     "Eternal Bonds": ((1 / 4), "Replica Cortex"),
     "The Damned": ((1 / 6), "Soul Ripper"),
     "Pride of the First Ones": ((1 / 7), "Farrul's Fur"),
-"The Life Thief":((1/6),"Zerphi's Heart"),
-
+    "The Life Thief": ((1 / 6), "Zerphi's Heart"),
 }
 
 blacklist = [
@@ -215,6 +213,8 @@ blacklist = [
     "The Incantation",
     "The Inoculated",
     "The Journalist",
+
+    "The Swordking's Salute",
     "The King's Blade",
     "The Long Watch",
     "The Lover",
@@ -331,5 +331,6 @@ blacklist = [
     "The Fox in the Brambles",
     "The Unexpected Prize",
     "The Side Quest",
-"Boon of the First Ones"
+    "Boon of the First Ones",
+    "Boon of Justice",
 ]

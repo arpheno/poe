@@ -1,31 +1,23 @@
 import inspect
 
+from Levenshtein.StringMatcher import StringMatcher
+
+from constants import blacklist
 from poe.div_cards import rules
+from poe.div_cards.generic import expand_currency_shards
+from poe.div_cards.rules import xxxmap_div_card_name
 from poe.ninja import retrieve_prices
 
 functions_list = inspect.getmembers(rules, inspect.isfunction)
 
 
-def main():
-    prices = retrieve_prices(
-        [
-            "SkillGem",
-            "DivinationCard",
-            "Fragment",
-            "Currency",
-            "Essence",
-            "Fossil",
-            "UniqueJewel",
-            "Scarab",
-            "Vial",
-            "DeliriumOrb",
-        ]
-    )
-    for name, func in functions_list[:-1]:
-        print(f"{name}:{func(prices)}")
-
-    pass
-
-
+def div_card_values():
+    prices = retrieve_prices( )
+    rule_based={name:func(prices) for name, func in functions_list[:-2]}
+    generic=expand_currency_shards(prices)
+    for div_card_name, value in rule_based.items():
+        print(f"{div_card_name}:{value}")
+    blacklisted={xxxmap_div_card_name(key):0 for key in blacklist}
+    return {**rule_based,**generic,**blacklisted}
 if __name__ == "__main__":
-    main()
+    div_card_values()
