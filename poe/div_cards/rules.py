@@ -10,6 +10,8 @@ def terrible_secret_of_space(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if "Golem" in gem["name"] if gem["gemLevel"] == 21 if gem.get("gemQuality") == 23
+
+        if gem['sparkline']['data']
     ]
 
     values = [gem["chaosValue"] for gem in relevant_gems]
@@ -27,6 +29,7 @@ def the_rite_of_elements(prices):
         if "Golem" in gem["name"]
         if gem["gemLevel"] == 21
         if gem.get("gemQuality") == None
+        if gem['sparkline']['data']
     ]
 
     values = [gem["chaosValue"] for gem in relevant_gems]
@@ -39,6 +42,7 @@ def the_cheater(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if "Awakened" in gem["name"] if gem["gemLevel"] == 6 if gem.get("gemQuality") == 20
+        if gem['sparkline']['data']
     ]
 
     values = [gem["chaosValue"] for gem in relevant_gems]
@@ -51,6 +55,7 @@ def desecrated_virtue(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if "Awakened" in gem["name"] if gem["gemLevel"] == 6 if gem.get("gemQuality") == 23
+        if gem['sparkline']['data']
     ]
 
     values = [gem["chaosValue"] for gem in relevant_gems]
@@ -134,6 +139,7 @@ def the_bitter_blossom(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if gem["name"] in outcomes if gem["gemLevel"] == 21 if gem.get("gemQuality") == 23
+        if gem['sparkline']['data']
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
@@ -173,6 +179,7 @@ def the_wilted_rose(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if gem["name"] in outcomes if gem["gemLevel"] == 21 if gem.get("gemQuality") == None
+        if gem['sparkline']['data']
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
@@ -204,6 +211,7 @@ def deathly_designs(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if gem["name"] in outcomes if gem["gemLevel"] == 21 if gem.get("gemQuality") == None
+        if gem['sparkline']['data']
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
@@ -215,6 +223,7 @@ def dying_anguish(prices):
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem for gem in gems if any(qual in gem["name"] for qual in ALT_QUALITY) if gem["variant"] == "20/20"
+        if gem['sparkline']['data']
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
@@ -279,6 +288,8 @@ def the_bones(prices):
         if "Vaal Summon Skeletons" in gem["name"]
         if gem["gemLevel"] == 21
         if gem.get("gemQuality") == None
+    if gem['sparkline']['data']
+
     ]
     values = [gem["chaosValue"] for gem in relevant_gems]
     value = statistics.mean(values) / stack_size

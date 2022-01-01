@@ -14,7 +14,7 @@ functions_list = inspect.getmembers(rules, inspect.isfunction)
 def div_card_values():
     prices = retrieve_prices( )
     rule_based={name:func(prices) for name, func in functions_list[:-2]}
-    generic=expand_currency_shards(prices)
+    generic={xxxmap_div_card_name(key):value for key,value in expand_currency_shards(prices).items()}
     for div_card_name, value in rule_based.items():
         print(f"{div_card_name}:{value}")
     blacklisted={xxxmap_div_card_name(key):0 for key in blacklist}
