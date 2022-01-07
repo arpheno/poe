@@ -1,7 +1,7 @@
 import inspect
 
 from constants import blacklist, currency_shards
-from poe.div_cards import rules
+from poe.valuation.div_cards import rules
 from poe.ninja import retrieve_prices
 
 

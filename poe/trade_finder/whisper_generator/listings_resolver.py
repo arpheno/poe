@@ -4,8 +4,8 @@ import pandas as pd
 import requests
 
 from poe.trade.headers import headers
-logger = logging.getLogger(__file__)
 
+logger = logging.getLogger(__file__)
 
 
 def resolve_listings(hash, result):
@@ -21,21 +21,21 @@ def resolve_listings(hash, result):
         headers=headers,
         params=params,
     )
-    try:
+    if response.json().get('result'):
         df = pd.DataFrame(
             [
                 {
                     "pay_currency": result["listing"]["price"]["exchange"]["currency"],
                     "get_currency": result["listing"]["price"]["item"]["currency"],
                     "price": result["listing"]["price"]["exchange"]["amount"]
-                             / result["listing"]["price"]["item"]["amount"],
+                    / result["listing"]["price"]["item"]["amount"],
                     "stock": result["listing"]["price"]["item"]["stock"],
                     "id": result["id"],
-                    "whisper_template":result['listing']['whisper']
+                    "whisper_template": result["listing"]["whisper"],
                 }
                 for result in response.json()["result"]
             ]
         )
-    except Exception as e:
-        logger.exception("something went wrong")
+    else:
+        df = pd.DataFrame(columns=["pay_currency", "get_currency", "price", "stock", "id", "whisper_template"])
     return df

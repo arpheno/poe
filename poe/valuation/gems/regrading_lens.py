@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-from poe.gems.adps import adps
+from poe.valuation.gems import adps
 from poe.ninja import retrieve_prices
 
 display = pd.options.display

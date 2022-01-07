@@ -3,13 +3,11 @@ import pandas as pd
 from poe.ninja import retrieve_prices
 
 
-def scarab_orb_of_horizon():
-    prices = retrieve_prices(["Scarab"])
-    groups = groupby(sorted(prices.items()), key=lambda x: x[0].split()[0])
+def scarab_orb_of_horizon(prices):
+    prices={k:v for k,v in prices.items() if " Scarab" in k}
+    groups = list(groupby(sorted(prices.items()), key=lambda x: x[0].split()[0]))
     values = {key: {x[0].split()[1]: x[1][0]["chaosValue"] for x in values} for key, values in groups}
     df = pd.DataFrame(values).T
-    df = df.drop("Lure", axis=1)
-    df = df.drop("Craicic").drop("Farric").drop("Fenumal").drop("Saqawine")
     df["mean"] = df.mean(axis=1)
     analysis = pd.concat([profit_analysis(df, key) for key in df.keys()]).reset_index()
     analysis.columns = ["tier", "profitability", "profit", "kind",'price','value']
@@ -41,5 +39,6 @@ def profit_analysis(df, key):
 
 
 if __name__ == "__main__":
-    analysis = scarab_orb_of_horizon().sort_values(by="profit", ascending=False)
+    prices = retrieve_prices(["Scarab"])
+    analysis = scarab_orb_of_horizon(prices).sort_values(by="profit", ascending=False)
     print(analysis)

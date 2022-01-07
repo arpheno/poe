@@ -9,7 +9,7 @@ NINJA_ITEM_TYPES = (
     "Oil",
     "Fossil",
     "Resonator",
-    "Prophecy",
+    # "Prophecy",
     "Incubator",
     "UniqueMap",
     "UniqueJewel",

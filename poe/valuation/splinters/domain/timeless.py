@@ -1,6 +1,6 @@
 import pandas as pd
 
-from poe.splinters.domain.splinter_info import SplinterInfo
+from poe.valuation.splinters.domain.splinter_info import SplinterInfo
 
 
 def splinter_query(splinter: str):
@@ -16,25 +16,17 @@ def splinter_query(splinter: str):
 
 
 def timeless_splinters(prices):
-    splinter_price = pd.Series(
-        {
-            key.split()[1]: value[0]["chaosValue"]
-            for key, value in prices.items()
-            if "Splinter" in key
-            if "Timeless" in key
-        }
-    )
     completed_set_price = pd.Series(
         {
-            key.split()[1]: value[0]["chaosValue"]
+            " ".join(key.split()[1:-1]): value[0]["chaosValue"]
             for key, value in prices.items()
             if "Emblem" in key
+            if 'Timeless' in key
             if not "relenting" in key
         }
     )
-    return SplinterInfo(
-        completed_set_price=completed_set_price,
-        splinter_price=splinter_price,
-        set_size=100,
-        splinter_query=splinter_query,
-    )
+    set_size=100
+    value= completed_set_price / set_size
+    value.index = 'Timeless '+value.index + ' Splinter'
+    value.index= value.index.str.replace('Eternal','Eternal Empire')
+    return value

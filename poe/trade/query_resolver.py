@@ -23,9 +23,10 @@ def resolve_exchange(query, league="Scourge"):
     response = requests.post(url, headers=headers, json=query)
     if response.status_code == 429:
         print("too fast (")
-    time.sleep(5)
+        time.sleep(120)
+        response = requests.post(url, headers=headers, json=query)
+    time.sleep(5.5)
     result = response.json()
     result_hash = result["id"]
-    if result["result"]:
-        print(f"{url.replace('/api','')}/{result_hash}")
+    print(f"{url.replace('/api','')}/{result_hash}")
     return (result_hash, result["result"])
