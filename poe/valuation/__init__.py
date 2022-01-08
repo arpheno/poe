@@ -1,4 +1,5 @@
 from poe.ninja import retrieve_prices
+from poe.valuation.currency import currency_valuation
 from poe.valuation.div_cards import div_card_values
 from poe.valuation.scarabs.main import scarab_orb_of_horizon
 from poe.valuation.splinters import splinter_values
@@ -11,7 +12,8 @@ def own_valuations(prices):
     scarabs = scarabs[["name", 0]].set_index("name")[0].to_dict()
     div_cards = div_card_values(prices)
     splinters = splinter_values(prices)
-    values = {**scarabs, **div_cards, **splinters}
+    currency = currency_valuation(prices)
+    values = {**scarabs, **div_cards, **splinters,**currency}
     return values
 
 

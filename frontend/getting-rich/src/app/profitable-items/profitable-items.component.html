@@ -1,0 +1,18 @@
+<p>profitable-items works!</p>
+
+<ul class="profitableItems">
+  <li *ngFor="let item of profitableItems">
+    <span class="badge">{{item.name}}</span>
+    <span class="badge">{{item.value}}</span>
+    <span class="badge">{{item.price}}</span>
+    <span class="badge">{{item.expected_profit}}</span>
+  </li>
+</ul>
+<table mat-table [dataSource]="profitableItems">
+  <mat-text-column name="name"></mat-text-column>
+  <mat-text-column name="price"></mat-text-column>
+  <mat-text-column name="value"></mat-text-column>
+  <mat-text-column name="expected_profit"></mat-text-column>
+  <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+  <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
+</table>

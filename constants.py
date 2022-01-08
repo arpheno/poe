@@ -9,7 +9,14 @@ CHAOS = "Chaos Orb"
 VAAL_ORB = "Vaal Orb"
 EXALTED_ORB = "Exalted Orb"
 CHISEL = "Cartographer's Chisel"
-ORB_OF_FUSING = "Orb of Fusing"
+FUSING = "Orb of Fusing"
+TRANSMUTE= "Orb of Transmutation"
+AUGMENT="Orb of Augmentation"
+CHANCE='Orb of Chance'
+JEWELLERS='Jeweller\'s Orb'
+SCOUR='Orb of Scouring'
+BAUBLE='Glassblower\'s Bauble'
+WHETSTONE='Blacksmith\'s Whetstone'
 try:
     from secrets import ssid as real_ssid
 
@@ -29,7 +36,7 @@ hard_currency = [
     DIVINE,
     "Exalted Orb",
     "Exalted Shard",
-    ORB_OF_FUSING,
+    FUSING,
     "Jeweller's Orb",
     "Awakened Sextant",
     "Prime Sextant",
@@ -73,8 +80,8 @@ currency_shards = {
     "Three Faces in the Dark": (3 / 7, CHAOS),
     "The Scholar": (40 / 3, "Scroll of Wisdom"),
     "The Catalyst": (3 / 4, VAAL_ORB),
-    "Lucky Connections": (20 / 7, ORB_OF_FUSING),
-    "Loyalty": (3 / 5, ORB_OF_FUSING),
+    "Lucky Connections": (20 / 7, FUSING),
+    "Loyalty": (3 / 5, FUSING),
     "Boon of Justice": (1 / 6, "Offering to the Goddess"),
     "Sambodhi's Wisdom": (1 / 3, "A Master Seeks Help, Jun"),
     "The Cartographer": (10 / 1, CHISEL),
