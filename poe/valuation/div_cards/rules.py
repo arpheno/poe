@@ -44,8 +44,6 @@ def the_rite_of_elements(prices):
     return values[values < values.quantile(0.75)].mean() / stack_size
 
 
-
-
 def the_cheater(prices):
     stack_size = calc_stack_size(prices)
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
@@ -305,7 +303,7 @@ def emperors_luck(prices):
         "Orb of Scouring": 0.013300000000000001,
         "Orb of Transmutation": 0.2048,
     }
-    value = sum(prices[key][0]["chaosValue"] for key, value in outcomes.items()) + 0.016
+    value = sum(prices[key][0]["chaosValue"] for key, value in outcomes.items()) + 0.016  # Chaos orb is 1.6%
     return value / stack_size * 5
 
 

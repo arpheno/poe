@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+app-profitable-items{
+  flex:1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+app-whispers{
+  flex:1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}

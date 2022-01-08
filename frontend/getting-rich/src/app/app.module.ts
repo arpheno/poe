@@ -8,11 +8,16 @@ import { ProfitableItemsComponent } from './profitable-items/profitable-items.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from "@angular/material/table";
 import {MatSliderModule} from "@angular/material/slider";
+import { MatSortModule } from '@angular/material/sort';
+import {MatButtonModule} from "@angular/material/button";
+import { WhispersComponent } from './whispers/whispers.component';
+import {ClipboardModule} from "@angular/cdk/clipboard";
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfitableItemsComponent
+    ProfitableItemsComponent,
+    WhispersComponent
   ],
   imports: [
     BrowserModule,
@@ -20,8 +25,10 @@ import {MatSliderModule} from "@angular/material/slider";
     HttpClientModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatSliderModule
-
+    MatSliderModule,
+    MatSortModule,
+    MatButtonModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

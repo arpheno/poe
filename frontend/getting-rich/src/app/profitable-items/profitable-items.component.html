@@ -1,18 +1,30 @@
-<p>profitable-items works!</p>
+<h2>Potentially Profitable Items</h2>
+<table mat-table [dataSource]="dataSource" matSort (matSortChange)="announceSortChange($event)">
+<!--  <mat-text-column name="name" mat-sort-header></mat-text-column>-->
+<!--  <ng-container matColumnDef="name">-->
+<!--    <mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name"> Name </mat-header-cell>-->
+<!--    <mat-cell *matCellDef="let row"> {{row.name}} </mat-cell>-->
+<!--  </ng-container>-->
+  <ng-container matColumnDef="price">
+    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by price"> Price </th>
+    <td *matCellDef="let row"> {{row.price| number : '.2-2'}} </td>
+  </ng-container>
+  <ng-container matColumnDef="value">
+    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Value">Value </th>
+    <td *matCellDef="let row"> {{row.value| number : '.2-2'}} </td>
+  </ng-container>
+  <ng-container matColumnDef="expected_profit">
+    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Expected Profit">Profit/Trade</th>
+    <td *matCellDef="let row"> {{row.expected_profit | number : '.2-2'}} </td>
+  </ng-container>
 
-<ul class="profitableItems">
-  <li *ngFor="let item of profitableItems">
-    <span class="badge">{{item.name}}</span>
-    <span class="badge">{{item.value}}</span>
-    <span class="badge">{{item.price}}</span>
-    <span class="badge">{{item.expected_profit}}</span>
-  </li>
-</ul>
-<table mat-table [dataSource]="profitableItems">
   <mat-text-column name="name"></mat-text-column>
-  <mat-text-column name="price"></mat-text-column>
-  <mat-text-column name="value"></mat-text-column>
-  <mat-text-column name="expected_profit"></mat-text-column>
-  <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+  <ng-container matColumnDef="actions">
+    <mat-header-cell  *matHeaderCellDef > Actions </mat-header-cell>
+    <mat-cell *matCellDef="let row" >
+      <button mat-button (click)="getWhispers(row)">Search Trades</button>
+    </mat-cell>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="columnsToDisplay" ></tr>
   <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 </table>
