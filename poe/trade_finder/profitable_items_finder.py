@@ -17,4 +17,7 @@ def find_profitable_items(prices):
     return df
 if __name__ == '__main__':
     prices=retrieve_prices()
-    pprint(find_profitable_items(prices).reset_index().T.to_dict().values())
+    items=find_profitable_items(prices)
+
+    items['icon'] = items.index.map(lambda x: prices[x][0].get('icon',''))
+    print(items)

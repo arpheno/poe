@@ -14,7 +14,7 @@ import {Whisper} from "../whispers/whisper";
 })
 export class ProfitableItemsComponent implements OnInit {
   profitableItems: ProfitableItem[] = [];
-  columnsToDisplay: string[] = ['name', 'value', 'price', 'expected_profit', 'actions'];
+  columnsToDisplay: string[] = ['icon','name', 'value', 'price', 'expected_profit','relative_profit', 'actions'];
   dataSource = new MatTableDataSource<ProfitableItem>();
   @Output() generatedWhispers = new EventEmitter<Whisper[]>();
   @ViewChild(MatSort, {static: true}) sort!: MatSort;

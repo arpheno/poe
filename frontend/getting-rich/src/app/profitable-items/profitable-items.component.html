@@ -1,30 +1,46 @@
 <h2>Potentially Profitable Items</h2>
 <table mat-table [dataSource]="dataSource" matSort (matSortChange)="announceSortChange($event)">
-<!--  <mat-text-column name="name" mat-sort-header></mat-text-column>-->
-<!--  <ng-container matColumnDef="name">-->
-<!--    <mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name"> Name </mat-header-cell>-->
-<!--    <mat-cell *matCellDef="let row"> {{row.name}} </mat-cell>-->
-<!--  </ng-container>-->
+  <!--  <mat-text-column name="name" mat-sort-header></mat-text-column>-->
+  <!--  <ng-container matColumnDef="name">-->
+  <!--    <mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name"> Name </mat-header-cell>-->
+  <!--    <mat-cell *matCellDef="let row"> {{row.name}} </mat-cell>-->
+  <!--  </ng-container>-->
   <ng-container matColumnDef="price">
-    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by price"> Price </th>
+    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by price"> Price</th>
     <td *matCellDef="let row"> {{row.price| number : '.2-2'}} </td>
   </ng-container>
   <ng-container matColumnDef="value">
-    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Value">Value </th>
-    <td *matCellDef="let row"> {{row.value| number : '.2-2'}} </td>
+    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Value">Value</th>
+    <td *matCellDef="let row">
+      {{row.value| number : '.2-2'}}
+    </td>
   </ng-container>
   <ng-container matColumnDef="expected_profit">
     <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Expected Profit">Profit/Trade</th>
     <td *matCellDef="let row"> {{row.expected_profit | number : '.2-2'}} </td>
   </ng-container>
+  <ng-container matColumnDef="relative_profit">
+    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Relative Profit">% Profit</th>
+    <td *matCellDef="let row"> {{row.relative_profit | number : '.2-2'}} </td>
+  </ng-container>
+  <ng-container matColumnDef="icon">
+    <th *matHeaderCellDef>Icon</th>
+    <td *matCellDef="let row"><img matTooltip="{{row.explicit_modifiers}}" src="{{row.icon}}"></td>
+  </ng-container>
 
-  <mat-text-column name="name"></mat-text-column>
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef> Name</mat-header-cell>
+    <mat-cell *matCellDef="let row">
+      <a href='https://pathofexile.fandom.com/wiki/{{row.name}}'
+         target="_blank">{{row.name}}</a>
+    </mat-cell>
+  </ng-container>
   <ng-container matColumnDef="actions">
-    <mat-header-cell  *matHeaderCellDef > Actions </mat-header-cell>
-    <mat-cell *matCellDef="let row" >
+    <mat-header-cell *matHeaderCellDef> Actions</mat-header-cell>
+    <mat-cell *matCellDef="let row">
       <button mat-button (click)="getWhispers(row)">Search Trades</button>
     </mat-cell>
   </ng-container>
-  <tr mat-header-row *matHeaderRowDef="columnsToDisplay" ></tr>
+  <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
   <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 </table>

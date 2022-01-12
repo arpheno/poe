@@ -12,6 +12,7 @@ import { MatSortModule } from '@angular/material/sort';
 import {MatButtonModule} from "@angular/material/button";
 import { WhispersComponent } from './whispers/whispers.component';
 import {ClipboardModule} from "@angular/cdk/clipboard";
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {ClipboardModule} from "@angular/cdk/clipboard";
     MatSliderModule,
     MatSortModule,
     MatButtonModule,
-    ClipboardModule
+    ClipboardModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

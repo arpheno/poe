@@ -18,13 +18,13 @@ SCOUR='Orb of Scouring'
 BAUBLE='Glassblower\'s Bauble'
 WHETSTONE='Blacksmith\'s Whetstone'
 try:
-    from secrets import ssid as real_ssid
+    from poe.secrets import ssid as real_ssid
 
     ssid = real_ssid
 except ImportError as e:
     print(e)
     print("Please set ssid in secrets.py")
-    with open("secrets.py", "w") as f:
+    with open("poe/secrets.py", "w") as f:
         f.write("ssid=")
     ssid = ""
 hard_currency = [
@@ -74,7 +74,7 @@ currency_shards = {
     "No Traces": (30 / 9, ORB_OF_SCOURING),
     "Lucky Deck": (10 / 9, "Stacked Deck"),
     "Alluring Bounty": (10 / 7, EXALTED_ORB),
-    "The Scout": (8 / 7, EXALTED_ORB),
+    "The Scout": (7 / 8, EXALTED_ORB),
     "Abandoned Wealth": (3 / 5, EXALTED_ORB),
     "Underground Forest": (10 / 4, "Awakened Sextant"),
     "Three Faces in the Dark": (3 / 7, CHAOS),

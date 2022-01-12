@@ -12,7 +12,13 @@ export class AppComponent {
 
   onNewWhispers(event:Whisper[]) {
     console.log(event);
-    this.gWhispers.push(...event);
+    let set_by_whisper_messages:any ={};
+    for (let x of event){
+      set_by_whisper_messages[x.whisper]=x;
+    } for (let x of this.gWhispers){
+      set_by_whisper_messages[x.whisper]=x;
+    }
+    this.gWhispers=Object.values(set_by_whisper_messages);
     this.gWhispers.sort((a,b)=>b.profit-a.profit);
   }
 }
