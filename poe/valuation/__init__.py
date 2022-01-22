@@ -6,13 +6,19 @@ from poe.valuation.splinters import splinter_values
 
 
 def own_valuations(prices):
+    print("Evaluating")
+    print("Scarabs")
     scarabs = scarab_orb_of_horizon(prices)
     scarabs = scarabs[["price", "value"]].max(axis=1).reset_index()
     scarabs["name"] = scarabs.tier + " " + scarabs.kind + " Scarab"
     scarabs = scarabs[["name", 0]].set_index("name")[0].to_dict()
+    print("Div Cards")
     div_cards = div_card_values(prices)
+    print("Splinters")
     splinters = splinter_values(prices)
+    print("Currency")
     currency = currency_valuation(prices)
+    print('Done')
     values = {**scarabs, **div_cards, **splinters,**currency}
     return values
 

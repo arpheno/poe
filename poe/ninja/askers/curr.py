@@ -7,8 +7,8 @@ def ask_ninja_curr(type, league="Scourge"):
     url = "https://poe.ninja/api/data/currencyoverview"
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)
-    print(url, type, response.status_code)
     data = response.json()
+    print('.',end='')
     for c in data["lines"]:
         c["name"] = c["currencyTypeName"]
         c["chaosValue"] = c["receive"]["value"]

@@ -7,7 +7,7 @@ def ask_ninja_item(type, league="Scourge"):
     url = "https://poe.ninja/api/data/itemoverview"
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)
-    print(url, type, response.status_code)
+    print('.',end='')
     data = response.json()
     for c in data["lines"]:
         c["type"] = type
