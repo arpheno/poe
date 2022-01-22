@@ -23,9 +23,10 @@ NINJA_ITEM_TYPES = (
     "Map",
     "SkillGem",
     "BaseType",
-    'Vial',
+    "Vial",
 )
+
+
 def retrieve_prices(currencies=NINJA_ITEM_TYPES):
 
-    return ChainMap(*[asker(curr) for curr in currencies])
-
+    return ChainMap({"Chaos Orb": [{"type": "Currency", "chaosValue": 1}]}, *[asker(curr) for curr in currencies])

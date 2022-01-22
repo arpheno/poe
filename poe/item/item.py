@@ -6,7 +6,7 @@ from poe.item import kwargs_dataclass
 
 @kwargs_dataclass
 class Item:
-    inventoryId: int
+    inventoryId: str
     x: int
     y: int
     league: str
@@ -15,10 +15,9 @@ class Item:
     stackSize: int = 1
     price: int = None
     typeLine: str = ""
-    name: str = ""
-    sockets: tuple = ()
+    sockets: tuple = field(default_factory=tuple)
     baseType: str = ""
-    properties: dict = field(default_factory=dict)
+    properties: dict = field(default_factory=lambda: [{}])
     influences: dict = field(default_factory=dict)
     corrupted: bool = False
     ilvl: int = 0
@@ -47,7 +46,7 @@ class Item:
         )
 
     @property
-    def type_line(self):
+    def name(self):
         return self.typeLine
 
     @property
@@ -61,3 +60,6 @@ class Item:
     def extract_property(self, identifier) -> dict:
         [prop] = [prop for prop in self.properties if prop["name"] == identifier]
         return prop
+
+    def match(self, candidates):
+        return candidates[0]

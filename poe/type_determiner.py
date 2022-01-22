@@ -1,21 +1,26 @@
+import operator
+from functools import reduce
+from typing import Callable
+
+
+def type_mapping(prices) -> Callable:
+    all_rates = {key: values for m in prices.maps for key, values in m.items()}
+    mapping = {name: first["type"] for name, (first, *_) in all_rates.items()}
+    type_mapper = determine_type(mapping)
+    return type_mapper
+
+
+def determine_type(type_mapping) -> Callable:
+    return lambda item: is_item_exact_match(item, type_mapping) or is_item_influenced(item, type_mapping)
+
+
 def is_chaos_orb(item, type_mapping):
-    return "Currency" if item["name"] == "Chaos Orb" else None
+    return "Currency" if item["typeLine"] == "Chaos Orb" else None
 
 
 def is_item_exact_match(item, type_mapping):
-    return type_mapping.get(item["name"]) or type_mapping.get(item["name"] + " Support")
+    return type_mapping.get(item["typeLine"]) or type_mapping.get(item["typeLine"] + " Support")
+
 
 def is_item_influenced(item, type_mapping):
-    return 'Base' if item.get("influences") else None
-
-def determine_type(item, type_mapping):
-    determiners = [is_chaos_orb, is_item_exact_match,is_item_influenced]
-    for f in determiners:
-        if f(item, type_mapping):
-            return f(item, type_mapping)
-    else:
-        return None
-    try:
-        return next(f(item, type_mapping) for f in determiners if f(item,type_mapping) is not None)
-    except StopIteration:
-        return None
+    return "Base" if item.get("influences") else None
