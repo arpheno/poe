@@ -1,5 +1,3 @@
-from typing import List
-
 from poe.item.item import Item
 
 

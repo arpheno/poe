@@ -6,7 +6,6 @@ from poe.bulk.model.model import Model
 from poe.bulk.model.modules.feature_extraction.factory import feature_extraction_factory
 from poe.bulk.model.modules.prediction.factory import prediction_factory
 
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 

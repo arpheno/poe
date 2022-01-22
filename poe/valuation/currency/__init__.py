@@ -1,3 +1,5 @@
+import pandas as pd
+
 from constants import (
     TRANSMUTE,
     AUGMENT,
@@ -13,7 +15,6 @@ from constants import (
     WHETSTONE,
 )
 from poe.ninja import retrieve_prices
-import pandas as pd
 
 vendor_recipes = pd.DataFrame(
     {

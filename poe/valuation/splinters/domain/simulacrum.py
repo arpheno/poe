@@ -1,7 +1,5 @@
 import pandas as pd
 
-from poe.valuation.splinters.domain.splinter_info import SplinterInfo
-
 
 def splinter_query(splinter: str):
     splinter_template = {

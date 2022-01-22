@@ -1,5 +1,3 @@
-from pprint import pprint
-
 import pandas as pd
 
 from poe.ninja import retrieve_prices

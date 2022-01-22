@@ -2,10 +2,10 @@ from argparse import Namespace
 
 import cv2
 import torch
-from easyocr.utils import CTCLabelConverter
 
 from poe.bulk.model.model_builder import model_builder
 from poe.bulk.model.modules.converters import AttnLabelConverter
+
 model=None
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 def predict(model,converter, image_tensors, opt):

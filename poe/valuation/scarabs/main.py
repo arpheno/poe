@@ -1,5 +1,7 @@
 from itertools import groupby
+
 import pandas as pd
+
 from poe.ninja import retrieve_prices
 
 

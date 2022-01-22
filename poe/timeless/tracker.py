@@ -4,7 +4,6 @@ import asyncio
 import json
 from asyncio import sleep
 from pprint import pprint
-from typing import Sequence
 
 import aiohttp
 import websockets

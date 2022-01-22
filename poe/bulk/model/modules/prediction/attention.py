@@ -1,9 +1,8 @@
+import torch
 from torch import nn as nn
 from torch.nn import functional as F
 
 from poe.bulk.model.modules.prediction.interface import Predictor
-
-import torch
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

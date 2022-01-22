@@ -1,9 +1,10 @@
 from itertools import groupby
 
 import cv2
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 def remove_padding(img, padding=25):
     img = img[padding : img.shape[0] - padding, padding : img.shape[1] - padding]

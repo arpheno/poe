@@ -1,5 +1,6 @@
 import inspect
 import statistics
+
 import pandas as pd
 
 ALT_QUALITY = ("Phantasmal", "Anomalous", "Divergent")

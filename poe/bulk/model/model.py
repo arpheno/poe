@@ -1,7 +1,6 @@
 from torch import nn as nn
 
 from poe.bulk.model.modules.feature_extraction.interface import FeatureExtractor
-from poe.bulk.model.modules.prediction.attention import Attention
 from poe.bulk.model.modules.prediction.interface import Predictor
 from poe.bulk.model.modules.sequence_modeling import BidirectionalLSTM
 
