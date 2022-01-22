@@ -6,7 +6,7 @@ from poe.matchers.base_matcher import match_base
 from poe.matchers.map_matcher import match_map
 from poe.matchers.skillgem_matcher import match_skillgem
 from poe.ninja import retrieve_prices
-from poe.stash_tabs.all_tabs_getter import get_all_tabs
+from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs
 
 excluded = []
 
@@ -55,7 +55,6 @@ def _build_items(items: List[Item], rates):
         else:
             exact_match = candidates[0]
         item.price = exact_match and exact_match["chaosValue"]
-
 
 if __name__ == "__main__":
     items = build_items()

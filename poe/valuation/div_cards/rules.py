@@ -297,7 +297,7 @@ def emperors_luck(prices):
         "Orb of Scouring": 0.013300000000000001,
         "Orb of Transmutation": 0.2048,
     }
-    value = sum(prices[key][0]["chaosValue"] for key, value in outcomes.items()) + 0.016  # Chaos orb is 1.6%
+    value = sum(prices[key][0]["chaosValue"] if key in prices else 0 for key, value in outcomes.items()) + 0.016  # Chaos orb is 1.6%
     return value / stack_size * 5
 
 

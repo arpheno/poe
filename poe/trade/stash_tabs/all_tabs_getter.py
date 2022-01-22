@@ -1,9 +1,9 @@
 from poe.item.item_factory import item_factory
-from poe.stash_tabs.caller import _call
+from poe.trade.stash_tabs.caller import _call
 from poe.type_determiner import determine_type
 
 
-def get_all_tabs(mapping):
+def get_all_tabs(mapping:tuple[str]):
     all_items = []
     for tab_index in range(20):
         stashtab, data = _call(tab_index)

@@ -7,3 +7,5 @@ dataenforce
 django
 redislite
 django-cors-headers
+openv-python
+torch
