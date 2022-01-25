@@ -1,3 +1,4 @@
 poe/secrets.py
 reports
 currency_reports
+data/certbot/*

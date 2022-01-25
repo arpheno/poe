@@ -11,7 +11,7 @@ import {ProfitableItem} from "./profitable-item";
 export class WhisperServiceService {
 
 
-  private url: string = 'http://localhost:8000/trades/whispers'
+  private url: string = `${window.location.protocol}//${window.location.hostname}/api/trades/whispers/`
 
   constructor(
     private http: HttpClient,

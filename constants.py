@@ -19,7 +19,6 @@ BAUBLE='Glassblower\'s Bauble'
 WHETSTONE='Blacksmith\'s Whetstone'
 try:
     from poe.secrets import ssid as real_ssid
-
     ssid = real_ssid
 except ImportError as e:
     print(e)

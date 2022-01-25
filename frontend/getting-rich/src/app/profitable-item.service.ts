@@ -8,7 +8,7 @@ import {MOCK_ITEMS} from "./profitable-items/mock_items";
   providedIn: 'root'
 })
 export class ProfitableItemService {
-  private url: string = 'http://localhost:8000/trades'
+  private url: string = `${window.location.protocol}//${window.location.hostname}/api/trades/`;
 
   constructor(
     private http: HttpClient,
