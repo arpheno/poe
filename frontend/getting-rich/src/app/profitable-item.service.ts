@@ -3,12 +3,13 @@ import {ProfitableItem, ProfitableItemConstructorParams} from "./profitable-item
 import {HttpClient} from "@angular/common/http";
 import {map, Observable, of} from "rxjs";
 import {MOCK_ITEMS} from "./profitable-items/mock_items";
+import {environment} from "../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProfitableItemService {
-  private url: string = `${window.location.protocol}//${window.location.hostname}/api/trades/`;
+  private url: string = environment.itemsUrl;
 
   constructor(
     private http: HttpClient,

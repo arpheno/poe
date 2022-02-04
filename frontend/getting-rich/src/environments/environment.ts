@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  whisperUrl: `http://localhost:8000/trades/whispers/`,
+  itemsUrl: `http://localhost:8000/trades/`,
 };
 
 /*
