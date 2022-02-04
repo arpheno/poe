@@ -15,22 +15,23 @@ from constants import (
     WHETSTONE,
 )
 from poe.ninja import retrieve_prices
-
+UNMAKING='Orb of Unmaking'
 vendor_recipes = pd.DataFrame(
     {
         TRANSMUTE: (1 / 4, AUGMENT),
         AUGMENT: (1 / 4, ALTERATION),
         ALTERATION: (1 / 2, JEWELLERS),
-        JEWELLERS: (1 / 3, CHROMATIC),
+        # JEWELLERS: (1 / 3, CHROMATIC),
         JEWELLERS: (1 / 4, FUSING),
         FUSING: (1.0, CHANCE),
         CHANCE: (1 / 4, SCOUR),
         SCOUR: (1 / 2, REGRET),
-        REGRET: (1.0, ALCHEMY),
+        # REGRET: (1.0, ALCHEMY),
         CHROMATIC: (1.0, CHROMATIC),
         WHETSTONE: (1 / 8, BAUBLE),
         BAUBLE: (1.0, BAUBLE),
         ALCHEMY: (1.0, ALCHEMY),
+        REGRET:(1/4,UNMAKING)
     }
 ).T
 

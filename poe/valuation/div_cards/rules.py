@@ -463,6 +463,12 @@ def the_long_con(prices):
     value = statistics.mean(values) / stack_size
     return value
 
+def bijoux(prices):
+    stack_size = 4
+    relevant = [item for price in prices.values() for item in price if 'Cluster Jewel' in item["name"]]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    return value
 
 div_card_rules["The Obscured"] = the_obscured
 div_card_rules["The Long Con"] = the_long_con
