@@ -3,7 +3,7 @@ from collections import defaultdict
 import requests
 
 
-def ask_ninja_curr(type, league="Scourge"):
+def ask_ninja_curr(type, league="Standard"):
     url = "https://poe.ninja/api/data/currencyoverview"
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)

@@ -3,7 +3,7 @@ from collections import defaultdict
 import requests
 
 
-def ask_ninja_item(type, league="Scourge"):
+def ask_ninja_item(type, league="Standard"):
     url = "https://poe.ninja/api/data/itemoverview"
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)
