@@ -14,7 +14,12 @@ class WhisperGenerator:
 
     def __call__(self, df: Dataset["value":float, "expected_profit":float]):
         df = self.create_queries(df, self.poe_trade_key_mapping)
-        whispers_stacked = df["query"].apply(self.exchange_resolver.resolve).apply(self.listings_resolver.resolve)
+        whispers_stacked = (
+            df["query"]
+            .apply(self.exchange_resolver.resolve)
+            .apply(self.listings_resolver.resolve)
+            .apply(exchange_parser)
+        )
         whispers = pd.concat(whispers_stacked.values.tolist(), ignore_index=True)
         whispers["value"] = whispers.get_currency.map(self.reverse_mapping).map(df.value)
         whispers = self.translate_currency(whispers, self.prices)
@@ -46,7 +51,7 @@ class WhisperGenerator:
         print(whispers[["pay_currency", "price", "chaos_price"]])
         return whispers
 
-    def query(self,want, minimum):
+    def query(self, want, minimum):
         return {
             "exchange": {
                 "status": {"option": "online"},
@@ -55,6 +60,28 @@ class WhisperGenerator:
                 "minimum": minimum,
             }
         }
+
+
+def exchange_parser(data):
+    if data.get("result"):
+        df = pd.DataFrame(
+            [
+                {
+                    "pay_currency": result["listing"]["price"]["exchange"]["currency"],
+                    "get_currency": result["listing"]["price"]["item"]["currency"],
+                    "price": result["listing"]["price"]["exchange"]["amount"]
+                    / result["listing"]["price"]["item"]["amount"],
+                    "stock": result["listing"]["price"]["item"]["stock"],
+                    "id": result["id"],
+                    "whisper_template": result["listing"]["whisper"],
+                }
+                for result in data["result"]
+            ]
+        )
+    else:
+        df = pd.DataFrame(columns=["pay_currency", "get_currency", "price", "stock", "id", "whisper_template"])
+    return df
+
 
 #
 # if __name__ == "__main__":

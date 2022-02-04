@@ -12,7 +12,7 @@ logger = logging.getLogger(__file__)
 
 
 class ListingsResolver:
-    def __init__(self, league="Scourge", cache=Redis()):
+    def __init__(self, league="Standard", cache=Redis()):
         self.league = league
         self.cache = cache
         self.url = f"https://www.pathofexile.com/api/trade/exchange/{league}"
@@ -25,7 +25,9 @@ class ListingsResolver:
                 "query",
                 result['id'],
             ),
+
             ("exchange", ""),
+            # ('pseudos[]',['pseudo.pseudo_total_life', 'pseudo.pseudo_number_of_crafted_suffix_mods', 'pseudo.pseudo_number_of_suffix_mods'])
         ]
         with limit_rate(key, limits, self.cache):
             response = requests.get(
@@ -37,54 +39,7 @@ class ListingsResolver:
             print(f"too fast {response.headers}")
             time.sleep(60)
             return self.resolve(result)
-        if response.json().get("result"):
-            df = pd.DataFrame(
-                [
-                    {
-                        "pay_currency": result["listing"]["price"]["exchange"]["currency"],
-                        "get_currency": result["listing"]["price"]["item"]["currency"],
-                        "price": result["listing"]["price"]["exchange"]["amount"]
-                        / result["listing"]["price"]["item"]["amount"],
-                        "stock": result["listing"]["price"]["item"]["stock"],
-                        "id": result["id"],
-                        "whisper_template": result["listing"]["whisper"],
-                    }
-                    for result in response.json()["result"]
-                ]
-            )
-        else:
-            df = pd.DataFrame(columns=["pay_currency", "get_currency", "price", "stock", "id", "whisper_template"])
-        return df
+        return response.json()
 
 
-def resolve_listings(hash, result):
-    params = [
-        (
-            "query",
-            hash,
-        ),
-        ("exchange", ""),
-    ]
-    response = requests.get(
-        f'https://www.pathofexile.com/api/trade/fetch/{",".join(result[:20])}',
-        headers=headers,
-        params=params,
-    )
-    if response.json().get("result"):
-        df = pd.DataFrame(
-            [
-                {
-                    "pay_currency": result["listing"]["price"]["exchange"]["currency"],
-                    "get_currency": result["listing"]["price"]["item"]["currency"],
-                    "price": result["listing"]["price"]["exchange"]["amount"]
-                    / result["listing"]["price"]["item"]["amount"],
-                    "stock": result["listing"]["price"]["item"]["stock"],
-                    "id": result["id"],
-                    "whisper_template": result["listing"]["whisper"],
-                }
-                for result in response.json()["result"]
-            ]
-        )
-    else:
-        df = pd.DataFrame(columns=["pay_currency", "get_currency", "price", "stock", "id", "whisper_template"])
-    return df
+

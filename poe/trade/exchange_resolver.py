@@ -8,7 +8,7 @@ from poe.trade.rate_limiter import limit_rate
 
 
 class ExchangeResolver:
-    def __init__(self, league='Scourge', cache=Redis()):
+    def __init__(self, league='Standard', cache=Redis()):
         self.league = league
         self.cache = cache
         self.url = f"https://www.pathofexile.com/api/trade/exchange/{league}"
