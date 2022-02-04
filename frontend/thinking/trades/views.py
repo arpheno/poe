@@ -29,7 +29,13 @@ def profitable_items(request):
 
 
 def whispers(request):
-    items = pd.DataFrame(json.loads(request.body)).rename({"name": "index"}, axis=1).set_index("index")
+    items = (
+        pd.DataFrame(list(zip(*dict(request.GET).values())), columns=request.GET.keys())
+        .rename({"name": "index"}, axis=1)
+        .set_index("index")
+    )
+    items['expected_profit']=items['expected_profit'].astype('float')
+    items['value']=items['value'].astype('float')
     prices = {item.name: [{"chaosValue": item.price}] for item in Item.objects.all()}
     key_mapping = pd.read_csv(f"{Path(__file__).resolve().parent}/poe_keys.csv").set_index("name")["key"]
 
@@ -41,6 +47,6 @@ def whispers(request):
         poe_trade_key_mapping=key_mapping,
         prices=prices,
     )
-    domain_result=use_case(items)
+    domain_result = use_case(items)
     result = list(domain_result.T.to_dict().values())
     return JsonResponse(result, safe=False)

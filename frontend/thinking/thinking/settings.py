@@ -30,7 +30,7 @@ SECRET_KEY = secrets.token_bytes(50)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.environ.get("USER", None) == "swozny" else False
 
-ALLOWED_HOSTS = ["127.0.0.1", "zalando-62370.0zlr2evyfbnk100u.myfritz.net"]
+ALLOWED_HOSTS = ["127.0.0.1", "zalando-62370.0zlr2evyfbnk100u.myfritz.net",'localhost']
 
 
 # Application definition
