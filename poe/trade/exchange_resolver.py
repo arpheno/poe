@@ -8,12 +8,12 @@ from poe.trade.rate_limiter import limit_rate
 
 
 class ExchangeResolver:
-    def __init__(self, league='Standard', cache=Redis()):
+    def __init__(self, league="Standard", cache=Redis()):
         self.league = league
         self.cache = cache
         self.url = f"https://www.pathofexile.com/api/trade/exchange/{league}"
 
-    def resolve(self, query) -> tuple[str,dict]:
+    def resolve(self, query) -> dict[str, list[tuple[str, str]]]:
         key = "trade-exchange-request-limit"
         limits = ["7:15:60", "15:90:120", "45:300:1800", "3:5:60"]
         with limit_rate(key, limits, self.cache):
@@ -25,4 +25,14 @@ class ExchangeResolver:
         result = response.json()
         result_hash = result["id"]
         print(f"{self.url.replace('/api', '')}/{result_hash}")
-        return result
+        params = {
+            "params": [
+                (
+                    "query",
+                    result["id"],
+                ),
+                ("exchange", ""),
+            ],
+            "result": result["result"][:20],
+        }
+        return params
