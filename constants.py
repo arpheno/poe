@@ -235,3 +235,4 @@ blacklist = [
     "Boon of the First Ones",
     "Boon of Justice",
 ]
+LEAGUE="Standard"

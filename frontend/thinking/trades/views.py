@@ -5,6 +5,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 
 # Create your views here.
+from constants import LEAGUE
 from poe.ninja import retrieve_prices
 from poe.trade.exchange_resolver import ExchangeResolver
 from poe.trade.listings_resolver import ListingsResolver
@@ -39,8 +40,8 @@ def whispers(request):
     prices = {item.name: [{"chaosValue": item.price}] for item in Item.objects.all()}
     key_mapping = pd.read_csv(f"{Path(__file__).resolve().parent}/poe_keys.csv").set_index("name")["key"]
 
-    listings_resolver = ListingsResolver()
-    exchange_resolver = ExchangeResolver()
+    listings_resolver = ListingsResolver(league=LEAGUE)
+    exchange_resolver = ExchangeResolver(league=LEAGUE)
     use_case = WhisperGenerator(
         exchange_resolver=exchange_resolver,
         listings_resolver=listings_resolver,
