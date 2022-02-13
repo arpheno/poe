@@ -12,7 +12,7 @@ from poe.trade.listings_resolver import ListingsResolver
 import pandas as pd
 
 from poe.trade_finder import find_profitable_items
-from poe.trade_finder.whisper_generator import WhisperGenerator
+from poe.trade_finder.whisper_generator import WhisperGenerator, exchange_parser
 from poe.valuation import own_valuations
 from trades.models import Item
 
@@ -23,8 +23,10 @@ def profitable_items(request):
     obj, created = Item.objects.update_or_create(name="Chaos Orb", price=1)
     values = own_valuations(prices)
     items: pd.DataFrame = find_profitable_items(prices, values)
-    items["icon"] = items.index.map(lambda x: prices[x][0].get("icon"))
-    items["explicit_mods"] = items.index.map(lambda x: prices[x][0].get("explicitModifiers"))
+    items["icon"] = items.index.map(lambda x: prices.get(x, [{"icon": ""}])[0].get("icon"))
+    items["explicit_mods"] = items.index.map(
+        lambda x: prices.get(x, [{"explicitModifiers": [""]}])[0].get("explicitModifiers")
+    )
     result = list(items.reset_index().T.to_dict().values())
     return JsonResponse(result, safe=False)
 
@@ -35,8 +37,8 @@ def whispers(request):
         .rename({"name": "index"}, axis=1)
         .set_index("index")
     )
-    items['expected_profit']=items['expected_profit'].astype('float')
-    items['value']=items['value'].astype('float')
+    items["expected_profit"] = items["expected_profit"].astype("float")
+    items["value"] = items["value"].astype("float")
     prices = {item.name: [{"chaosValue": item.price}] for item in Item.objects.all()}
     key_mapping = pd.read_csv(f"{Path(__file__).resolve().parent}/poe_keys.csv").set_index("name")["key"]
 
@@ -50,4 +52,19 @@ def whispers(request):
     )
     domain_result = use_case(items)
     result = list(domain_result.T.to_dict().values())
+    return JsonResponse(result, safe=False)
+
+
+def orb_of_horizons(request):
+    query = {
+        "exchange": {"status": {"option": "online"}, "have": ["chaos"], "want": ["orb-of-horizons"], "minimum": 100}
+    }
+    prices = retrieve_prices(['Currency'])
+    listings_resolver = ListingsResolver(league=LEAGUE)
+    exchange_resolver = ExchangeResolver(league=LEAGUE)
+    temp=exchange_parser(listings_resolver.resolve(exchange_resolver.resolve(query)))
+    temp['value']=prices['Orb of Horizons'][0]['chaosValue']
+    temp['profit']=(temp.value-temp.price)*temp.stock
+    temp['whisper']=temp.apply(lambda x: x['whisper_template'].format(x['stock'],x['stock']*x['price']),axis=1)
+    result = list(temp.T.to_dict().values())
     return JsonResponse(result, safe=False)

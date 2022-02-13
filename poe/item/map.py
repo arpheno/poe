@@ -7,7 +7,8 @@ class Map(Item):
         map_tier = self.extract_property('Map Tier')['values'][0][0]
         return int(map_tier)
 
-    def match(self, candidates: list[dict]):
+    def match(self, prices: dict):
+        candidates = prices.get(self.name) or prices.get(self.typeLine) or prices.get(self.baseType)
         conditions = [
             lambda x: x["mapTier"] == self.map_tier,
         ]

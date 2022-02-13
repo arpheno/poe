@@ -88,7 +88,7 @@ currency_shards = {
     "The Harvester": ((1 / 11), "The Harvest"),
     "Reckless Ambition": ((1 / 6), "Omeyocan"),
     "The Darkest Dream": ((1 / 6), "Severed in Sleep"),
-    # "The Professor": ((1 / 4), "The Putrid Cloister"),
+    "The Professor": ((1 / 4), "The Putrid Cloister"),
     "The Wolven King's Bite": ((1 / 8), "Rigwald's Quills"),
     "The Wind": ((1 / 7), "Windripper"),
     "The Pact": ((1 / 9), "Pledge of Hands"),
@@ -117,7 +117,7 @@ currency_shards = {
     "The Life Thief": ((1 / 6), "Zerphi's Heart"),
     "Beauty Through Death": (1 / 5, "Atziri's Reflection"),
     "A Note in the Wind": (1 / 4, "Asenath's Chant"),
-    # "Silence and Frost":(1/7,'The Pandemonius'),
-# "Judging Voices":(1/9,"Forbidden Shako"),
+    "Silence and Frost":(1/7,'The Pandemonius'),
+"Judging Voices":(1/9,"Forbidden Shako"),
 
 }

@@ -2,15 +2,24 @@ body{
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-wrap: wrap;
+  height: 3000px;
 }
 app-profitable-items{
-  flex:1 1 100%;
+  flex:0 0 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
+}
+app-whispers{
+  flex:0 0 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
 }
-app-whispers{
+app-horizon{
   flex:1 1 100%;
   display: flex;
   flex-wrap: wrap;

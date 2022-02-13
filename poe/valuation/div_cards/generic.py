@@ -1,15 +1,24 @@
+
 from poe.ninja import retrieve_prices
 from poe.valuation.div_cards.fixed import currency_shards
+
+import logging
+logger = logging.getLogger(__name__)
 
 
 def apply_fixed_rules(prices):
     result = {}
     for splinter, (fraction, reward) in currency_shards.items():
-        reward_price = min([price for price in prices.get(reward, [{}])], key=lambda x: x.get("links", 0))
-        if reward_price:
-            result[splinter] = fraction * reward_price["chaosValue"]
-        else:
-            result[splinter] = 0
+        try:
+            reward_price = min([price for price in prices.get(reward, [{}])], key=lambda x: x.get("links", 0))
+            if reward_price and reward_price.get('sparkLine'):
+                result[splinter] = fraction * reward_price["chaosValue"]
+            else:
+                result[splinter] = 0
+        except ValueError:
+            pass
+        except Exception:
+            logger.exception(f"Can't value {splinter}")
     return result
 
 

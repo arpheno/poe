@@ -7,7 +7,7 @@ from poe.valuation import own_valuations
 def find_profitable_items(prices, values):
     df = pd.DataFrame()
     df["value"] = pd.Series(values).dropna()
-    df["price"] = df.index.map(lambda x: prices[x][0]["chaosValue"])
+    df["price"] = df.index.map(lambda x: prices.get(x,[{'chaosValue':0}])[0]["chaosValue"])
     df["expected_profit"] = df.value - df.price
     df = df[df.expected_profit > 0].sort_values("expected_profit", ascending=False)
     df = df.rename_axis(index="name")

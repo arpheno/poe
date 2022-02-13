@@ -1,4 +1,4 @@
-import {Component, OnInit, Output, ViewChild,EventEmitter} from '@angular/core';
+import {Component, OnInit, Output, ViewChild, EventEmitter} from '@angular/core';
 import {ProfitableItem} from "../profitable-item";
 import {ProfitableItemService} from "../profitable-item.service";
 import {MatTableDataSource} from "@angular/material/table";
@@ -14,7 +14,7 @@ import {Whisper} from "../whispers/whisper";
 })
 export class ProfitableItemsComponent implements OnInit {
   profitableItems: ProfitableItem[] = [];
-  columnsToDisplay: string[] = ['icon','name', 'value', 'price', 'expected_profit','relative_profit', 'actions'];
+  columnsToDisplay: string[] = ['icon', 'name', 'value', 'price', 'expected_profit', 'relative_profit', 'actions'];
   dataSource = new MatTableDataSource<ProfitableItem>();
   @Output() generatedWhispers = new EventEmitter<Whisper[]>();
   @ViewChild(MatSort, {static: true}) sort!: MatSort;
@@ -30,6 +30,7 @@ export class ProfitableItemsComponent implements OnInit {
         console.log(items);
         // this.profitableItems = items;
         this.dataSource.data = items;
+        this.profitableItems = items;
         this.dataSource.sort = this.sort;
 
       });
@@ -66,5 +67,21 @@ export class ProfitableItemsComponent implements OnInit {
 
   onItemClicked() {
     console.log('lol')
+  }
+
+  allScarabs() {
+    console.log(this.profitableItems)
+    let asd = this.profitableItems.filter(x => x.name.endsWith('carab'));
+    console.log(asd)
+    this.whisperService.getWhispers(
+      asd
+    )
+      .subscribe(items => {
+        console.log(items);
+        this.generatedWhispers.emit(items);
+        // this.profitableItems = items;
+
+      });
+
   }
 }

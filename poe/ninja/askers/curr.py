@@ -11,7 +11,7 @@ def ask_ninja_curr(type, league="Standard"):
     print('.',end='')
     for c in data["lines"]:
         c["name"] = c["currencyTypeName"]
-        c["chaosValue"] = c["receive"]["value"]
+        c["chaosValue"] = c.get("receive",{'value':0})["value"]
         c["type"] = type
     return_value = defaultdict(list)
     for c in data["lines"]:
@@ -20,4 +20,4 @@ def ask_ninja_curr(type, league="Standard"):
 
 
 if __name__ == "__main__":
-    ask_ninja_curr("Fragment", league="Scourge")
+    ask_ninja_curr("Currency", league="Scourge")

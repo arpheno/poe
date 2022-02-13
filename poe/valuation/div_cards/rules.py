@@ -25,10 +25,8 @@ def terrible_secret_of_space(prices):
     return value
 
 
-
-
 def the_rite_of_elements(prices):
-    stack_size =5
+    stack_size = 5
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem
@@ -93,10 +91,10 @@ def wealth_and_power(prices):
 
 
 def the_dragons_heart(prices):
-    stack_size =11
+    stack_size = 11
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     [relevant_gem] = [gem for gem in gems if "Empower Support" == gem["name"] if gem["gemLevel"] == 4]
-    value = relevant_gem['chaosValue']/ stack_size
+    value = relevant_gem["chaosValue"] / stack_size
     return value
 
 
@@ -189,7 +187,7 @@ def the_wilted_rose(prices):
         "Flesh and Stone",
         "Summon Skitterbots",
     ]
-    stack_size =7
+    stack_size = 7
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem
@@ -276,7 +274,7 @@ def the_eldritch_decay(prices):
         "Fragment of Enslavement",
         "Fragment of Constriction",
     ]
-    stack_size =4
+    stack_size = 4
     relevant = [item for price in prices.values() for item in price if item["name"] in outcomes]
     values = [item["chaosValue"] for item in relevant]
     value = statistics.mean(values) / stack_size
@@ -298,12 +296,16 @@ def emperors_luck(prices):
         "Orb of Scouring": 0.013300000000000001,
         "Orb of Transmutation": 0.2048,
     }
-    value = sum(prices[key][0]["chaosValue"] if key in prices else 0 for key, value in outcomes.items()) + 0.016  # Chaos orb is 1.6%
+    value = (
+        sum(prices[key][0]["chaosValue"] if key in prices else 0 for key, value in outcomes.items()) + 0.016
+    ) / len(
+        outcomes
+    )  # Chaos orb is 1.6%
     return value / stack_size * 5
 
 
 def the_bones(prices):
-    stack_size =6
+    stack_size = 6
     gems = [item for price in prices.values() for item in price if item["type"] == "SkillGem"]
     relevant_gems = [
         gem
@@ -338,7 +340,7 @@ def the_bones(prices):
 
 def the_cacophony(prices):
 
-    stack_size =8
+    stack_size = 8
     relevant_essences = [item for price in prices.values() for item in price if "Deafening Essence" in item["name"]]
     values = [essence["chaosValue"] for essence in relevant_essences]
     value = statistics.mean(values) / stack_size
@@ -382,7 +384,7 @@ def the_tinkerers_table(prices):
 
 
 def sambodhis_vow(prices):
-    stack_size =3
+    stack_size = 3
     relevant = [item for price in prices.values() for item in price if "Mortal " in item["name"]]
     values = [item["chaosValue"] for item in relevant]
     value = statistics.mean(values) / stack_size
@@ -413,7 +415,7 @@ def dementophobia(prices):
 
 
 def disdain(prices):
-    stack_size =5
+    stack_size = 5
     relevant = [item for price in prices.values() for item in price if item["type"] == "DeliriumOrb"]
     values = [item["chaosValue"] for item in relevant]
     value = statistics.mean(values) / stack_size
@@ -463,13 +465,22 @@ def the_long_con(prices):
     value = statistics.mean(values) / stack_size
     return value
 
+
 def bijoux(prices):
-    stack_size = 4
-    relevant = [item for price in prices.values() for item in price if 'Cluster Jewel' in item["name"]]
+    stack_size = 3
+    relevant = [
+        item
+        for price in prices.values()
+        for item in price
+        if "Cluster Jewel" in item.get("baseType", "")
+        if item.get("levelRequired") == 84
+    ]
     values = [item["chaosValue"] for item in relevant]
     value = statistics.mean(values) / stack_size
     return value
 
+
+div_card_rules["Bijoux"] = bijoux
 div_card_rules["The Obscured"] = the_obscured
 div_card_rules["The Long Con"] = the_long_con
 div_card_rules["The Eye of Terror"] = the_eye_of_terror

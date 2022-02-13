@@ -10,16 +10,17 @@ VAAL_ORB = "Vaal Orb"
 EXALTED_ORB = "Exalted Orb"
 CHISEL = "Cartographer's Chisel"
 FUSING = "Orb of Fusing"
-TRANSMUTE= "Orb of Transmutation"
-AUGMENT="Orb of Augmentation"
-CHANCE='Orb of Chance'
-JEWELLERS='Jeweller\'s Orb'
-SCOUR='Orb of Scouring'
-BAUBLE='Glassblower\'s Bauble'
-WHETSTONE='Blacksmith\'s Whetstone'
-UNMAKING='Orb of Unmaking'
+TRANSMUTE = "Orb of Transmutation"
+AUGMENT = "Orb of Augmentation"
+CHANCE = "Orb of Chance"
+JEWELLERS = "Jeweller's Orb"
+SCOUR = "Orb of Scouring"
+BAUBLE = "Glassblower's Bauble"
+WHETSTONE = "Blacksmith's Whetstone"
+UNMAKING = "Orb of Unmaking"
 try:
     from poe.secrets import ssid as real_ssid
+
     ssid = real_ssid
 except ImportError as e:
     print(e)
@@ -33,20 +34,21 @@ hard_currency = [
     "Chaos Orb",
     "Vaal Orb",
     "Warlord's Exalted Orb",
-    DIVINE,
+    # DIVINE,
     "Exalted Orb",
     "Exalted Shard",
     FUSING,
+    "Ancient Orb",
     "Jeweller's Orb",
-    "Awakened Sextant",
-    "Prime Sextant",
-    PRISM,
-    "Regal Orb",
+    # "Awakened Sextant",
+    # PRISM,
+    # "Regal Orb",
     "Mirror Shard",
     "Stacked Deck",
     "Mirror of Kalandra",
-    CHISEL,
-    UNMAKING,
+    "Orb of Annulment",
+    # CHISEL,
+    # UNMAKING,
     "Awakener's Orb",
     "Crescent Splinter",
 ]
@@ -80,7 +82,8 @@ blacklist = [
     "Death",
     "Doedre's Madness",
     "Friendship",
-    "Gift of the Gemling Queen",
+    "Gift of the Gemling Queen",#191+109
+
     "Her Mask",
     "Hunter's Resolve",
     "Imperial Legacy",
@@ -115,7 +118,6 @@ blacklist = [
     "The Incantation",
     "The Inoculated",
     "The Journalist",
-
     "The Sword King's Salute",
     "The King's Blade",
     "The Long Watch",
@@ -235,4 +237,5 @@ blacklist = [
     "Boon of the First Ones",
     "Boon of Justice",
 ]
-LEAGUE="Standard"
+# LEAGUE = "Standard"
+LEAGUE = "Archnemesis"

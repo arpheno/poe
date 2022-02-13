@@ -7,7 +7,8 @@ class Base(Item):
         influence = sorted(key for key, value in self.influences.items() if value)
         return influence
 
-    def match(self, candidates: list[dict]):
+    def match(self, prices:dict):
+        candidates = prices.get(self.name) or prices.get(self.typeLine) or prices.get(self.baseType)
         conditions = [
             lambda x: str(x.get("variant")).lower() == ("/".join(self.influences) or "none"),
             lambda x: x["levelRequired"] == self.ilvl,

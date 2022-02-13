@@ -14,7 +14,9 @@ class SkillGem(Item):
         except:
             return 0
 
-    def match(self, candidates: list[dict]):
+    def match(self, prices:dict):
+        candidates = prices.get(self.name) or prices.get(self.typeLine) or prices.get(self.baseType)
+
         conditions = [
             lambda x: x["gemLevel"] == self.level,
             lambda x: x.get("corrupted", False) == self.corrupted,

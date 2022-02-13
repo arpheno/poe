@@ -1,4 +1,6 @@
 <h2>Potentially Profitable Items</h2>
+
+<button mat-button (click)="allScarabs()">Scarabs</button>
 <table mat-table [dataSource]="dataSource" matSort (matSortChange)="announceSortChange($event)">
   <!--  <mat-text-column name="name" mat-sort-header></mat-text-column>-->
   <!--  <ng-container matColumnDef="name">-->

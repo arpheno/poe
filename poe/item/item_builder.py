@@ -4,7 +4,7 @@ from constants import blacklist
 from poe.item.item_factory import item_factory
 from poe.ninja import retrieve_prices
 from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs
-from poe.type_determiner import type_mapping
+from poe.item.type_determiner import type_mapping
 
 
 def build_items(prices, type_mapper: Callable):
@@ -21,10 +21,14 @@ def build_items(prices, type_mapper: Callable):
         if not old_item["type"]:
             print(f"Could not find an item type for {old_item['typeLine']}")
             continue
+        if old_item['type']in {'Base'}:
+            continue
+        if old_item['type']in {'Heist','Expedition','Watchstone','Organ','CurrencyShard'}:
+            continue
+        if old_item['type'] in ['ClusterJewel']:
+            print('hi')
         item = item_factory(**old_item)
-        candidates = prices.get(item.name) or prices.get(item.typeLine) or prices.get(item.baseType)
-        exact_match = item.match(candidates)
-        item.price = exact_match and exact_match["chaosValue"]
+        item.determine_price(prices)
         all_items.append(item)
 
     return all_items

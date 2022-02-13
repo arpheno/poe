@@ -13,12 +13,14 @@ import {MatButtonModule} from "@angular/material/button";
 import { WhispersComponent } from './whispers/whispers.component';
 import {ClipboardModule} from "@angular/cdk/clipboard";
 import {MatTooltipModule} from "@angular/material/tooltip";
+import { HorizonComponent } from './horizon/horizon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfitableItemsComponent,
-    WhispersComponent
+    WhispersComponent,
+    HorizonComponent
   ],
   imports: [
     BrowserModule,

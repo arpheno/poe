@@ -1,4 +1,4 @@
-from poe.type_determiner import determine_type
+from poe.item.type_determiner import determine_type
 
 
 def test_determine_influence():

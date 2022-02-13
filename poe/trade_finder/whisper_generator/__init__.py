@@ -26,23 +26,10 @@ class WhisperGenerator:
         whispers = self.fill_in_whisper_amounts(whispers)
         return whispers
 
-    def translate_currency(self, df, prices):
-        df["pay_currency"] = df["pay_currency"].map({"chaos": "Chaos Orb", "exalted": "Exalted Orb"})
-        currency_map = {k: v[0]["chaosValue"] for k, v in prices.items() if k in df.pay_currency.to_list()}
-        df["chaos_price"] = df.price * df.pay_currency.map(currency_map)
-        return df
-
-    def create_queries(
-        self, df: Dataset["value":float, "expected_profit":float, ...], key_mapping, min_profit: float = 5
-    ):
-        # print(f'Creating Queries {df["index"][0]}', end=", ")
-        df["minimum"] = np.ceil(min_profit / df.expected_profit)
-        df["want"] = df.index.map(key_mapping)
-        df["query"] = df.apply(lambda x: self.query(x.want, x.minimum), axis=1)
-        return df
 
     def fill_in_whisper_amounts(self, whispers):
         whispers["profit"] = (whispers["value"] - whispers["chaos_price"]) * whispers.stock
+        whispers["relative_profit"] = whispers.profit / whispers.chaos_price
         whispers["whisper"] = whispers.apply(
             lambda row: row["whisper_template"].format(row["stock"], row.price * row.stock), axis=1
         )
@@ -60,6 +47,21 @@ class WhisperGenerator:
                 "minimum": minimum,
             }
         }
+    def translate_currency(self, df, prices):
+        df["pay_currency"] = df["pay_currency"].map({"chaos": "Chaos Orb", "exalted": "Exalted Orb"})
+        currency_map = {k: v[0]["chaosValue"] for k, v in prices.items() if k in df.pay_currency.to_list()}
+        df["chaos_price"] = df.price * df.pay_currency.map(currency_map)
+        return df
+
+    def create_queries(
+        self, df: Dataset["value":float, "expected_profit":float, ...], key_mapping, min_profit: float = 5
+    ):
+        # print(f'Creating Queries {df["index"][0]}', end=", ")
+        df["minimum"] = np.ceil(min_profit / df.expected_profit)
+        df["want"] = df.index.map(key_mapping)
+        df["query"] = df.apply(lambda x: self.query(x.want, x.minimum), axis=1)
+        return df
+
 
 
 def exchange_parser(data):
