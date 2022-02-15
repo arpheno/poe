@@ -15,7 +15,6 @@ class ListingsResolver:
     def __init__(self, league="Standard", cache=Redis()):
         self.league = league
         self.cache = cache
-        self.url = f"https://www.pathofexile.com/api/trade/exchange/{league}"
 
     def resolve(self, params) -> tuple[str, dict]:
         key = "'trade-fetch-request-limit'"

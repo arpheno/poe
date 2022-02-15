@@ -1,28 +1,18 @@
-body{
+.body{
   display: flex;
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
   height: 3000px;
 }
-app-profitable-items{
-  flex:0 0 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-content: flex-start;
-}
-app-whispers{
-  flex:0 0 50%;
-  display: flex;
-  flex-wrap: wrap;
+
+mat-sidenav{
+  div{
+  display:flex;
+  flex-wrap:wrap;
   justify-content: center;
   align-content: flex-start;
-}
-app-horizon{
-  flex:1 1 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
+  button{
+    flex:1 1 100%;
+  }}
 }

@@ -1,7 +1,18 @@
 
 <body>
-<app-horizon></app-horizon>
-<app-profitable-items (generatedWhispers)="onNewWhispers($event)"></app-profitable-items>
-<app-whispers [newWhispers]="gWhispers"></app-whispers>
+<!--<button style="position: absolute;top:50px;left:50px;z-index: 999"mat-icon-button color="accent" (click)="sidenav.toggle()">-->
+<!--  <mat-icon>menu</mat-icon>-->
+<!--</button>-->
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+    <div>
+    <button mat-button routerLink="/">Trade View</button>
+    <button mat-button routerLink="/leveling-gems/">Leveling Gems</button>
+    <button mat-button routerLink="/vaal-gems/">Vaaling Gems</button>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
 </body>
-<router-outlet></router-outlet>

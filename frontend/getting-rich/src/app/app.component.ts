@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Whisper} from "./whispers/whisper";
+import {Whisper} from "./tradingview/whispers/whisper";
 
 @Component({
   selector: 'app-root',
@@ -8,17 +8,7 @@ import {Whisper} from "./whispers/whisper";
 })
 export class AppComponent {
   title = 'getting-rich';
-  gWhispers: Whisper[]=[];
+  valuableItems: boolean = true;
+  opened= true;
 
-  onNewWhispers(event:Whisper[]) {
-    console.log(event);
-    let set_by_whisper_messages:any ={};
-    for (let x of event){
-      set_by_whisper_messages[x.whisper]=x;
-    } for (let x of this.gWhispers){
-      set_by_whisper_messages[x.whisper]=x;
-    }
-    this.gWhispers=Object.values(set_by_whisper_messages);
-    this.gWhispers.sort((a,b)=>b.profit-a.profit);
-  }
 }

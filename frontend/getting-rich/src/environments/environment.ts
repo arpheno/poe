@@ -7,6 +7,8 @@ export const environment = {
   whisperUrl: `http://localhost:8000/trades/whispers/`,
   itemsUrl: `http://localhost:8000/trades/`,
   horizonUrl: `http://localhost:8000/trades/ooh/`,
+  gemExpUrl: `http://localhost:8000/trades/gemExp/`,
+  search_resolve_url: `http://localhost:8000/trades/search/`,
 };
 
 /*
