@@ -83,7 +83,7 @@ def search_resolve(request):
 
 def gem_exp(request):
     prices = retrieve_prices(["SkillGem"])
-    domain_result = xp_value(prices)[:10]
+    domain_result = xp_value(prices)[:30]
     domain_result['query'] = domain_result['name'].map(create_query)
     result = list(domain_result.T.to_dict().values())
     return JsonResponse(result, safe=False)
