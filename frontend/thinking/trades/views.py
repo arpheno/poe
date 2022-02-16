@@ -7,7 +7,7 @@ from django.shortcuts import render
 # Create your views here.
 from constants import LEAGUE
 from poe.ninja import retrieve_prices
-from poe.sale.main import main
+from poe.sale.inventory_creator import create_inventory
 from poe.trade.exchange_resolver import ExchangeResolver
 from poe.trade.listings_resolver import ListingsResolver
 import pandas as pd
@@ -108,9 +108,9 @@ def gem_vaal(request):
 
     pivoted_gems = df.pivot(index='name', columns='variant', values='chaosValue')
     domain_result = pivoted_gems.apply(map_to_value, axis=1).sort_values(ascending=False).reset_index()
-    domain_result.columns=['name','profit']
-    domain_result=domain_result.dropna()
-    result = {'result':list(domain_result.T.to_dict().values())}
+    domain_result.columns = ['name', 'profit']
+    domain_result = domain_result.dropna()
+    result = {'result': list(domain_result.T.to_dict().values())}
     return JsonResponse(result, safe=False)
 
 
@@ -149,12 +149,14 @@ def create_query(name):
         }
     }}
     return query
+
+
 def register(request):
-    prices=retrieve_prices()
-    domain_result=main(prices)
+    prices = retrieve_prices()
+    domain_result = create_inventory(prices)
     domain_result['final_price_numerator'] = domain_result.final_price.map(lambda x: x.numerator)
     domain_result['final_price_denominator'] = domain_result.final_price.map(lambda x: x.denominator)
-    domain_result=domain_result.drop('final_price', axis=1)
+    domain_result = domain_result.drop('final_price', axis=1)
 
-    result = {'result':list(domain_result.T.to_dict().values())}
+    result = {'result': list(domain_result.T.to_dict().values())}
     return JsonResponse(result, safe=False)

@@ -1,3 +1,4 @@
+import dataclasses
 import time
 import urllib
 
@@ -24,29 +25,25 @@ headers = {
     "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,pl;q=0.5,sl;q=0.4",
     "cookie": f"__cfduid=d4f8fd4272c694e6e615ab64cb71586376370; _ga=GA1.2.208406.1586505898; _gid=GA1.2.39757.1586645386; stored_data=1; cf_clearance=f42d23711f26466c576dc10108f2223f0d-1586771863-0-150; POESESSID={ssid}",
 }
+@dataclasses.dataclass
+class ForumUpdater:
+    thread:str
+    def update_forum(self,content):
+        title = "delerious bcuz corona"
+        url = f"https://www.pathofexile.com/forum/edit-thread/{self.thread}?history=1"
+        print(f'Updating at { url} in thread {self.thread} with {len(content)} characters',end='')
+        response = requests.get(url, headers=headers)
+        time.sleep(1)
+        print('.',end='')
+        soup = bs4.BeautifulSoup(response.content,features="lxml")
+        hash = soup.find("input", {"name": "hash"})["value"]
+        data = dict(title=title, content=content, notify_owner="0", hash=hash, post_submit="submit")
+        print(len(content))
+        response = requests.post(url, headers=headers, data=urllib.parse.urlencode(data))
+        print(f'.status code{response.status_code}')
+        print(url.replace("edit", "view"))
 
-
-def update_forum(content, thread="3194663"):
-    title = "delerious bcuz corona"
-
-    # headers["Cookie"]= f"POESESSID={ssid}"
-    url = f"https://www.pathofexile.com/forum/edit-thread/{thread}?history=1"
-    response = requests.get(url, headers=headers)
-    time.sleep(1)
-    soup = bs4.BeautifulSoup(response.content)
-    hash = soup.find("input", {"name": "hash"})["value"]
-    data = dict(title=title, content=content, notify_owner="0", hash=hash, post_submit="submit")
-    print(len(content))
-    response = requests.post(url, headers=headers, data=urllib.parse.urlencode(data))
-    print(response.status_code)
-    print(url.replace("edit", "view"))
-
-    time.sleep(1)
-
-    # response = requests.post(f'https://www.pathofexile.com/forum/view-thread/{thread}', headers=headers)
-    # time.sleep(1)
-    # assert content in response.text
-
+        time.sleep(1)
 
 if __name__ == "__main__":
     update_forum("nothing currently!")

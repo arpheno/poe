@@ -1,5 +1,7 @@
 from typing import Callable
 
+from constants import HARD_CURRENCY
+
 
 def type_mapping(prices) -> Callable:
     all_rates = {key: values for m in prices.maps for key, values in m.items()}
@@ -9,7 +11,8 @@ def type_mapping(prices) -> Callable:
 
 
 def determine_type(type_mapping) -> Callable:
-    return lambda item: is_item_exact_match(item, type_mapping) or\
+    return lambda item: is_hard_currency(item, type_mapping) or\
+                        is_item_exact_match(item, type_mapping) or \
                         is_item_influenced(item, type_mapping) or\
                         is_heist(item,type_mapping) or\
 is_expedition(item,type_mapping) or \
@@ -18,7 +21,8 @@ is_expedition(item,type_mapping) or \
                         is_currency_shard(item, type_mapping) or \
                         is_watchstone(item,type_mapping)
 
-
+def is_hard_currency(item,type_mapping):
+    return 'Hard Currency' if item['typeLine'] in HARD_CURRENCY else None
 
 def is_item_exact_match(item, type_mapping):
     return type_mapping.get(item["typeLine"]) or type_mapping.get(item["typeLine"] + " Support")

@@ -28,7 +28,7 @@ except ImportError as e:
     with open("poe/secrets.py", "w") as f:
         f.write("ssid=")
     ssid = ""
-hard_currency = [
+HARD_CURRENCY = [
     # ALTERATION,
     # ALCHEMY,
     "Chaos Orb",
