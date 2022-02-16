@@ -29,17 +29,17 @@ except ImportError as e:
         f.write("ssid=")
     ssid = ""
 hard_currency = [
-    ALTERATION,
-    ALCHEMY,
+    # ALTERATION,
+    # ALCHEMY,
     "Chaos Orb",
     "Vaal Orb",
     "Warlord's Exalted Orb",
-    # DIVINE,
+    DIVINE,
     "Exalted Orb",
     "Exalted Shard",
-    FUSING,
+    # FUSING,
     "Ancient Orb",
-    "Jeweller's Orb",
+    # "Jeweller's Orb",
     # "Awakened Sextant",
     # PRISM,
     # "Regal Orb",
@@ -48,7 +48,7 @@ hard_currency = [
     "Mirror of Kalandra",
     "Orb of Annulment",
     # CHISEL,
-    # UNMAKING,
+    UNMAKING,
     "Awakener's Orb",
     "Crescent Splinter",
 ]

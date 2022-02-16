@@ -9,6 +9,8 @@ export const environment = {
   horizonUrl: `http://localhost:8000/trades/ooh/`,
   gemExpUrl: `http://localhost:8000/trades/gemExp/`,
   search_resolve_url: `http://localhost:8000/trades/search/`,
+  vaalurl: `http://localhost:8000/trades/gemVaal/`,
+  registerUrl: `http://localhost:8000/trades/register/`,
 };
 
 /*

@@ -8,7 +8,7 @@ from poe.item.type_determiner import type_mapping
 
 
 def build_items(prices, type_mapper: Callable):
-    items = get_all_tabs(20)
+    items = get_all_tabs(22)
     types = map(type_mapper, items)
     items = [
         {"type": t, **item}

@@ -21,6 +21,8 @@ import {RouterModule} from "@angular/router";
 import {GemsComponent} from './gems/gems.component';
 import { TradingStackComponent } from './trading-stack/trading-stack.component';
 import { VaalComponent } from './vaal/vaal.component';
+import { SalesComponent } from './sales/sales.component';
+import { TableviewComponent } from './sales/tableview/tableview.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { VaalComponent } from './vaal/vaal.component';
     TradingviewComponent,
     GemsComponent,
     TradingStackComponent,
-    VaalComponent
+    VaalComponent,
+    SalesComponent,
+    TableviewComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +53,8 @@ import { VaalComponent } from './vaal/vaal.component';
     BrowserModule,
     RouterModule.forRoot([{path: '', component: TradingviewComponent},
       {path: 'leveling-gems', component: GemsComponent},
-      {path: 'vaaling-gems', component: GemsComponent},
+      {path: 'vaal-gems', component: VaalComponent},
+      {path: 'sales', component: SalesComponent},
     ])],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,7 +3,10 @@
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  height: 3000px;
+}
+body{
+    background-color: #2d3436;
+    color: #dfe6e9;
 }
 
 mat-sidenav{

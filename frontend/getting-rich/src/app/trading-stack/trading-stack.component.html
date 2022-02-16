@@ -1,0 +1,4 @@
+<div *ngIf="stack" style="flex:1 1 100%">
+  <button  *ngIf="!stack.length" mat-button (mouseup)="search_trades()" >Find Trades</button>
+  <button  *ngIf="stack.length" mat-button (mouseup)="getFirstWhisper()" [cdkCopyToClipboard]="newest_whisper" >{{stack[0].listing.price.amount}} {{stack[0].listing.price.currency}}</button>
+</div>

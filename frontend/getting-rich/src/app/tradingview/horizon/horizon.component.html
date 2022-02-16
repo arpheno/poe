@@ -1,0 +1,7 @@
+<div  *ngIf="supply.length>0" style="flex:1 1 100%">
+  <div>
+    Orb of horizon price is {{ supply[0].value}}
+  </div>
+  <button mat-button (mouseup)="getNextHorizons()" [cdkCopyToClipboard]="newest_whisper" >{{supply[0].stock}}/{{supply[0].profit}}</button>
+
+</div>
