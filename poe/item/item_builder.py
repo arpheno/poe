@@ -28,9 +28,9 @@ class ItemBuilder:
             if not old_item["type"]:
                 print(f"Could not find an item type for {old_item['typeLine']}")
                 continue
-            if old_item["type"] in {"Base"}:
-                continue
-            if old_item["type"] in {"Heist", "Expedition", "Watchstone", "Organ", "CurrencyShard"}:
+            # if old_item["type"] in {"Base"}:
+            #     continue
+            if old_item["type"] in {"Heist", "Expedition", "Watchstone", "Organ", "CurrencyShard",'Flask'}:
                 continue
             item = item_factory(**old_item)
             item.determine_price(self.prices, self.values)

@@ -10,5 +10,6 @@ urlpatterns = [
     path('gemExp/', csrf_exempt(views.gem_exp), name='gem_exp'),
     path('gemVaal/', csrf_exempt(views.gem_vaal), name='gem_vaal'),
     path('search/', csrf_exempt(views.search_resolve), name='search'),
-    path('register/', csrf_exempt(views.register), name='register'),
+    path('regradingLens/', csrf_exempt(views.regrading_lens), name='regrading_lens'),
+    # path('register/', csrf_exempt(views.register), name='register'),
 ]

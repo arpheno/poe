@@ -1,4 +1,5 @@
 export interface Whisper{
+  chaos_price: number;
   pay_currency:string;
  get_currency:string;
  price:number;

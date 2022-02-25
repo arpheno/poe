@@ -11,6 +11,8 @@ export const environment = {
   search_resolve_url: `http://localhost:8000/trades/search/`,
   vaalurl: `http://localhost:8000/trades/gemVaal/`,
   registerUrl: `http://localhost:8000/trades/register/`,
+  regradinglensurl: `http://localhost:8000/trades/regradingLens/`,
+
 };
 
 /*

@@ -58,3 +58,11 @@ if __name__ == "__main__":
             240,
         )
     )
+    print(
+        adps(
+            {"Divergent": 10, "Anomalous": 100, "Superior": 50},
+            {"Divergent": 975.56, "Anomalous": 39.0, "Superior": 1.0},
+            100,
+        )
+    )
+

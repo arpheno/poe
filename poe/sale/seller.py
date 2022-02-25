@@ -1,16 +1,18 @@
 from dataclasses import dataclass
 from typing import Callable
 
+from poe.sale.layouter import Layouter
+
 
 @dataclass
 class Seller:
-    turn_to_fraction: Callable
     up_price: Callable
+    layouter:Layouter
     cleaning_rules: list[str]
 
     def sell(self, inventory):
         register = inventory.copy()
-        register["up_priced_value_fx"] = register.apply(self.up_price, axis=1)
-        register["final_price"] = register.apply(self.turn_to_fraction, axis=1)
+        register["final_price_chaos"] = register.apply(self.up_price, axis=1)
+        register=self.layouter.layout(register)
         register = register.query(f'({")&(".join(self.cleaning_rules)})')
         return register

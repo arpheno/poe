@@ -1,4 +1,4 @@
-from poe.item.cluster_jewel import ClusterJewel
+from poe.item.items.cluster_jewel import ClusterJewel
 
 
 def test_cluster_jewel_is_matched():

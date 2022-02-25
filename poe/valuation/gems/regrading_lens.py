@@ -77,6 +77,10 @@ def regrading_lens(relevant_gems, regrading_lens_cost):
 
 if __name__ == "__main__":
     pd.options.display.width = 0
-    prices = retrieve_prices(["SkillGem", "Currency"])
 
-    print(pd.concat([secondary_regrading_lens(prices),prime_regrading_lens(prices)],ignore_index=True).sort_values('value',ascending=False))
+    # print(pd.concat([secondary_regrading_lens(prices),prime_regrading_lens(prices)],ignore_index=True).sort_values('value',ascending=False))
+    prices = retrieve_prices(["SkillGem",'Currency'])
+    domain_result = pd.concat(
+        [secondary_regrading_lens(prices), prime_regrading_lens(prices)], ignore_index=True
+    ).sort_values("value", ascending=False)
+    result = {"result": list(domain_result.T.to_dict().values())}

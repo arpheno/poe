@@ -23,9 +23,10 @@ NINJA_ITEM_TYPES = (
     "DivinationCard",
     "Map",
     "SkillGem",
-    # "BaseType",
+    "BaseType",
     "Vial",
     'ClusterJewel',
+    # "Beast",
 )
 CHAOS_ORB = {"Chaos Orb": [{"name": "Chaos Orb", "type": "Currency", "chaosValue": 1}]}
 

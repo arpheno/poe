@@ -18,7 +18,7 @@ export class HorizonComponent implements OnInit {
     this.horizonService.getOrbOfHorizonsSupply().subscribe(x=>{
       this.supply=x.sort(y=>-y.profit);
       console.log(this.supply)
-      this.supply=this.supply.sort(y=>-y.profit)
+      this.supply=this.supply.sort((a,b)=>-a.profit+b.profit)
     })
 
   }

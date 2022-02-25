@@ -22,7 +22,7 @@
     <td *matCellDef="let row"> {{row.expected_profit | number : '.2-2'}} </td>
   </ng-container>
   <ng-container matColumnDef="relative_profit">
-    <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Relative Profit">% Profit</th>
+    <th *matHeaderCellDef sortActionDescription="Sort by Relative Profit" mat-sort-header>% Profit</th>
     <td *matCellDef="let row"> {{row.relative_profit | number : '.2-2'}} </td>
   </ng-container>
   <ng-container matColumnDef="icon">
