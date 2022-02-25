@@ -33,11 +33,12 @@ class Layouter:
 
         if best_fraction.numerator > self.min_trade_value:
             numerator, denominator = (best_fraction.numerator, best_fraction.denominator)
-        elif best_fraction.numerator>0:
-            numerator, denominator= (self.min_trade_value, math.ceil(best_fraction.denominator * (self.min_trade_value /best_fraction.numerator)))
+        elif best_fraction.numerator > 0:
+            numerator, denominator = (
+                self.min_trade_value,
+                math.ceil(best_fraction.denominator * (self.min_trade_value / best_fraction.numerator)),
+            )
         else:
-            numerator,denominator =(0,1)
+            numerator, denominator = (0, 1)
 
         return FakeFraction(numerator, denominator)
-
-
