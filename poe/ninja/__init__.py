@@ -25,7 +25,7 @@ NINJA_ITEM_TYPES = (
     "SkillGem",
     "BaseType",
     "Vial",
-    'ClusterJewel',
+    "ClusterJewel",
     # "Beast",
 )
 CHAOS_ORB = {"Chaos Orb": [{"name": "Chaos Orb", "type": "Currency", "chaosValue": 1}]}

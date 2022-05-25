@@ -15,20 +15,29 @@ from poe.trade_finder import find_profitable_items
 from poe.trade_finder.whisper_generator import WhisperGenerator, exchange_parser
 from poe.valuation import own_valuations
 from poe.valuation.gems.experience import xp_value
-from poe.valuation.gems.regrading_lens import secondary_regrading_lens, prime_regrading_lens
+from poe.valuation.gems.regrading_lens import (
+    secondary_regrading_lens,
+    prime_regrading_lens,
+)
 from poe.valuation.gems.vaal import vaal_gems
 from trades.models import Item
 
 
 def profitable_items(request):
     prices = retrieve_prices()
-    obj, created = Item.objects.update_or_create(name="Exalted Orb", price=prices["Exalted Orb"][0]["chaosValue"])
+    obj, created = Item.objects.update_or_create(
+        name="Exalted Orb", price=prices["Exalted Orb"][0]["chaosValue"]
+    )
     obj, created = Item.objects.update_or_create(name="Chaos Orb", price=1)
     values = own_valuations(prices)
     items: pd.DataFrame = find_profitable_items(prices, values)
-    items["icon"] = items.index.map(lambda x: prices.get(x, [{"icon": ""}])[0].get("icon"))
+    items["icon"] = items.index.map(
+        lambda x: prices.get(x, [{"icon": ""}])[0].get("icon")
+    )
     items["explicit_mods"] = items.index.map(
-        lambda x: prices.get(x, [{"explicitModifiers": [""]}])[0].get("explicitModifiers")
+        lambda x: prices.get(x, [{"explicitModifiers": [""]}])[0].get(
+            "explicitModifiers"
+        )
     )
     result = list(items.reset_index().T.to_dict().values())
     return JsonResponse(result, safe=False)
@@ -43,7 +52,9 @@ def whispers(request):
     items["expected_profit"] = items["expected_profit"].astype("float")
     items["value"] = items["value"].astype("float")
     prices = {item.name: [{"chaosValue": item.price}] for item in Item.objects.all()}
-    key_mapping = pd.read_csv(f"{Path(__file__).resolve().parent}/poe_keys.csv").set_index("name")["key"]
+    key_mapping = pd.read_csv(
+        f"{Path(__file__).resolve().parent}/poe_keys.csv"
+    ).set_index("name")["key"]
 
     listings_resolver = ListingsResolver(league=LEAGUE)
     exchange_resolver = ExchangeResolver(league=LEAGUE)
@@ -60,7 +71,13 @@ def whispers(request):
 
 def orb_of_horizons(request):
     query = {
-        "exchange": {"status": {"option": "online"}, "have": ["chaos"], "want": ["orb-of-horizons"], "minimum": 100}
+        'engine':'new',
+        "status": {"option": "online"},
+        "query": {
+            "have": ["chaos"],
+            "want": ["orb-of-horizons"],
+            "minimum": 100,
+        }
     }
     prices = retrieve_prices(["Currency"])
     listings_resolver = ListingsResolver(league=LEAGUE)
@@ -68,7 +85,10 @@ def orb_of_horizons(request):
     temp = exchange_parser(listings_resolver.resolve(exchange_resolver.resolve(query)))
     temp["value"] = prices["Orb of Horizons"][0]["chaosValue"]
     temp["profit"] = (temp.value - temp.price) * temp.stock
-    temp["whisper"] = temp.apply(lambda x: x["whisper_template"].format(x["stock"], x["stock"] * x["price"]), axis=1)
+    temp["whisper"] = temp.apply(
+        lambda x: x["whisper_template"].format(x["stock"], x["stock"] * x["price"]),
+        axis=1,
+    )
     result = list(temp.T.to_dict().values())
     return JsonResponse(result, safe=False)
 
@@ -114,7 +134,9 @@ def create_query(name):
                     "filters": {
                         "gem_level": {"min": 1, "max": 1},
                         "corrupted": {"option": "false"},
-                        "gem_alternate_quality": {"option": alternate_qualities.get(prefix, "0")},
+                        "gem_alternate_quality": {
+                            "option": alternate_qualities.get(prefix, "0")
+                        },
                     },
                 }
             },
@@ -126,40 +148,34 @@ def create_query(name):
 def regrading_lens(request):
     prices = retrieve_prices(["SkillGem", "Currency"])
     domain_result = pd.concat(
-        [secondary_regrading_lens(prices), prime_regrading_lens(prices)], ignore_index=True
+        [secondary_regrading_lens(prices), prime_regrading_lens(prices)],
+        ignore_index=True,
     ).sort_values("value", ascending=False)
+
     def query(row):
-        qualities={'Superior':"0",
-                   'Anomalous':"1",
-                   "Divergent":"2",
-                   "Phantasmal":"3"}
+        qualities = {
+            "Superior": "0",
+            "Anomalous": "1",
+            "Divergent": "2",
+            "Phantasmal": "3",
+        }
         return {
             "query": {
-                "status": {
-                    "option": "online"
-                },
+                "status": {"option": "online"},
                 "type": row.basegem,
-                "stats": [
-                    {
-                        "type": "and",
-                        "filters": []
-                    }
-                ],
+                "stats": [{"type": "and", "filters": []}],
                 "filters": {
                     "misc_filters": {
                         "filters": {
-                            "gem_alternate_quality": {
-                                "option": qualities[row['from']]
-                            }
+                            "gem_alternate_quality": {"option": qualities[row["from"]]}
                         }
                     }
-                }
+                },
             },
-            "sort": {
-                "price": "asc"
-            }
+            "sort": {"price": "asc"},
         }
-    domain_result['query']=domain_result.apply(query,axis=1)
+
+    domain_result["query"] = domain_result.apply(query, axis=1)
     result = {"result": list(domain_result.T.to_dict().values())}
     return JsonResponse(result, safe=False)
 

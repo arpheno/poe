@@ -15,7 +15,11 @@ def splinter_query(splinter: str):
 
 def breach_splinters(prices):
     completed_set_price = pd.Series(
-        {key.split("'")[0]: value[0]["chaosValue"] for key, value in prices.items() if "'s Breachstone" in key}
+        {
+            key.split("'")[0]: value[0]["chaosValue"]
+            for key, value in prices.items()
+            if "'s Breachstone" in key
+        }
     )
     set_size = 100
     value = completed_set_price / set_size

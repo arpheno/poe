@@ -15,12 +15,15 @@ class ClusterJewel(Item):
         except:
             return 0
 
-
     def match(self, prices: dict):
         # significant_enchant= self.enchantMods[-1].split(':')[-1].strip()
         if not self.enchantMods:
             return
-        significant_enchant = self.enchantMods[-1].replace("Added Small Passive Skills grant: ", "").replace("\n", ", ")
+        significant_enchant = (
+            self.enchantMods[-1]
+            .replace("Added Small Passive Skills grant: ", "")
+            .replace("\n", ", ")
+        )
         candidates = prices.get(significant_enchant)
         conditions = [
             lambda x: x["levelRequired"] == self.ilvl,

@@ -18,8 +18,8 @@ def own_valuations(prices):
     splinters = splinter_values(prices)
     print("Currency")
     currency = currency_valuation(prices)
-    print('Done')
-    values = {**scarabs, **div_cards, **splinters,**currency}
+    print("Done")
+    values = {**scarabs, **div_cards, **splinters, **currency}
     return values
 
 

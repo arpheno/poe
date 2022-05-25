@@ -24,7 +24,7 @@ class ListingsResolver:
             response = requests.get(
                 f'https://www.pathofexile.com/api/trade/fetch/{",".join(params["result"])}',
                 headers=headers,
-                params=params['params'],
+                params=params["params"],
             )
         if response.status_code == 429:
             print(f"too fast {response.headers}")

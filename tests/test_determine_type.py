@@ -10,4 +10,4 @@ def test_determine_influence():
         "identified": False,
         "ilvl": 73,
     }
-    assert determine_type(ring,{}) == 'Base'
+    assert determine_type(ring, {}) == "Base"

@@ -8,17 +8,22 @@ import requests
 from constants import ssid
 
 import logging
+
 logger = logging.getLogger(__name__)
+
+
 def ask_for_exchange_rate(pay, get):
     try:
-        return _ask_for_exchange_rate(pay,get)
+        return _ask_for_exchange_rate(pay, get)
     except requests.HTTPError:
-        sleeping_time=100
-        print(f'Sleeping for {sleeping_time} seconds because too many requests')
+        sleeping_time = 100
+        print(f"Sleeping for {sleeping_time} seconds because too many requests")
         time.sleep(sleeping_time)
-        return _ask_for_exchange_rate(pay,get)
+        return _ask_for_exchange_rate(pay, get)
+
+
 def _ask_for_exchange_rate(pay, get):
-    print(f'Looking for {pay},{get}')
+    print(f"Looking for {pay},{get}")
     headers = {
         "authority": "www.pathofexile.com",
         "pragma": "no-cache",
@@ -38,12 +43,16 @@ def _ask_for_exchange_rate(pay, get):
     }
 
     data = {"exchange": {"status": {"option": "online"}, "have": [pay], "want": [get]}}
-    response = requests.post("https://www.pathofexile.com/api/trade/exchange/Delirium", headers=headers, json=data)
-    rules = response.headers['X-Rate-Limit-Rules'].split(',')
+    response = requests.post(
+        "https://www.pathofexile.com/api/trade/exchange/Delirium",
+        headers=headers,
+        json=data,
+    )
+    rules = response.headers["X-Rate-Limit-Rules"].split(",")
     for rule in rules:
-        limits =  response.headers[f"X-Rate-Limit-{rule}"].split(',')
-        state =  response.headers[f"X-Rate-Limit-{rule}-State"].split(',')
-        for limit,state in zip(limits,state):
+        limits = response.headers[f"X-Rate-Limit-{rule}"].split(",")
+        state = response.headers[f"X-Rate-Limit-{rule}-State"].split(",")
+        for limit, state in zip(limits, state):
             allowed, _, __ = [int(d) for d in limit.split(":")]
             current, window, __ = [int(d) for d in state.split(":")]
             if allowed - current < 2:
@@ -76,10 +85,10 @@ def _ask_for_exchange_rate(pay, get):
         headers=headers,
         params=params,
     )
-    rules = response.headers['X-Rate-Limit-Rules'].split(',')
+    rules = response.headers["X-Rate-Limit-Rules"].split(",")
     for rule in rules:
-        limits = response.headers[f"X-Rate-Limit-{rule}"].split(',')
-        state = response.headers[f"X-Rate-Limit-{rule}-State"].split(',')
+        limits = response.headers[f"X-Rate-Limit-{rule}"].split(",")
+        state = response.headers[f"X-Rate-Limit-{rule}-State"].split(",")
         for limit, state in zip(limits, state):
             allowed, _, __ = [int(d) for d in limit.split(":")]
             current, window, __ = [int(d) for d in state.split(":")]
@@ -104,37 +113,46 @@ def _ask_for_exchange_rate(pay, get):
         df["timestamp"] = timestamp
         return df
     except Exception as e:
-        logger.exception('something went wrong')
+        logger.exception("something went wrong")
         return pd.DataFrame()
 
 
 def double_trouble(a, b):
-    return pd.concat([ask_for_exchange_rate(a, b), ask_for_exchange_rate(b, a)], ignore_index=True)
-class History():
+    return pd.concat(
+        [ask_for_exchange_rate(a, b), ask_for_exchange_rate(b, a)], ignore_index=True
+    )
+
+
+class History:
     def __init__(self):
         self.state = pd.DataFrame()
-    def update(self,new):
-        self.state=pd.concat([self.state,new],ignore_index=True).set_index('id')
+
+    def update(self, new):
+        self.state = pd.concat([self.state, new], ignore_index=True).set_index("id")
+
     def price(self):
-        return self.state.groupby('id')
+        return self.state.groupby("id")
+
 
 if __name__ == "__main__":
     currencies = [
         "chaos",
         "exa",
-        'divine',
-        'alch',
-        'fuse',
-        'alt',
+        "divine",
+        "alch",
+        "fuse",
+        "alt",
         # 'regal',
-        'vaal'
+        "vaal",
     ]
     for i in range(400):
-        now = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%s')
-        start=time.time()
+        now = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%s")
+        start = time.time()
         print(f"Starting iteration {i}")
-        pd.concat([double_trouble(a, b) for a, b in combinations(currencies, 2)]).to_parquet(f'market_depth/{now}.pq',allow_truncated_timestamps=True)
-        end=time.time()
-        sleeping_time = max(60-(end-start),0)
+        pd.concat(
+            [double_trouble(a, b) for a, b in combinations(currencies, 2)]
+        ).to_parquet(f"market_depth/{now}.pq", allow_truncated_timestamps=True)
+        end = time.time()
+        sleeping_time = max(60 - (end - start), 0)
         print(f"Finished iteration {i}, sleeping for {sleeping_time} seconds")
         time.sleep(sleeping_time)

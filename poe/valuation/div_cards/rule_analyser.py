@@ -12,7 +12,8 @@ def analyse_rules():
         if not key in blacklist
         if value[0]["chaosValue"] > 1
         if not key in currency_shards
-        if not key.lower().replace("'", "").replace(" ", "_") in [name for name, func in rules_list]
+        if not key.lower().replace("'", "").replace(" ", "_")
+        in [name for name, func in rules_list]
     }
     for key, value in valuable.items():
         try:

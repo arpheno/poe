@@ -4,7 +4,7 @@ from poe.bulk.model.modules.feature_extraction.interface import FeatureExtractor
 
 
 class VGG_FeatureExtractor(FeatureExtractor):
-    """ FeatureExtractor of CRNN (https://arxiv.org/pdf/1507.05717.pdf) """
+    """FeatureExtractor of CRNN (https://arxiv.org/pdf/1507.05717.pdf)"""
 
     def __init__(self, input_channel, output_channel=512):
         super(VGG_FeatureExtractor, self).__init__()
@@ -26,10 +26,14 @@ class VGG_FeatureExtractor(FeatureExtractor):
             nn.Conv2d(self.output_channel[2], self.output_channel[2], 3, 1, 1),
             nn.ReLU(True),
             nn.MaxPool2d((2, 1), (2, 1)),  # 256x4x25
-            nn.Conv2d(self.output_channel[2], self.output_channel[3], 3, 1, 1, bias=False),
+            nn.Conv2d(
+                self.output_channel[2], self.output_channel[3], 3, 1, 1, bias=False
+            ),
             nn.BatchNorm2d(self.output_channel[3]),
             nn.ReLU(True),  # 512x4x25
-            nn.Conv2d(self.output_channel[3], self.output_channel[3], 3, 1, 1, bias=False),
+            nn.Conv2d(
+                self.output_channel[3], self.output_channel[3], 3, 1, 1, bias=False
+            ),
             nn.BatchNorm2d(self.output_channel[3]),
             nn.ReLU(True),
             nn.MaxPool2d((2, 1), (2, 1)),  # 512x2x25

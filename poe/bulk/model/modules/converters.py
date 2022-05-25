@@ -4,7 +4,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 class AttnLabelConverter(object):
-    """ Convert between text-label and text-index """
+    """Convert between text-label and text-index"""
 
     def __init__(self, character):
         # character (str): set of the possible characters.
@@ -38,11 +38,13 @@ class AttnLabelConverter(object):
             text = list(t)
             text.append("[s]")
             text = [self.dict[char] for char in text]
-            batch_text[i][1 : 1 + len(text)] = torch.LongTensor(text)  # batch_text[:, 0] = [GO] token
+            batch_text[i][1 : 1 + len(text)] = torch.LongTensor(
+                text
+            )  # batch_text[:, 0] = [GO] token
         return (batch_text.to(device), torch.IntTensor(length).to(device))
 
     def decode(self, text_index, length):
-        """ convert text-index into text-label. """
+        """convert text-index into text-label."""
         texts = []
         for index, l in enumerate(length):
             text = "".join([self.character[i] for i in text_index[index, :]])

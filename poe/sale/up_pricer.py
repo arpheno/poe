@@ -12,5 +12,7 @@ class Pricer:
         if item.stack_size > 50:
             base *= 1.1
 
-        final_price_chaos: float = max(base * item.stack_size * item.initial_price, item.config_value)
+        final_price_chaos: float = max(
+            base * item.stack_size * item.initial_price, item.config_value
+        )
         return final_price_chaos

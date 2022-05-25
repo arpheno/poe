@@ -7,7 +7,13 @@ q = {
             "stats": [
                 {
                     "type": "and",
-                    "filters": [{"id": "explicit.stat_1331384105", "disabled": False, "value": {"max": -20}}],
+                    "filters": [
+                        {
+                            "id": "explicit.stat_1331384105",
+                            "disabled": False,
+                            "value": {"max": -20},
+                        }
+                    ],
                     "disabled": False,
                 }
             ],
@@ -44,14 +50,30 @@ q = {
                 {
                     "type": "and",
                     "filters": [
-                        {"id": "explicit.stat_644456512", "value": {"min": 15}, "disabled": False},
-                        {"id": "pseudo.pseudo_total_life", "value": {"min": 90}, "disabled": False},
+                        {
+                            "id": "explicit.stat_644456512",
+                            "value": {"min": 15},
+                            "disabled": False,
+                        },
+                        {
+                            "id": "pseudo.pseudo_total_life",
+                            "value": {"min": 90},
+                            "disabled": False,
+                        },
                     ],
                 },
                 {
                     "filters": [
-                        {"id": "pseudo.pseudo_number_of_crafted_suffix_mods", "value": {"min": 1}, "disabled": False},
-                        {"id": "pseudo.pseudo_number_of_suffix_mods", "value": {"max": 2}, "disabled": False},
+                        {
+                            "id": "pseudo.pseudo_number_of_crafted_suffix_mods",
+                            "value": {"min": 1},
+                            "disabled": False,
+                        },
+                        {
+                            "id": "pseudo.pseudo_number_of_suffix_mods",
+                            "value": {"max": 2},
+                            "disabled": False,
+                        },
                     ],
                     "type": "count",
                     "value": {"min": 1},
@@ -67,11 +89,17 @@ q = {
                 {
                     "type": "and",
                     "filters": [
-                        {"id": "pseudo.pseudo_total_elemental_resistance", "value": {"min": 35}, "disabled": False}
+                        {
+                            "id": "pseudo.pseudo_total_elemental_resistance",
+                            "value": {"min": 35},
+                            "disabled": False,
+                        }
                     ],
                 }
             ],
-            "filters": {"type_filters": {"filters": {"category": {"option": "jewel.abyss"}}}},
+            "filters": {
+                "type_filters": {"filters": {"category": {"option": "jewel.abyss"}}}
+            },
         },
         "sort": {"price": "asc"},
     },
@@ -81,7 +109,16 @@ q = {
             "name": "Olroth's Resolve",
             "type": "Iron Flask",
             "stats": [
-                {"type": "and", "filters": [{"id": "explicit.stat_388617051", "value": {"max": 40}, "disabled": False}]}
+                {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "id": "explicit.stat_388617051",
+                            "value": {"max": 40},
+                            "disabled": False,
+                        }
+                    ],
+                }
             ],
         },
         "sort": {"price": "asc"},
@@ -94,13 +131,21 @@ q = {
                     "type": "and",
                     "filters": [
                         {"id": "pseudo.pseudo_total_life", "disabled": False},
-                        {"id": "pseudo.pseudo_total_elemental_resistance", "disabled": False},
+                        {
+                            "id": "pseudo.pseudo_total_elemental_resistance",
+                            "disabled": False,
+                        },
                         {"id": "explicit.stat_493812998", "disabled": False},
                     ],
                     "disabled": False,
                 }
             ],
-            "filters": {"type_filters": {"filters": {"category": {"option": "accessory.amulet"}}, "disabled": False}},
+            "filters": {
+                "type_filters": {
+                    "filters": {"category": {"option": "accessory.amulet"}},
+                    "disabled": False,
+                }
+            },
         },
         "sort": {"price": "asc"},
     },
@@ -136,7 +181,12 @@ q = {
             "status": {"option": "online"},
             "type": "Summon Skeletons",
             "stats": [{"type": "and", "filters": [], "disabled": False}],
-            "filters": {"misc_filters": {"filters": {"gem_alternate_quality": {"option": "1"}}, "disabled": False}},
+            "filters": {
+                "misc_filters": {
+                    "filters": {"gem_alternate_quality": {"option": "1"}},
+                    "disabled": False,
+                }
+            },
         },
         "sort": {"price": "asc"},
     },
@@ -154,7 +204,9 @@ q = {
             "status": {"option": "online"},
             "type": "Minion Speed Support",
             "stats": [{"type": "and", "filters": []}],
-            "filters": {"misc_filters": {"filters": {"gem_alternate_quality": {"option": "1"}}}},
+            "filters": {
+                "misc_filters": {"filters": {"gem_alternate_quality": {"option": "1"}}}
+            },
         },
         "sort": {"price": "asc"},
     },

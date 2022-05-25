@@ -53,6 +53,7 @@ class Item:
     @property
     def config_value(self):
         return self.stackSize * self.price if self.price else 0
+
     @property
     def simple_value(self):
         return self.price
@@ -66,20 +67,28 @@ class Item:
         return prop
 
     def match(self, prices):
-        candidates = prices.get(self.name) or prices.get(self.typeLine) or prices.get(self.baseType)
+        candidates = (
+            prices.get(self.name)
+            or prices.get(self.typeLine)
+            or prices.get(self.baseType)
+        )
         return candidates[0]
 
-    def determine_price(self, prices: dict,values:dict):
+    def determine_price(self, prices: dict, values: dict):
         match = self.match(prices)
         if not match:
-            self.price=None
+            self.price = None
             return
         self.price = match and match["chaosValue"]
         # if not match.get("receiveSparkLine"):
         #     print(f"High uncertainty on {self.name}, adjusting x2")
         #     self.price *= 2
-        if (total_change :=match.get("receiveSparkLine",{'totalChange':0})['totalChange']) < -60:
-            incr = (-100 /total_change)*0.5
+        if (
+            total_change := match.get("receiveSparkLine", {"totalChange": 0})[
+                "totalChange"
+            ]
+        ) < -60:
+            incr = (-100 / total_change) * 0.5
             print(f'Adjusting {match["name"]} by {1/incr}')
             self.price *= incr
-        self.price=max(self.price,values.get(self.typeLine,0))
+        self.price = max(self.price, values.get(self.typeLine, 0))

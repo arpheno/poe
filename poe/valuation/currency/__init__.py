@@ -38,7 +38,15 @@ vendor_recipes = pd.DataFrame(
 
 
 def currency_valuation(prices):
-    value = pd.DataFrame(pd.Series({k: v[0]["chaosValue"] for k, v in prices.items() if k in vendor_recipes.index}))
+    value = pd.DataFrame(
+        pd.Series(
+            {
+                k: v[0]["chaosValue"]
+                for k, v in prices.items()
+                if k in vendor_recipes.index
+            }
+        )
+    )
     value[1] = vendor_recipes[1].map(value[0]) * vendor_recipes[0]
     value[2] = vendor_recipes[1].map(value[1]) * vendor_recipes[0]
     value[3] = vendor_recipes[1].map(value[2]) * vendor_recipes[0]

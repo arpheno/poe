@@ -31,8 +31,8 @@ except ImportError as e:
 HARD_CURRENCY = [
     ALTERATION,
     # ALCHEMY,
-    'Greater Eldritch Ichor',
-    'Greater Eldritch Ember',
+    "Greater Eldritch Ichor",
+    "Greater Eldritch Ember",
     "Chaos Orb",
     "Vaal Orb",
     "Warlord's Exalted Orb",
@@ -84,8 +84,7 @@ blacklist = [
     "Death",
     "Doedre's Madness",
     "Friendship",
-    "Gift of the Gemling Queen",#191+109
-
+    "Gift of the Gemling Queen",  # 191+109
     "Her Mask",
     "Hunter's Resolve",
     "Imperial Legacy",
@@ -240,4 +239,4 @@ blacklist = [
     "Boon of Justice",
 ]
 # LEAGUE = "Standard"
-LEAGUE = "Archnemesis"
+LEAGUE = "Sentinel"

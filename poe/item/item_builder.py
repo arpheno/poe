@@ -30,7 +30,14 @@ class ItemBuilder:
                 continue
             # if old_item["type"] in {"Base"}:
             #     continue
-            if old_item["type"] in {"Heist", "Expedition", "Watchstone", "Organ", "CurrencyShard",'Flask'}:
+            if old_item["type"] in {
+                "Heist",
+                "Expedition",
+                "Watchstone",
+                "Organ",
+                "CurrencyShard",
+                "Flask",
+            }:
                 continue
             item = item_factory(**old_item)
             item.determine_price(self.prices, self.values)

@@ -50,4 +50,4 @@ candidates = [
 
 def test_match_empower():
     item = Mock(level=18, quality=20, corrupted=False)
-    assert match_skillgem(candidates, item)==candidates[5]
+    assert match_skillgem(candidates, item) == candidates[5]

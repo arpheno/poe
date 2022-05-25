@@ -10,16 +10,18 @@ def sixlink(prices):
         if value[0].get("itemType") == "Body Armour"
         if value[0].get("type") == "UniqueArmour"
     }
-    operating_cost = 350 * prices["Jeweller's Orb"][0].get("chaosValue", 1000) + 1500 * (1 - 0.2) * prices[
-        "Orb of Fusing"
-    ][0].get("chaosValue", 1000)
+    operating_cost = 350 * prices["Jeweller's Orb"][0].get(
+        "chaosValue", 1000
+    ) + 1500 * (1 - 0.2) * prices["Orb of Fusing"][0].get("chaosValue", 1000)
     six_link_income = {
         key: {
             "profit": value[-1]["chaosValue"] - value[0]["chaosValue"] - operating_cost,
             "nmv": value[-1]["chaosValue"] - value[0]["chaosValue"],
             "cogs": value[0]["chaosValue"],
             "cost": value[0]["chaosValue"] + operating_cost,
-            "relative_profit": (value[-1]["chaosValue"] - value[0]["chaosValue"] - operating_cost)
+            "relative_profit": (
+                value[-1]["chaosValue"] - value[0]["chaosValue"] - operating_cost
+            )
             / (value[0]["chaosValue"] + operating_cost),
         }
         for key, value in body_armours.items()

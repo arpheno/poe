@@ -2,7 +2,7 @@ from fractions import Fraction
 
 from poe.item.item_builder import ItemBuilder
 from poe.sale.inventory_creator import InventoryCreator
-from poe.sale.layouter import Layouter
+from poe.sale.layouters.base import Layouter
 from poe.sale.seller import Seller
 from poe.sale.up_pricer import Pricer
 from poe.sale.inventory_management import InventoryManagement
@@ -24,7 +24,11 @@ def build_inventory_management(
     exalt_value = prices["Exalted Orb"][0]["chaosValue"]
     pricer = Pricer(price_base_by_type, price_base)
     layouter = Layouter(exalt_value=exalt_value, min_trade_value=min_trade_value)
-    seller = Seller(up_price=pricer.up_price, cleaning_rules=cleaning_rules, layouter=layouter)
+    seller = Seller(
+        up_price=pricer.up_price, cleaning_rules=cleaning_rules, layouter=layouter
+    )
     forum_updater = ForumUpdater(thread)
-    use_case = InventoryManagement(item_builder, inventory_creator, seller, forum_updater)
+    use_case = InventoryManagement(
+        item_builder, inventory_creator, seller, forum_updater
+    )
     return use_case

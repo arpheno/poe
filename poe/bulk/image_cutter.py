@@ -30,7 +30,9 @@ def remove_almost_black_pixels(img):
 def define_x_cuts(gray):
     dilatation_size = 2
     element = cv2.getStructuringElement(
-        cv2.MORPH_RECT, (2 * dilatation_size + 1, 2 * dilatation_size + 1), (dilatation_size, dilatation_size)
+        cv2.MORPH_RECT,
+        (2 * dilatation_size + 1, 2 * dilatation_size + 1),
+        (dilatation_size, dilatation_size),
     )
     gray = cv2.dilate(gray, element)
 
@@ -60,12 +62,16 @@ def define_y_cuts(gray):
 def draw_lines(img, y_cuts, x_cuts):
     img = np.copy(img)
     result_lines = []
-    for i,y in enumerate(y_cuts):
+    for i, y in enumerate(y_cuts):
         result_lines.append(((0, y), (img.shape[1], y), 255, 1))
-        cv2.putText(img,str(i),(100,y-5),cv2.FONT_HERSHEY_SIMPLEX,fontScale=1,color=255)
-    for i,x in enumerate(x_cuts):
+        cv2.putText(
+            img, str(i), (100, y - 5), cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=255
+        )
+    for i, x in enumerate(x_cuts):
         result_lines.append(((x, 0), (x, img.shape[0]), 255, 1))
-        cv2.putText(img,str(i+1),(x,75),cv2.FONT_HERSHEY_SIMPLEX,fontScale=1,color=255)
+        cv2.putText(
+            img, str(i + 1), (x, 75), cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=255
+        )
 
     for line in result_lines:
         cv2.line(img, *line)
@@ -81,7 +87,10 @@ def remove_whitespace():
 
 def cut_into_frags(img, y_cuts, x_cuts):
     frags = [
-        [img[y0 + 1 : y1, x0 + 1 : x1] for i, (y0, y1) in enumerate(zip([0] + y_cuts, y_cuts))]
+        [
+            img[y0 + 1 : y1, x0 + 1 : x1]
+            for i, (y0, y1) in enumerate(zip([0] + y_cuts, y_cuts))
+        ]
         for j, (x0, x1) in enumerate(zip([0] + x_cuts, x_cuts))
     ]
     return frags
@@ -91,8 +100,8 @@ def cut_image(img):
     img = remove_padding(img, 25)
     img = remove_almost_black_pixels(img)
     cv2.imwrite("debug.png", img)
-    debug=np.copy(img)
-    debug[debug>0]=255
+    debug = np.copy(img)
+    debug[debug > 0] = 255
     cv2.imwrite("debugbw.png", debug)
     y_cuts = define_y_cuts(img)
     img = img[y_cuts[4] :, :]
@@ -101,19 +110,19 @@ def cut_image(img):
     return img, y_cuts, x_cuts
 
 
-def normalize_frag(img,target=(32,80)):
-    img =img
+def normalize_frag(img, target=(32, 80)):
+    img = img
     # gray = 255*(gray < 128).astype(np.uint8) # To invert the text to white
     coords = cv2.findNonZero(img)  # Find all non-zero points (text)
     x, y, w, h = cv2.boundingRect(coords)  # Find minimum spanning bounding box
     rect = img[y : y + h, x : x + w]
-    top= int((target[0]-rect.shape[0])/2)
-    bottom=target[0]-rect.shape[0]-top
-    left=int((target[1]-rect.shape[1])/2)
-    right= target[1] - rect.shape[1] - left
+    top = int((target[0] - rect.shape[0]) / 2)
+    bottom = target[0] - rect.shape[0] - top
+    left = int((target[1] - rect.shape[1]) / 2)
+    right = target[1] - rect.shape[1] - left
     final = cv2.copyMakeBorder(rect, top, bottom, left, right, cv2.BORDER_CONSTANT)
-    assert final.shape[:2]==target,final.shape
-    return 255-final
+    assert final.shape[:2] == target, final.shape
+    return 255 - final
 
 
 def cut_image_to_frags(img):
@@ -121,10 +130,12 @@ def cut_image_to_frags(img):
     draw_lines(img, y_cuts, x_cuts)
     frags = cut_into_frags(img, y_cuts, x_cuts)
     return frags
-if __name__ == '__main__':
-    path = 'data/tabs/unknown (30).png'
+
+
+if __name__ == "__main__":
+    path = "data/tabs/unknown (30).png"
 
     img = cv2.imread(path)
     print(img)
-    frags=cut_image_to_frags(img)
+    frags = cut_image_to_frags(img)
     pass

@@ -3,6 +3,7 @@ import time
 import requests
 from redislite import Redis
 
+from poe.trade.exchange_response import ExchangeResponse
 from poe.trade.headers import headers
 from poe.trade.rate_limiter import limit_rate
 
@@ -23,16 +24,6 @@ class ExchangeResolver:
             time.sleep(120)
             return self.resolve(query)
         result = response.json()
-        result_hash = result["id"]
-        print(f"{self.url.replace('/api', '')}/{result_hash}")
-        params = {
-            "params": [
-                (
-                    "query",
-                    result["id"],
-                ),
-                ("exchange", ""),
-            ],
-            "result": result["result"][:20],
-        }
-        return params
+        result["result"] = [value for value in result["result"].values()]
+        exchange_result = ExchangeResponse(**result)
+        return exchange_result

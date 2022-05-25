@@ -29,7 +29,9 @@ def is_hard_currency(item, type_mapping):
 
 
 def is_item_exact_match(item, type_mapping):
-    return type_mapping.get(item["typeLine"]) or type_mapping.get(item["typeLine"] + " Support")
+    return type_mapping.get(item["typeLine"]) or type_mapping.get(
+        item["typeLine"] + " Support"
+    )
 
 
 def is_item_influenced(item, type_mapping):
@@ -39,7 +41,11 @@ def is_item_influenced(item, type_mapping):
 def is_heist(item, type_mapping):
     return (
         "Heist"
-        if ("ontract:" in item["typeLine"] or "lueprint:" in item["typeLine"] or ("Heist" in item["stashtab"]))
+        if (
+            "ontract:" in item["typeLine"]
+            or "lueprint:" in item["typeLine"]
+            or ("Heist" in item["stashtab"])
+        )
         else None
     )
 
@@ -57,7 +63,11 @@ def is_organ(item, type_mapping):
 
 
 def is_currency_shard(item, type_mapping):
-    return "CurrencyShard" if item["typeLine"].endswith("Shard") or item["typeLine"].endswith("Scrap") else None
+    return (
+        "CurrencyShard"
+        if item["typeLine"].endswith("Shard") or item["typeLine"].endswith("Scrap")
+        else None
+    )
 
 
 def is_cluster_jewel(item, type_mapping):

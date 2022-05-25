@@ -9,14 +9,23 @@ data = {
         "status": {"option": "any"},
         "stats": [{"type": "and", "filters": []}],
         "filters": {
-            "trade_filters": {"filters": {"account": {"input": "swozn"}, "sale_type": {"option": "any"}}},
+            "trade_filters": {
+                "filters": {
+                    "account": {"input": "swozn"},
+                    "sale_type": {"option": "any"},
+                }
+            },
             "map_filters": {"filters": {"map_tier": {"min": 1}}},
         },
     },
     "sort": {"price": "asc"},
 }
-payload="".join(str(data).split()).replace("'",'"')
-response = requests.post('https://www.pathofexile.com/api/trade/search/Ultimatum', headers=headers, data=payload)
+payload = "".join(str(data).split()).replace("'", '"')
+response = requests.post(
+    "https://www.pathofexile.com/api/trade/search/Ultimatum",
+    headers=headers,
+    data=payload,
+)
 
 response_data = response.json()
 print(response_data)

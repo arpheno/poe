@@ -117,7 +117,6 @@ currency_shards = {
     "The Life Thief": ((1 / 6), "Zerphi's Heart"),
     "Beauty Through Death": (1 / 5, "Atziri's Reflection"),
     "A Note in the Wind": (1 / 4, "Asenath's Chant"),
-    "Silence and Frost":(1/7,'The Pandemonius'),
-"Judging Voices":(1/9,"Forbidden Shako"),
-
+    "Silence and Frost": (1 / 7, "The Pandemonius"),
+    "Judging Voices": (1 / 9, "Forbidden Shako"),
 }

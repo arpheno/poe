@@ -1,6 +1,8 @@
 import pandas as pd
+
+
 class InventoryCreator:
-    def create_inventory(self,items):
+    def create_inventory(self, items):
         df = pd.DataFrame(
             [
                 dict(

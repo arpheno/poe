@@ -15,9 +15,13 @@ def splinter_query(splinter: str):
 
 def simulacrum_splinters(prices):
     completed_set_price = pd.Series(
-        {key: value[0]["chaosValue"] for key, value in prices.items() if key == "Simulacrum"}
+        {
+            key: value[0]["chaosValue"]
+            for key, value in prices.items()
+            if key == "Simulacrum"
+        }
     )
     set_size = 300
-    value= completed_set_price / set_size
-    value.index = ['Simulacrum Splinter']
+    value = completed_set_price / set_size
+    value.index = ["Simulacrum Splinter"]
     return value

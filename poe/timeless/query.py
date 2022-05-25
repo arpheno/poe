@@ -1,4 +1,4 @@
-def query_timeless_jewel(name_of,seed):
+def query_timeless_jewel(name_of, seed):
     data = {
         "query": {
             "status": {"option": "online"},
