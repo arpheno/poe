@@ -71,6 +71,7 @@ def regrading_lens(relevant_gems, regrading_lens_cost):
         .str.strip()
     )
     df = df.set_index(["quality", "basegem"])
+    df=df.dropna()
     gems = df
     df = pd.read_csv(f"{Path(__file__).resolve().parent}/gem_quality.csv")
     qual_weight_map = (

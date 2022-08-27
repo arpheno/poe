@@ -27,6 +27,9 @@ def adps(weight: Dict, value: Dict, value_f):
 
 
 def adps_matrix(weight: List, value: List, value_f: float):
+    print(weight)
+    print(value)
+    print(value_f)
     return pd.DataFrame(
         pd.Series(
             _adps_matrix(target, weight, value, value_f)
