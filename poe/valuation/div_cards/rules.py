@@ -3,7 +3,7 @@ import statistics
 
 import pandas as pd
 
-ALT_QUALITY = ("Phantasmal", "Anomalous", "Divergent")
+ALT_QUALITY = {"Phantasmal", "Anomalous", "Divergent"}
 
 div_card_rules = {}
 
@@ -32,22 +32,17 @@ def terrible_secret_of_space(prices):
 
 def the_rite_of_elements(prices):
     stack_size = 5
-    gems = [
+    relevant_gems = (
         item
         for price in prices.values()
         for item in price
+        if "Golem" in item["name"]
         if item["type"] == "SkillGem"
-    ]
-    relevant_gems = [
-        gem
-        for gem in gems
-        if not any(qual in gem["name"] for qual in ALT_QUALITY)
-        if "Golem" in gem["name"]
-        if gem["gemLevel"] == 21
-        if gem.get("gemQuality") == None
-        if gem["sparkline"]["data"]
-    ]
-
+        if item["gemLevel"] == 21
+        if not any(qual in item["name"] for qual in ALT_QUALITY)
+        if item.get("gemQuality") == None
+        if item["sparkline"]["data"]
+    )
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
 
@@ -309,19 +304,15 @@ def deathly_designs(prices):
 def dying_anguish(prices):
 
     stack_size = 8
-    gems = [
+    relevant_gems = (
         item
         for price in prices.values()
         for item in price
         if item["type"] == "SkillGem"
-    ]
-    relevant_gems = [
-        gem
-        for gem in gems
-        if not any(qual in gem["name"] for qual in ALT_QUALITY)
-        if gem["variant"] == "20/20"
-        if gem["sparkline"]["data"]
-    ]
+        if not any(qual in item["name"] for qual in ALT_QUALITY)
+        if item["variant"] == "20/20"
+        if item["sparkline"]["data"]
+    )
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
 

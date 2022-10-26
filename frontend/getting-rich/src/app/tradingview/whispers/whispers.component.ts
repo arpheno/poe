@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Whisper} from "./whisper";
+import {WhisperServiceService} from "../whisper-service.service";
+import {DirectWhisperService} from "./direct-whisper.service";
 
 @Component({
   selector: 'app-whispers',
@@ -10,13 +12,14 @@ export class WhispersComponent implements OnInit {
   @Input() newWhispers:Whisper[] = [];
   newest_whisper: string='';
 
-  constructor() { }
+  constructor(  private whisperService: DirectWhisperService) { }
 
   ngOnInit(): void {
   }
 
   copyNewWhisper() {
     const whisper:Whisper = this.newWhispers.shift()!
+    this.whisperService.direct_whisper(whisper.whisper_token,whisper.offer_count).subscribe(items=>console.log(items))
     this.newest_whisper=whisper.whisper;
   }
 
@@ -48,5 +51,10 @@ export class WhispersComponent implements OnInit {
     return 'rgb(' + [color.r, color.g, color.b].join(',') + ')';
     // or output as hex if preferred
   };
+
+  directWhisper(token:string,count:number) {
+    console.log('whispering')
+    this.whisperService.direct_whisper(token,count).subscribe(items=>console.log(items))
+  }
 }
 

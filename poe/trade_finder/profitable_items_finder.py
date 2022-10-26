@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 
 from poe.ninja import retrieve_prices
@@ -15,11 +17,15 @@ def find_profitable_items(prices, values):
     df = df.rename_axis(index="name")
     return df
 
-
-if __name__ == "__main__":
-    prices = retrieve_prices()
+def main(prices):
     values = own_valuations(prices)
     items = find_profitable_items(prices, values)
-
     items["icon"] = items.index.map(lambda x: prices[x][0].get("icon", ""))
-    print(items)
+
+if __name__ == "__main__":
+    with open('price_cache') as f:
+        prices= json.load(f)
+    # prices = retrieve_prices()
+    # with open('price_cache','w') as f:
+    #     json.dump(dict(prices),f)
+    main(prices)
