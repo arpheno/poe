@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Whisper} from "./whisper";
-import {WhisperServiceService} from "../whisper-service.service";
 import {DirectWhisperService} from "./direct-whisper.service";
 
 @Component({

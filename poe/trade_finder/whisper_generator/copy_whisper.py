@@ -50,17 +50,18 @@ class CopyWhisperGenerator:
     def query(self, want, minimum):
         return {
             "engine":'new',
-            "status": {"option": "online"},
             "query": {
-                "have": ["chaos", "exalt"],
+                "status": {"option": "online"},
+                "have": ["chaos", "div"],
                 "want": [want],
                 "minimum": minimum,
-            }
+            },
+            "sort":{ "have": "asc" }
         }
 
     def translate_currency(self, df, prices):
         df["pay_currency"] = df["pay_currency"].map(
-            {"chaos": "Chaos Orb", "exalted": "Exalted Orb"}
+            {"chaos": "Chaos Orb", "div": "Divine Orb"}
         )
         currency_map = {
             k: v[0]["chaosValue"]

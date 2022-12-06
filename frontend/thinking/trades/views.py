@@ -204,6 +204,6 @@ def direct_whisper(request):
     url= 'https://www.pathofexile.com/api/trade/whisper'
 
     response=requests.post(url,json=params,headers={    'x-requested-with': 'XMLHttpRequest', **headers})
-    response.raise_for_status()
+    response.raise_for_status() #todo better error handling
     return response.json()
 

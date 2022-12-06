@@ -4,8 +4,8 @@ import {ProfitableItemService} from "../profitable-item.service";
 import {MatTableDataSource} from "@angular/material/table";
 import {MatSort, Sort} from "@angular/material/sort";
 import {LiveAnnouncer} from "@angular/cdk/a11y";
-import {WhisperServiceService} from "../whisper-service.service";
 import {Whisper} from "../whispers/whisper";
+import {DirectWhisperService} from "../whispers/direct-whisper.service";
 
 @Component({
   selector: 'app-profitable-items',
@@ -21,7 +21,7 @@ export class ProfitableItemsComponent implements OnInit {
 
   constructor(private profitableItemService: ProfitableItemService,
               private _liveAnnouncer: LiveAnnouncer,
-              private whisperService: WhisperServiceService) {
+              private directWhisperService: DirectWhisperService) {
   }
 
   getProfitableItems(): void {
@@ -56,7 +56,7 @@ export class ProfitableItemsComponent implements OnInit {
 
   getWhispers(item: ProfitableItem): void {
     console.log(item)
-    this.whisperService.getWhispers([item])
+    this.directWhisperService.getWhispers([item])
       .subscribe(items => {
         console.log(items);
         this.generatedWhispers.emit(items);
@@ -73,7 +73,7 @@ export class ProfitableItemsComponent implements OnInit {
     console.log(this.profitableItems)
     let asd = this.profitableItems.filter(x => x.name.endsWith('carab'));
     console.log(asd)
-    this.whisperService.getWhispers(
+    this.directWhisperService.getWhispers(
       asd
     )
       .subscribe(items => {

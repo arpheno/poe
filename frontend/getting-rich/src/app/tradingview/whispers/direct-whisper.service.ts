@@ -1,17 +1,18 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpParams} from "@angular/common/http";
 import {Observable, of} from "rxjs";
-import {Whisper} from "./whispers/whisper";
-import {ProfitableItem} from "../profitable-item";
-import {environment} from "../../environments/environment";
+import {Whisper} from "./whisper";
+import {ProfitableItem} from "../../profitable-item";
+import {environment} from "../../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
-export class WhisperServiceService {
+export class DirectWhisperService {
 
 
   private url: string = environment.whisperUrl;
+  private whisper_url: string = environment.directWhisperUrl;
 
   constructor(
     private http: HttpClient,
@@ -34,6 +35,12 @@ export class WhisperServiceService {
     const result = this.http.get<Whisper[]>(this.url, {params: params});
     // const result = of(MOCK_WHISPERS);
     return result;
+  }
+
+  direct_whisper(whisper_token: string, offer_count: number) {
+    const result = this.http.post<Whisper[]>(this.whisper_url, {token: whisper_token,values:[offer_count]});
+    return result
+
   }
 }
 
