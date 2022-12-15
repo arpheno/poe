@@ -8,7 +8,7 @@ from pprint import pprint
 import aiohttp
 import websockets
 
-from constants import ssid
+from constants import ssid, LEAGUE
 
 headers = {
     "Origin": "https://www.pathofexile.com",
@@ -27,7 +27,7 @@ async def fetch(session, url):
 
 async def track_search(hash: str):
     print(f"tracking {hash}")
-    uri = f"wss://www.pathofexile.com/api/trade/live/scourge/{hash}"
+    uri = f"wss://www.pathofexile.com/api/trade/live/{LEAGUE}/{hash}"
     async with aiohttp.ClientSession(headers=headers) as session:
         websocket_opts = dict(
             uri=uri,
@@ -47,10 +47,11 @@ async def track_search(hash: str):
                         session, f"https://www.pathofexile.com/api/trade/fetch/{result}"
                     )
                     data = json.loads(html)["result"][0]
-                    price = data["listing"]["price"]
-                    seller = data["listing"]["account"]["lastCharacterName"]
-                    mods = data["item"]["explicitMods"]
-                print(f"{hash} {mods} for {price} by {seller}")
+                    return data
+                    # price = data["listing"]["price"]
+                    # seller = data["listing"]["account"]["lastCharacterName"]
+                    # mods = data["item"]["explicitMods"]
+                # print(f"{hash} {mods} for {price} by {seller}")
 
 
 async def track_all(*hashes):
