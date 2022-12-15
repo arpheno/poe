@@ -31,6 +31,9 @@ def profitable_items(request):
     obj, created = Item.objects.update_or_create(
         name="Exalted Orb", price=prices["Exalted Orb"][0]["chaosValue"]
     )
+    obj, created = Item.objects.update_or_create(
+        name="Divine Orb", price=prices["Divine Orb"][0]["chaosValue"]
+    )
     obj, created = Item.objects.update_or_create(name="Chaos Orb", price=1)
     values = own_valuations(prices)
     items: pd.DataFrame = find_profitable_items(prices, values)
