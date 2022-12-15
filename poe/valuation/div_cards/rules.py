@@ -26,7 +26,7 @@ def terrible_secret_of_space(prices):
     ]
 
     values = [gem["chaosValue"] for gem in relevant_gems]
-    value = statistics.mean(values) / stack_size
+    value = sum(values) / 18 / stack_size
     return value
 
 
@@ -208,7 +208,7 @@ def the_bitter_blossom(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].mean() / stack_size
+    return values[values < values.quantile(0.75)].sum() / len(outcomes) / stack_size
 
 
 def the_wilted_rose(prices):
@@ -257,7 +257,7 @@ def the_wilted_rose(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].mean() / stack_size
+    return values[values < values.quantile(0.75)].sum()/len(outcomes) / stack_size
 
 
 def deathly_designs(prices):
@@ -298,11 +298,10 @@ def deathly_designs(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].mean() / stack_size
+    return values[values < values.quantile(0.75)].sum()/outcomes/ stack_size
 
 
 def dying_anguish(prices):
-
     stack_size = 8
     relevant_gems = (
         item
@@ -346,7 +345,7 @@ def the_eldritch_decay(prices):
         item for price in prices.values() for item in price if item["name"] in outcomes
     ]
     values = [item["chaosValue"] for item in relevant]
-    value = statistics.mean(values) / stack_size
+    value = statistics.sum(values)/ len(outcomes) / stack_size
     return value
 
 
@@ -366,12 +365,12 @@ def emperors_luck(prices):
         "Orb of Transmutation": 0.2048,
     }
     value = (
-        sum(
-            prices[key][0]["chaosValue"] if key in prices else 0
-            for key, value in outcomes.items()
-        )
-        + 0.016
-    ) / len(
+                    sum(
+                        prices[key][0]["chaosValue"] if key in prices else 0
+                        for key, value in outcomes.items()
+                    )
+                    + 0.016
+            ) / len(
         outcomes
     )  # Chaos orb is 1.6%
     return value / stack_size * 5
@@ -417,7 +416,6 @@ def the_bones(prices):
 
 
 def the_cacophony(prices):
-
     stack_size = 8
     relevant_essences = [
         item
@@ -431,7 +429,6 @@ def the_cacophony(prices):
 
 
 def harmony_of_souls(prices):
-
     stack_size = 9
     relevant_essences = [
         item
@@ -445,7 +442,6 @@ def harmony_of_souls(prices):
 
 
 def the_tinkerers_table(prices):
-
     stack_size = 5
     datapoints = 360
     outcomes = {
