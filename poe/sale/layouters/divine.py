@@ -16,9 +16,9 @@ class DivineLayouter(Layouter):
 
     def layout(self, register: pd.DataFrame) -> pd.DataFrame:
         register["currency"] = register.final_price_chaos.map(
-            lambda x: "div" if x > self.divine_value else "chaos"
+            lambda x: "divine" if x > self.divine_value else "chaos"
         )
-        funcs = {"chaos": self.turn_to_fraction, "div": self.turn_to_divine}
+        funcs = {"chaos": self.turn_to_fraction, "divine": self.turn_to_divine}
         register["final_price"] = register.apply(
             lambda item: funcs[item.currency](item.final_price_chaos, item.stack_size),
             axis=1,
@@ -31,7 +31,7 @@ class DivineLayouter(Layouter):
             if ((ratio := stack_size / numerator) > 1)
             else (numerator, stack_size)
         )
-        return FakeFraction(round(numerator, 2), denominator)
+        return FakeFraction(round(numerator, 1), denominator)
 
     def turn_to_fraction(self, final_price_chaos, stack_size):
         best_fraction = Fraction(final_price_chaos / stack_size).limit_denominator(
