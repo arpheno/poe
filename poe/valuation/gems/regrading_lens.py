@@ -1,4 +1,5 @@
 from pathlib import Path
+from pprint import pprint
 
 import pandas as pd
 
@@ -71,6 +72,8 @@ def regrading_lens(relevant_gems, regrading_lens_cost):
         .str.strip()
     )
     df = df.set_index(["quality", "basegem"])
+    if 'gemQuality' in df.columns:
+        df=df.drop('gemQuality',axis=1)
     df=df.dropna()
     gems = df
     df = pd.read_csv(f"{Path(__file__).resolve().parent}/gem_quality.csv")
@@ -120,3 +123,4 @@ if __name__ == "__main__":
         ignore_index=True,
     ).sort_values("value", ascending=False)
     result = {"result": list(domain_result.T.to_dict().values())}
+    pprint(result)
