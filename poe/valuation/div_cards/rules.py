@@ -345,7 +345,7 @@ def the_eldritch_decay(prices):
         item for price in prices.values() for item in price if item["name"] in outcomes
     ]
     values = [item["chaosValue"] for item in relevant]
-    value = statistics.sum(values)/ len(outcomes) / stack_size
+    value = sum(values)/ len(outcomes) / stack_size
     return value
 
 
