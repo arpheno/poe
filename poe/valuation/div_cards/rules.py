@@ -298,7 +298,7 @@ def deathly_designs(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].sum()/outcomes/ stack_size
+    return values[values < values.quantile(0.75)].sum()/len(outcomes)/ stack_size
 
 
 def dying_anguish(prices):
