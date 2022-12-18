@@ -4,12 +4,13 @@ from pprint import pprint
 import pandas as pd
 
 from poe.ninja import retrieve_prices
-from poe.valuation.gems.adps import adps
+from poe.valuation.gems.adps import adps, markov_adps
 
 display = pd.options.display
 
 display.max_columns = 1000
 display.max_rows = 10000
+
 
 # def regrading_lenses():
 
@@ -57,9 +58,9 @@ def prime_regrading_lens(prices):
 def regrading_lens(relevant_gems, regrading_lens_cost):
     df = pd.DataFrame(relevant_gems)
     df["quality"] = (
-        df.name.str.startswith("Anomalous")
-        | df.name.str.startswith("Divergent")
-        | df.name.str.startswith("Phantasmal")
+            df.name.str.startswith("Anomalous")
+            | df.name.str.startswith("Divergent")
+            | df.name.str.startswith("Phantasmal")
     )
     df.loc[df.quality == False, "quality"] = "Superior"
     df.loc[df.quality == True, "quality"] = (
@@ -73,8 +74,8 @@ def regrading_lens(relevant_gems, regrading_lens_cost):
     )
     df = df.set_index(["quality", "basegem"])
     if 'gemQuality' in df.columns:
-        df=df.drop('gemQuality',axis=1)
-    df=df.dropna()
+        df = df.drop('gemQuality', axis=1)
+    df = df.dropna()
     gems = df
     df = pd.read_csv(f"{Path(__file__).resolve().parent}/gem_quality.csv")
     qual_weight_map = (
@@ -93,9 +94,11 @@ def regrading_lens(relevant_gems, regrading_lens_cost):
         )
     )
     result = pd.concat(
-        [r for r in inter.apply(lambda x: adps(x[1], x[0], regrading_lens_cost))],
+        [r for r in
+         inter.apply(lambda x: markov_adps(x[1], x[0], regrading_lens_cost) if len(x[1]) > 1 else pd.Series())],
         keys=inter.index,
     )
+    result = result.fillna(0)
     result = result.rename_axis(["basegem", "from"]).reset_index()
     result["value"] = result[["Anomalous", "Divergent", "Phantasmal"]].max(axis=1)
     result["to"] = result.apply(

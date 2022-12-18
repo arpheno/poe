@@ -25,7 +25,28 @@ def adps(weight: Dict, value: Dict, value_f):
         .rename(gem_names, axis=1)
     )
 
-
+import pandas as pd
+from pydtmc import MarkovChain
+def markov_adps_transition_times(probabilities:dict,values:dict,cost:float):
+    transitions ={quality:{q:probabilities.get(q,0) for q in probabilities.keys() if q !=quality}for quality in probabilities.keys()}
+    df=pd.DataFrame(transitions).T.fillna(0)[probabilities.keys()].apply(lambda x:x/x.sum(),axis=1)
+    mc = MarkovChain(
+        df.to_numpy(),list(probabilities.keys())
+    )
+    df=pd.DataFrame(mc.mean_first_passage_times_to(),index=probabilities.keys(),columns=probabilities.keys())
+    df= df *-cost # Cost for regrading lenses
+    df= df+pd.Series(values) # Value from selling gem
+    return df.sub(pd.Series(values),axis=0) # Subtract cost of buying gem
+def markov_adps(probabilities:dict,values:dict,cost:float):
+    transitions ={quality:{q:probabilities.get(q,0) for q in probabilities.keys() if q !=quality}for quality in probabilities.keys()}
+    df=pd.DataFrame(transitions).T.fillna(0)[probabilities.keys()].apply(lambda x:x/x.sum(),axis=1)
+    mc = MarkovChain(
+        df.to_numpy(),list(probabilities.keys())
+        )
+    df=pd.DataFrame(mc.mean_first_passage_times_to(),index=probabilities.keys(),columns=probabilities.keys())
+    df= df *-cost # Cost for regrading lenses
+    df= df+pd.Series(values) # Value from selling gem
+    return df.sub(pd.Series(values),axis=0) # Subtract cost of buying gem
 def adps_matrix(weight: List, value: List, value_f: float):
     print(weight)
     print(value)
