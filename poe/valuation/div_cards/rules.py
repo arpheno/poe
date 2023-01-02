@@ -106,6 +106,22 @@ def the_enlightened(prices):
     value = relevant_gem["chaosValue"] / stack_size
     return value
 
+def gemcutters_mercy(prices):
+    stack_size = 3
+    gems = [
+        item
+        for price in prices.values()
+        for item in price
+        if item["type"] == "SkillGem"
+    ]
+    relevant_gems = [
+        gem
+        for gem in gems
+        if gem["name"] in( "Enlighten Support","Empower Support","Enhance Support")
+        if gem["variant"] == "1"
+    ]
+    value = sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)/3 / stack_size
+    return value
 
 def wealth_and_power(prices):
     stack_size = 11
@@ -625,6 +641,7 @@ div_card_rules["Emperor's Luck"] = emperors_luck
 div_card_rules["The Bones"] = the_bones
 div_card_rules["The Rite of Elements"] = the_rite_of_elements
 div_card_rules["Terrible Secret of Space"] = terrible_secret_of_space
+div_card_rules["Gemcutter's Mercy"] = gemcutters_mercy
 
 
 def xxxmap_div_card_name(name: str):
