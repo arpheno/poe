@@ -21,6 +21,7 @@ async def make_shopper(hash):
     behaviour = whisper_seller
     tracker = Tracker(hash)
     async for result in tracker.results():
+        print(f"whispering {hash}")
         behaviour(result)
 
 
@@ -32,7 +33,7 @@ async def main(hashes):
 
 
 import asyncio
-
 if __name__ == "__main__":
-    hashes = ["Kjjo6pgC5"]
+    #artist 33 chaos bvX6rP2CL
+    hashes = ["bvX6rP2CL"]#,"j3pEBJoHX"]#,'85Ok4dMsV']
     asyncio.get_event_loop().run_until_complete(main(hashes))
