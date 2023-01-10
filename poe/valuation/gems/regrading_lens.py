@@ -4,7 +4,7 @@ from pprint import pprint
 import pandas as pd
 
 from poe.ninja import retrieve_prices
-from poe.valuation.gems.adps import adps, markov_adps
+from poe.valuation.gems.adps import  markov_adps
 
 display = pd.options.display
 
@@ -32,7 +32,7 @@ def secondary_regrading_lens(prices):
         if gem["variant"] == "1"
     ]
     lens_cost = prices["Secondary Regrading Lens"][0]["chaosValue"]
-    return regrading_lens(relevant_gems, lens_cost)
+    return regrading_lens(relevant_gems, 275)
 
 
 def prime_regrading_lens(prices):
@@ -52,7 +52,7 @@ def prime_regrading_lens(prices):
         if gem["variant"] == "1"
     ]
     lens_cost = prices["Prime Regrading Lens"][0]["chaosValue"]
-    return regrading_lens(relevant_gems, lens_cost)
+    return regrading_lens(relevant_gems, 110)
 
 
 def regrading_lens(relevant_gems, regrading_lens_cost):

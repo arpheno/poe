@@ -14,7 +14,7 @@ class BaseType(Item):
             or prices.get(self.baseType)
         )
         conditions = [
-            lambda x: str(x.get("variant")).lower()
+            lambda x: str(x.get("variant",'broken')).lower()
             == ("/".join(self.influences) or "none"),
             lambda x: x["levelRequired"] == self.ilvl,
         ]
