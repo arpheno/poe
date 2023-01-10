@@ -59,4 +59,4 @@ def vaal_gems(prices):
 
 if __name__ == "__main__":
     prices = retrieve_prices(["SkillGem"])
-    vaal_gems(prices)
+    print(vaal_gems(prices))
