@@ -108,14 +108,16 @@ def search_resolve(request):
     query = json.loads(request.body)
     search_resolver = SearchResolver(league=LEAGUE)
     listings_resolver = ListingsResolver(league=LEAGUE)
-    temp = listings_resolver.resolve(search_resolver.resolve(query))
-    result = temp
-    return JsonResponse(result, safe=False)
+    params=search_resolver.resolve(query)
+
+    query_hash=params['params'][0][1]
+    result = listings_resolver.resolve(params)
+    return JsonResponse({**result,'query_hash':query_hash}, safe=False)
 
 
 def gem_exp(request):
     prices = retrieve_prices(["Currency", "SkillGem"])
-    domain_result = xp_value(prices)[:100]
+    domain_result = xp_value(prices)
     domain_result["query"] = domain_result["name"].map(create_query)
     result = list(domain_result.T.to_dict().values())
     return JsonResponse(result, safe=False)
@@ -143,7 +145,7 @@ def create_query(name):
                 "misc_filters": {
                     "disabled": False,
                     "filters": {
-                        "gem_level": {"min": 1, "max": 1},
+
                         "corrupted": {"option": "false"},
                         "gem_alternate_quality": {
                             "option": alternate_qualities.get(prefix, "0")
