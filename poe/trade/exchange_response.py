@@ -41,6 +41,7 @@ class Listing(BaseModel):
     account: Account
     offers: List[Offer]
     whisper: str
+    whisper_token: str
 
 
 class ResultItem(BaseModel):
@@ -49,8 +50,12 @@ class ResultItem(BaseModel):
     listing: Listing
 
 
+
 class ExchangeResponse(BaseModel):
     id: str
     complexity: Any
     result: List[ResultItem]
     total: int
+    @property
+    def results(self):
+        return [item for item in self.result if item.listing.account.online if not item.listing.account.online.status]

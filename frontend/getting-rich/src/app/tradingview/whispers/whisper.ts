@@ -6,6 +6,8 @@ export interface Whisper{
  stock:number;
  id:string;
  whisper_template:string;
+ whisper_token:string;
+ offer_count:number;
  value:number;
  profit:number;
  whisper:string;

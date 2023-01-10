@@ -16,7 +16,7 @@ class ListingsResolver:
         self.league = league
         self.cache = cache
 
-    def resolve(self, params) -> tuple[str, dict]:
+    def resolve(self, params) -> dict:
         key = "'trade-fetch-request-limit'"
         limits = ["6:4:10", "12:4:60", "16:12:60"]
 

@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  directWhisperUrl: `http://localhost:8000/trades/directWhisper/`,
   whisperUrl: `http://localhost:8000/trades/whispers/`,
   itemsUrl: `http://localhost:8000/trades/`,
   horizonUrl: `http://localhost:8000/trades/ooh/`,

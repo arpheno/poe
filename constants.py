@@ -239,4 +239,4 @@ blacklist = [
     "Boon of Justice",
 ]
 # LEAGUE = "Standard"
-LEAGUE = "Sentinel"
+LEAGUE = "Sanctum"

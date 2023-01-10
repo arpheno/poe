@@ -4,7 +4,7 @@ from poe.trade.exchange_response import ExchangeResponse
 
 
 def exchange_parser(data:ExchangeResponse):
-    if data.result:
+    if data.results:
         df = pd.DataFrame(
             [
                 {
@@ -15,6 +15,8 @@ def exchange_parser(data:ExchangeResponse):
                     "stock": result.listing.offers[0].item.stock,
                     "id": result.id,
                     "whisper_template": result.listing.whisper.format(result.listing.offers[0].item.whisper,result.listing.offers[0].exchange.whisper.replace('{0}','{1}')),
+                    "whisper_token": result.listing.whisper_token,
+                    "offer_count":result.listing.offers[0].item.stock//result.listing.offers[0].item.amount
                 }
                 for result in data.result
             ]

@@ -71,7 +71,7 @@ class Item:
             prices.get(self.name)
             or prices.get(self.typeLine)
             or prices.get(self.baseType)
-        )
+        ) if not self.influences else [None]
         return candidates[0]
 
     def determine_price(self, prices: dict, values: dict):

@@ -38,6 +38,14 @@ vendor_recipes = pd.DataFrame(
 
 
 def currency_valuation(prices):
+    value=_currency_valuation(prices)
+    value["max"] = value.max(axis=1)
+    value = value[[0, "max"]]
+    value.columns = ["ninja", "max"]
+    value = value.query("max>ninja")
+    return value["max"].to_dict()
+
+def _currency_valuation(prices):
     value = pd.DataFrame(
         pd.Series(
             {
@@ -51,13 +59,8 @@ def currency_valuation(prices):
     value[2] = vendor_recipes[1].map(value[1]) * vendor_recipes[0]
     value[3] = vendor_recipes[1].map(value[2]) * vendor_recipes[0]
     value[4] = vendor_recipes[1].map(value[3]) * vendor_recipes[0]
-    value["max"] = value.max(axis=1)
-    value = value[[0, "max"]]
-    value.columns = ["ninja", "max"]
-    value = value.query("max>ninja")
-    return value["max"].to_dict()
-
+    return value
 
 if __name__ == "__main__":
     prices = retrieve_prices(["Currency"])
-    currency_valuation(prices)
+    print(_currency_valuation(prices))

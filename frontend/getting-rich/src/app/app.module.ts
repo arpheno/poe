@@ -23,6 +23,7 @@ import { TradingStackComponent } from './trading-stack/trading-stack.component';
 import { VaalComponent } from './vaal/vaal.component';
 import { SalesComponent } from './sales/sales.component';
 import { TableviewComponent } from './sales/tableview/tableview.component';
+import { RegradinglensComponent } from './regradinglens/regradinglens.component';
 // import { RegradingLensComponent } from './regrading-lens/regrading-lens.component';
 
 @NgModule({
@@ -37,6 +38,7 @@ import { TableviewComponent } from './sales/tableview/tableview.component';
     VaalComponent,
     SalesComponent,
     TableviewComponent,
+    RegradinglensComponent,
     // RegradingLensComponent
   ],
   imports: [
@@ -57,7 +59,7 @@ import { TableviewComponent } from './sales/tableview/tableview.component';
       {path: 'leveling-gems', component: GemsComponent},
       {path: 'vaal-gems', component: VaalComponent},
       {path: 'sales', component: SalesComponent},
-      // {path: 'regrading-lens', component: RegradingLensComponent},
+      {path: 'regrading-lens', component: RegradinglensComponent},
     ])],
   providers: [],
   bootstrap: [AppComponent]

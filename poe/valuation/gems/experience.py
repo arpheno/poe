@@ -48,14 +48,14 @@ def xp_value(prices):
     exp_needed["Awakened"] = 411_225_217 + 452_347_738 + 497_582_512 + 547_340_764
     analysis["xp_needed"] = analysis.gem_type.map(exp_needed)
     analysis["profit_with_qual_bow"] = analysis.profit * analysis.gem_type.map(
-        {"Awakened": 1, "normal": 1, "special": 1.65}
-    )
+        {"Awakened": 1, "normal": 1, "special": 2.00}
+    )#-prices["Gemcutter's Prism"][0]['chaosValue']*20
     analysis["xp_value"] = analysis.profit_with_qual_bow / analysis.xp_needed
     result = analysis.sort_values("xp_value", ascending=False)
     return result
 
 
 if __name__ == "__main__":
-    prices = retrieve_prices(["SkillGem"])
+    prices = retrieve_prices(['Currency',"SkillGem"])
     temp = xp_value(prices)
     print(temp)

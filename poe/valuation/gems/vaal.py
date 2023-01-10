@@ -23,9 +23,9 @@ def vaal_gems(prices):
         else "normal"
     )
     funcs = {
-        "special": lambda row: row["4c"] * (1 / 8)
-        + row["2c"] * (1 / 8)
-        + row["3c"] * 6 / 8
+        "special": lambda row: row["4c"] * (2 / 8)
+        + row["2c"] * (2 / 8)
+        + row["3c"] * 4 / 8
         - row["3"],
         "Awakened": lambda row: row["6c"] * (1 / 8)
         + row["4c"] * (1 / 8)
@@ -59,4 +59,4 @@ def vaal_gems(prices):
 
 if __name__ == "__main__":
     prices = retrieve_prices(["SkillGem"])
-    vaal_gems(prices)
+    print(vaal_gems(prices))

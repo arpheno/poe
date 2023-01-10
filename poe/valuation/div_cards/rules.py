@@ -3,7 +3,7 @@ import statistics
 
 import pandas as pd
 
-ALT_QUALITY = ("Phantasmal", "Anomalous", "Divergent")
+ALT_QUALITY = {"Phantasmal", "Anomalous", "Divergent"}
 
 div_card_rules = {}
 
@@ -26,28 +26,23 @@ def terrible_secret_of_space(prices):
     ]
 
     values = [gem["chaosValue"] for gem in relevant_gems]
-    value = statistics.mean(values) / stack_size
+    value = sum(values) / 18 / stack_size
     return value
 
 
 def the_rite_of_elements(prices):
     stack_size = 5
-    gems = [
+    relevant_gems = (
         item
         for price in prices.values()
         for item in price
+        if "Golem" in item["name"]
         if item["type"] == "SkillGem"
-    ]
-    relevant_gems = [
-        gem
-        for gem in gems
-        if not any(qual in gem["name"] for qual in ALT_QUALITY)
-        if "Golem" in gem["name"]
-        if gem["gemLevel"] == 21
-        if gem.get("gemQuality") == None
-        if gem["sparkline"]["data"]
-    ]
-
+        if item["gemLevel"] == 21
+        if not any(qual in item["name"] for qual in ALT_QUALITY)
+        if item.get("gemQuality") == None
+        if item["sparkline"]["data"]
+    )
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
 
@@ -111,7 +106,39 @@ def the_enlightened(prices):
     value = relevant_gem["chaosValue"] / stack_size
     return value
 
+def gemcutters_mercy(prices):
+    stack_size = 3
+    gems = [
+        item
+        for price in prices.values()
+        for item in price
+        if item["type"] == "SkillGem"
+    ]
+    relevant_gems = [
+        gem
+        for gem in gems
+        if gem["name"] in( "Enlighten Support","Empower Support","Enhance Support")
+        if gem["variant"] == "1"
+    ]
+    value = sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)/3 / stack_size
+    return value
 
+def home(prices):
+    stack_size = 3
+    gems = [
+        item
+        for price in prices.values()
+        for item in price
+        if item["type"] == "SkillGem"
+    ]
+    relevant_gems = [
+        gem
+        for gem in gems
+        if gem["name"] in( "Enlighten Support","Empower Support","Enhance Support")
+        if gem["variant"] == "1"
+    ]
+    value = sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)/3 / stack_size
+    return value
 def wealth_and_power(prices):
     stack_size = 11
     gems = [
@@ -213,7 +240,7 @@ def the_bitter_blossom(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].mean() / stack_size
+    return values[values < values.quantile(0.75)].sum() / len(outcomes) / stack_size
 
 
 def the_wilted_rose(prices):
@@ -262,7 +289,7 @@ def the_wilted_rose(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].mean() / stack_size
+    return values[values < values.quantile(0.75)].sum()/len(outcomes) / stack_size
 
 
 def deathly_designs(prices):
@@ -303,25 +330,20 @@ def deathly_designs(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].mean() / stack_size
+    return values[values < values.quantile(0.75)].sum()/len(outcomes)/ stack_size
 
 
 def dying_anguish(prices):
-
     stack_size = 8
-    gems = [
+    relevant_gems = (
         item
         for price in prices.values()
         for item in price
         if item["type"] == "SkillGem"
-    ]
-    relevant_gems = [
-        gem
-        for gem in gems
-        if not any(qual in gem["name"] for qual in ALT_QUALITY)
-        if gem["variant"] == "20/20"
-        if gem["sparkline"]["data"]
-    ]
+        if not any(qual in item["name"] for qual in ALT_QUALITY)
+        if item["variant"] == "20/20"
+        if item["sparkline"]["data"]
+    )
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
     return values[values < values.quantile(0.75)].mean() / stack_size
 
@@ -355,7 +377,7 @@ def the_eldritch_decay(prices):
         item for price in prices.values() for item in price if item["name"] in outcomes
     ]
     values = [item["chaosValue"] for item in relevant]
-    value = statistics.mean(values) / stack_size
+    value = sum(values)/ len(outcomes) / stack_size
     return value
 
 
@@ -375,12 +397,12 @@ def emperors_luck(prices):
         "Orb of Transmutation": 0.2048,
     }
     value = (
-        sum(
-            prices[key][0]["chaosValue"] if key in prices else 0
-            for key, value in outcomes.items()
-        )
-        + 0.016
-    ) / len(
+                    sum(
+                        prices[key][0]["chaosValue"] if key in prices else 0
+                        for key, value in outcomes.items()
+                    )
+                    + 0.016
+            ) / len(
         outcomes
     )  # Chaos orb is 1.6%
     return value / stack_size * 5
@@ -426,7 +448,6 @@ def the_bones(prices):
 
 
 def the_cacophony(prices):
-
     stack_size = 8
     relevant_essences = [
         item
@@ -440,7 +461,6 @@ def the_cacophony(prices):
 
 
 def harmony_of_souls(prices):
-
     stack_size = 9
     relevant_essences = [
         item
@@ -454,7 +474,6 @@ def harmony_of_souls(prices):
 
 
 def the_tinkerers_table(prices):
-
     stack_size = 5
     datapoints = 360
     outcomes = {
@@ -638,6 +657,8 @@ div_card_rules["Emperor's Luck"] = emperors_luck
 div_card_rules["The Bones"] = the_bones
 div_card_rules["The Rite of Elements"] = the_rite_of_elements
 div_card_rules["Terrible Secret of Space"] = terrible_secret_of_space
+div_card_rules["Gemcutter's Mercy"] = gemcutters_mercy
+div_card_rules["Home"] = home
 
 
 def xxxmap_div_card_name(name: str):

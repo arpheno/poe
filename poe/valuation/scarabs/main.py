@@ -60,6 +60,6 @@ def profit_analysis(df, key, orb_of_horizon_price):
 
 
 if __name__ == "__main__":
-    prices = retrieve_prices()
+    prices = retrieve_prices(['Scarab','Currency'])
     analysis = scarab_orb_of_horizon(prices).sort_values(by="profit", ascending=False)
     print(analysis)

@@ -1,18 +1,21 @@
 import json
 from pathlib import Path
 
+import requests
 from django.http import JsonResponse
 
 # Create your views here.
 from constants import LEAGUE
 from poe.ninja import retrieve_prices
+from poe.trade.exchange_parser import exchange_parser
 from poe.trade.exchange_resolver import ExchangeResolver
+from poe.trade.headers import headers
 from poe.trade.listings_resolver import ListingsResolver
 import pandas as pd
 
 from poe.trade.search_resolver import SearchResolver
 from poe.trade_finder import find_profitable_items
-from poe.trade_finder.whisper_generator import WhisperGenerator, exchange_parser
+from poe.trade_finder.whisper_generator.copy_whisper import CopyWhisperGenerator
 from poe.valuation import own_valuations
 from poe.valuation.gems.experience import xp_value
 from poe.valuation.gems.regrading_lens import (
@@ -27,6 +30,9 @@ def profitable_items(request):
     prices = retrieve_prices()
     obj, created = Item.objects.update_or_create(
         name="Exalted Orb", price=prices["Exalted Orb"][0]["chaosValue"]
+    )
+    obj, created = Item.objects.update_or_create(
+        name="Divine Orb", price=prices["Divine Orb"][0]["chaosValue"]
     )
     obj, created = Item.objects.update_or_create(name="Chaos Orb", price=1)
     values = own_valuations(prices)
@@ -44,21 +50,11 @@ def profitable_items(request):
 
 
 def whispers(request):
-    items = (
-        pd.DataFrame(list(zip(*dict(request.GET).values())), columns=request.GET.keys())
-        .rename({"name": "index"}, axis=1)
-        .set_index("index")
-    )
-    items["expected_profit"] = items["expected_profit"].astype("float")
-    items["value"] = items["value"].astype("float")
-    prices = {item.name: [{"chaosValue": item.price}] for item in Item.objects.all()}
-    key_mapping = pd.read_csv(
-        f"{Path(__file__).resolve().parent}/poe_keys.csv"
-    ).set_index("name")["key"]
+    items, key_mapping, prices = mymethod(request)
 
     listings_resolver = ListingsResolver(league=LEAGUE)
     exchange_resolver = ExchangeResolver(league=LEAGUE)
-    use_case = WhisperGenerator(
+    use_case = CopyWhisperGenerator(
         exchange_resolver=exchange_resolver,
         listings_resolver=listings_resolver,
         poe_trade_key_mapping=key_mapping,
@@ -67,6 +63,21 @@ def whispers(request):
     domain_result = use_case(items)
     result = list(domain_result.T.to_dict().values())
     return JsonResponse(result, safe=False)
+
+
+def mymethod(request):
+    items = (
+        pd.DataFrame(list(zip(*dict(request.GET).values())), columns=request.GET.keys())
+            .rename({"name": "index"}, axis=1)
+            .set_index("index")
+    )
+    items["expected_profit"] = items["expected_profit"].astype("float")
+    items["value"] = items["value"].astype("float")
+    prices = {item.name: [{"chaosValue": item.price}] for item in Item.objects.all()}
+    key_mapping = pd.read_csv(
+        f"{Path(__file__).resolve().parent}/poe_keys.csv"
+    ).set_index("name")["key"]
+    return items, key_mapping, prices
 
 
 def orb_of_horizons(request):
@@ -97,14 +108,16 @@ def search_resolve(request):
     query = json.loads(request.body)
     search_resolver = SearchResolver(league=LEAGUE)
     listings_resolver = ListingsResolver(league=LEAGUE)
-    temp = listings_resolver.resolve(search_resolver.resolve(query))
-    result = temp
-    return JsonResponse(result, safe=False)
+    params=search_resolver.resolve(query)
+
+    query_hash=params['params'][0][1]
+    result = listings_resolver.resolve(params)
+    return JsonResponse({**result,'query_hash':query_hash}, safe=False)
 
 
 def gem_exp(request):
-    prices = retrieve_prices(["SkillGem"])
-    domain_result = xp_value(prices)[:30]
+    prices = retrieve_prices(["Currency", "SkillGem"])
+    domain_result = xp_value(prices)
     domain_result["query"] = domain_result["name"].map(create_query)
     result = list(domain_result.T.to_dict().values())
     return JsonResponse(result, safe=False)
@@ -132,7 +145,7 @@ def create_query(name):
                 "misc_filters": {
                     "disabled": False,
                     "filters": {
-                        "gem_level": {"min": 1, "max": 1},
+
                         "corrupted": {"option": "false"},
                         "gem_alternate_quality": {
                             "option": alternate_qualities.get(prefix, "0")
@@ -191,3 +204,11 @@ def regrading_lens(request):
 #     return JsonResponse(result, safe=False)
 def fragment_sets():
     pass
+def direct_whisper(request):
+    params = json.loads(request.body)
+    url= 'https://www.pathofexile.com/api/trade/whisper'
+
+    response=requests.post(url,json=params,headers={    'x-requested-with': 'XMLHttpRequest', **headers})
+    response.raise_for_status() #todo better error handling
+    return response.json()
+

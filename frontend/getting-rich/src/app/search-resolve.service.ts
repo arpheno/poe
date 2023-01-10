@@ -9,6 +9,7 @@ export interface SearchResult{
   result:[{
     listing: { whisper: any, price: { amount: number, currency: string } };
   }],
+  query_hash:string
 }
 @Injectable({
   providedIn: 'root'

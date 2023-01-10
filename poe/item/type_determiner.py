@@ -13,8 +13,8 @@ def type_mapping(prices) -> Callable:
 def determine_type(type_mapping) -> Callable:
     return (
         lambda item: is_hard_currency(item, type_mapping)
+                     or is_item_influenced(item, type_mapping)
         or is_item_exact_match(item, type_mapping)
-        or is_item_influenced(item, type_mapping)
         or is_heist(item, type_mapping)
         or is_expedition(item, type_mapping)
         or is_organ(item, type_mapping)

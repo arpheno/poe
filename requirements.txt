@@ -9,3 +9,8 @@ redislite
 django-cors-headers
 opencv-python
 torch
+jupyter
+plotly
+lxml
+aiohttp
+websockets

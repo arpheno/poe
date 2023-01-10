@@ -21,7 +21,6 @@ class ItemBuilder:
             {"type": t, **item}
             for item, t in zip(items, types)
             if not item["typeLine"] in blacklist
-            if not item["stashtab"] == "noindex"
         ]
         all_items = []
         for old_item in items:
