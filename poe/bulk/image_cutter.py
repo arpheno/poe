@@ -6,8 +6,10 @@ import numpy as np
 import pandas as pd
 
 
-def remove_padding(img, padding=25):
-    img = img[padding : img.shape[0] - padding, padding : img.shape[1] - padding]
+def remove_padding(img, ypadding=25,xpadding=25):
+    ypadding=ypadding
+    xpadding=xpadding
+    img = img[ypadding : img.shape[0] - ypadding, xpadding : img.shape[1] - xpadding]
     return img
 
 
@@ -52,7 +54,7 @@ def define_y_cuts(gray):
     y_cuts = [
         int(np.mean(list(y[0][0] for y in v)))
         for k, v in groupby(np.ndenumerate(row_mean_values), key=lambda x: x[1])
-        if k == 0
+        if k <=1
     ]
     _ = pd.Series(row_mean_values).plot(figsize=(20, 5))
 
@@ -97,7 +99,7 @@ def cut_into_frags(img, y_cuts, x_cuts):
 
 
 def cut_image(img):
-    img = remove_padding(img, 25)
+    img = remove_padding(img, 50)
     img = remove_almost_black_pixels(img)
     cv2.imwrite("debug.png", img)
     debug = np.copy(img)
@@ -130,12 +132,3 @@ def cut_image_to_frags(img):
     draw_lines(img, y_cuts, x_cuts)
     frags = cut_into_frags(img, y_cuts, x_cuts)
     return frags
-
-
-if __name__ == "__main__":
-    path = "data/tabs/unknown (30).png"
-
-    img = cv2.imread(path)
-    print(img)
-    frags = cut_image_to_frags(img)
-    pass
