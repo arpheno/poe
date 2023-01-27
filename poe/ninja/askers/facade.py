@@ -2,9 +2,8 @@ from constants import LEAGUE
 from .curr import ask_ninja_curr
 from .item import ask_ninja_item
 
-
-def asker(type):
+def asker(type,league=LEAGUE):
     if type in ["Fragment", "Currency"]:
-        return ask_ninja_curr(type, league=LEAGUE)
+        return ask_ninja_curr(type, league=league)
     else:
-        return ask_ninja_item(type, league=LEAGUE)
+        return ask_ninja_item(type, league=league)
