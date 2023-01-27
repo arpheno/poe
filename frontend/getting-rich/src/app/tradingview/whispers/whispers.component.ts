@@ -22,9 +22,6 @@ export class WhispersComponent implements OnInit {
     this.newest_whisper=whisper.whisper;
   }
 
-  onKeyDown() {
-    console.log('Copy Pressed');
-  }
   private percentColors = [
     { pct: 0.0, color: { r: 0xff, g: 0x00, b: 0 } },
     { pct: 0.5, color: { r: 0xff, g: 0xff, b: 0 } },
@@ -54,6 +51,13 @@ export class WhispersComponent implements OnInit {
   directWhisper(token:string,count:number) {
     console.log('whispering')
     this.whisperService.direct_whisper(token,count).subscribe(items=>console.log(items))
+  }
+
+  skipWhisper() {
+    const whisper:Whisper = this.newWhispers.shift()!
+  }
+  clearWhispers() {
+    this.newWhispers=[];
   }
 }
 

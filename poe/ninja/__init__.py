@@ -2,6 +2,7 @@ import time
 from collections import ChainMap
 
 from poe.ninja.askers.facade import asker
+from constants import LEAGUE
 
 NINJA_ITEM_TYPES = (
     "Fragment",
@@ -26,17 +27,17 @@ NINJA_ITEM_TYPES = (
     "BaseType",
     "Vial",
     "ClusterJewel",
-    # "Beast",
+    "Beast",
 )
 CHAOS_ORB = {"Chaos Orb": [{"name": "Chaos Orb", "type": "Currency", "chaosValue": 1}]}
 
 
-def retrieve_prices(currencies=NINJA_ITEM_TYPES):
+def retrieve_prices(currencies=NINJA_ITEM_TYPES,league=LEAGUE):
     print(f"Retrieving prices from ninja", end="")
     start = time.time()
     result = ChainMap(
         CHAOS_ORB,
-        *[asker(curr) for curr in currencies],
+        *[asker(curr,league=league) for curr in currencies],
     )
     print(f"Done in {time.time() - start:.2f} seconds")
     return result

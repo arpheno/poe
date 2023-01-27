@@ -1,5 +1,7 @@
 <h2>Available Whispers</h2>
-<button mat-button (keydown.control.c)="onKeyDown()" (mouseup)="copyNewWhisper()">Copy new whisper</button>
+<button mat-button (mouseup)="copyNewWhisper()">Copy new whisper</button>
+<button mat-button (mouseup)="skipWhisper()">Skip</button>
+<button mat-button (mouseup)="clearWhispers()">Clear Whispers</button>
 <div>
   <div *ngFor="let whisper of newWhispers" style="justify-content: space-between" matTooltip="{{whisper.whisper}}" (click)="directWhisper(whisper.whisper_token,whisper.offer_count)">
     <span class="profit">+{{whisper.profit | number : '.2-2'}} {{(whisper.value-whisper.chaos_price)/whisper.chaos_price |percent}}</span>
