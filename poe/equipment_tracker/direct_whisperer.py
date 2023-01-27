@@ -12,7 +12,7 @@ class DirectWhisperer:
 
     def direct_whisper(self, token):
         key = "trade-whisper-request-limit"
-        limits = ['3:10:5', '15:60:60', '75:600:600', '150:3600:3600', '600:43200:3600']
+        limits = ['2:8:5', '15:60:60', '75:600:600', '150:3600:3600', '600:43200:3600']
 
         with limit_rate(key, limits, self.cache):
             response = requests.post(self.url,
