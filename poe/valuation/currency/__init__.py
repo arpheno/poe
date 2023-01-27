@@ -33,6 +33,7 @@ vendor_recipes = pd.DataFrame(
         BAUBLE: (1.0, BAUBLE),
         ALCHEMY: (1.0, ALCHEMY),
         REGRET: (1 / 2, UNMAKING),
+        UNMAKING:(1/1,UNMAKING)
     }
 ).T
 
