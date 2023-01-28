@@ -1,35 +1,10 @@
-from dataclasses import dataclass
-
-from constants import PORTAL, TRANSMUTE
+from constants import TRANSMUTE
 from poe.ninja import retrieve_prices
 from poe.valuation.framework.ninja_adapter import NinjaAdapter
-from valuation.div_cards.new_rules import vaal_exceptional, level_exceptional
+from valuation.framework.new_rules import vaal_exceptional, level_exceptional, portal_scroll
 from valuation.framework.manifester import Manifester
 from valuation.framework.price_store import HashKeyPriceStore
-from valuation.framework.rule import Rule
-from valuation.framework.valuation import Valuation
-
-
-def portal_scroll():
-    return Rule(
-        [dict(name=TRANSMUTE)],
-        [dict(name=PORTAL)],
-        probabilities=[1],
-        info="Convert Transmutes to Portals",
-        multiplier=4 / 3,
-    )
-
-
-@dataclass
-class Profitability:
-    valuation: Valuation
-    absolute_profit: float
-    relative_profit: float
-
-
-def profitability_analysis(valuations: [Valuation]):
-    lowest_purchasable = min(valuation.estimate for valuation in valuations if 'purchasable' in valuation.tags)
-    return [Profitability(valuation,absolute_profit=valuation.estimate-lowest_purchasable,relative_profit=(valuation.estimate-lowest_purchasable)/lowest_purchasable) for valuation in valuations]
+from valuation.framework.profit import profitability_analysis
 
 
 def test_adapt_ninja():

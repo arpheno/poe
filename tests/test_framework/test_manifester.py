@@ -1,5 +1,5 @@
 from poe.ninja import retrieve_prices
-from poe.valuation.div_cards.new_rules import terrible_secret_of_space, gemcutters_mercy, temple_vaal_enlighten
+from valuation.framework.new_rules import terrible_secret_of_space, gemcutters_mercy, temple_vaal_enlighten
 from poe.valuation.framework.manifester import Manifester
 from poe.valuation.framework.price_store import FlatPriceStore
 
