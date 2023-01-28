@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "poe"
+version = "0.1.0"
+description = ""
+authors = ["swozny <arpheno@gmail.com>"]
+packages = [
+    { include = "bulk" },
+    { include = "equipment_tracker" },
+    { include = "item" },
+    { include = 'ninja' },
+    { include = 'sale' },
+    { include = 'trade' },
+    { include = 'trade_finder' },
+    { include = 'valuation' },
+    { include = 'tft' },
+]
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pandas = "^1.5.3"
+requests = "^2.28.2"
+dataenforce = "^0.1.2"
+lxml = "^4.9.2"
+aiohttp = "^3.8.3"
+websockets = "^10.4"
+pendulum = "^2.1.2"
+scipy = "^1.10.0"
+gitpython = "^3.1.30"
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.0.0"
+pytest-mock = "*"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
