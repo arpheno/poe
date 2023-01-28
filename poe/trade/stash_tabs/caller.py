@@ -1,6 +1,6 @@
 import requests
 
-from constants import LEAGUE
+from poe.constants import LEAGUE
 from poe.trade.headers import headers
 
 

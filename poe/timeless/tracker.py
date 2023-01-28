@@ -8,7 +8,7 @@ from pprint import pprint
 import aiohttp
 import websockets
 
-from constants import ssid, LEAGUE
+from poe.constants import ssid, LEAGUE
 
 headers = {
     "Origin": "https://www.pathofexile.com",

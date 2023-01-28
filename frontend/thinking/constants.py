@@ -19,13 +19,13 @@ BAUBLE = "Glassblower's Bauble"
 WHETSTONE = "Blacksmith's Whetstone"
 UNMAKING = "Orb of Unmaking"
 try:
-    from poe.secrets import ssid as real_ssid
+    from poe.poe_secrets import ssid as real_ssid
 
     ssid = real_ssid
 except ImportError as e:
     print(e)
-    print("Please set ssid in secrets.py")
-    with open("poe/secrets.py", "w") as f:
+    print("Please set ssid in poe_secrets.py")
+    with open("poe/poe_secrets.py", "w") as f:
         f.write("ssid=")
     ssid = ""
 HARD_CURRENCY = [

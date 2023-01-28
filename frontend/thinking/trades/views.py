@@ -5,7 +5,7 @@ import requests
 from django.http import JsonResponse
 
 # Create your views here.
-from constants import LEAGUE
+from poe.constants import LEAGUE
 from poe.ninja import retrieve_prices
 from poe.trade.exchange_parser import exchange_parser
 from poe.trade.exchange_resolver import ExchangeResolver

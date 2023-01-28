@@ -1,4 +1,4 @@
-from constants import LEAGUE
+from poe.constants import LEAGUE
 from .curr import ask_ninja_curr
 from .item import ask_ninja_item
 

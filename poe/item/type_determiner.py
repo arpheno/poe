@@ -1,6 +1,6 @@
 from typing import Callable
 
-from constants import HARD_CURRENCY
+from poe.constants import HARD_CURRENCY
 
 
 def type_mapping(prices) -> Callable:

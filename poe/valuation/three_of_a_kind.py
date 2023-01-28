@@ -1,4 +1,4 @@
-from constants import LEAGUE
+from poe.constants import LEAGUE
 from poe.trade.listings_resolver import ListingsResolver
 from poe.trade.search_resolver import SearchResolver
 

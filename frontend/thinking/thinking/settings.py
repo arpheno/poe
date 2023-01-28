@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import hashlib
-import secrets
+import poe_secrets
 import os
 from pathlib import Path
 
@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-#0-fkp74^gvdjq7+m0)zk+ucu09!sh8#6=9n-4#^pv7r=d-1u#'
-SECRET_KEY = secrets.token_bytes(50)
+SECRET_KEY = poe_secrets.token_bytes(50)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.environ.get("USER", None) == "swozny" else False

@@ -1,4 +1,4 @@
-from constants import (
+from poe.constants import (
     EXALTED_ORB,
     VAAL_ORB,
     ORB_OF_SCOURING,

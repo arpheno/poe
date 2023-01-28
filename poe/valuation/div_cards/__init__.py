@@ -1,5 +1,4 @@
-import json
-from constants import blacklist
+from poe.constants import blacklist
 from poe.ninja import retrieve_prices
 from poe.valuation.div_cards import rules
 from poe.valuation.div_cards.generic import apply_fixed_rules

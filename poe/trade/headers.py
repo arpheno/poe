@@ -1,4 +1,4 @@
-from constants import ssid
+from poe.constants import ssid
 
 headers = {
     "authority": "www.pathofexile.com",
