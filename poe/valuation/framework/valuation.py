@@ -1,16 +1,19 @@
 from dataclasses import dataclass
 
-from poe.ninja import CHAOS_ORB
-
-
+def domain_hash_key(key:dict):
+    return str(sorted(key.items()))
 @dataclass
 class Valuation:
-    type_line: str
+    key: dict
     estimate: float
-    info: str = ''
-    confidence: float = 1
-    currency: str = CHAOS_ORB
+    timestamp: int
+    tags:list
+    info: str = ""
+
+    def details(self):
+        print(self.info)
+        return self.info
 
     @property
-    def details(self):
-        return f'Item: {self.type_line} Estimate: {self.estimate} Info: {self.info}'
+    def hash_key(self):
+        return domain_hash_key(self.key)
