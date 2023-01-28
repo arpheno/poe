@@ -1,4 +1,5 @@
-poe/secrets.py
+poe/poe_secrets.py
 reports
 currency_reports
 data/certbot/*
+poe/tft/tft-data-prices/*
