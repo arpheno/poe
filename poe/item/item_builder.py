@@ -50,4 +50,4 @@ if __name__ == "__main__":
     valuations = own_valuations(prices)
     type_mapper = type_mapping(prices)
     item_builder = ItemBuilder(prices, valuations)
-    items = item_builder.build_items(get_all_tabs(22))
+    items = item_builder.build_items(get_all_tabs(25))
