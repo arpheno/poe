@@ -9,6 +9,10 @@ packages = [{include = "sebas_poe_tools"}]
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
 poe = { path = "./poe", develop = true }
+jupyter = "^1.0.0"
+matplotlib = "^3.6.3"
+seaborn = "^0.12.2"
+plotly = "^5.13.0"
 
 
 
