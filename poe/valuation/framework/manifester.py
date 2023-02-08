@@ -5,7 +5,7 @@ import pendulum
 from scipy import stats
 
 from poe.valuation.framework.price_store import PriceStore
-from poe.valuation.framework.rule import Rule
+from poe.valuation.framework.transformationrule import TransformationRule
 from poe.valuation.framework.valuation import Valuation
 import numpy as np
 
@@ -14,7 +14,7 @@ import numpy as np
 class Manifester:
     prices: PriceStore
 
-    def manifest(self, rule: Rule) -> Valuation:
+    def manifest(self, rule: TransformationRule) -> Valuation:
         concrete_ingredients = self.map_to_concrete_items(rule.ingredients)
         concrete_products = self.map_to_concrete_items(rule.products)
         costs = np.array([ingredient.estimate for ingredient in concrete_ingredients])

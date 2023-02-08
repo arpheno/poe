@@ -13,6 +13,7 @@ jupyter = "^1.0.0"
 matplotlib = "^3.6.3"
 seaborn = "^0.12.2"
 plotly = "^5.13.0"
+jupyterthemes = "^0.20.0"
 
 
 

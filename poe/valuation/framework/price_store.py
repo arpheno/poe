@@ -21,6 +21,10 @@ class FlatPriceStore(PriceStore):
         return filter(func, self.prices)
 
 
+class ItemNotFound(Exception):
+    pass
+
+
 class HashKeyPriceStore(PriceStore):
     def __init__(self, valuations: [Valuation]):
         self._store = defaultdict(list)
@@ -39,4 +43,11 @@ class HashKeyPriceStore(PriceStore):
         return self._store.values()
 
     def query(self, func: dict):
-        return self._store[domain_hash_key(func)]
+        results = self._store[domain_hash_key(func)]
+        if not results:
+            results = self._store[domain_hash_key({**func,'gem_quality':20})]
+        if not results:
+            pass
+            # raise ItemNotFound
+        return results
+

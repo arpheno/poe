@@ -1182,6 +1182,25 @@ files = [
 ]
 
 [[package]]
+name = "jupyterthemes"
+version = "0.20.0"
+description = "Select and install a Jupyter notebook theme"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jupyterthemes-0.20.0-py2.py3-none-any.whl", hash = "sha256:4bd42fc88a06e3afabbe70c2ee25e6467147512993a3cbd9bec57ae3fd2e2fb1"},
+    {file = "jupyterthemes-0.20.0.tar.gz", hash = "sha256:2a8ebc0c84b212ab99b9f1757fc0582a3f53930d3a75b2492d91a7c8b36ab41e"},
+]
+
+[package.dependencies]
+ipython = ">=5.4.1"
+jupyter-core = "*"
+lesscpy = ">=0.11.2"
+matplotlib = ">=1.4.3"
+notebook = ">=5.6.0"
+
+[[package]]
 name = "kiwisolver"
 version = "1.4.4"
 description = "A fast implementation of the Cassowary constraint solver"
@@ -1258,6 +1277,21 @@ files = [
     {file = "kiwisolver-1.4.4-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:36dafec3d6d6088d34e2de6b85f9d8e2324eb734162fba59d2ba9ed7a2043d5b"},
     {file = "kiwisolver-1.4.4.tar.gz", hash = "sha256:d41997519fcba4a1e46eb4a2fe31bc12f0ff957b2b81bac28db24744f333e955"},
 ]
+
+[[package]]
+name = "lesscpy"
+version = "0.15.1"
+description = "Python LESS compiler"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "lesscpy-0.15.1-py2.py3-none-any.whl", hash = "sha256:8d26e58ed4812b345c2896daea435a28cb3182f87ae3391157085255d4c37dff"},
+    {file = "lesscpy-0.15.1.tar.gz", hash = "sha256:1045d17a98f688646ca758dff254e6e9c03745648e051a081b0395c3b77c824c"},
+]
+
+[package.dependencies]
+ply = "*"
 
 [[package]]
 name = "lxml"
@@ -2059,6 +2093,18 @@ files = [
 [package.extras]
 dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
+
+[[package]]
+name = "ply"
+version = "3.11"
+description = "Python Lex & Yacc"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "ply-3.11-py2.py3-none-any.whl", hash = "sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce"},
+    {file = "ply-3.11.tar.gz", hash = "sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3"},
+]
 
 [[package]]
 name = "poe"
@@ -3033,4 +3079,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "e194973887152b8d366a8a80e51c13343b070ebf334bf6d432094c6b593f3292"
+content-hash = "3fd77b1e7c8514f88d4cdf1b124eb9b1e6048e2c7ceb3bea9b3743efdb7d8713"
