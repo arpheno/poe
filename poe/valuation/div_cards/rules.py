@@ -705,6 +705,7 @@ def inspired_learning(prices):
     return value
 
 
+
 div_card_rules["The Academic"] = inspired_learning
 div_card_rules["Sephirot"] = sephirot
 div_card_rules["Seven Years Bad Luck"] = seven_years
