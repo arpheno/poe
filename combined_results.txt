@@ -1,0 +1,51 @@
+Card prices:
+-----------------
+The Primordial: 2.7074666666666665
+Sambodhi's Vow: 3.0833333333333335
+The Bones: 3.3333333333333335
+The Bitter Blossom: 3.731313131313131
+The Eldritch Decay: 5.3125
+Dementophobia: 9.017703349282296
+The Tinkerer's Table: 9.142
+Bijoux: 14.039647058823528
+The Rabbit's Foot: 15.208333333333332
+Terrible Secret of Space: 17.00625
+The Academic: 27.34875
+The Long Con: 34.375
+Gemcutter's Mercy: 57.091111111111104
+Home: 57.091111111111104
+The Enlightened: 77.0
+The Artist: 77.57090909090908
+Desecrated Virtue: 89.40873015873017
+The Dragon's Heart: 119.34
+Divine Beauty: 127.16666666666667
+Sephirot: 198.1818181818182
+Wealth and Power: 198.50181818181818
+The Cheater: 240.30746666666667
+Endless Darkness: 368.70148148148144
+
+Most lucrative card:
+-----------------
+Terrible Secret of Space: 5.66875
+Bijoux: 3.509911764705882
+The Long Con: 2.2916666666666665
+The Tinkerer's Table: 2.2855
+Dementophobia: 1.8035406698564593
+The Academic: 1.439407894736842
+The Artist: 1.3608931419457735
+Home: 1.3528699315429171
+Gemcutter's Mercy: 1.3277002583979327
+Endless Darkness: 1.2766671796450189
+The Enlightened: 1.1846153846153846
+Wealth and Power: 1.134296103896104
+The Dragon's Heart: 1.0908592321755026
+Divine Beauty: 1.0509641873278237
+Sambodhi's Vow: 1.027777777777778
+Sephirot: 1.0163170163170163
+The Rabbit's Foot: 1.000548245614035
+The Bones: 0.8333333333333334
+The Primordial: 0.7735619047619047
+The Bitter Blossom: 0.7462626262626262
+Desecrated Virtue: 0.7450727513227514
+The Cheater: 0.7322428748451053
+The Eldritch Decay: 0.53125

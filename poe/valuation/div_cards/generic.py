@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("/home/dhokuav/poe")
+
 from poe.ninja import retrieve_prices
 from poe.valuation.div_cards.fixed import currency_shards
 
@@ -28,11 +32,12 @@ def apply_fixed_rules(prices):
 if __name__ == "__main__":
     prices = retrieve_prices()
     result = apply_fixed_rules(prices)
-    for key, value in result.items():
-        reward_price = min(
-            [price for price in prices.get(key, [{}])], key=lambda x: x.get("links", 0)
-        )
-        if reward_price:
-            print(
-                f'{key} ninja {reward_price["chaosValue"]} own {value} diff {reward_price["chaosValue"]-value}'
-            )
+    # for key, value in result.items():
+    #     reward_price = min(
+    #         [price for price in prices.get(key, [{}])], key=lambda x: x.get("links", 0)
+    #     )
+    #     if reward_price:
+    #         print(
+    #             f'{key} ninja {reward_price["chaosValue"]} own {value} diff {reward_price["chaosValue"]-value}'
+    #         )
+    print(result)
