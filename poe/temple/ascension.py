@@ -362,14 +362,10 @@ ascension_values["Transcendent Mind"] = transcendent_mind
 ascension_values["Zerphi's Heart"] = zerphis_heart
 ascension_values["Soul Ripper"] = soul_ripper
 
-print(apeps_supremacy(prices))
-print(cowards_legacy(prices))
-print(slavedrivers_hand(prices))
-print(fate_of_the_vaal(prices))
-print(mask_of_the_stiched_demon(prices))
-print(omeyocan(prices))
-print(transcendent_flesh(prices))
-print(transcendent_spirit(prices))
-print(transcendent_mind(prices))
-print(zerphis_heart(prices))
-print(soul_ripper(prices))
+for function_name in ascension_values:
+    if function_name in ascension_values:
+        function_to_call = ascension_values[function_name]
+        result = function_to_call(prices)  # Call the function
+        print(f"Result of {function_name}: {result}")
+    else:
+        print(f"Function '{function_name}' not found in the ascension_values dictionary.")
