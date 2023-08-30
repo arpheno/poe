@@ -2,11 +2,7 @@ import sys
 
 sys.path.append("/home/dhokuav/poe")  # Replace 'path_to_subfolder' with the actual path
 
-from poe.ninja import retrieve_prices
-
-prices = retrieve_prices()
-
-ascension_values = {}
+ascension_rules = {}
 
 
 def apeps_supremacy(prices):
@@ -36,6 +32,8 @@ def apeps_supremacy(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -67,6 +65,8 @@ def cowards_legacy(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -98,6 +98,8 @@ def slavedrivers_hand(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -129,6 +131,8 @@ def fate_of_the_vaal(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -160,6 +164,8 @@ def mask_of_the_stiched_demon(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -191,6 +197,8 @@ def omeyocan(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -222,6 +230,8 @@ def transcendent_flesh(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -253,6 +263,8 @@ def transcendent_spirit(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -284,6 +296,8 @@ def transcendent_mind(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -315,6 +329,8 @@ def zerphis_heart(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
@@ -346,26 +362,41 @@ def soul_ripper(prices):
         reagent[0]["name"],
         values[1],
         result[0]["name"],
+        values[2],
+        "ROI",
         value,
     )
 
 
-ascension_values["Apep's Supremacy"] = apeps_supremacy
-ascension_values["Coward's Legacy"] = cowards_legacy
-ascension_values["Slavedriver's Hand"] = slavedrivers_hand
-ascension_values["Fate of the Vaal"] = fate_of_the_vaal
-ascension_values["Mask of the Stitched Demon"] = mask_of_the_stiched_demon
-ascension_values["Omeyocan"] = omeyocan
-ascension_values["Transcendent Flesh"] = transcendent_flesh
-ascension_values["Transcendent Spirit"] = transcendent_spirit
-ascension_values["Transcendent Mind"] = transcendent_mind
-ascension_values["Zerphi's Heart"] = zerphis_heart
-ascension_values["Soul Ripper"] = soul_ripper
+ascension_rules["Apep's Supremacy"] = apeps_supremacy
+ascension_rules["Coward's Legacy"] = cowards_legacy
+ascension_rules["Slavedriver's Hand"] = slavedrivers_hand
+ascension_rules["Fate of the Vaal"] = fate_of_the_vaal
+ascension_rules["Mask of the Stitched Demon"] = mask_of_the_stiched_demon
+ascension_rules["Omeyocan"] = omeyocan
+ascension_rules["Transcendent Flesh"] = transcendent_flesh
+ascension_rules["Transcendent Spirit"] = transcendent_spirit
+ascension_rules["Transcendent Mind"] = transcendent_mind
+ascension_rules["Zerphi's Heart"] = zerphis_heart
+ascension_rules["Soul Ripper"] = soul_ripper
 
-for function_name in ascension_values:
-    if function_name in ascension_values:
-        function_to_call = ascension_values[function_name]
-        result = function_to_call(prices)  # Call the function
-        print(f"Result of {function_name}: {result}")
-    else:
-        print(f"Function '{function_name}' not found in the ascension_values dictionary.")
+
+# def ascension_values(prices):
+#     valuations = {}
+#     for name, func in ascension_values.items():
+#         try:
+#             valuations[name] = func(prices)
+#         except ValueError:
+#             pass
+#     return {**valuations}
+
+
+# for function_name in ascension_rules:
+#     if function_name in ascension_rules:
+#         function_to_call = ascension_rules[function_name]
+#         result = function_to_call(prices)  # Call the function
+#         print(f"Result of {function_name}: {result}")
+#     else:
+#         print(
+#             f"Function '{function_name}' not found in the ascension_rules dictionary."
+#         )
