@@ -239,4 +239,4 @@ blacklist = [
     "Boon of Justice",
 ]
 # LEAGUE = "Standard"
-LEAGUE = "Sanctum" #TODO WTF IST HIS
+LEAGUE = "Ancestor" #TODO WTF IST HIS

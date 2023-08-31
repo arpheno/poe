@@ -12,7 +12,7 @@ packages = [
     { include = 'trade' },
     { include = 'trade_finder' },
     { include = 'valuation' },
-    { include = 'tft' },
+#    { include = 'tft' },
 ]
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"

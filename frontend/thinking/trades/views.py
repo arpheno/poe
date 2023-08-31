@@ -3,6 +3,7 @@ from pathlib import Path
 
 import requests
 from django.http import JsonResponse
+from django.views.generic import DetailView, ListView
 
 # Create your views here.
 from poe.constants import LEAGUE

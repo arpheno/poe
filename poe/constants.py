@@ -67,6 +67,7 @@ price_in = [
 ]
 
 blacklist = [
+    'Primeval Remnant',
     "The One With All",
     "A Mother's Parting Gift",
     "The Brittle Emperor",
@@ -240,4 +241,4 @@ blacklist = [
     "Boon of Justice",
 ]
 # LEAGUE = "Standard"
-LEAGUE = "Sanctum"
+LEAGUE = "Ancestor"

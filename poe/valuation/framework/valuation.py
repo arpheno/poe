@@ -1,13 +1,16 @@
 from dataclasses import dataclass
 
-def domain_hash_key(key:dict):
+
+def domain_hash_key(key: dict):
     return str(sorted(key.items()))
+
+
 @dataclass
 class Valuation:
     key: dict
     estimate: float
     timestamp: int
-    tags:list
+    tags: list
     info: str = ""
 
     def details(self):

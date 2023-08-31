@@ -39,6 +39,7 @@ def is_item_influenced(item, type_mapping):
 
 
 def is_heist(item, type_mapping):
+
     return (
         "Heist"
         if (
@@ -51,6 +52,8 @@ def is_heist(item, type_mapping):
 
 
 def is_expedition(item, type_mapping):
+    if 'Logbook' in item['typeLine']:
+        pass
     return "Expedition" if ("Expedition" in item["stashtab"]) else None
 
 

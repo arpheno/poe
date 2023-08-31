@@ -1,3 +1,5 @@
+from pprint import pprint
+
 from poe.equipment_tracker.direct_whisperer import DirectWhisperer
 from poe.equipment_tracker.tracker import Tracker
 
@@ -6,7 +8,10 @@ async def make_shopper(hash):
     tracker = Tracker(hash)
     async for result in tracker.results():
         print(f"whispering {hash}")
-        direct_whisperer.direct_whisper(result['listing']['whisper_token'])
+        if result['listing'].get('whisper_token'):
+            direct_whisperer.direct_whisper(result['listing']['whisper_token'])
+        else:
+            pprint(result)
 
 
 async def main(hashes):
@@ -32,5 +37,10 @@ if __name__ == "__main__":
     gemcutters_mercy_55 = '39EJ5L0i5'
     w_a_p_1_div = 'Zr668aYfQ'
     einhar3_5='a5093ERse'
-    hashes = [einhar3_5]#,secondary_regrading_lens1_1,secondary_regrading_lens275]
+    tsos='oGBYRXOsl'
+    home36='B6VLXokS8'
+    mercy30='4ykbRjgC9'
+    tattoo='wewmwa9hb'
+    rarity_jewel='we3d77mtb'
+    hashes = [tattoo]
     asyncio.get_event_loop().run_until_complete(main(hashes))

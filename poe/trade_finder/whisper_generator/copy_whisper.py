@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from dataenforce import Dataset
 
 from poe.trade.exchange_parser import exchange_parser
 
@@ -16,7 +15,7 @@ class CopyWhisperGenerator:
         self.prices = prices
         self.prices["Chaos Orb"] = [{"chaosValue": 1}]
 
-    def __call__(self, df: Dataset["value":float, "expected_profit":float]):
+    def __call__(self, df):
         df = self.create_queries(df, self.poe_trade_key_mapping)
         whispers_stacked = (
             df["query"]
@@ -73,7 +72,7 @@ class CopyWhisperGenerator:
 
     def create_queries(
             self,
-            df: Dataset["value":float, "expected_profit":float, ...],
+            df ,
             key_mapping,
             min_profit: float = 5,
     ):

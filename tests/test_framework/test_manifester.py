@@ -1,7 +1,10 @@
+import numpy as np
+
 from poe.ninja import retrieve_prices
-from valuation.framework.new_rules import terrible_secret_of_space, gemcutters_mercy, temple_vaal_enlighten
 from poe.valuation.framework.manifester import Manifester
-from poe.valuation.framework.price_store import FlatPriceStore
+from poe.valuation.framework.new_rules import home, terrible_secret_of_space, gemcutters_mercy
+from poe.valuation.framework.price_store import FlatPriceStore, HashKeyPriceStore
+from poe.valuation.framework.valuation import Valuation
 
 
 def test_manifester_maps_items_correctly():
@@ -42,10 +45,23 @@ def test_manifest_gemcutters_mercy():
     print(outcome.mean, outcome.stdev)
 
 
-def test_manifest_temple_vaal_enlighten():
-    prices = retrieve_prices(['SkillGem', 'DivinationCard'])
-    flat_prices = [p for l in prices.values() for p in l] + [{'name': "Doryani's Institue", "chaosValue": 125}]
-    price_store = FlatPriceStore(flat_prices)
+#
+# def test_manifest_temple_vaal_enlighten():
+#     prices = retrieve_prices(['SkillGem', 'DivinationCard'])
+#     flat_prices = [p for l in prices.values() for p in l] + [{'name': "Doryani's Institue", "chaosValue": 125}]
+#     price_store = FlatPriceStore(flat_prices)
+#     manifester = Manifester(price_store)
+#     outcome = manifester.manifest(temple_vaal_enlighten())
+#     print(outcome.mean, outcome.stdev)
+def test_manifest_home():
+    valuations = [
+                     Valuation(key=dict(name='Home'), estimate=30, timestamp=0, tags=['poe_trade', 'purchasable']),
+
+                 ] + [
+                     Valuation(dict(name=item_name, gem_level=1, gem_quality=None, corrupted=None), estimate=100,
+                               timestamp=0, tags=['poe'])
+                     for item_name in ("Enlighten Support", "Empower Support", "Enhance Support")]
+    price_store = HashKeyPriceStore(valuations)
     manifester = Manifester(price_store)
-    outcome = manifester.manifest(temple_vaal_enlighten())
-    print(outcome.mean, outcome.stdev)
+    outcome = manifester.manifest(home())
+    assert np.isclose(outcome.estimate,100/3)

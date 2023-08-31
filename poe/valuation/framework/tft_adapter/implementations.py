@@ -1,4 +1,5 @@
 from poe.valuation.framework.tft_adapter.base_data_model import TimestampedWholesalePrices
+from poe.valuation.framework.valuation import Valuation
 
 
 class BulkBeasts(TimestampedWholesalePrices):
@@ -13,17 +14,35 @@ class BulkBreach(TimestampedWholesalePrices):
 
 class BulkCompasses(TimestampedWholesalePrices):
     # implementation specific to bulk-compasses.json
-    pass
+    def as_valuations(self):
+        items = super(BulkCompasses, self).as_valuations()
+        for item in items:
+            item.tags.append('compass')
+        return items
+
+
 
 
 class BulkExpedition(TimestampedWholesalePrices):
     # implementation specific to bulk-expedition.json
-    pass
+    def as_valuations(self):
+        currencies = TimestampedWholesalePrices(timestamp=self.timestamp,
+                                                data=[v for v in self.data if len(v.name.split()) > 2]).as_valuations()
+        logbooks = [
+            Valuation({'area_level': 83, 'logbook_faction': item.name}, estimate=item.chaos, timestamp=self.timestamp,
+                      info='tft_bulk_prices',
+                      tags=['sellable', 'purchasable', 'bulk']) for item in self.data]
+        return currencies + logbooks
 
 
 class BulkHeist(TimestampedWholesalePrices):
     # implementation specific to bulk-heist.json
-    pass
+    def as_valuations(self):
+        items = [
+            Valuation({'area_level': 83, 'heist_type': item.name,'wings':None}, estimate=item.chaos, timestamp=self.timestamp,
+                      info='tft_bulk_prices',
+                      tags=['sellable', 'purchasable', 'bulk']) for item in self.data]
+        return items
 
 
 class BulkInvitation(TimestampedWholesalePrices):

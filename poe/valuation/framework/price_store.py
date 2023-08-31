@@ -30,7 +30,7 @@ class HashKeyPriceStore(PriceStore):
         self._store = defaultdict(list)
         self._store.update(dict((k, list(values)) for k, values in
                                 groupby(sorted(valuations, key=attrgetter('hash_key')), key=attrgetter('hash_key'))))
-        offending_keys=[key for key,value in self._store.items() if len(value) > 1]
+        offending_keys = [key for key, value in self._store.items() if len(value) > 1]
         for key in offending_keys:
             logger.warning(f'Multiple entries for key {key}, removing.')
             del self._store[key]
@@ -43,11 +43,12 @@ class HashKeyPriceStore(PriceStore):
         return self._store.values()
 
     def query(self, func: dict):
+        if isinstance(func, list):
+            return [self.query(v) for v in func]
         results = self._store[domain_hash_key(func)]
         if not results:
-            results = self._store[domain_hash_key({**func,'gem_quality':20})]
+            results = self._store[domain_hash_key({**func, 'gem_quality': 20})]
         if not results:
             pass
             # raise ItemNotFound
         return results
-
