@@ -3,7 +3,7 @@ import json
 import aiohttp
 import websockets
 
-from constants import LEAGUE, ssid
+from poe.constants import LEAGUE, ssid
 
 headers = {
     "Origin": "https://www.pathofexile.com",

@@ -2,12 +2,13 @@ from collections import defaultdict
 
 import requests
 
+from poe.constants import LEAGUE
+from poe.ninja.askers.models import CurrencyReply
 
-def ask_ninja_curr(type, league):
-    url = "https://poe.ninja/api/data/currencyoverview"
-    params = dict(type=type, league=league)
-    response = requests.get(url=url, params=params)
-    data = response.json()
+
+def ask_ninja_curr(type, league=LEAGUE):
+    data = raw_ninja_currency_reply(type, league)
+
     print(".", end="")
     for c in data["lines"]:
         c["name"] = c["currencyTypeName"]
@@ -19,5 +20,15 @@ def ask_ninja_curr(type, league):
     return dict(return_value)
 
 
+def raw_ninja_currency_reply(type, league=LEAGUE):
+    url = "https://poe.ninja/api/data/currencyoverview"
+    params = dict(type=type, league=league)
+    response = requests.get(url=url, params=params)
+    data = response.json()
+    return data
+
+
 if __name__ == "__main__":
-    ask_ninja_curr("Currency", league="Scourge")
+    data = raw_ninja_currency_reply("Currency")
+    model = CurrencyReply(**data)
+    print(model)

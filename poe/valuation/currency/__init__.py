@@ -1,6 +1,6 @@
 import pandas as pd
 
-from constants import (
+from poe.constants import (
     TRANSMUTE,
     AUGMENT,
     ALTERATION,

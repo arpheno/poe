@@ -32,7 +32,7 @@ def secondary_regrading_lens(prices):
         if gem["variant"] == "1"
     ]
     lens_cost = prices["Secondary Regrading Lens"][0]["chaosValue"]
-    return regrading_lens(relevant_gems, 275)
+    return regrading_lens(relevant_gems, lens_cost)
 
 
 def prime_regrading_lens(prices):
@@ -52,7 +52,7 @@ def prime_regrading_lens(prices):
         if gem["variant"] == "1"
     ]
     lens_cost = prices["Prime Regrading Lens"][0]["chaosValue"]
-    return regrading_lens(relevant_gems, 110)
+    return regrading_lens(relevant_gems, lens_cost)
 
 
 def regrading_lens(relevant_gems, regrading_lens_cost):

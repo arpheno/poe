@@ -31,7 +31,7 @@ if __name__ == "__main__":
         cleaning_rules=cleaning_rules,
         thread=thread,
     )
-    raw_items = get_all_tabs(22)
+    raw_items = get_all_tabs(25)
     inventory = use_case.create_inventory(raw_items)
     sales_proposition = use_case.sales_proposition(inventory)
 

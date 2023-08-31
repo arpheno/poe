@@ -55,5 +55,10 @@ export class WhispersComponent implements OnInit {
     console.log('whispering')
     this.whisperService.direct_whisper(token,count).subscribe(items=>console.log(items))
   }
+
+  skip() {
+
+    const whisper:Whisper = this.newWhispers.shift()!
+  }
 }
 

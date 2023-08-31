@@ -5,7 +5,7 @@ import urllib
 import bs4 as bs4
 import requests
 
-from constants import ssid
+from poe.constants import ssid
 
 headers = {
     "authority": "www.pathofexile.com",

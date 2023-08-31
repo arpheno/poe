@@ -1,7 +1,7 @@
 from dataclasses import dataclass
-from typing import Callable, Mapping
+from typing import Mapping
 
-from constants import blacklist
+from poe.constants import blacklist
 from poe.item.item_factory import item_factory
 from poe.ninja import retrieve_prices
 from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs
@@ -50,4 +50,4 @@ if __name__ == "__main__":
     valuations = own_valuations(prices)
     type_mapper = type_mapping(prices)
     item_builder = ItemBuilder(prices, valuations)
-    items = item_builder.build_items(get_all_tabs(22))
+    items = item_builder.build_items(get_all_tabs(25))

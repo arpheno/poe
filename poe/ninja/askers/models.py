@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, validator
 
 
 class Pay(BaseModel):
@@ -52,7 +52,7 @@ class LowConfidenceReceiveSparkLine(BaseModel):
 class Line(BaseModel):
     currencyTypeName: str
     pay: Optional[Pay] = None
-    receive: Receive
+    receive: Optional[Receive]=None
     paySparkLine: PaySparkLine
     receiveSparkLine: ReceiveSparkLine
     chaosEquivalent: float
@@ -63,9 +63,9 @@ class Line(BaseModel):
 
 class CurrencyDetail(BaseModel):
     id: int
-    icon: str
     name: str
     tradeId: Optional[str] = None
+    icon: Optional[str] = None
 
 
 class Language(BaseModel):
@@ -77,3 +77,7 @@ class CurrencyReply(BaseModel):
     lines: List[Line]
     currencyDetails: List[CurrencyDetail]
     language: Language
+
+    @validator('lines')
+    def check_receive_present(cls, v):
+        return [i for i in v if i.receive is not None]

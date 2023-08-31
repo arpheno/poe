@@ -13,7 +13,7 @@ RUN pip install gunicorn
 # copy our project code
 COPY frontend/thinking /opt/services/djangoapp/src
 COPY  poe /opt/services/djangoapp/src/poe
-COPY  constants.py /opt/services/djangoapp/src/
+COPY  poe/constants.py /opt/services/djangoapp/src/
 RUN python manage.py collectstatic --no-input -v 2
 
 # expose the port 8000
