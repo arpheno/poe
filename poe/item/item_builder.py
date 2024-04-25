@@ -4,9 +4,10 @@ from typing import Mapping
 from poe.constants import blacklist
 from poe.item.item_factory import item_factory
 from poe.ninja import retrieve_prices
-from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs
+from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs, get_some_tabs
 from poe.item.type_determiner import type_mapping
 from poe.valuation import own_valuations
+from trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
 
 
 @dataclass
@@ -38,6 +39,7 @@ class ItemBuilder:
                 "Flask",
             }:
                 continue
+            print(old_item['type'])
             item = item_factory(**old_item)
             item.determine_price(self.prices, self.values)
             all_items.append(item)
@@ -50,4 +52,8 @@ if __name__ == "__main__":
     valuations = own_valuations(prices)
     type_mapper = type_mapping(prices)
     item_builder = ItemBuilder(prices, valuations)
-    items = item_builder.build_items(get_all_tabs(25))
+    mapper = TabMapper()
+    raw_items = retrieve_tab_mapping(mapper)
+    selected_tabs = raw_items['coffin'] | raw_items['coffin2']
+    raw_items=get_some_tabs(selected_tabs)
+    items = item_builder.build_items(raw_items)
