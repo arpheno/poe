@@ -13,5 +13,5 @@ class Layouter:
         pass
     def turn_to_exalt(self, final_price_chaos, stack_size):
         pass
-    def turn_to_fraction(self, final_price_chaos, stack_size):
+    def turn_to_chaos(self, final_price_chaos, stack_size):
         pass
