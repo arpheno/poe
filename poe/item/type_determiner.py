@@ -10,9 +10,17 @@ def type_mapping(prices) -> Callable:
     return type_mapper
 
 
+def is_hard_currency(item, type_mapping):
+    return "Hard Currency" if item["typeLine"] in HARD_CURRENCY else None
+def is_coffin(item, type_mapping):
+    return "Coffin" if "Coffin" in item["typeLine"] else None
+
+
+
 def determine_type(type_mapping) -> Callable:
     return (
         lambda item: is_hard_currency(item, type_mapping)
+                     or is_coffin(item, type_mapping)
                      or is_item_influenced(item, type_mapping)
         or is_item_exact_match(item, type_mapping)
         or is_heist(item, type_mapping)
