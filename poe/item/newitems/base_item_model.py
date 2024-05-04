@@ -23,14 +23,15 @@ class Item(BaseModel):
     identified: bool
     ilvl: int
     properties: List[Property]
-    descrText: str
     frameType: int
     x: int
     y: int
     inventoryId: str
     stashtab: str
+    descrText: str=""
     corrupted: bool = None
     explicitMods: List[str] = []
+    implicitMods: List[str] = []
     enchantMods: List[str] = []
 
     def extract_property(self, identifier) -> Property:

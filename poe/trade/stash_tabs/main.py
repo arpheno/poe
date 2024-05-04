@@ -1,7 +1,6 @@
 from collections import defaultdict
 from pprint import pprint
 
-from poe.trade.stash_tabs.caller import _call, stash_tab_api_interactor
 
 if __name__ == "__main__":
     pprint(stash_tab_api_interactor(30))

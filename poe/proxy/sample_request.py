@@ -26,18 +26,81 @@ def main():
     base_url = "https://www.pathofexile.com"
     # Path specific to your request
     # endpoint_path = "api/trade/data/stats"
-    endpoint_path = f"api/trade/exchange/necropolis"
+    endpoint_path = f"api/trade/search/necropolis"
     # URL of the actual API endpoint
-
-    query = {
-        'engine':'new',
-        "status": {"option": "online"},
+    query={
         "query": {
-            "have": ["chaos"],
-            "want": ["orb-of-horizons"],
-            "minimum": 100,
+            "status": {
+                "option": "online"
+            },
+            "stats": [
+                {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "id": "explicit.stat_328541901",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        },
+                        {
+                            "id": "explicit.stat_3299347043",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        },
+                        {
+                            "id": "explicit.stat_1050105434",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        },
+                        {
+                            "id": "explicit.stat_3433724931",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        },
+                        {
+                            "id": "explicit.stat_847744351",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        },
+                        {
+                            "id": "explicit.stat_1509756274",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        },
+                        {
+                            "id": "implicit.stat_2176571093",
+                            "value": {
+                                "min": 1
+                            },
+                            "disabled": False
+                        }
+                    ]
+                }
+            ]
         }
     }
+
+    # query = {
+    #     'engine':'new',
+    #     "status": {"option": "online"},
+    #     "query": {
+    #         "have": ["chaos"],
+    #         "want": ["orb-of-horizons"],
+    #         "minimum": 100,
+    #     }
+    # }
     api_url = f"{base_url}/{endpoint_path}"
     # URL of your proxy server, adjust the port/path as needed
     proxy_url = f"http://localhost:8999/{endpoint_path}"
@@ -57,8 +120,9 @@ def main():
     # direct_response = make_request(api_url, headers=headers,data=query)
 
     print("\nMaking request through the proxy...")
-    for i in range(10):
-        proxy_response = make_request(proxy_url, headers=headers,data=query)
+    # for i in range(10):
+    proxy_response = make_request(proxy_url, headers=headers,data=query)
+    proxy_response
 
     # Comparing both responses if both were successful
 

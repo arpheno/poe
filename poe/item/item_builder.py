@@ -1,12 +1,13 @@
 from dataclasses import dataclass
 from typing import Mapping
 
-from poe.constants import blacklist
+from poe.constants import blacklist, LEAGUE
 from poe.item.item_factory import item_factory
 from poe.ninja import retrieve_prices
-from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs, get_some_tabs
+from poe.trade.stash_tabs.all_tabs_getter import  get_some_tabs
 from poe.item.type_determiner import type_mapping
 from poe.valuation import own_valuations
+from trade.stash_tabs.stash_tab_api import StashTabAPI
 from trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
 
 
@@ -53,7 +54,8 @@ if __name__ == "__main__":
     type_mapper = type_mapping(prices)
     item_builder = ItemBuilder(prices, valuations)
     mapper = TabMapper()
-    raw_items = retrieve_tab_mapping(mapper)
+    stash_tab_api = StashTabAPI('swozn', LEAGUE, base_url="http://localhost:8999")
+    raw_items = retrieve_tab_mapping(mapper, stash_tab_api=stash_tab_api)
     selected_tabs = raw_items['coffin'] | raw_items['coffin2']
-    raw_items=get_some_tabs(selected_tabs)
+    raw_items= get_some_tabs(list(selected_tabs), stash_tab_api=stash_tab_api)
     items = item_builder.build_items(raw_items)

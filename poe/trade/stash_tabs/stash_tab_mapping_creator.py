@@ -1,39 +1,7 @@
 from collections import defaultdict
 
-from trade.stash_tabs.caller import stash_tab_api_interactor
-
-
-class FlexiDict:
-    def __init__(self, elements=None):
-        if elements is None:
-            self.elements = {}
-        else:
-            self.elements = dict(elements)
-
-    def __add__(self, other):
-        """Merge two dictionaries. In case of key conflict, other's value takes precedence."""
-        new_dict = FlexiDict(self.elements)
-        if isinstance(other, FlexiDict):
-            new_dict.elements.update(other.elements)
-        elif isinstance(other, dict):
-            new_dict.elements.update(other)
-        return new_dict
-
-    def __sub__(self, other):
-        """Remove keys found in 'other' from this dictionary."""
-        new_dict = FlexiDict(self.elements)
-        if isinstance(other, FlexiDict):
-            keys_to_remove = other.elements.keys()
-        elif isinstance(other, dict):
-            keys_to_remove = other.keys()
-        else:
-            raise ValueError("Subtraction requires a FlexiDict or dict type.")
-        for key in keys_to_remove:
-            new_dict.elements.pop(key, None)
-        return new_dict
-
-    def __repr__(self):
-        return f"FlexiDict({self.elements})"
+from constants import LEAGUE
+from trade.stash_tabs.stash_tab_api import StashTabAPI
 
 
 def add_tab_to_type_group(tab_data, groupings):
@@ -88,8 +56,8 @@ class TabMapper:
         return str(self.groupings)
 
 
-def retrieve_tab_mapping(mapper):
-    raw_data = stash_tab_api_interactor(10)['tabs']
+def retrieve_tab_mapping(mapper,stash_tab_api=StashTabAPI('swozn', LEAGUE, base_url="http://localhost:8999")):
+    raw_data = stash_tab_api.fetch_tab_data(10)['tabs']
     for tab_data in raw_data:
         mapper.add(tab_data)
     return mapper

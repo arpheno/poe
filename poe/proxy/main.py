@@ -27,7 +27,6 @@ class RateLimiter:
         self.counter = counter
         self.policy_map = {}
 
-    @functools.wraps
     def __call__(self, func: Callable) -> Callable:
         async def wrapper(request):
             # Wait until the rate limit allows proceeding with the request
