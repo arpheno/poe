@@ -19,7 +19,7 @@ def load_config(config_path):
         return yaml.safe_load(file)
 
 
-DEFAULT_POLICY = RateLimit('default', 'default', 10, 60, 60)
+DEFAULT_POLICY = RateLimit('default', 'default', 2, 5, 60)
 
 
 class RateLimiter:
@@ -40,12 +40,22 @@ class RateLimiter:
                 await self.handle_rate_limited_response(request, response)
 
             # Check if new policies need to be updated from the response headers
-            if not request.path in self.policy_map:
+            if not self.cache_key(request) in self.policy_map:
+                print(f'New policies for {self.cache_key(request)}')
                 await self.update_policies_from_response(request, response)
+            else:
+                print(f'Policies for {self.cache_key(request)} already exist')
 
             return response
 
         return wrapper
+
+    def cache_key(self, request):
+        # Cache key is based on the method and the first 4 path components
+        # This might need to be adjusted based on the API being proxied
+        # Also I have no idea what I am doing, I blame ChatGPT.
+        return f'{request.method}:{"/".join(request.path.split("/")[:4])}'
+
     async def handle_rate_limited_response(self, request, response):
         """Handle actions specific to receiving a 429 rate limited response."""
         retry_after = response.headers.get('Retry-After')
@@ -57,8 +67,7 @@ class RateLimiter:
     async def update_policies_from_response(self, request, response):
         """Update rate limiting policies from response headers."""
         policies = parse_rate_limit_headers(response.headers)
-        print(f'New policies for {request.path}: {policies}')
-        self.policy_map[request.path] = policies
+        self.policy_map[self.cache_key(request)] = policies
 
     async def wait_until_allowed(self, request):
         """Wait until the rate limit is no longer exceeded."""
