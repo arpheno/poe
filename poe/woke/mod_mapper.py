@@ -26,11 +26,13 @@ class ModMapper:
         mod_mapping_filtered = self.mod_mapping.query(f'type=="{mod_type}"')
         for mod in mods_list:
             for _, row in mod_mapping_filtered.iterrows():
-                if found := re.search(row['regex_pattern'], mod):
+                if found := re.search(f'^{row["regex_pattern"]}$', mod):
                     #Sometimes the value is not present in the mod, then just do 1
                     try:
                         mods.append(Mod(**row.to_dict(), value=int(found.group(1))))
                     except:
                         mods.append(Mod(**row.to_dict(), value=1))
                     break
+            else:
+                print(f"Mod {mod} not found in mapping")
         return mods
