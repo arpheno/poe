@@ -5,10 +5,10 @@ from typing import Callable
 
 import yaml
 
-from proxy.proxy_handler import ProxyHandler
-from proxy.proxy_server import ProxyServer
-from proxy.rate_limit_parser import parse_rate_limit_headers, RateLimit, parse_for_timeout, check_rate_limit_violation
-from proxy.ratelimitcounter import RatelimitCounter
+from poe.proxy.proxy_handler import ProxyHandler
+from poe.proxy.proxy_server import ProxyServer
+from poe.proxy.rate_limit_parser import parse_rate_limit_headers, RateLimit, parse_for_timeout, check_rate_limit_violation
+from poe.proxy.ratelimitcounter import RatelimitCounter
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)

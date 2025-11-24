@@ -241,4 +241,4 @@ blacklist = [
     "Boon of Justice",
 ]
 # LEAGUE = "Standard"
-LEAGUE = "Necropolis"
+LEAGUE = "Keepers"

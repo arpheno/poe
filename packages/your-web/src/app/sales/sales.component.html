@@ -1,0 +1,6 @@
+<div>
+  <div *ngFor="let item of dataSources|keyvalue" style="display: flex;flex-wrap: wrap;">
+    <h2>{{item.key}}</h2>
+    <app-tableview style="flex: 1 1 100%" [items]=item.value></app-tableview>
+  </div>
+</div>

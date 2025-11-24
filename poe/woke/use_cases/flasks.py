@@ -4,16 +4,16 @@ from pprint import pprint
 
 import requests
 
-from constants import LEAGUE
-from item.newitems.base_item_model import Item
-from trade.headers import headers
-from trade.proxy_listings_resolver import ListingsResolver
-from trade.proxy_search_resolver import SearchResolver
-from trade.stash_tabs.all_tabs_getter import get_some_tabs
-from trade.stash_tabs.stash_tab_api import StashTabAPI
-from trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
-from woke.mod_mapper import ModMapper
-from woke.query_builder import build_query
+from poe.constants import LEAGUE
+from poe.item.newitems.base_item_model import Item
+from poe.trade.headers import headers
+from poe.trade.proxy_listings_resolver import ListingsResolver
+from poe.trade.proxy_search_resolver import SearchResolver
+from poe.trade.stash_tabs.all_tabs_getter import get_some_tabs
+from poe.trade.stash_tabs.stash_tab_api import StashTabAPI
+from poe.trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
+from poe.woke.mod_mapper import ModMapper
+from poe.woke.query_builder import build_query
 
 
 class ItemSearcher:
@@ -50,7 +50,8 @@ def flasks():
     result = {}
     prefixes = [
         '25% increased effect',
-        '31% chance to gain a Flask Charge when you deal a Critical Strike'
+        '31% chance to gain a Flask Charge when you deal a Critical Strike',
+        'Gains 3 Charges when you are hit by an Enemy'
     ]
     suffixes = [
         '61% reduced Effect of Curses on you during Effect',

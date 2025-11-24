@@ -1,0 +1,49 @@
+<div style="display: flex">
+  <table style="flex: 1 1 100%" mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="final_price">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by final price"> Final Price</th>
+      <td *matCellDef="let row"> {{row.final_price_numerator}}/ {{row.final_price_denominator}} </td>
+    </ng-container>
+    <ng-container matColumnDef="up_priced_value_fx">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by uppriced value"> up priced value</th>
+      <td *matCellDef="let row"> {{row.up_priced_value_fx| number : '.2-2'}} </td>
+    </ng-container>
+    <ng-container matColumnDef="initial_price">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by initial price"> initial_price</th>
+      <td *matCellDef="let row"> {{row.initial_price| number : '.2-2'}} </td>
+    </ng-container>
+    <ng-container matColumnDef="stack_size">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Stack size"> Stack Size</th>
+      <td *matCellDef="let row"> {{row.stack_size| number : '.2-2'}} </td>
+    </ng-container>
+    <ng-container matColumnDef="simple_value">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by simple value"> simple_value</th>
+      <td *matCellDef="let row"> {{row.simple_value| number : '.2-2'}} </td>
+    </ng-container>
+    <ng-container matColumnDef="config_value">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by config value"> config_value</th>
+      <td *matCellDef="let row"> {{row.config_value| number : '.2-2'}} </td>
+    </ng-container>
+    <ng-container matColumnDef="type">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by type"> type</th>
+      <td *matCellDef="let row"> {{row.type}} </td>
+    </ng-container>
+    <ng-container matColumnDef="type_line">
+      <th *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name"> name</th>
+      <td *matCellDef="let row"> {{row.type_line}} </td>
+    </ng-container>
+
+
+
+    <!--    <ng-container matColumnDef="actions">-->
+    <!--      <mat-header-cell *matHeaderCellDef> Actions</mat-header-cell>-->
+    <!--      <mat-cell *matCellDef="let row">-->
+    <!--        <app-trading-stack [query]="row.query"></app-trading-stack>-->
+    <!--      </mat-cell>-->
+    <!--    </ng-container>-->
+    <!--  <a href='https://www.pathofexile.com/trade/search/Archnemesis/{{row.params.id}}' target="_blank"></a>-->
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+    <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
+  </table>
+
+</div>

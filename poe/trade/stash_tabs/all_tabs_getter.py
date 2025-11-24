@@ -1,5 +1,5 @@
 from poe.constants import LEAGUE
-from trade.stash_tabs.stash_tab_api import StashTabAPI
+from poe.trade.stash_tabs.stash_tab_api import StashTabAPI
 
 
 def add_stashtab_to_item_info(data, tab_index):

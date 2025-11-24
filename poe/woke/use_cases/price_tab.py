@@ -1,15 +1,15 @@
 import requests
 
-from constants import LEAGUE
-from item.newitems.base_item_model import Item
-from trade.headers import headers
-from trade.proxy_listings_resolver import ListingsResolver
-from trade.proxy_search_resolver import SearchResolver
-from trade.stash_tabs.all_tabs_getter import get_some_tabs
-from trade.stash_tabs.stash_tab_api import StashTabAPI
-from trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
-from woke.mod_mapper import ModMapper
-from woke.query_builder import build_query
+from poe.constants import LEAGUE
+from poe.item.newitems.base_item_model import Item
+from poe.trade.headers import headers
+from poe.trade.proxy_listings_resolver import ListingsResolver
+from poe.trade.proxy_search_resolver import SearchResolver
+from poe.trade.stash_tabs.all_tabs_getter import get_some_tabs
+from poe.trade.stash_tabs.stash_tab_api import StashTabAPI
+from poe.trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
+from poe.woke.mod_mapper import ModMapper
+from poe.woke.query_builder import build_query
 
 
 def price_tab(tab_name='empty'):

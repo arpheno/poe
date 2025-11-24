@@ -1,32 +1,44 @@
-version: '3'
+version: '3.8'
 
 services:
-  nginx:
-    image: nginx:1.15-alpine
-    restart: unless-stopped
-    container_name: production_nginx
+  # Django backend service
+  backend:
+    build:
+      context: .
+      dockerfile: backend.Dockerfile
+    container_name: your-api
     volumes:
-      - ./data/nginx:/etc/nginx/conf.d
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
+      - ./poe:/app/poe
+      - ./packages/your-api:/app/packages/your-api
+      - static_volume:/app/packages/your-api/static
     ports:
-      - "80:80"
-      - "443:443"
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
-  getting-rich:
-    build: frontend/getting-rich
-    container_name: production_getting_rich
-    expose:
-      - '80'
-  thinking:
-    build: .
-    container_name: production_thinking
-    expose:
-      - '80'
-  certbot:
-    image: certbot/certbot
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - DEBUG=${DEBUG}
+      - SECRET_KEY=${SECRET_KEY}
+      - DJANGO_ALLOWED_HOSTS=${DJANGO_ALLOWED_HOSTS}
+    command: >
+      sh -c "cd packages/your-api && 
+             python manage.py migrate &&
+             python manage.py collectstatic --no-input &&
+             python manage.py runserver 0.0.0.0:8000"
     restart: unless-stopped
-    volumes:
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+
+  # Angular frontend service
+  frontend:
+    build:
+      context: ./packages/your-web
+      dockerfile: Dockerfile
+    container_name: your-web
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
+    environment:
+      - BACKEND_URL=${BACKEND_URL}
+    restart: unless-stopped
+
+volumes:
+  static_volume:

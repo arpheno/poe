@@ -1,4 +1,4 @@
-from item.items.coffin import Coffin
+from poe.item.items.coffin import Coffin
 from poe.item.items.basetype import BaseType
 from poe.item.items.cluster_jewel import ClusterJewel
 from poe.item.items.item import Item

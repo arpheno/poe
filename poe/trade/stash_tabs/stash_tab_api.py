@@ -1,6 +1,6 @@
 import requests
 
-from trade.headers import headers
+from poe.trade.headers import headers
 
 
 class StashTabAPI:

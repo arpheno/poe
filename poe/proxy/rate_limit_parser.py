@@ -1,6 +1,6 @@
 import datetime
 from unittest.mock import Mock
-
+from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class RateLimit:

@@ -18,8 +18,8 @@ class ModMapper:
             [item for items in pd.DataFrame(pd.DataFrame(trade_keys['result'])['entries'])['entries'].tolist() for item
              in
              items])
-        self.mod_mapping['regex_pattern'] = self.mod_mapping['text'].str.replace('[+-]', r'\\\g<0>')
-        self.mod_mapping['regex_pattern'] = self.mod_mapping['regex_pattern'].apply(lambda x: x.replace('#', r'(\d+)'))
+        self.mod_mapping['regex_pattern'] = self.mod_mapping['text'].str.replace('[+-]', r'\\\g<0>', regex=True)
+        self.mod_mapping['regex_pattern'] = self.mod_mapping['regex_pattern'].apply(lambda x: re.escape(x).replace(r'\#', r'(\d+)').replace(r'\\\+', r'\\+').replace(r'\\\-', r'\\-'))
 
     def map_mods(self, mod_type, mods_list) -> [Mod]:
         mods = []

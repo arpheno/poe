@@ -1,4 +1,4 @@
-from woke.mod_mapper import Mod
+from poe.woke.mod_mapper import Mod
 
 
 class Query:

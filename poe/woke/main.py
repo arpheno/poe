@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Local application imports
-from woke.use_cases.price_tab import price_tab
+from poe.woke.use_cases.price_tab import price_tab
 
 # Pandas settings
 pd.set_option('display.max_colwidth', None)

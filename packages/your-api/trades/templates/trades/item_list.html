@@ -1,0 +1,23 @@
+
+Certainly! Here's a short HTML template for a generic class-based list view in Django for the Item class:
+
+html
+Copy code
+<!-- items.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Items List</title>
+</head>
+<body>
+    <h1>Items List</h1>
+    <ul>
+        {% for item in object_list %}
+            <li>{{ item.pk }}</li>
+        {% empty %}
+            <li>No items found.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

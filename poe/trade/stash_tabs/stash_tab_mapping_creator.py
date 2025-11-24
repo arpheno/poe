@@ -1,7 +1,7 @@
 from collections import defaultdict
 
-from constants import LEAGUE
-from trade.stash_tabs.stash_tab_api import StashTabAPI
+from poe.constants import LEAGUE
+from poe.trade.stash_tabs.stash_tab_api import StashTabAPI
 
 
 def add_tab_to_type_group(tab_data, groupings):

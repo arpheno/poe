@@ -7,8 +7,8 @@ from poe.ninja import retrieve_prices
 from poe.trade.stash_tabs.all_tabs_getter import  get_some_tabs
 from poe.item.type_determiner import type_mapping
 from poe.valuation import own_valuations
-from trade.stash_tabs.stash_tab_api import StashTabAPI
-from trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
+from poe.trade.stash_tabs.stash_tab_api import StashTabAPI
+from poe.trade.stash_tabs.stash_tab_mapping_creator import TabMapper, retrieve_tab_mapping
 
 
 @dataclass

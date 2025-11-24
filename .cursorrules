@@ -1,0 +1,47 @@
+[INFO]
+cursor-rules: v1.0
+description: Pythonic Clean Architecture, DevOps, SOLID, VueJS, TDD.
+
+[PHILOSOPHY]
+- Strive for clarity, readability, and confidence. If tests pass, move ahead.
+- Persist if stuck: consult docs, source code, or external resources.
+- Keep secrets/config out of core code; store them properly.
+
+[CLEAN_ARCHITECTURE_SOLID]
+- Follow Brandon Rhodes’s take on Bob Martin’s Clean Architecture:
+  Entities (core logic), Use Cases (application rules), Interfaces (boundaries
+  for external systems), Infrastructure (concrete adapters).
+- Keep classes small/cohesive. Avoid large if-chains; use polymorphism or
+  strategy patterns when multiple paths emerge.
+- Add complexity (factories, advanced patterns) only if truly needed.
+
+[PYTHONIC_IMPL]
+- Write code that is Pythonic, not Java-imitative. Be explicit, not clever.
+- Always use type hints and PEP 257 docstrings. Keep them concise but clear.
+- Use Python’s logging for structured logs; avoid bare except blocks. Raise
+  domain-specific exceptions (e.g. DeploymentFailedError).
+- Use pydantic for data validation and settings management.
+[TOOLING_DEPS]
+- Manage Python deps via uv and venv with hatchling backend and pyproject.toml
+- Pin versions or use ~= for reproducibility.
+- Use Ruff for linting. PEP 8 compliance is good, but readability trumps dogma.
+
+[TESTING]
+- Use TDD: write tests first or alongside new features. Keep a single failing
+  test at a time. Refactor once tests pass.
+- Pytest exclusively for Python. For Vue, pick a stable runner like Jest or
+  Vitest.
+- Place tests in ./tests, mirroring src structure. Keep coverage high.
+- Consider BDD (pytest-bdd, behave) if it provides value. Keep it simple.
+
+[PYTHON_CODE_STYLE]
+- Every function/class has type hints and docstrings (PEP 257).
+- Keep modules ~300-400 lines max. Break large classes to keep single
+  responsibility.
+- Add context to errors with logging; re-raise meaningfully if needed.
+
+[MAINTENANCE]
+- Refactor carefully, preserving Clean Architecture boundaries. Polymorphize
+  repeated branching logic.
+- Commit in logical steps; do not fear large refactors if tests remain green.
+- Document major changes in code docstrings or comments for the LLM’s benefit.
