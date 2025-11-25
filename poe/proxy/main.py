@@ -84,11 +84,19 @@ def load_config(config_path):
 
 
 if __name__ == '__main__':
-    config = load_config('config.yaml')
+    import os
+    # Find config.yaml relative to this file
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    config_path = os.path.join(base_dir, 'config.yaml')
+    
+    config = load_config(config_path)
     ratelimit_counter = RatelimitCounter(**config.get('ratelimit_counter', {}))
-    ratelimit_counter.log_counts_periodically()
     rate_limiter = RateLimiter(ratelimit_counter, **config.get('rate_limiter', {}))
     proxy_handler = ProxyHandler(**config['proxy_handler'])
     server = ProxyServer(rate_limiter(proxy_handler.forward_request), **config['proxy_server'])
 
-    asyncio.run(server.run())
+    async def main():
+        asyncio.create_task(ratelimit_counter.log_counts_periodically())
+        await server.run()
+
+    asyncio.run(main())

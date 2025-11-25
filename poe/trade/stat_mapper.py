@@ -53,11 +53,11 @@ class StatMapper:
     
     def _fetch_stats(self):
         """Fetch stats from the PoE trade API."""
-        from poe.trade.headers import headers
+        from poe.api.client import client
         
-        url = "https://www.pathofexile.com/api/trade/data/stats"
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
+        # The proxy handles the base URL, so we just pass the path
+        url = "/api/trade/data/stats"
+        response = client.get(url)
         self._stats_data = response.json()
     
     def _build_dataframe(self):

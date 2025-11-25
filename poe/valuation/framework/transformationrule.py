@@ -1,11 +1,12 @@
 from dataclasses import dataclass, field
-from typing import Callable
+from typing import List, Union
+from poe.valuation.framework.models import Ingredient, ItemQuery
 
 @dataclass
 class TransformationRule:
-    ingredients: [dict]
-    products: [dict]
-    probabilities: [dict]
+    ingredients: List[Ingredient]
+    products: List[ItemQuery]
+    probabilities: List[float]
     multiplier: float = 1
     info: str = ''
-    tags: [str] = field(default_factory=list)
+    tags: List[str] = field(default_factory=list)

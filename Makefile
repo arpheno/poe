@@ -146,3 +146,7 @@ trade-check:
 # Restart trade search services
 trade-restart: trade-stop trade-dev
 	@echo "♻️  Trade search services restarted"
+
+# Run the full stack (Proxy, Backend, Frontend)
+run:
+	docker-compose up --build

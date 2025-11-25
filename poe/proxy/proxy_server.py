@@ -18,8 +18,8 @@ class ProxyServer:
 
     async def run(self):
         await self.runner.setup()
-        site = web.TCPSite(self.runner, 'localhost', self.port)
+        site = web.TCPSite(self.runner, '0.0.0.0', self.port)
         await site.start()
-        print(f"Server started at http://localhost:{self.port}")
+        print(f"Server started at http://0.0.0.0:{self.port}")
         while True:
             await asyncio.sleep(3600)

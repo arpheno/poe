@@ -8,6 +8,128 @@
     </header>
 
     <div class="container">
+      <!-- Opportunities Section -->
+      <div class="opportunities-section">
+        <h2>💰 Arbitrage Opportunities</h2>
+        <button @click="fetchOpportunities" :disabled="loadingOpportunities" class="btn-primary">
+          {{ loadingOpportunities ? 'Calculating...' : '♻️ Find Profitable Flips' }}
+        </button>
+        
+        <div v-if="opportunities.length > 0" class="opportunities-table">
+          <div class="table-header">
+            <span>Rule</span>
+            <span>Profit</span>
+            <span>ROI</span>
+            <span>Risk</span>
+            <span>Tags</span>
+          </div>
+          <div 
+            v-for="opp in opportunities" 
+            :key="opp.name" 
+            class="table-row clickable"
+            @click="showBreakdown(opp)"
+          >
+            <span class="opp-name">{{ opp.name }}</span>
+            <span class="opp-profit" :class="{ 'positive': opp.profit > 0 }">{{ opp.profit.toFixed(1) }}c</span>
+            <span class="opp-roi">{{ opp.roi.toFixed(0) }}%</span>
+            <span class="opp-risk">{{ opp.risk.toFixed(1) }}</span>
+            <span class="opp-tags">
+              <span v-for="tag in opp.tags" :key="tag" class="tag">{{ tag }}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Breakdown Modal -->
+      <div v-if="selectedOpportunity" class="modal-overlay" @click.self="closeBreakdown">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>{{ selectedOpportunity.name }} Breakdown</h3>
+            <button @click="closeBreakdown" class="btn-close">×</button>
+          </div>
+          
+          <div v-if="selectedOpportunity.breakdown" class="breakdown-content">
+            <div class="breakdown-section">
+              <h4>Ingredients (Cost)</h4>
+              <table class="breakdown-table">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Unit Cost</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="item in selectedOpportunity.breakdown.ingredients" :key="item.name">
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>{{ item.unit_cost?.toFixed(1) }}c</td>
+                    <td>{{ item.total_cost?.toFixed(1) }}c</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="3"><strong>Total Cost</strong></td>
+                    <td><strong>{{ selectedOpportunity.breakdown.cost.toFixed(1) }}c</strong></td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+
+            <div class="breakdown-section">
+              <h4>Outcomes (Revenue)</h4>
+              <table class="breakdown-table">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Prob</th>
+                    <th>Unit Value</th>
+                    <th>Expected</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="item in selectedOpportunity.breakdown.products" :key="item.name">
+                    <td>{{ item.name }}</td>
+                    <td>{{ (item.probability * 100).toFixed(0) }}%</td>
+                    <td>{{ item.unit_value?.toFixed(1) }}c</td>
+                    <td>{{ item.expected_revenue?.toFixed(1) }}c</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="3"><strong>Total Expected Revenue</strong></td>
+                    <td><strong>{{ selectedOpportunity.breakdown.revenue.toFixed(1) }}c</strong></td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+
+            <div class="breakdown-summary">
+              <div class="summary-item">
+                <span>Raw Profit:</span>
+                <span :class="{ 'positive': selectedOpportunity.breakdown.profit > 0 }">
+                  {{ selectedOpportunity.breakdown.profit.toFixed(1) }}c
+                </span>
+              </div>
+              <div class="summary-item">
+                <span>Multiplier:</span>
+                <span>{{ selectedOpportunity.breakdown.multiplier.toFixed(4) }}</span>
+              </div>
+              <div class="summary-item highlight">
+                <span>Scaled Profit:</span>
+                <span :class="{ 'positive': selectedOpportunity.breakdown.scaled_profit > 0 }">
+                  {{ selectedOpportunity.breakdown.scaled_profit.toFixed(1) }}c
+                </span>
+              </div>
+            </div>
+          </div>
+          <div v-else class="no-data">
+            No breakdown data available.
+          </div>
+        </div>
+      </div>
+
       <!-- Search Builder Section -->
       <div class="search-builder">
         <h2>Build Search Query</h2>
@@ -238,9 +360,12 @@ export default {
       apiHealthy: false,
       searching: false,
       batchSearching: false,
+      loadingOpportunities: false,
       error: null,
       searchResults: null,
       batchResults: [],
+      opportunities: [],
+      selectedOpportunity: null,
       
       currentSearch: {
         type: '',
@@ -340,6 +465,26 @@ export default {
       } catch (error) {
         this.apiHealthy = false;
         console.error('API health check failed:', error);
+      }
+    },
+
+    showBreakdown(opp) {
+      this.selectedOpportunity = opp;
+    },
+
+    closeBreakdown() {
+      this.selectedOpportunity = null;
+    },
+
+    async fetchOpportunities() {
+      this.loadingOpportunities = true;
+      try {
+        const response = await axios.get('/api/opportunities');
+        this.opportunities = response.data;
+      } catch (error) {
+        alert('Failed to fetch opportunities: ' + error.message);
+      } finally {
+        this.loadingOpportunities = false;
       }
     },
 
@@ -509,6 +654,81 @@ export default {
   padding: 2rem;
   max-width: 1800px;
   margin: 0 auto;
+}
+
+.opportunities-section {
+  background: #242424;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  grid-column: 1 / -1; /* Span full width */
+}
+
+.opportunities-table {
+  margin-top: 1.5rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  padding: 1rem;
+  background: #2a2a2a;
+  font-weight: 600;
+  color: #d4af37;
+  border-bottom: 2px solid #3a3a3a;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  padding: 1rem;
+  border-bottom: 1px solid #3a3a3a;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.table-row:hover {
+  background: #2a2a2a;
+}
+
+.opp-name {
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+.opp-profit {
+  font-weight: 700;
+  color: #888;
+}
+
+.opp-profit.positive {
+  color: #4ade80;
+}
+
+.opp-roi {
+  color: #9a9aff;
+}
+
+.opp-risk {
+  color: #ff6b6b;
+}
+
+.opp-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #3a3a3a;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #ccc;
 }
 
 .search-builder,
@@ -880,5 +1100,139 @@ label {
 .error-text {
   color: #ff6b6b;
   font-size: 0.9rem;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #242424;
+  border: 2px solid #4a3000;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 1rem;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #d4af37;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.btn-close:hover {
+  color: #fff;
+}
+
+.breakdown-section {
+  margin-bottom: 2rem;
+}
+
+.breakdown-section h4 {
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.breakdown-table th,
+.breakdown-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.breakdown-table th {
+  background: #2a2a2a;
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.breakdown-table td {
+  color: #ccc;
+}
+
+.breakdown-table tfoot td {
+  background: #2a2a2a;
+  color: #d4af37;
+  border-top: 2px solid #4a3000;
+}
+
+.breakdown-summary {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #3a3a3a;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.summary-item span:first-child {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.summary-item span:last-child {
+  color: #e0e0e0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.summary-item.highlight span:last-child {
+  color: #d4af37;
+  font-size: 1.5rem;
+}
+
+.positive {
+  color: #4ade80 !important;
+}
+
+.clickable {
+  cursor: pointer;
 }
 </style>

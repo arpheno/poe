@@ -1,44 +1,42 @@
 version: '3.8'
 
 services:
-  # Django backend service
+  proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile.proxy
+    ports:
+      - "8999:8999"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+
   backend:
     build:
       context: .
-      dockerfile: backend.Dockerfile
-    container_name: your-api
-    volumes:
-      - ./poe:/app/poe
-      - ./packages/your-api:/app/packages/your-api
-      - static_volume:/app/packages/your-api/static
+      dockerfile: Dockerfile.backend
     ports:
       - "8000:8000"
-    env_file:
-      - .env
+    volumes:
+      - .:/app
     environment:
-      - DEBUG=${DEBUG}
-      - SECRET_KEY=${SECRET_KEY}
-      - DJANGO_ALLOWED_HOSTS=${DJANGO_ALLOWED_HOSTS}
-    command: >
-      sh -c "cd packages/your-api && 
-             python manage.py migrate &&
-             python manage.py collectstatic --no-input &&
-             python manage.py runserver 0.0.0.0:8000"
+      - POE_PROXY_URL=http://proxy:8999
+    depends_on:
+      - proxy
     restart: unless-stopped
 
-  # Angular frontend service
   frontend:
     build:
-      context: ./packages/your-web
+      context: ./frontend/poe-trade-search
       dockerfile: Dockerfile
-    container_name: your-web
     ports:
-      - "4200:80"
+      - "3000:3000"
+    volumes:
+      - ./frontend/poe-trade-search:/app
+      - /app/node_modules
     depends_on:
       - backend
     environment:
-      - BACKEND_URL=${BACKEND_URL}
+      - VITE_API_URL=http://localhost:8000
+      - API_TARGET=http://backend:8000
     restart: unless-stopped
-
-volumes:
-  static_volume:

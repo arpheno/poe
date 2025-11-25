@@ -8,6 +8,13 @@ dataenforce
 pydtmc
 requests
 pydantic
+fastapi
+uvicorn
+aiohttp
+pyyaml
+flask
+flask-cors
+pendulum
 
 # Additional dependencies that might be needed
 matplotlib
