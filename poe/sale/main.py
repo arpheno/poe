@@ -5,7 +5,7 @@ import pandas as pd
 
 from poe.ninja import retrieve_prices
 from poe.sale.inventory_management_builder import build_inventory_management
-from poe.trade.stash_tabs.all_tabs_getter import get_all_tabs
+from poe.trade.stash_tabs.all_tabs_getter import  get_some_tabs
 from poe.valuation import own_valuations
 
 
@@ -31,14 +31,7 @@ if __name__ == "__main__":
         cleaning_rules=cleaning_rules,
         thread=thread,
     )
-    raw_items = get_all_tabs(25)
+    raw_items = get_some_tabs(stash_tab_api=[30])
     inventory = use_case.create_inventory(raw_items)
     sales_proposition = use_case.sales_proposition(inventory)
-
-    # domain_result["numerator"] = domain_result.final_price.map(lambda x: x.numerator)
-    # domain_result["denominator"] = domain_result.final_price.map(lambda x: x.numerator)
-    # domain_result.drop("final_price", axis=1)
-    # domain_result = domain_result.drop("final_price", axis=1)
-
-    # result = {"result": list(domain_result.T.to_dict().values())}
-    # assert json.loads(json.dumps(result))
+    print(sales_proposition)

@@ -1,0 +1,10 @@
+FROM python:3.11-slim
+WORKDIR /app
+RUN apt-get update && apt-get install -y gcc python3-dev make && rm -rf /var/lib/apt/lists/*
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
+COPY requirements.lock requirements.lock
+COPY docker-requirements.txt docker-requirements.txt
+RUN uv pip install --system -r requirements.lock
+COPY . .
+ENV PYTHONPATH=/app
+CMD ["python", "-m", "poe.proxy.main"]

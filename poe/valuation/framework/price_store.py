@@ -8,8 +8,10 @@ from poe.valuation.framework.valuation import Valuation, domain_hash_key
 logger = logging.getLogger(__name__)
 
 
+from poe.valuation.framework.models import ItemQuery
+
 class PriceStore:
-    def query(self, func: dict):
+    def query(self, query: ItemQuery):
         pass
 
 
@@ -17,8 +19,9 @@ class FlatPriceStore(PriceStore):
     def __init__(self, prices: [dict]):
         self.prices = prices
 
-    def query(self, func):
-        return filter(func, self.prices)
+    def query(self, query: ItemQuery):
+        # This is slow and legacy, but we keep it for now
+        return [p for p in self.prices if query.matches(p)]
 
 
 class ItemNotFound(Exception):
@@ -28,8 +31,11 @@ class ItemNotFound(Exception):
 class HashKeyPriceStore(PriceStore):
     def __init__(self, valuations: [Valuation]):
         self._store = defaultdict(list)
-        self._store.update(dict((k, list(values)) for k, values in
-                                groupby(sorted(valuations, key=attrgetter('hash_key')), key=attrgetter('hash_key'))))
+        # Group valuations by their hash key
+        sorted_valuations = sorted(valuations, key=attrgetter('hash_key'))
+        for k, values in groupby(sorted_valuations, key=attrgetter('hash_key')):
+            self._store[k] = list(values)
+            
         offending_keys = [key for key, value in self._store.items() if len(value) > 1]
         for key in offending_keys:
             logger.warning(f'Multiple entries for key {key}, removing.')
@@ -42,13 +48,22 @@ class HashKeyPriceStore(PriceStore):
     def values(self):
         return self._store.values()
 
-    def query(self, func: dict):
-        if isinstance(func, list):
-            return [self.query(v) for v in func]
-        results = self._store[domain_hash_key(func)]
+    def query(self, query: ItemQuery):
+        if isinstance(query, list):
+            return [self.query(v) for v in query]
+            
+        key = domain_hash_key(query)
+        results = self._store.get(key)
+        
         if not results:
-            results = self._store[domain_hash_key({**func, 'gem_quality': 20})]
+            # Fallback logic (legacy) - maybe remove this later
+            # Try with quality 20 if not specified?
+            if query.gem_quality is None:
+                 # Create a new query with quality 20
+                 q20 = query.copy(update={'gem_quality': 20})
+                 results = self._store.get(domain_hash_key(q20))
+
         if not results:
-            pass
+            return []
             # raise ItemNotFound
         return results

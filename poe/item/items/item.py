@@ -22,6 +22,7 @@ class Item:
     corrupted: bool = False
     ilvl: int = 0
     enchantMods: list = field(default_factory=list)
+    implicitMods: dict = field(default_factory=list)
 
     @property
     def _fractional_price(self):

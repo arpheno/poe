@@ -1,3 +1,4 @@
+import time
 from collections import defaultdict
 
 import requests
@@ -7,6 +8,7 @@ def ask_ninja_item(type, league="Standard"):
     url = "https://poe.ninja/api/data/itemoverview"
     params = dict(type=type, league=league)
     response = requests.get(url=url, params=params)
+    print(type)
     print(".", end="")
     data = response.json()
     for c in data["lines"]:

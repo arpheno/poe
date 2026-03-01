@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("/home/dhokuav/poe")
+
 from pathlib import Path
 from pprint import pprint
 

@@ -1,0 +1,32 @@
+# Docker requirements - modified from requirements.txt
+# Excluding the local poe package reference which is installed separately
+
+# Core dependencies
+django
+django-cors-headers
+dataenforce
+pydtmc
+requests
+pydantic
+fastapi
+uvicorn
+aiohttp
+pyyaml
+flask
+flask-cors
+pendulum
+
+# Additional dependencies that might be needed
+matplotlib
+numpy
+scipy
+pandas
+
+# Missing required packages
+redislite
+lxml
+clipboard
+plotly
+seaborn
+pulp
+ortools

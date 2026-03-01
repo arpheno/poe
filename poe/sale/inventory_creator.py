@@ -13,6 +13,7 @@ class InventoryCreator:
                     initial_price=item.price,
                     shoplink_template=item.shoplink_template,
                     stack_size=item.stack_size,
+                    inventory_id=item.inventoryId
                 )
                 for item in items
             ]

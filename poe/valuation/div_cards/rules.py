@@ -106,6 +106,7 @@ def the_enlightened(prices):
     value = relevant_gem["chaosValue"] / stack_size
     return value
 
+
 def gemcutters_mercy(prices):
     stack_size = 3
     gems = [
@@ -117,11 +118,16 @@ def gemcutters_mercy(prices):
     relevant_gems = [
         gem
         for gem in gems
-        if gem["name"] in( "Enlighten Support","Empower Support","Enhance Support")
+        if gem["name"] in ("Enlighten Support", "Empower Support", "Enhance Support")
         if gem["variant"] == "1"
     ]
-    value = sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)/3 / stack_size
+    value = (
+        sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)
+        / 3
+        / stack_size
+    )
     return value
+
 
 def home(prices):
     stack_size = 3
@@ -134,11 +140,17 @@ def home(prices):
     relevant_gems = [
         gem
         for gem in gems
-        if gem["name"] in( "Enlighten Support","Empower Support","Enhance Support")
+        if gem["name"] in ("Enlighten Support", "Empower Support", "Enhance Support")
         if gem["variant"] == "1"
     ]
-    value = sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)/3 / stack_size
+    value = (
+        sum(relevant_gem["chaosValue"] for relevant_gem in relevant_gems)
+        / 3
+        / stack_size
+    )
     return value
+
+
 def wealth_and_power(prices):
     stack_size = 11
     gems = [
@@ -289,7 +301,7 @@ def the_wilted_rose(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].sum()/len(outcomes) / stack_size
+    return values[values < values.quantile(0.75)].sum() / len(outcomes) / stack_size
 
 
 def deathly_designs(prices):
@@ -330,7 +342,7 @@ def deathly_designs(prices):
         if gem["sparkline"]["data"]
     ]
     values = pd.Series({gem["name"]: gem["chaosValue"] for gem in relevant_gems})
-    return values[values < values.quantile(0.75)].sum()/len(outcomes)/ stack_size
+    return values[values < values.quantile(0.75)].sum() / len(outcomes) / stack_size
 
 
 def dying_anguish(prices):
@@ -377,7 +389,7 @@ def the_eldritch_decay(prices):
         item for price in prices.values() for item in price if item["name"] in outcomes
     ]
     values = [item["chaosValue"] for item in relevant]
-    value = sum(values)/ len(outcomes) / stack_size
+    value = sum(values) / len(outcomes) / stack_size
     return value
 
 
@@ -397,12 +409,12 @@ def emperors_luck(prices):
         "Orb of Transmutation": 0.2048,
     }
     value = (
-                    sum(
-                        prices[key][0]["chaosValue"] if key in prices else 0
-                        for key, value in outcomes.items()
-                    )
-                    + 0.016
-            ) / len(
+        sum(
+            prices[key][0]["chaosValue"] if key in prices else 0
+            for key, value in outcomes.items()
+        )
+        + 0.016
+    ) / len(
         outcomes
     )  # Chaos orb is 1.6%
     return value / stack_size * 5
@@ -628,6 +640,77 @@ def bijoux(prices):
     return value
 
 
+def divine_beauty(prices):
+    stack_size = 12
+    relevant = [
+        item
+        for price in prices.values()
+        for item in price
+        if item["name"] == "Divine Orb"
+    ]
+    values = [item["chaosValue"] for item in relevant]
+    value = (statistics.mean(values) * 7) / stack_size
+    return value
+
+
+def sephirot(prices):
+    stack_size = 11
+    relevant = [
+        item
+        for price in prices.values()
+        for item in price
+        if item["name"] == "Divine Orb"
+    ]
+    values = [item["chaosValue"] for item in relevant]
+    value = (statistics.mean(values) * 10) / stack_size
+    return value
+
+
+def endless_darkness(prices):
+    stack_size = 9
+    relevant = [
+        item
+        for price in prices.values()
+        for item in price
+        if "Voidforge" in item["name"]
+    ]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    return value
+
+
+def seven_years(prices):
+    stack_size = 13
+    relevant = [
+        item
+        for price in prices.values()
+        for item in price
+        if item["name"] == "Mirror Shard"
+    ]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    return value
+
+
+def inspired_learning(prices):
+    stack_size = 8
+    relevant = [
+        item
+        for price in prices.values()
+        for item in price
+        if "Inspired Learning" in item["name"]
+    ]
+    values = [item["chaosValue"] for item in relevant]
+    value = statistics.mean(values) / stack_size
+    return value
+
+
+
+div_card_rules["The Academic"] = inspired_learning
+div_card_rules["Sephirot"] = sephirot
+div_card_rules["Seven Years Bad Luck"] = seven_years
+div_card_rules["Endless Darkness"] = endless_darkness
+div_card_rules["Divine Beauty"] = divine_beauty
 div_card_rules["Bijoux"] = bijoux
 div_card_rules["The Obscured"] = the_obscured
 div_card_rules["The Long Con"] = the_long_con

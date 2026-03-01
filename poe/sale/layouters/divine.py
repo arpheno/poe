@@ -12,18 +12,17 @@ from poe.sale.layouters.base import Layouter
 @kwargs_dataclass
 class DivineLayouter(Layouter):
     divine_value: Union[float, int]
-    min_trade_value: int = 50
 
-    def layout(self, register: pd.DataFrame) -> pd.DataFrame:
-        register["currency"] = register.final_price_chaos.map(
+    def layout(self, data: pd.DataFrame) -> pd.DataFrame:
+        data["currency"] = data.final_price_chaos.map(
             lambda x: "divine" if x > self.divine_value else "chaos"
         )
-        funcs = {"chaos": self.turn_to_fraction, "divine": self.turn_to_divine}
-        register["final_price"] = register.apply(
+        funcs = {"chaos": self.turn_to_chaos, "divine": self.turn_to_divine}
+        data["final_price"] = data.apply(
             lambda item: funcs[item.currency](item.final_price_chaos, item.stack_size),
             axis=1,
         )
-        return register
+        return data
     def turn_to_divine(self, final_price_chaos, stack_size):
         numerator = final_price_chaos / self.divine_value
         numerator, denominator = (
@@ -31,27 +30,11 @@ class DivineLayouter(Layouter):
             if ((ratio := stack_size / numerator) > 1)
             else (numerator, stack_size)
         )
-        return FakeFraction(round(numerator, 1), denominator)
-
-    def turn_to_fraction(self, final_price_chaos, stack_size):
-        best_fraction = Fraction(final_price_chaos / stack_size).limit_denominator(
-            stack_size
-        )
-
-        if best_fraction.numerator > self.min_trade_value:
-            numerator, denominator = (
-                best_fraction.numerator,
-                best_fraction.denominator,
-            )
-        elif best_fraction.numerator > 0:
-            numerator, denominator = (
-                self.min_trade_value,
-                math.ceil(
-                    best_fraction.denominator
-                    * (self.min_trade_value / best_fraction.numerator)
-                ),
-            )
+        if denominator== 1:
+            return FakeFraction(round(numerator, 1), denominator)
         else:
-            numerator, denominator = (0, 1)
+            return FakeFraction(int(round(numerator, 0)), denominator)
 
-        return FakeFraction(numerator, denominator)
+    def turn_to_chaos(self, final_price_chaos, stack_size):
+        return  FakeFraction(int(final_price_chaos), stack_size)
+

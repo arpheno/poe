@@ -1,0 +1,5 @@
+<div style="display:flex;flex-wrap:wrap;align-content: flex-start">
+<app-horizon></app-horizon>
+<app-profitable-items (generatedWhispers)="onNewWhispers($event)"></app-profitable-items>
+<app-whispers [newWhispers]="gWhispers"></app-whispers>
+</div>

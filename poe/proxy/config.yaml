@@ -1,0 +1,5 @@
+proxy_server:
+  port: 8999
+
+proxy_handler:
+  base_url: "https://www.pathofexile.com"
