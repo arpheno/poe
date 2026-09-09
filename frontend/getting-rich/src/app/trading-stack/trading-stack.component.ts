@@ -14,6 +14,7 @@ export class TradingStackComponent implements OnInit {
   stack: any [] = [];
   newest_whisper: any = '';
   query_hash: string = '';
+  action_error: string = '';
 
   constructor(private searchResolver: SearchResolveService,private whisperService:DirectWhisperService) {
   }
@@ -32,12 +33,27 @@ export class TradingStackComponent implements OnInit {
 
   getFirstWhisper() {
     const whisper:Whisper = this.stack.shift()!.listing
-    this.whisperService.direct_whisper(whisper.whisper_token,whisper.offer_count).subscribe(items=>console.log(items))
+    this.performTradeAction(whisper)
     this.newest_whisper=whisper;
     console.log(this.newest_whisper)
   }
-  directWhisper(token:string,count:number) {
-    console.log('whispering')
-    this.whisperService.direct_whisper(token,count).subscribe(items=>console.log(items))
+
+  actionLabel(listing: Whisper): string {
+    return listing.hideout_token ? 'Travel to Hideout' : 'Whisper Seller';
+  }
+
+  private performTradeAction(listing: Whisper) {
+    this.action_error = '';
+    if (listing.hideout_token) {
+      this.whisperService.travel_to_hideout(listing.hideout_token).subscribe({
+        next: items=>console.log(items),
+        error: err => this.action_error = err.message
+      })
+      return;
+    }
+    this.whisperService.direct_whisper(listing.whisper_token, listing.offer_count).subscribe({
+      next: items=>console.log(items),
+      error: err => this.action_error = err.message
+    })
   }
 }

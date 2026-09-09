@@ -9,13 +9,29 @@ class DirectWhisperer:
     def __init__(self, cache=Redis()):
         self.cache = cache
         self.url = 'https://www.pathofexile.com/api/trade/whisper'
+        self.poe2_travel_url = 'https://www.pathofexile.com/api/trade2/whisper'
 
-    def direct_whisper(self, token):
+    def direct_whisper(self, token, values=None):
+        key = "trade-whisper-request-limit"
+        limits = ['3:10:5', '15:60:60', '75:600:600', '150:3600:3600', '600:43200:3600']
+        payload = dict(token=token)
+        if values is not None:
+            payload['values'] = values
+
+        with limit_rate(key, limits, self.cache):
+            response = requests.post(self.url,
+                                     json=payload,
+                                     headers={'x-requested-with': 'XMLHttpRequest', **headers})
+            response.raise_for_status()
+        return response.json()
+
+    def travel_to_hideout(self, hideout_token):
         key = "trade-whisper-request-limit"
         limits = ['3:10:5', '15:60:60', '75:600:600', '150:3600:3600', '600:43200:3600']
 
         with limit_rate(key, limits, self.cache):
-            response = requests.post(self.url,
-                                     json=dict(token=token),
+            response = requests.post(self.poe2_travel_url,
+                                     json=dict(token=hideout_token),
                                      headers={'x-requested-with': 'XMLHttpRequest', **headers})
+            response.raise_for_status()
         return response.json()
