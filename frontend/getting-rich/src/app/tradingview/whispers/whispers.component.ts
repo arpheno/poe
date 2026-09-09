@@ -10,6 +10,7 @@ import {DirectWhisperService} from "./direct-whisper.service";
 export class WhispersComponent implements OnInit {
   @Input() newWhispers:Whisper[] = [];
   newest_whisper: string='';
+  action_error: string = '';
 
   constructor(  private whisperService: DirectWhisperService) { }
 
@@ -18,7 +19,7 @@ export class WhispersComponent implements OnInit {
 
   copyNewWhisper() {
     const whisper:Whisper = this.newWhispers.shift()!
-    this.whisperService.direct_whisper(whisper.whisper_token,whisper.offer_count).subscribe(items=>console.log(items))
+    this.performTradeAction(whisper)
     this.newest_whisper=whisper.whisper;
   }
 
@@ -51,14 +52,35 @@ export class WhispersComponent implements OnInit {
     // or output as hex if preferred
   };
 
-  directWhisper(token:string,count:number) {
-    console.log('whispering')
-    this.whisperService.direct_whisper(token,count).subscribe(items=>console.log(items))
+  directWhisper(whisper: Whisper) {
+    this.performTradeAction(whisper)
   }
 
   skip() {
 
     const whisper:Whisper = this.newWhispers.shift()!
   }
-}
 
+  isPoe2Trade(whisper: Whisper): boolean {
+    return !!whisper.hideout_token;
+  }
+
+  actionLabel(whisper: Whisper): string {
+    return this.isPoe2Trade(whisper) ? 'Travel to Hideout' : 'Whisper Seller';
+  }
+
+  private performTradeAction(whisper: Whisper) {
+    this.action_error = '';
+    if (this.isPoe2Trade(whisper)) {
+      this.whisperService.travel_to_hideout(whisper.hideout_token!).subscribe({
+        next: items => console.log(items),
+        error: err => this.action_error = err.message
+      });
+      return;
+    }
+    this.whisperService.direct_whisper(whisper.whisper_token, whisper.offer_count).subscribe({
+      next: items => console.log(items),
+      error: err => this.action_error = err.message
+    });
+  }
+}

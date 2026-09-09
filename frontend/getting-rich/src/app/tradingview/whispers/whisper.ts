@@ -7,6 +7,7 @@ export interface Whisper{
  id:string;
  whisper_template:string;
  whisper_token:string;
+ hideout_token?: string;
  offer_count:number;
  value:number;
  profit:number;

@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpParams} from "@angular/common/http";
-import {Observable, of} from "rxjs";
+import {Observable, of, throwError} from "rxjs";
+import {catchError} from "rxjs/operators";
 import {Whisper} from "./whisper";
 import {ProfitableItem} from "../../profitable-item";
 import {environment} from "../../../environments/environment";
@@ -38,9 +39,25 @@ export class DirectWhisperService {
   }
 
   direct_whisper(whisper_token: string, offer_count: number) {
-    const result = this.http.post<Whisper[]>(this.whisper_url, {token: whisper_token,values:[offer_count]});
-    return result
+    return this.sendTradeAction({token: whisper_token, values: [offer_count], action: 'whisper', game: 'poe1'});
+  }
+
+  travel_to_hideout(hideout_token: string) {
+    // Triggers the official PoE 2 trade-site travel action endpoint; no in-game input automation.
+    return this.sendTradeAction({token: hideout_token, hideout_token, action: 'travel_to_hideout', game: 'poe2'});
+  }
+
+  private sendTradeAction(payload: any) {
+    return this.http.post<Whisper[]>(this.whisper_url, payload).pipe(
+      catchError((error) => {
+        const message =
+          error?.error?.error?.message ||
+          error?.error?.message ||
+          error?.message ||
+          'Trade action failed';
+        return throwError(() => new Error(message));
+      })
+    );
 
   }
 }
-

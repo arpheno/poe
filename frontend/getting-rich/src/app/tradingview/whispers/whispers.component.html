@@ -1,10 +1,11 @@
 <h2>Available Whispers</h2>
-<button mat-button (keydown.control.c)="onKeyDown()" (mouseup)="copyNewWhisper()">Copy new whisper</button>
+<button mat-button (keydown.control.c)="onKeyDown()" (mouseup)="copyNewWhisper()">Run next trade action</button>
 <button mat-button (keydown.control.c)="onKeyDown()" (mouseup)="skip()"></button>
 <div>
-  <div *ngFor="let whisper of newWhispers" style="justify-content: space-between" matTooltip="{{whisper.whisper}}" (click)="directWhisper(whisper.whisper_token,whisper.offer_count)">
+  <div *ngFor="let whisper of newWhispers" style="justify-content: space-between" matTooltip="{{whisper.whisper}}" (click)="directWhisper(whisper)">
     <span class="profit">+{{whisper.profit | number : '.2-2'}} {{(whisper.value-whisper.chaos_price)/whisper.chaos_price |percent}}</span>
-    <span class="whisper" >{{whisper.whisper  | slice:0:60 }}...</span>
+    <span class="whisper" >{{actionLabel(whisper)}} - {{whisper.whisper  | slice:0:60 }}...</span>
   </div>
+  <div *ngIf="action_error">{{action_error}}</div>
 </div>
 <!--[style.color]="getColorForPercentage((whisper.value-whisper.chaos_price)/whisper.chaos_price)-->

@@ -25,6 +25,13 @@ from poe.valuation.gems.regrading_lens import (
 )
 from poe.valuation.gems.vaal import vaal_gems
 from trades.models import Item
+from poe.equipment_tracker.direct_whisperer import DirectWhisperer
+from .trade_actions import (
+    resolve_trade_action_mode,
+    validate_token,
+    is_valid_values,
+    build_trade_api_error_message,
+)
 
 
 def profitable_items(request):
@@ -206,10 +213,39 @@ def regrading_lens(request):
 def fragment_sets():
     pass
 def direct_whisper(request):
-    params = json.loads(request.body)
-    url= 'https://www.pathofexile.com/api/trade/whisper'
+    # Supports official trade-site actions only:
+    # PoE1 whisper (`/api/trade/whisper`) and PoE2 travel-to-hideout (`/api/trade2/whisper`).
+    params = json.loads(request.body or "{}")
+    mode = resolve_trade_action_mode(params)
 
-    response=requests.post(url,json=params,headers={    'x-requested-with': 'XMLHttpRequest', **headers})
-    response.raise_for_status() #todo better error handling
-    return response.json()
+    token_key = "hideout_token" if mode == "poe2_travel_to_hideout" else "token"
+    token = validate_token(params.get(token_key) or params.get("token"))
+    if token is None:
+        return JsonResponse(
+            {"error": {"message": f"Missing or invalid `{token_key}` for trade action."}},
+            status=400,
+        )
 
+    direct_whisperer = DirectWhisperer()
+    try:
+        if mode == "poe2_travel_to_hideout":
+            result = direct_whisperer.travel_to_hideout(token)
+        else:
+            values = params.get("values")
+            if values is not None and not is_valid_values(values):
+                return JsonResponse(
+                    {
+                        "error": {
+                            "message": "Invalid `values` payload. Expected an array of positive numbers."
+                        }
+                    },
+                    status=400,
+                )
+            result = direct_whisperer.direct_whisper(token, values=values)
+    except requests.RequestException as exc:
+        response = getattr(exc, "response", None)
+        status_code = response.status_code if response is not None else 502
+        message = build_trade_api_error_message(response, "Trade action request failed.")
+        return JsonResponse({"error": {"message": message}}, status=status_code)
+
+    return JsonResponse(result, safe=False)

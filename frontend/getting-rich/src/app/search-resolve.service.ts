@@ -7,7 +7,13 @@ import {Whisper} from "./tradingview/whispers/whisper";
 
 export interface SearchResult{
   result:[{
-    listing: { whisper: any, price: { amount: number, currency: string } };
+    listing: {
+      whisper: any,
+      whisper_token?: string,
+      hideout_token?: string,
+      offer_count?: number,
+      price: { amount: number, currency: string }
+    };
   }],
   query_hash:string
 }
@@ -28,4 +34,3 @@ export class SearchResolveService {
     return result;
   }
 }
-
